@@ -1,5 +1,5 @@
 // Funciona sin conexión con los últimos datos descargados; los datos se piden primero a la red.
-const CACHE = "probabilidades-v4";
+const CACHE = "probabilidades-v5";
 const APP = ["./", "index.html", "app.css", "app.js", "manifest.webmanifest", "icon-192.png"];
 self.addEventListener("install", (e) => { e.waitUntil(caches.open(CACHE).then((c) => c.addAll(APP))); self.skipWaiting(); });
 self.addEventListener("activate", (e) => {

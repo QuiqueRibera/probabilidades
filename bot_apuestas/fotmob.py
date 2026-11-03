@@ -17,10 +17,12 @@ DIR = Path(__file__).parent / "datos_fotmob"
 PAUSA = 0.8  # segundos entre peticiones, para no saturar a FotMob
 
 COMPETICIONES = {87: "La Liga", 42: "Champions", 47: "Premier League", 54: "Bundesliga",
-                 55: "Serie A", 53: "Ligue 1"}
-# Temporadas a cargar por competición (las ligas extranjeras solo sirven para los rivales de Champions).
+                 55: "Serie A", 53: "Ligue 1", 140: "Segunda", 48: "Championship",
+                 146: "2. Bundesliga", 86: "Serie B", 110: "Ligue 2", 73: "Europa League",
+                 10216: "Conference League"}
+# Temporadas a cargar por competición.
 TEMPORADAS = {87: ["2025/2026", "2026/2027"], 42: ["2025/2026", "2026/2027"],
-              47: ["2026/2027"], 54: ["2026/2027"], 55: ["2026/2027"], 53: ["2026/2027"]}
+              **{c: ["2026/2027"] for c in COMPETICIONES if c not in (87, 42)}}
 
 POSICION = {0: "POR", 1: "DEF", 2: "MED", 3: "DEL"}
 STATS_JUGADOR = {"Minutes played": "minutos", "Total shots": "remates", "Shots on target": "tiros_puerta",
@@ -162,8 +164,8 @@ def actualizar(competiciones=TEMPORADAS, verbose=True) -> tuple[pd.DataFrame, pd
     return eq, ju
 
 
-def proximos_partidos(dias=8, ligas=(87, 42)) -> list[dict]:
-    """Partidos de La Liga y Champions de los próximos días, con alineación probable y bajas."""
+def proximos_partidos(dias=8, ligas=tuple(COMPETICIONES)) -> list[dict]:
+    """Partidos de los próximos días de todas las competiciones, con alineación probable y bajas."""
     ahora = datetime.now(timezone.utc)
     res = []
     for liga in ligas:

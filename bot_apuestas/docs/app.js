@@ -9,7 +9,8 @@ const guardar = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } 
 const leer = (k, d) => { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch (e) { return d; } };
 
 const S = {
-  data: null, filtro: leer("filtro", "todos"), tab: "recomendadas", rango: "hasta4", statJ: "tiros_puerta", lineaJ: 1,
+  data: null, filtro: { liga: "La Liga", champions: "Champions" }[leer("filtro", "todos")] ?? leer("filtro", "todos"),
+  lista: "partidos", tab: "recomendadas", rango: "hasta4", statJ: "tiros_puerta", lineaJ: 1,
   soloTitulares: true, lineas: {}, boleto: leer("boleto", []), cuotaBoleto: "",
 };
 
@@ -78,8 +79,18 @@ function distEquipo(m, stat, lado) {
   if (lado === "visitante") return pmf(mv, k);
   return conv(pmf(ml, k), pmf(mv, k));
 }
+// P(X >= n) para cada n, calculada una vez por partido, estadística y lado (con muchos
+// partidos la chuleta y las combinadas de la lista piden miles de líneas).
+const COLAS = new Map();
 function probEquipo(m, stat, lado, dir, linea) {
-  const p = alMenos(distEquipo(m, stat, lado), Math.ceil(linea));
+  const clave = `${m.id}|${stat}|${lado}`;
+  if (!COLAS.has(clave)) {
+    const d = distEquipo(m, stat, lado), cola = new Array(d.length + 1).fill(0);
+    for (let i = d.length - 1; i >= 0; i--) cola[i] = cola[i + 1] + d[i];
+    COLAS.set(clave, cola);
+  }
+  const cola = COLAS.get(clave), n = Math.ceil(linea);
+  const p = n < cola.length ? Math.min(1, cola[n]) : 0;
   return dir === "mas" ? p : 1 - p;
 }
 function jugador(m, id) {
@@ -326,20 +337,37 @@ function fila(nombre, sub, p, l, cuota) {
 
 // ---------- Vistas ----------
 const fmtFecha = (iso) => new Date(iso).toLocaleString("es-ES", { weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
-const FILTROS = [["todos", "Todos"], ["barca", "Barça"], ["madrid", "Real Madrid"], ["liga", "La Liga"], ["champions", "Champions"]];
+const COMPETICIONES = ["La Liga", "Champions", "Premier League", "Bundesliga", "Serie A", "Ligue 1", "Europa League",
+  "Conference League", "Segunda", "Championship", "2. Bundesliga", "Serie B", "Ligue 2"];
+function filtros() {
+  const hay = new Set(S.data.partidos.map((m) => m.competicion));
+  return [["todos", "Todos"], ["barca", "Barça"], ["madrid", "Real Madrid"], ...COMPETICIONES.filter((c) => hay.has(c)).map((c) => [c, c])];
+}
 function pasaFiltro(m) {
   const eqs = (m.local + " " + m.visitante).toLowerCase();
-  return { todos: true, barca: eqs.includes("barcelona"), madrid: /real madrid/.test(eqs),
-    liga: m.competicion === "La Liga", champions: m.competicion === "Champions" }[S.filtro];
+  if (S.filtro === "todos") return true;
+  if (S.filtro === "barca") return eqs.includes("barcelona");
+  if (S.filtro === "madrid") return /real madrid/.test(eqs);
+  return m.competicion === S.filtro;
 }
 
 function vistaLista() {
   $("#titulo").textContent = "Probabilidades";
   $("#subtitulo").textContent = S.data ? "Actualizado " + fmtFecha(S.data.generado) : "";
   $("#atras").hidden = true;
-  const chips = FILTROS.map(([k, n]) => `<button class="chip" data-filtro="${k}" aria-pressed="${S.filtro === k}">${n}</button>`).join("");
+  if (!filtros().some(([k]) => k === S.filtro)) S.filtro = "todos";
+  const chips = filtros().map(([k, n]) => `<button class="chip" data-filtro="${k}" aria-pressed="${S.filtro === k}">${n}</button>`).join("");
+  const tabs = [["partidos", "Partidos"], ["chuleta", "Chuleta"], ["combinadas", "Combinadas"]]
+    .map(([k, n]) => `<button role="tab" data-lista="${k}" aria-selected="${S.lista === k}">${n}</button>`).join("");
   const ps = S.data.partidos.filter(pasaFiltro);
+  const cabeza = `<div class="tabs" role="tablist">${tabs}</div><div class="chips">${chips}</div>`;
+  if (S.lista === "chuleta") return void ($("#vista").innerHTML = cabeza + listaChuleta(ps));
+  if (S.lista === "combinadas") return void ($("#vista").innerHTML = cabeza + listaCombinadas(ps));
+  let dia = "";
   const cards = ps.map((m) => {
+    const d = new Date(m.fecha).toLocaleDateString("es-ES", { weekday: "long", day: "numeric", month: "long" });
+    const titulo = d !== dia ? `<h2 class="seccion">${d}</h2>` : "";
+    dia = d;
     const g = m.goles;
     const p1 = g ? probGoles(m, ["1"]) : null, px = g ? probGoles(m, ["X"]) : null, p2 = g ? probGoles(m, ["2"]) : null;
     const tres = g ? `<div class="tres">
@@ -348,12 +376,11 @@ function vistaLista() {
         <div><span>2</span><b>${pct(p2)}</b>${g.cuotas["2"] ? `<span>${g.cuotas["2"].toFixed(2)}</span>` : ""}</div></div>
         <div class="barra-prob"><i style="width:${100 * p1}%"></i><i style="width:${100 * px}%"></i><i style="width:${100 * p2}%"></i></div>`
       : `<p class="nota">Sin modelo de goles para este partido</p>`;
-    return `<button class="card partido" data-partido="${m.id}">
+    return titulo + `<button class="card partido" data-partido="${m.id}">
       <div class="meta"><span>${esc(m.competicion)}</span><span>${fmtFecha(m.fecha)}</span></div>
       <div class="equipos">${esc(m.local)} – ${esc(m.visitante)}</div>${tres}</button>`;
   }).join("");
-  $("#vista").innerHTML = `<div class="chips">${chips}</div>` +
-    (cards || `<p class="vacio">No hay partidos para este filtro en los próximos días.</p>`);
+  $("#vista").innerHTML = cabeza + (cards || `<p class="vacio">No hay partidos para este filtro en los próximos días.</p>`);
 }
 
 function vistaPartido(m) {
@@ -524,11 +551,11 @@ function altaProbabilidad(m) {
   });
 }
 
-function filaChuleta(c, m) {
+function filaChuleta(c, m, conPartido) {
   let sub = { g: "Goles", e: "Equipo", j: "Jugador · si es titular" }[c.tipo];
   const cuota = c.tipo === "g" ? m.goles.cuotas[c.leg.k] : null;
   if (cuota) sub += ` · bet365 ahora ${cuota.toFixed(2)}: ${cuota * c.p >= 1 ? "con valor" : cuota * c.p >= 1 - CASI ? "casi justa" : "sin valor"}`;
-  return `<div class="fila"><div class="nombre">${esc(c.leg.label)}<small>${esc(sub)}</small>${lineaVeces(m, [c.leg])}</div><div class="p">${pct(c.p)}</div>
+  return `<div class="fila"><div class="nombre">${esc(c.leg.label)}${conPartido ? nombrePartido(m) : ""}<small>${esc(sub)}</small>${lineaVeces(m, [c.leg])}</div><div class="p">${pct(c.p)}</div>
     <div class="c umbral"><b>≥ ${umbral(c.p)}</b><span>casi ${umbralCasi(c.p)}</span></div>${botonMas(c.leg)}</div>`;
 }
 
@@ -572,11 +599,139 @@ function tabChuleta(m) {
   return h + `<p class="nota">Si bet365 ofrece otra línea (por ejemplo 4.5 corners en vez de 5.5), búscala en las pestañas Equipos o Jugadores. Toca cualquier apuesta para añadirla al boleto. Que bet365 pague más que la cuota justa no garantiza nada: a veces sabe algo que el modelo no (una baja de última hora, por ejemplo). En las líneas principales, «7/10 · 4/10» son los últimos 10 del local y del visitante. ${NOTA_VECES}</p>`;
 }
 
+// ---------- Chuleta y combinadas de varios partidos (vista de lista) ----------
+// Proporción de partidos recientes en los que se cumplió (la peor de los dos equipos). Con
+// menos de 5 partidos de historial no cuenta.
+function apoyo(m, leg) {
+  const v = veces(m, [leg]).filter((x) => x.n >= 5);
+  return v.length ? Math.min(...v.map((x) => x.si / x.n)) : null;
+}
+const nombrePartido = (m) => `<button class="ir" data-ir="${m.id}">${esc(m.local)} – ${esc(m.visitante)} ›</button>`;
+
+function listaChuleta(ps) {
+  if (!ps.length) return `<p class="vacio">No hay partidos para este filtro en los próximos días.</p>`;
+  // Alta probabilidad: además del 70 % del modelo, que los últimos 10 partidos lo respalden.
+  // Se ordena por lo que respaldan los dos (el menor de probabilidad e historial) y se dejan
+  // fuera las de más del 88 %, que bet365 paga a menos de 1.14.
+  const alta = [];
+  for (const m of ps) {
+    const cs = altaProbabilidad(m).filter((c) => c.p <= 0.88).map((c) => ({ ...c, m, a: apoyo(m, c.leg) }))
+      .filter((c) => c.a != null && c.a >= 0.7).sort((x, y) => Math.min(y.p, y.a) - Math.min(x.p, x.a));
+    alta.push(...cs.slice(0, 2));
+  }
+  alta.sort((x, y) => Math.min(y.p, y.a) - Math.min(x.p, x.a) || y.p - x.p);
+
+  // Para comparar: líneas cerca del 50 % (donde bet365 pone menos margen) en los mercados que
+  // mejor predice el modelo, y que además se cumplieron en 6 de cada 10 partidos recientes.
+  const comparar = [];
+  for (const m of ps) {
+    const cands = [];
+    for (const stat of ["corners", "tiros_puerta", "remates"]) {
+      if (!m.equipo[stat]) continue;
+      for (const [lado, nombre] of [["local", m.local], ["visitante", m.visitante], ["total", "Total"]]) for (const dir of ["mas", "menos"])
+        for (let x = 0.5; x < 60; x++) {
+          const p = probEquipo(m, stat, lado, dir, x);
+          if (p < 0.45 || p >= 0.7) continue;
+          const leg = { t: "e", m: m.id, stat, lado, dir, linea: x, label: `${nombre}: ${dir === "mas" ? "más" : "menos"} de ${x} ${NOMBRE_EQ[stat]}` };
+          const a = apoyo(m, leg);
+          if (a != null && a >= 0.6) cands.push({ leg, tipo: "e", p, m, a });
+        }
+    }
+    for (const lado of ["local", "visitante"]) for (const j of (m.jugadores[lado] || []).filter((x) => x.titular))
+      for (const stat of ["tiros_puerta", "remates"]) for (let n = 1; n <= 5; n++) {
+        const p = probJugador(j, stat, n);
+        if (p < 0.45 || p >= 0.7) continue;
+        const leg = { t: "j", m: m.id, jid: j.id, stat, n, label: `${j.nombre}: ${n}+ ${STATS_JUG[stat].toLowerCase()}` };
+        const a = apoyo(m, leg);
+        if (a != null && a >= 0.6) cands.push({ leg, tipo: "j", p, m, a });
+      }
+    // Los dos mejor respaldados de cada partido, sin repetir mercado ni jugador.
+    cands.sort((x, y) => y.a - x.a || y.p - x.p);
+    const elegidos = [];
+    for (const c of cands) {
+      if (elegidos.length >= 2) break;
+      if (elegidos.some((e) => (e.tipo === "e" && e.leg.stat === c.leg.stat && e.leg.lado === c.leg.lado) || (e.leg.jid && e.leg.jid === c.leg.jid))) continue;
+      elegidos.push(c);
+    }
+    comparar.push(...elegidos);
+  }
+  comparar.sort((x, y) => y.a - x.a || y.p - x.p);
+
+  // Se intercalan goles, equipo y jugador (si no, la lista se llena de "1+ remates") y cada
+  // jugador sale una sola vez aunque su equipo juegue dos partidos estos días.
+  const mezclar = (lista, n) => {
+    const colas = ["g", "e", "j"].map((t) => lista.filter((c) => c.tipo === t)), res = [], jugadores = new Set();
+    while (res.length < n && colas.some((q) => q.length)) for (const q of colas) {
+      while (q.length && q[0].leg.jid && jugadores.has(q[0].leg.jid)) q.shift();
+      const c = q.shift();
+      if (!c || res.length >= n) continue;
+      if (c.leg.jid) jugadores.add(c.leg.jid);
+      res.push(c);
+    }
+    return res;
+  };
+  const filas = (lista) => mezclar(lista, 25).map((c) => filaChuleta(c, c.m, true)).join("");
+  return `<div class="aviso">Lo mejor de ${ps.length === 1 ? "este partido" : `los ${ps.length} partidos`}. Compara con la cuota de bet365: si es <b class="valor">igual o mayor que la verde</b>, tiene valor; si llega a la <b class="casi">amarilla</b>, está casi justa.</div>
+    <div class="card"><h3>Alta probabilidad <span class="nota">· del 70 al 88 % y cumplida en 7 de cada 10</span></h3>${alta.length ? filas(alta) : `<p class="nota">Ninguna apuesta llega.</p>`}</div>
+    <div class="card"><h3>Para comparar con bet365 <span class="nota">· líneas cercanas al 50 % respaldadas por los últimos 10</span></h3>${comparar.length ? filas(comparar) : `<p class="nota">Ninguna línea cumple.</p>`}</div>
+    <p class="nota">Máximo dos apuestas por partido. Toca el nombre de un partido para ver su chuleta completa. ${NOTA_VECES}</p>`;
+}
+
+function combinarPartidos(ps, lo, hi) {
+  // Patas de partidos distintos: la probabilidad conjunta es el producto (son independientes).
+  // Las que más se han cumplido en los últimos 10 partidos pesan más.
+  const porPartido = ps.map((m) => candidatas(m).filter((c) => c.p >= 0.5).map((c) => {
+    const a = apoyo(m, c.leg);
+    return { ...c, m, w: c.w * (a == null ? 0.8 : 0.6 + 0.5 * a) };
+  })).filter((cs) => cs.length);
+  if (porPartido.length < 2) return [];
+  const rand = mulberry32((ps.length * 7919 + lo * 1000 + porPartido[0][0].m.id) % 2147483647);
+  const objetivo = Math.sqrt(lo * hi), hallados = new Map();
+  const elegir = (lista, pesos) => { let s = pesos.reduce((a, b) => a + b, 0), r = rand() * s; for (let i = 0; i < lista.length; i++) { r -= pesos[i]; if (r <= 0) return lista[i]; } return lista[lista.length - 1]; };
+  const ordenar = () => [...hallados.values()].sort((a, b) => a.k - b.k || b.w - a.w);
+  for (let k = 2; k <= Math.min(8, porPartido.length); k++) {
+    const pPata = Math.pow(1 / objetivo, 1 / k);
+    for (let intento = 0; intento < 1500; intento++) {
+      // k partidos distintos al azar y una pata de cada uno.
+      const idx = [...porPartido.keys()];
+      for (let i = idx.length - 1; i > 0; i--) { const j = Math.floor(rand() * (i + 1)); [idx[i], idx[j]] = [idx[j], idx[i]]; }
+      const combo = idx.slice(0, k).map((i) => { const cs = porPartido[i]; return elegir(cs, cs.map((c) => c.w * Math.exp(-((Math.log(c.p) - Math.log(pPata)) ** 2) / 0.18))); });
+      if (k >= 3 && new Set(combo.map((c) => c.tipo)).size < 2) continue; // que mezcle tipos
+      const p = combo.reduce((s, c) => s * c.p, 1), cuota = 1 / p;
+      if (cuota < lo || cuota > hi) continue;
+      const clave = combo.map((c) => idPata(c.leg)).sort().join("|");
+      if (!hallados.has(clave)) hallados.set(clave, { combo, p, k, w: combo.reduce((s, c) => s + c.w, 0) / k });
+    }
+    const elegidas = seleccionar(ordenar(), 2);
+    if (elegidas.length === 5) return elegidas;
+  }
+  return seleccionar(ordenar(), 5);
+}
+
+function listaCombinadas(ps) {
+  const chips = RANGOS.map(([k, n]) => `<button class="chip" data-rango="${k}" aria-pressed="${S.rango === k}">${n}</button>`).join("");
+  let h = `<div class="chips">${chips}</div>`;
+  if (ps.length < 2) return h + `<p class="vacio">Hace falta más de un partido. Para combinadas de un solo partido, ábrelo y mira su pestaña Combinadas.</p>`;
+  const [, nombre, lo, hi] = RANGOS.find((r) => r[0] === S.rango);
+  const clave = `L|${S.filtro}|${S.rango}`;
+  if (!RECOS.has(clave)) RECOS.set(clave, combinarPartidos(ps, lo, hi));
+  const recos = RECOS.get(clave);
+  if (!recos.length) return h + `<p class="vacio">No hay combinadas razonables con cuota justa ${nombre.toLowerCase()} con estos partidos.</p>`;
+  recos.forEach((r, i) => {
+    h += `<div class="card"><div class="cabeza-reco"><h3>Combinada ${i + 1}</h3><div><b>${pct(r.p)}</b> · justa <b>${cj(r.p)}</b></div></div>` +
+      r.combo.map((c) => `<div class="pata"><span class="tipo t-${c.tipo}">${{ g: "Goles", e: "Equipo", j: "Jugador" }[c.tipo]}</span><span class="pata-nombre">${esc(c.leg.label)}${nombrePartido(c.m)}${lineaVeces(c.m, [c.leg])}</span><span class="p">${pct(c.p)}</span></div>`).join("") +
+      `<button class="boton-sec anadir" data-recol="${i}">Añadir al boleto</button></div>`;
+  });
+  return h + `<p class="nota">Una selección por partido, así que la probabilidad es el producto de las de cada una. Se priorizan las combinadas con menos selecciones, los mercados que mejor predice el modelo y las selecciones que más se han cumplido en los últimos 10 partidos. En bet365 se hacen como combinada de apuestas sencillas, no con "Crear Apuesta". ${NOTA_VECES}</p>`;
+}
+
 function tabGoles(m) {
   const g = m.goles;
   if (!g) return `<p class="vacio">No hay modelo de goles para este partido.</p>`;
   let h = `<div class="card"><div class="meta"><span>Goles esperados</span><span>${g.cuotas["1"] ? "Probabilidad modelo + bet365" : "Solo modelo (sin cuotas bet365)"}</span></div>
     <div class="equipos">${g.lh.toFixed(2)} – ${g.la.toFixed(2)}</div></div>`;
+  const est = Object.entries(g.estimado || {});
+  if (est.length) h += `<div class="aviso">${est.map(([e, n]) => `${esc(e)}: su liga no está en los datos y su nivel se estima con ${n === 1 ? "1 partido europeo" : `${n} partidos europeos`}`).join(". ")}. Los mercados de goles de este partido son menos fiables.</div>`;
   for (const [titulo, claves] of GRUPOS_GOLES) {
     h += `<div class="card"><h3>${titulo}</h3>` +
       claves.map((k) => fila(etqGol(k, m), "", probGoles(m, [k]), { t: "g", m: m.id, k, label: etqGol(k, m) }, g.cuotas[k])).join("") + `</div>`;
@@ -716,6 +871,13 @@ document.addEventListener("click", (e) => {
   const d = t.dataset;
   if (d.partido) { S.tab = "recomendadas"; location.hash = `#/p/${d.partido}`; window.scrollTo(0, 0); return; }
   if (d.filtro) { S.filtro = d.filtro; guardar("filtro", S.filtro); return pintar(); }
+  if (d.lista) { S.lista = d.lista; return pintar(); }
+  if (d.recol != null) {
+    for (const c of RECOS.get(`L|${S.filtro}|${S.rango}`)[Number(d.recol)].combo) if (!enBoleto(c.leg)) alternarPata(c.leg);
+    pintar();
+    return abrirBoleto();
+  }
+  if (d.ir) { S.tab = "chuleta"; location.hash = `#/p/${d.ir}`; window.scrollTo(0, 0); return; }
   if (d.tab) { S.tab = d.tab; return pintar(); }
   if (d.rango) { S.rango = d.rango; return pintar(); }
   if (d.reco != null) {

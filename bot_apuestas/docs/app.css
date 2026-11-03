@@ -146,3 +146,6 @@ main { max-width: 720px; margin: 0 auto; padding: 12px 16px; }
 /* Veces que se cumplió en los últimos 10 partidos */
 .hist, .fila .nombre small.hist { display: block; color: var(--fg); font-size: 12px; font-style: normal; font-variant-numeric: tabular-nums; }
 .lado .hist { color: var(--muted); }
+
+/* Lista: enlace al partido dentro de chuleta y combinadas */
+.ir { display: block; border: 0; background: none; padding: 0; margin: 1px 0; font-size: 12px; color: var(--accent); text-align: left; cursor: pointer; }

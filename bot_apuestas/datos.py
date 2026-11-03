@@ -10,13 +10,18 @@ import requests
 BASE = "https://www.football-data.co.uk"
 CACHE = Path(__file__).parent / "cache"
 
-# Ligas con datos en football-data.co.uk. Las extranjeras sirven para los rivales de Champions.
+# Ligas con datos en football-data.co.uk. Las extranjeras sirven para los rivales europeos.
 LIGAS = {
     "SP1": "La Liga",
     "E0": "Premier League",
     "D1": "Bundesliga",
     "I1": "Serie A",
     "F1": "Ligue 1",
+    "SP2": "Segunda",
+    "E1": "Championship",
+    "D2": "2. Bundesliga",
+    "I2": "Serie B",
+    "F2": "Ligue 2",
     "N1": "Eredivisie",
     "P1": "Primeira Liga",
     "B1": "Bélgica",
@@ -93,6 +98,30 @@ def cargar_resultados(ligas=("SP1",), n_temporadas=3, hoy: date | None = None) -
             partes.append(df)
     res = pd.concat(partes, ignore_index=True)
     return res.dropna(subset=["FTHG", "FTAG"]).sort_values("Date").reset_index(drop=True)
+
+
+# Ligas "extra" de football-data (un CSV por país con todas las temporadas y sin estadísticas):
+# solo sirven para el modelo de goles de los rivales de Europa League y Conference League.
+EXTRA = {"AUT": "Austria", "SWZ": "Suiza", "DNK": "Dinamarca", "NOR": "Noruega", "SWE": "Suecia",
+         "POL": "Polonia", "ROU": "Rumanía", "IRL": "Irlanda"}
+
+
+def cargar_extra(paises=EXTRA, n_temporadas=3, hoy: date | None = None) -> pd.DataFrame:
+    hoy = hoy or date.today()
+    partes = []
+    for pais in paises:
+        try:
+            raw = _descargar(f"{BASE}/new/{pais}.csv", CACHE / f"new_{pais}.csv", 6)
+        except requests.RequestException as e:
+            print(f"  aviso: no se pudo descargar {pais}: {e}")
+            continue
+        df = _leer_csv(raw).rename(columns={"Home": "HomeTeam", "Away": "AwayTeam", "HG": "FTHG", "AG": "FTAG"})
+        df = _normalizar(df)
+        df["Div"] = pais
+        partes.append(df[df["Date"] >= pd.Timestamp(hoy) - pd.Timedelta(days=365 * n_temporadas)])
+    if not partes:
+        return pd.DataFrame(columns=COLUMNAS)
+    return pd.concat(partes, ignore_index=True).dropna(subset=["FTHG", "FTAG"])
 
 
 def cargar_proximos() -> pd.DataFrame:

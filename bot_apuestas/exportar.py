@@ -13,7 +13,7 @@ import pandas as pd
 
 import fotmob
 from analisis import analizar_partido
-from datos import LIGAS, cargar_proximos, cargar_resultados
+from datos import LIGAS, cargar_extra, cargar_proximos, cargar_resultados
 from estadisticas import STATS_JUGADOR, ModeloEstadisticas
 from mercados import cuotas_bet365
 from modelo import ModeloEuropa
@@ -52,10 +52,10 @@ def main():
     print("1/5 Estadísticas de partidos (FotMob)")
     eq, ju = fotmob.actualizar()
     print("2/5 Resultados y cuotas bet365 (football-data)")
-    resultados = cargar_resultados(list(LIGAS), n_temporadas=3)
+    resultados = pd.concat([cargar_resultados(list(LIGAS), n_temporadas=3), cargar_extra()], ignore_index=True)
     cuotas = cargar_proximos()
     print("3/5 Entrenando modelos")
-    goles = ModeloEuropa().fit(resultados, hoy + pd.Timedelta(days=1))
+    goles = ModeloEuropa().fit(resultados, hoy + pd.Timedelta(days=1)).aprender_nombres(eq, resultados).estimar_desconocidos(eq)
     stats = ModeloEstadisticas().fit(eq, ju, hoy + pd.Timedelta(days=1))
     print("4/5 Próximos partidos")
     proximos = fotmob.proximos_partidos(dias=8)
@@ -88,6 +88,8 @@ def main():
                 "la_modelo": None if p.la_modelo is None else round(p.la_modelo, 3),
                 "matriz": [[round(float(x), 5) for x in fila_p] for fila_p in p.P],
                 "cuotas": c,
+                # Equipos con la fuerza estimada solo con sus partidos europeos (y cuántos).
+                "estimado": {e: goles.extra[e][2] for e in (m["local"], m["visitante"]) if e in goles.extra},
             },
             "equipo": {s: [round(a, 3), round(b, 3), None if k is None else round(k, 2)]
                        for s, (a, b, k) in stats.equipo_partido(m["local_id"], m["visitante_id"], m["competicion"]).items()},

@@ -1,4 +1,4 @@
-# Bot de análisis de apuestas (La Liga + Champions, cuotas bet365)
+# Bot de análisis de apuestas (ligas europeas y competiciones UEFA, cuotas bet365)
 
 Calcula la probabilidad de acierto de apuestas simples, combinadas y "Crear Apuesta" y la
 compara con la cuota de bet365 para decirte si hay valor.
@@ -66,7 +66,28 @@ Probado con unos 150 partidos de La Liga y Champions de 2026-27 que el modelo no
 ## App del móvil
 
 `docs/` es una web instalable: en el móvil se ve como una app (icono, pantalla completa,
-funciona sin conexión con los últimos datos). Cada partido tiene cinco pestañas:
+funciona sin conexión con los últimos datos).
+
+Competiciones: La Liga, Premier League, Bundesliga, Serie A y Ligue 1, sus segundas divisiones
+(Segunda, Championship, 2. Bundesliga, Serie B y Ligue 2), Champions, Europa League y
+Conference League. Los nombres de FotMob y football-data se emparejan solos por los resultados
+ya jugados (misma fecha y marcador). Los rivales europeos de ligas que football-data no cubre
+(Chequia, Croacia, Serbia, Chipre…) no tienen modelo de goles: en esos partidos solo hay
+mercados de equipo y jugador.
+
+La lista de partidos tiene tres pestañas, que respetan el filtro elegido (Todos, Barça, Real
+Madrid o una competición):
+
+- **Partidos**: por día, con la probabilidad del 1X2.
+- **Chuleta**: lo mejor de todos los partidos del filtro, como mucho dos por partido. Por un
+  lado, apuestas con un 70 % o más que además se cumplieron en 7 de cada 10 partidos
+  recientes de los dos equipos. Por otro, líneas cercanas al 50 % de corners, tiros a puerta,
+  remates y jugadores que se cumplieron en 6 de cada 10.
+- **Combinadas**: 5 combinadas de varios partidos (una selección por partido) para cada rango
+  de cuota justa. Al ser partidos distintos, la probabilidad es el producto de las de cada
+  selección. Pesan más los mercados fiables y lo que más se ha cumplido en los últimos 10.
+
+Cada partido tiene cinco pestañas:
 
 - **Combinadas**: 5 combinadas recomendadas que mezclan goles, equipo y jugador, para cuatro
   rangos de cuota justa (hasta 4, de 4 a 10, de 10 a 15 y más de 30). Se priorizan las de
@@ -121,7 +142,9 @@ encendido. La alineación confirmada aparece si la actualización cae después d
 
 - FotMob: estadísticas por jugador y equipo, alineaciones y bajas (API no oficial: si
   cambia, habrá que adaptar `fotmob.py`).
-- football-data.co.uk: resultados, xG y cuotas de bet365 de la jornada de Liga.
+- football-data.co.uk: resultados, xG y cuotas de bet365 de la jornada de cada liga, y
+  resultados de las ligas "extra" (Austria, Suiza, Dinamarca, Noruega, Suecia, Polonia,
+  Rumanía, Irlanda) para los rivales de Europa League y Conference League.
 
 Las cuotas de bet365 de jugadores, corners, etc. no están en ninguna fuente gratuita: la app
 te da la cuota justa y tú la comparas con la de bet365 (o la escribes en el boleto).
