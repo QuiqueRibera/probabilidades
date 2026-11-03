@@ -115,3 +115,13 @@ main { max-width: 720px; margin: 0 auto; padding: 12px 16px; }
 .veredicto.pos { background: var(--accent-soft); color: var(--good); }
 .veredicto.neg { background: var(--chip); color: var(--bad); }
 .boton-sec { border: 1px solid var(--line); background: none; border-radius: 10px; padding: 9px 12px; }
+
+.cabeza-reco { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; margin-bottom: 4px; }
+.cabeza-reco h3 { margin: 0; }
+.cabeza-reco b { font-size: 16px; }
+.pata { display: grid; grid-template-columns: auto 1fr auto; gap: 8px; align-items: center; padding: 7px 0; border-top: 1px solid var(--line); }
+.pata-nombre { min-width: 0; }
+.tipo { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .03em; padding: 2px 6px; border-radius: 6px; background: var(--chip); color: var(--muted); }
+.tipo.t-g { background: var(--accent-soft); color: var(--accent); }
+.tipo.t-j { color: var(--warn); }
+.anadir { width: 100%; margin-top: 4px; font-weight: 600; color: var(--accent); border-color: var(--accent); }

@@ -73,6 +73,7 @@ def main():
     print(f"5/5 Escribiendo {SALIDA} ({len(salida)} partidos)")
     SALIDA.parent.mkdir(exist_ok=True)
     SALIDA.write_text(json.dumps({"generado": ahora.isoformat(timespec="minutes"), "k_jugador": stats.k_jugador(),
+                                  "correlacion": stats.cal.get("correlacion"),
                                   "partidos": salida},
                                  ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 

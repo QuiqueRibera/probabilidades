@@ -9,7 +9,7 @@ const guardar = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } 
 const leer = (k, d) => { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch (e) { return d; } };
 
 const S = {
-  data: null, filtro: leer("filtro", "todos"), tab: "goles", statJ: "tiros_puerta", lineaJ: 1,
+  data: null, filtro: leer("filtro", "todos"), tab: "recomendadas", rango: "hasta4", statJ: "tiros_puerta", lineaJ: 1,
   soloTitulares: true, lineas: {}, boleto: leer("boleto", []), cuotaBoleto: "",
 };
 
@@ -97,21 +97,161 @@ function probPata(l) {
   const j = jugador(m, l.jid);
   return j ? probJugador(j, l.stat, l.n) : null;
 }
+// ---------- Simulación conjunta del partido ----------
+// Cada partido se simula N_SIM veces con una cópula gaussiana: cada mercado conserva su
+// probabilidad y además la relación medida con partidos reales (correlaciones.py). Así las
+// combinadas del mismo partido no se calculan como si sus patas fueran independientes.
+const N_SIM = 20000, PALABRAS = N_SIM / 32;
+const SIMS = new Map(), BITS = new Map();
+
+function mulberry32(a) {
+  return () => { a = (a + 0x6d2b79f5) | 0; let t = Math.imul(a ^ (a >>> 15), 1 | a); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; };
+}
+function normales(rand) {
+  let resto = null;
+  return () => {
+    if (resto !== null) { const r = resto; resto = null; return r; }
+    let u = 0; while (u === 0) u = rand();
+    const r = Math.sqrt(-2 * Math.log(u)), th = 2 * Math.PI * rand();
+    resto = r * Math.sin(th); return r * Math.cos(th);
+  };
+}
+function phiInv(p) { // cuantil de la normal (Acklam)
+  if (p <= 0) return -8; if (p >= 1) return 8;
+  const a = [-39.6968302866538, 220.946098424521, -275.928510446969, 138.357751867269, -30.6647980661472, 2.50662827745924];
+  const b = [-54.4760987982241, 161.585836858041, -155.698979859887, 66.8013118877197, -13.2806815528857];
+  const c = [-0.00778489400243029, -0.322396458041136, -2.40075827716184, -2.54973253934373, 4.37466414146497, 2.93816398269878];
+  const d = [0.00778469570904146, 0.32246712907004, 2.445134137143, 3.75440866190742];
+  const q = Math.min(p, 1 - p);
+  let x;
+  if (q > 0.02425) {
+    const r = (p - 0.5), s = r * r;
+    x = (((((a[0] * s + a[1]) * s + a[2]) * s + a[3]) * s + a[4]) * s + a[5]) * r / (((((b[0] * s + b[1]) * s + b[2]) * s + b[3]) * s + b[4]) * s + 1);
+  } else {
+    const r = Math.sqrt(-2 * Math.log(q));
+    x = (((((c[0] * r + c[1]) * r + c[2]) * r + c[3]) * r + c[4]) * r + c[5]) / ((((d[0] * r + d[1]) * r + d[2]) * r + d[3]) * r + 1);
+    if (p > 0.5) x = -x;
+  }
+  return x;
+}
+function phi(x) {
+  const t = 1 / (1 + 0.3275911 * Math.abs(x) / Math.SQRT2);
+  const y = 1 - ((((1.061405429 * t - 1.453152027) * t + 1.421413741) * t - 0.284496736) * t + 0.254829592) * t * Math.exp(-x * x / 2);
+  return x >= 0 ? (1 + y) / 2 : (1 - y) / 2;
+}
+function cholesky(R) {
+  const n = R.length, L = R.map(() => new Array(n).fill(0));
+  for (let i = 0; i < n; i++) for (let j = 0; j <= i; j++) {
+    let s = R[i][j];
+    for (let k = 0; k < j; k++) s -= L[i][k] * L[j][k];
+    L[i][j] = i === j ? Math.sqrt(Math.max(s, 1e-9)) : s / L[j][j];
+  }
+  return L;
+}
+const acumulada = (p) => { const c = new Float64Array(p.length); let s = 0; p.forEach((x, i) => { s += x; c[i] = s; }); return c; };
+function cuantil(cdf, u) { let lo = 0, hi = cdf.length - 1; while (lo < hi) { const mid = (lo + hi) >> 1; if (cdf[mid] >= u) hi = mid; else lo = mid + 1; } return lo; }
+
+function simular(m) {
+  if (SIMS.has(m.id)) return SIMS.get(m.id);
+  const C = S.data.correlacion, orden = C.orden, L = cholesky(C.R), n = orden.length;
+  const rand = mulberry32(m.id % 2147483647), nrm = normales(rand);
+  const lat = {}, val = {};
+  orden.forEach((v) => { lat[v] = new Float32Array(N_SIM); val[v] = new Int16Array(N_SIM).fill(-1); });
+  // Goles: el marcador sale de la matriz (exacta) y se pasa a escala normal.
+  const M = m.goles?.matriz;
+  let celdas, pL, pV, FL, FV;
+  if (M) {
+    celdas = acumulada(M.flat());
+    pL = M.map((r) => r.reduce((s, x) => s + x, 0));
+    pV = M[0].map((_, a) => M.reduce((s, r) => s + r[a], 0));
+    FL = acumulada(pL); FV = acumulada(pV);
+  }
+  const cdfs = {};
+  for (const v of orden) {
+    const [stat, lado] = [v.slice(0, v.lastIndexOf("_")), v.slice(-1)];
+    if (stat !== "goles" && m.equipo[stat]) { const [ml, mv, k] = m.equipo[stat]; cdfs[v] = acumulada(pmf(lado === "L" ? ml : mv, k)); }
+  }
+  const E = new Float64Array(n);
+  for (let i = 0; i < N_SIM; i++) {
+    let zL, zV;
+    if (M) {
+      const c = Math.min(cuantil(celdas, rand() * celdas[celdas.length - 1]), celdas.length - 1);
+      const h = Math.floor(c / M[0].length), a = c % M[0].length;
+      val.goles_L[i] = h; val.goles_V[i] = a;
+      zL = phiInv((h ? FL[h - 1] : 0) + rand() * pL[h]); zV = phiInv((a ? FV[a - 1] : 0) + rand() * pV[a]);
+    } else { zL = nrm(); zV = nrm(); }
+    E[0] = zL / L[0][0]; E[1] = (zV - L[1][0] * E[0]) / L[1][1];
+    lat[orden[0]][i] = zL; lat[orden[1]][i] = zV;
+    for (let j = 2; j < n; j++) {
+      E[j] = nrm();
+      let z = 0; for (let t = 0; t <= j; t++) z += L[j][t] * E[t];
+      lat[orden[j]][i] = z;
+      if (cdfs[orden[j]]) val[orden[j]][i] = cuantil(cdfs[orden[j]], phi(z));
+    }
+  }
+  const sim = { lat, val };
+  SIMS.set(m.id, sim);
+  return sim;
+}
+
+const REF_JUGADOR = { remates: ["remates", false], tiros_puerta: ["tiros_puerta", false], entradas: ["entradas", false], faltas: ["faltas", false], faltas_recibidas: ["faltas", true] };
+function bitsPata(l) {
+  const id = idPata(l);
+  if (BITS.has(id)) return BITS.get(id);
+  const m = partidoPorId(l.m);
+  if (!m) return null;
+  const sim = simular(m), b = new Uint32Array(PALABRAS);
+  const marca = (i) => { b[i >>> 5] |= 1 << (i & 31); };
+  if (l.t === "g") {
+    if (!m.goles) return null;
+    const f = condGol(l.k), h = sim.val.goles_L, a = sim.val.goles_V;
+    for (let i = 0; i < N_SIM; i++) if (f(h[i], a[i])) marca(i);
+  } else if (l.t === "e") {
+    if (!m.equipo[l.stat]) return null;
+    const n = Math.ceil(l.linea), vl = sim.val[`${l.stat}_L`], vv = sim.val[`${l.stat}_V`];
+    for (let i = 0; i < N_SIM; i++) {
+      const x = l.lado === "local" ? vl[i] : l.lado === "visitante" ? vv[i] : vl[i] + vv[i];
+      if ((x >= n) === (l.dir === "mas")) marca(i);
+    }
+  } else {
+    const j = jugador(m, l.jid);
+    if (!j) return null;
+    const esLocal = m.jugadores.local.some((x) => x.id === j.id);
+    const [ref, rival] = REF_JUGADOR[l.stat];
+    const z = sim.lat[`${ref}_${esLocal !== rival ? "L" : "V"}`];
+    const rho = S.data.correlacion.rho_jugador[l.stat], s = Math.sqrt(1 - rho * rho);
+    // X ≥ n  ⇔  la normal latente del jugador supera el cuantil de P(X ≤ n-1)
+    const umbral = phiInv(1 - probJugador(j, l.stat, l.n));
+    const nrm = normales(mulberry32((j.id * 31 + l.stat.length * 7919) % 2147483647));
+    for (let i = 0; i < N_SIM; i++) if (rho * z[i] + s * nrm() > umbral) marca(i);
+  }
+  BITS.set(id, b);
+  return b;
+}
+function contar(b) { let c = 0; for (let i = 0; i < b.length; i++) { let v = b[i]; v -= (v >>> 1) & 0x55555555; v = (v & 0x33333333) + ((v >>> 2) & 0x33333333); c += (((v + (v >>> 4)) & 0x0f0f0f0f) * 0x01010101) >>> 24; } return c; }
+function probConjunta(patas) {
+  let acc = null;
+  for (const l of patas) {
+    const b = bitsPata(l);
+    if (!b) return null;
+    if (!acc) acc = b.slice(); else for (let i = 0; i < PALABRAS; i++) acc[i] &= b[i];
+  }
+  return contar(acc) / N_SIM;
+}
+
 function probBoleto() {
-  // Patas de goles del mismo partido: probabilidad exacta con la matriz de marcadores.
-  // El resto se trata como independiente (aproximación).
-  let p = 1, aproximada = false;
+  // Patas del mismo partido: simulación conjunta. Partidos distintos: independientes.
+  let p = 1, mismoJugador = false;
   const porPartido = {};
   for (const l of S.boleto) (porPartido[l.m] ??= []).push(l);
-  for (const [id, patas] of Object.entries(porPartido)) {
-    const m = partidoPorId(Number(id));
-    if (!m) return { p: null };
-    const g = patas.filter((l) => l.t === "g"), otras = patas.filter((l) => l.t !== "g");
-    if (g.length) p *= probGoles(m, g.map((l) => l.k));
-    for (const l of otras) p *= probPata(l);
-    if (otras.length && patas.length > 1) aproximada = true;
+  for (const patas of Object.values(porPartido)) {
+    const q = patas.length === 1 ? probPata(patas[0]) : probConjunta(patas);
+    if (q == null) return { p: null };
+    p *= q;
+    const js = patas.filter((l) => l.t === "j").map((l) => l.jid);
+    if (new Set(js).size < js.length) mismoJugador = true;
   }
-  return { p, aproximada };
+  return { p, mismoJugador };
 }
 const idPata = (l) => JSON.stringify([l.t, l.m, l.k, l.stat, l.lado, l.dir, l.linea, l.jid, l.n]);
 function alternarPata(l) {
@@ -170,10 +310,131 @@ function vistaPartido(m) {
   $("#titulo").textContent = `${m.local} – ${m.visitante}`;
   $("#subtitulo").textContent = `${m.competicion} · ${fmtFecha(m.fecha)}`;
   $("#atras").hidden = false;
-  const tabs = [["goles", "Goles"], ["equipos", "Equipos"], ["jugadores", "Jugadores"]]
+  const tabs = [["recomendadas", "Combinadas"], ["goles", "Goles"], ["equipos", "Equipos"], ["jugadores", "Jugadores"]]
     .map(([k, n]) => `<button role="tab" data-tab="${k}" aria-selected="${S.tab === k}">${n}</button>`).join("");
-  const cuerpo = { goles: tabGoles, equipos: tabEquipos, jugadores: tabJugadores }[S.tab](m);
+  const cuerpo = { recomendadas: tabRecomendadas, goles: tabGoles, equipos: tabEquipos, jugadores: tabJugadores }[S.tab](m);
   $("#vista").innerHTML = `<div class="tabs" role="tablist">${tabs}</div>${cuerpo}`;
+}
+
+// ---------- Combinadas recomendadas ----------
+const RANGOS = [["hasta4", "Hasta 4", 1.8, 4], ["4a10", "De 4 a 10", 4, 10], ["10a15", "De 10 a 15", 10, 15], ["mas30", "Más de 30", 30, 120]];
+// Cuánto se fía uno de cada mercado (de la prueba histórica: remates y tiros a puerta es lo que
+// mejor predice el modelo; faltas y tarjetas, lo que menos).
+const FIABILIDAD = {
+  e: { remates: 0.9, tiros_puerta: 0.9, corners: 0.8, entradas: 0.5, faltas: 0.5 },
+  j: { remates: 1, tiros_puerta: 1, entradas: 0.7, faltas_recibidas: 0.7 },
+};
+const NOMBRE_EQ = { corners: "corners", remates: "remates", tiros_puerta: "tiros a puerta", faltas: "faltas", entradas: "entradas" };
+const GRUPO_GOL = (k) => /^(1|X|2|1X|X2|12|L-1.5|V-1.5)$/.test(k) ? "res" : /^[OU]/.test(k) ? "tot" : k.includes("BTTS") ? "btts" : k.slice(0, 1);
+
+function candidatas(m) {
+  const res = [];
+  const add = (leg, tipo, grupo, w) => { const p = probPata(leg); if (p != null) res.push({ leg, tipo, grupo, w, p }); };
+  if (m.goles) for (const k of ["1", "X", "2", "1X", "X2", "O1.5", "O2.5", "U2.5", "U3.5", "BTTS", "NOBTTS", "L_O0.5", "V_O0.5", "L_O1.5", "V_O1.5", "L-1.5", "V-1.5"]) {
+    const p = probGoles(m, [k]);
+    if (p >= 0.3 && p <= 0.95) add({ t: "g", m: m.id, k, label: etqGol(k, m) }, "g", "g:" + GRUPO_GOL(k), 1);
+  }
+  for (const [stat, w] of Object.entries(FIABILIDAD.e)) {
+    if (!m.equipo[stat]) continue;
+    for (const [lado, nombre] of [["local", m.local], ["visitante", m.visitante], ["total", "Total"]]) for (const dir of ["mas", "menos"]) {
+      // Las dos líneas más interesantes: una bastante probable y otra más arriesgada.
+      const lineas = [];
+      for (let x = 0.5; x < 60; x++) { const p = probEquipo(m, stat, lado, dir, x); if (p >= 0.5 && p <= 0.92) lineas.push([x, p]); }
+      for (const objetivo of [0.82, 0.62]) {
+        const mejor = lineas.sort((a, b) => Math.abs(a[1] - objetivo) - Math.abs(b[1] - objetivo))[0];
+        if (mejor && !res.some((c) => c.leg.t === "e" && c.leg.stat === stat && c.leg.lado === lado && c.leg.dir === dir && c.leg.linea === mejor[0]))
+          add({ t: "e", m: m.id, stat, lado, dir, linea: mejor[0], label: `${nombre}: ${dir === "mas" ? "más" : "menos"} de ${mejor[0]} ${NOMBRE_EQ[stat]}` }, "e", `e:${stat}:${lado}`, w);
+      }
+    }
+  }
+  for (const lado of ["local", "visitante"]) for (const j of (m.jugadores[lado] || []).filter((x) => x.titular)) {
+    for (const [stat, w] of Object.entries(FIABILIDAD.j)) for (const n of [1, 2]) {
+      const p = probJugador(j, stat, n);
+      if (p >= 0.35 && p <= 0.92) add({ t: "j", m: m.id, jid: j.id, stat, n, label: `${j.nombre}: ${n}+ ${STATS_JUG[stat].toLowerCase()}` }, "j", `j:${j.id}`, w);
+    }
+  }
+  return res;
+}
+const choca = (a, b) => a.grupo === b.grupo ||
+  (a.tipo === "e" && b.tipo === "e" && a.leg.stat === b.leg.stat && (a.leg.lado === "total" || b.leg.lado === "total"));
+const MAX_TIPO = { g: 2, e: 3, j: 3 };
+
+function recomendar(m, lo, hi) {
+  const cands = candidatas(m);
+  const porTipo = { g: cands.filter((c) => c.tipo === "g"), e: cands.filter((c) => c.tipo === "e"), j: cands.filter((c) => c.tipo === "j") };
+  const obligatorios = ["g", "e", "j"].filter((t) => porTipo[t].length);
+  const rand = mulberry32((m.id * 13 + lo * 1000) % 2147483647);
+  const objetivo = Math.sqrt(lo * hi), hallados = new Map();
+  const elegir = (lista, pesos) => { let s = pesos.reduce((a, b) => a + b, 0), r = rand() * s; for (let i = 0; i < lista.length; i++) { r -= pesos[i]; if (r <= 0) return lista[i]; } return lista[lista.length - 1]; };
+  // Menos patas primero (cada pata suma margen de la casa), luego mercados más fiables y coherentes.
+  const ordenar = () => [...hallados.values()].sort((a, b) => a.k - b.k || b.w - a.w || Math.abs(Math.log(a.p * objetivo)) - Math.abs(Math.log(b.p * objetivo)));
+  for (let k = Math.max(3, obligatorios.length); k <= 8; k++) {
+    // Cada pata, con una probabilidad parecida a la que haría falta para llegar a la cuota objetivo.
+    // Las obligatorias (una de goles, una de equipo y una de jugador) se eligen con más margen
+    // para que no salga siempre el único mercado de goles con esa probabilidad.
+    const pPata = Math.pow(1 / objetivo, 1 / k);
+    const peso = (ancho) => (c) => c.w * Math.exp(-((Math.log(c.p) - Math.log(pPata)) ** 2) / ancho);
+    for (let intento = 0; intento < 1500; intento++) {
+      const combo = [], cuenta = { g: 0, e: 0, j: 0 };
+      let acc = null, p = 1, valido = true;
+      const meter = (c) => {
+        if (combo.some((x) => choca(x, c)) || cuenta[c.tipo] >= MAX_TIPO[c.tipo]) return false;
+        const b = bitsPata(c.leg), nuevo = acc ? acc.map((x, i) => x & b[i]) : b.slice(), q = contar(nuevo) / N_SIM;
+        if (acc && q > 0.97 * p) return false; // la pata no aporta nada
+        combo.push(c); cuenta[c.tipo]++; acc = nuevo; p = q; return true;
+      };
+      for (const t of obligatorios) if (!meter(elegir(porTipo[t], porTipo[t].map(peso(0.8))))) { valido = false; break; }
+      for (let extra = 0; valido && combo.length < k && extra < 20; extra++) meter(elegir(cands, cands.map(peso(0.18))));
+      if (!valido || combo.length !== k || !p) continue;
+      const cuota = 1 / p;
+      if (cuota < lo || cuota > hi) continue;
+      // Coherencia: probabilidad real frente a la de multiplicar. Por debajo de 0.9 las patas
+      // se contradicen (p. ej. "no marcan ambos" con muchos tiros a puerta del visitante).
+      const coherencia = p / combo.reduce((s, c) => s * c.p, 1);
+      if (coherencia < 0.9) continue;
+      const clave = combo.map((c) => idPata(c.leg)).sort().join("|");
+      if (!hallados.has(clave)) hallados.set(clave, { combo, p, k, w: combo.reduce((s, c) => s + c.w, 0) / k + Math.log(coherencia) });
+    }
+    // Si ya hay 5 variadas con estas patas, no hace falta alargarlas.
+    const elegidas = seleccionar(ordenar(), 2);
+    if (elegidas.length === 5) return elegidas;
+  }
+  return seleccionar(ordenar(), 5);
+}
+
+// Variedad: dos combinadas comparten como mucho la mitad de sus patas y ninguna pata
+// aparece en más de maxUsos de las 5.
+function seleccionar(orden, maxUsos) {
+  const elegidas = [], usos = new Map();
+  for (const r of orden) {
+    const ids = r.combo.map((c) => idPata(c.leg));
+    if (ids.some((id) => (usos.get(id) || 0) >= maxUsos)) continue;
+    if (!elegidas.every((e) => e.combo.filter((c) => ids.includes(idPata(c.leg))).length <= Math.floor(r.k / 2))) continue;
+    elegidas.push(r);
+    ids.forEach((id) => usos.set(id, (usos.get(id) || 0) + 1));
+    if (elegidas.length === 5) break;
+  }
+  return elegidas;
+}
+
+const RECOS = new Map();
+function tabRecomendadas(m) {
+  if (!S.data.correlacion) return `<p class="vacio">Faltan datos para calcular combinadas.</p>`;
+  const chips = RANGOS.map(([k, n]) => `<button class="chip" data-rango="${k}" aria-pressed="${S.rango === k}">${n}</button>`).join("");
+  const [, nombre, lo, hi] = RANGOS.find((r) => r[0] === S.rango);
+  const clave = `${m.id}|${S.rango}`;
+  if (!RECOS.has(clave)) RECOS.set(clave, recomendar(m, lo, hi));
+  const recos = RECOS.get(clave);
+  let h = `<div class="chips">${chips}</div>`;
+  if (!recos.length) return h + `<p class="vacio">No hay combinadas razonables con cuota justa ${nombre.toLowerCase()} en este partido.</p>`;
+  recos.forEach((r, i) => {
+    const indep = r.combo.reduce((s, c) => s * c.p, 1);
+    h += `<div class="card"><div class="cabeza-reco"><h3>Combinada ${i + 1}</h3><div><b>${pct(r.p)}</b> · justa <b>${cj(r.p)}</b></div></div>` +
+      r.combo.map((c) => `<div class="pata"><span class="tipo t-${c.tipo}">${{ g: "Goles", e: "Equipo", j: "Jugador" }[c.tipo]}</span><span class="pata-nombre">${esc(c.leg.label)}</span><span class="p">${pct(c.p)}</span></div>`).join("") +
+      `<p class="nota">Si las patas fueran independientes saldría ${pct(indep)}; la diferencia es la relación entre ellas.</p>
+      <button class="boton-sec anadir" data-reco="${i}">Añadir al boleto</button></div>`;
+  });
+  return h + `<p class="nota">Probabilidad y cuota justa calculadas simulando el partido ${N_SIM.toLocaleString("es-ES")} veces. bet365 pagará menos que la cuota justa en "Crear Apuesta": solo tiene valor si su cuota es mayor. Se priorizan las combinadas con menos selecciones (cada una añade margen de la casa) y los mercados que mejor predice el modelo.</p>`;
 }
 
 function tabGoles(m) {
@@ -281,7 +542,7 @@ function pintarBotonBoleto() {
 }
 function abrirBoleto() {
   const hoja = $("#boleto");
-  const { p, aproximada } = probBoleto();
+  const { p, mismoJugador } = probBoleto();
   const filas = S.boleto.map((l, i) => {
     const m = partidoPorId(l.m), pp = probPata(l);
     return `<div class="fila" style="grid-template-columns:1fr auto auto"><div class="nombre">${esc(l.label)}<small>${m ? esc(m.local + " – " + m.visitante) : "Partido ya no disponible"}</small></div>
@@ -295,7 +556,7 @@ function abrirBoleto() {
   }
   hoja.innerHTML = `<h2>Boleto <button class="quitar" data-vaciar>Vaciar</button></h2>${filas}
     <div class="resumen"><div><span>Probabilidad de acierto</span><b>${p != null ? pct(p) : "–"}</b></div><div><span>Cuota justa</span><b>${p ? cj(p) : "–"}</b></div></div>
-    ${aproximada ? `<p class="nota">Hay estadísticas del mismo partido que se calculan como independientes: la probabilidad real puede ser algo distinta (p. ej. muchos remates y muchos corners suelen ir juntos).</p>` : ""}
+    <p class="nota">Las selecciones del mismo partido se calculan simulando el partido ${N_SIM.toLocaleString("es-ES")} veces con la relación real entre mercados (p. ej. muchos remates y muchos corners suelen ir juntos).${mismoJugador ? " Hay dos apuestas del mismo jugador: esa parte es aproximada." : ""}</p>
     <label class="entrada"><input id="cuotaBoleto" inputmode="decimal" placeholder="Cuota que te da bet365" value="${esc(S.cuotaBoleto)}"></label>
     ${veredicto}
     <div style="display:flex;justify-content:flex-end;margin-top:12px"><button class="boton-sec" data-cerrar>Cerrar</button></div>`;
@@ -317,9 +578,16 @@ document.addEventListener("click", (e) => {
   const t = e.target.closest("button, .hoja-fondo");
   if (!t) return;
   const d = t.dataset;
-  if (d.partido) { S.tab = "goles"; location.hash = `#/p/${d.partido}`; window.scrollTo(0, 0); return; }
+  if (d.partido) { S.tab = "recomendadas"; location.hash = `#/p/${d.partido}`; window.scrollTo(0, 0); return; }
   if (d.filtro) { S.filtro = d.filtro; guardar("filtro", S.filtro); return pintar(); }
   if (d.tab) { S.tab = d.tab; return pintar(); }
+  if (d.rango) { S.rango = d.rango; return pintar(); }
+  if (d.reco != null) {
+    const m = partidoPorId(Number((location.hash.match(/^#\/p\/(\d+)/) || [])[1]));
+    for (const c of RECOS.get(`${m.id}|${S.rango}`)[Number(d.reco)].combo) if (!enBoleto(c.leg)) alternarPata(c.leg);
+    pintar();
+    return abrirBoleto();
+  }
   if (d.statj) { S.statJ = d.statj; return pintar(); }
   if (d.lineaj) { S.lineaJ = Number(d.lineaj); return pintar(); }
   if ("solotit" in d) { S.soloTitulares = !S.soloTitulares; return pintar(); }

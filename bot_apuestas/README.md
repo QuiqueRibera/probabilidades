@@ -66,8 +66,12 @@ Probado con unos 150 partidos de La Liga y Champions de 2026-27 que el modelo no
 ## App del móvil
 
 `docs/` es una web instalable: en el móvil se ve como una app (icono, pantalla completa,
-funciona sin conexión con los últimos datos). Cada partido tiene tres pestañas:
+funciona sin conexión con los últimos datos). Cada partido tiene cuatro pestañas:
 
+- **Combinadas**: 5 combinadas recomendadas que mezclan goles, equipo y jugador, para cuatro
+  rangos de cuota justa (hasta 4, de 4 a 10, de 10 a 15 y más de 30). Se priorizan las de
+  menos selecciones (cada una suma margen de la casa), los mercados que mejor predice el
+  modelo y las patas que van en la misma dirección.
 - **Goles**: 1X2, doble oportunidad, más/menos, ambos marcan, hándicap, resultado exacto y
   combinaciones "Crear Apuesta" con probabilidad exacta. Muestra la cuota de bet365 y el valor
   cuando la hay.
@@ -78,6 +82,15 @@ funciona sin conexión con los últimos datos). Cada partido tiene tres pestaña
 
 Con el **+** añades selecciones al boleto: calcula la probabilidad de la combinada y su cuota
 justa, y si escribes la cuota de bet365 te dice si tiene valor.
+
+### Combinadas del mismo partido
+
+Las selecciones de un mismo partido están relacionadas (si un equipo remata mucho, también
+suele tirar más a puerta, sacar más corners y marcar más). La app simula cada partido 20.000
+veces respetando la probabilidad de cada mercado y la relación entre ellos medida con 1.075
+partidos reales (`correlaciones.py`). Comprobado con partidos de 2026-27: "el local remata
+14+ y tira 5+ a puerta" ocurrió el 44,7 % de las veces; la simulación da 44,0 % y multiplicar
+como si fueran independientes daría 37,5 %.
 
 ### Puesta en marcha (una sola vez)
 
@@ -115,6 +128,7 @@ te da la cuota justa y tú la comparas con la de bet365 (o la escribes en el bol
 | `fotmob.py` | Estadísticas por partido de jugadores y equipos |
 | `estadisticas.py` | Modelos de corners, remates, faltas, tarjetas y jugadores |
 | `backtest_estadisticas.py` | Prueba histórica de esos mercados |
+| `correlaciones.py` | Relación entre mercados de un mismo partido |
 | `exportar.py` | Genera `docs/data.json` para la app |
 | `docs/` | La app del móvil |
 | `.github/workflows/actualizar.yml` | Actualización automática en GitHub |
