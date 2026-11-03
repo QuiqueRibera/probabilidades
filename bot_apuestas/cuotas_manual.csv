@@ -1,0 +1,12 @@
+# Cuotas que copias a mano de bet365 (Champions, "Ambos marcan", tu "Crear Apuesta"...).
+# Una fila por mercado. Equipos con el nombre que quieras (Barça, Madrid, Bayern, PSG...).
+# Mercados: 1 X 2 1X X2 12 O1.5 U1.5 O2.5 U2.5 O3.5 U3.5 BTTS NOBTTS L_O0.5 V_O0.5 L_O1.5 V_O1.5 L-1.5 V-1.5 L_CS V_CS
+# Combinación del mismo partido: une con +   (ej.  1+BTTS  = gana el local y ambos marcan)
+# Ejemplo (borra el # para usarlo, con las cuotas reales que veas en bet365):
+# 2026-11-05,Champions,Barcelona,Bayern,1,2.10
+# 2026-11-05,Champions,Barcelona,Bayern,X,3.90
+# 2026-11-05,Champions,Barcelona,Bayern,2,3.20
+# 2026-11-05,Champions,Barcelona,Bayern,O2.5,1.50
+# 2026-11-05,Champions,Barcelona,Bayern,U2.5,2.55
+# 2026-11-05,Champions,Barcelona,Bayern,1+BTTS,3.75
+fecha,competicion,local,visitante,mercado,cuota
