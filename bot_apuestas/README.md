@@ -87,6 +87,11 @@ funciona sin conexión con los últimos datos). Cada partido tiene cinco pestañ
 - **Jugadores**: remates, tiros a puerta, entradas, faltas recibidas y cometidas de cada
   jugador (1+, 2+, 3+), con la alineación probable o confirmada y las bajas.
 
+Cada apuesta muestra también **cuántas veces se cumplió en los últimos 10 partidos** (liga y
+Champions) de cada equipo, visto desde su lado: para "Gana Barcelona", las veces que ganó el
+Barça y las que perdió su rival; para "Barcelona: más de 5.5 corners", las que el Barça sacó 6+
+y las que su rival los concedió. En jugadores, sus últimos 10 partidos como titular.
+
 Con el **+** añades selecciones al boleto: calcula la probabilidad de la combinada y su cuota
 justa, y si escribes la cuota de bet365 te dice si tiene valor.
 

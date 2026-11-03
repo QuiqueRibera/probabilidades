@@ -87,6 +87,56 @@ function jugador(m, id) {
 }
 const probJugador = (j, stat, n) => alMenos(pmf(j[stat], S.data.k_jugador?.[stat], 30), n);
 
+// ---------- Veces que se cumplió en los últimos 10 partidos ----------
+// Goles y equipo: en los últimos partidos de cada equipo, visto desde su lado. Para "Gana
+// Barcelona" cuenta las veces que ganó el Barça y las que perdió su rival; para "Barcelona: más
+// de 5.5 corners", las que el Barça sacó 6+ y las que su rival los concedió. Jugadores: sus
+// últimos 10 partidos como titular. Varias patas a la vez: partidos en los que se cumplen todas.
+function cumpleEquipo(l, h, i, esLocal) {
+  if (l.t === "g") {
+    const [f, a] = h.goles[i] ?? [];
+    if (f == null || a == null) return null;
+    return esLocal ? condGol(l.k)(f, a) : condGol(l.k)(a, f);
+  }
+  const [f, a] = h[l.stat]?.[i] ?? [];
+  if (f == null || a == null) return null;
+  const v = l.lado === "total" ? f + a : (l.lado === "local") === esLocal ? f : a;
+  return l.dir === "mas" ? v > l.linea : v < l.linea;
+}
+function veces(m, patas) {
+  if (patas.every((l) => l.t !== "j")) {
+    const res = [];
+    for (const [lado, nombre, esLocal] of [["local", m.local, true], ["visitante", m.visitante, false]]) {
+      const h = m.historial?.[lado];
+      if (!h) continue;
+      let si = 0, n = 0;
+      for (let i = 0; i < h.goles.length; i++) {
+        const r = patas.map((l) => cumpleEquipo(l, h, i, esLocal));
+        if (r.some((x) => x == null)) continue;
+        n++; if (r.every(Boolean)) si++;
+      }
+      if (n) res.push({ nombre, si, n });
+    }
+    return res;
+  }
+  if (patas.every((l) => l.t === "j" && l.jid === patas[0].jid)) {
+    const h = jugador(m, patas[0].jid)?.ult10, n = h ? h[patas[0].stat].length : 0;
+    let si = 0;
+    for (let i = 0; i < n; i++) if (patas.every((l) => h[l.stat][i] >= l.n)) si++;
+    return n ? [{ nombre: null, si, n }] : [];
+  }
+  return [];
+}
+function textoVeces(m, patas, corto) {
+  const v = veces(m, patas);
+  if (!v.length) return "";
+  if (corto) return v.map((x) => `${x.si}/${x.n}`).join(" · ");
+  if (v[0].nombre == null) return `${v[0].n === 10 ? "Últimos 10" : `Solo ${v[0].n} partidos`} como titular: ${v[0].si}/${v[0].n}`;
+  return "Últimos 10: " + v.map((x) => `${x.nombre} ${x.si}/${x.n}`).join(" · ");
+}
+const lineaVeces = (m, patas) => { const t = m ? textoVeces(m, patas) : ""; return t ? `<small class="hist">${esc(t)}</small>` : ""; };
+const NOTA_VECES = "«Últimos 10»: veces que se cumplió en los últimos 10 partidos de liga y Champions de cada equipo, visto desde su lado (para «Gana Barcelona», las que ganó el Barça y las que perdió su rival). En jugadores, sus últimos 10 partidos como titular.";
+
 // ---------- Boleto ----------
 function partidoPorId(id) { return S.data?.partidos.find((p) => p.id === id); }
 function probPata(l) {
@@ -271,7 +321,7 @@ function fila(nombre, sub, p, l, cuota) {
     const ev = p * cuota - 1;
     c = `<div class="c">bet365 <b>${cuota.toFixed(2)}</b><div class="ev ${ev > 0 ? "pos" : "neg"}">${ev > 0 ? "+" : ""}${(100 * ev).toFixed(1)}%</div></div>`;
   }
-  return `<div class="fila"><div class="nombre">${esc(nombre)}${sub ? `<small>${esc(sub)}</small>` : ""}</div><div class="p">${pct(p)}</div>${c}${botonMas(l)}</div>`;
+  return `<div class="fila"><div class="nombre">${esc(nombre)}${sub ? `<small>${esc(sub)}</small>` : ""}${lineaVeces(partidoPorId(l.m), [l])}</div><div class="p">${pct(p)}</div>${c}${botonMas(l)}</div>`;
 }
 
 // ---------- Vistas ----------
@@ -430,11 +480,11 @@ function tabRecomendadas(m) {
   recos.forEach((r, i) => {
     const indep = r.combo.reduce((s, c) => s * c.p, 1);
     h += `<div class="card"><div class="cabeza-reco"><h3>Combinada ${i + 1}</h3><div><b>${pct(r.p)}</b> · justa <b>${cj(r.p)}</b></div></div>` +
-      r.combo.map((c) => `<div class="pata"><span class="tipo t-${c.tipo}">${{ g: "Goles", e: "Equipo", j: "Jugador" }[c.tipo]}</span><span class="pata-nombre">${esc(c.leg.label)}</span><span class="p">${pct(c.p)}</span></div>`).join("") +
+      r.combo.map((c) => `<div class="pata"><span class="tipo t-${c.tipo}">${{ g: "Goles", e: "Equipo", j: "Jugador" }[c.tipo]}</span><span class="pata-nombre">${esc(c.leg.label)}${lineaVeces(m, [c.leg])}</span><span class="p">${pct(c.p)}</span></div>`).join("") +
       `<p class="nota">Si las patas fueran independientes saldría ${pct(indep)}; la diferencia es la relación entre ellas.</p>
       <button class="boton-sec anadir" data-reco="${i}">Añadir al boleto</button></div>`;
   });
-  return h + `<p class="nota">Probabilidad y cuota justa calculadas simulando el partido ${N_SIM.toLocaleString("es-ES")} veces. bet365 pagará menos que la cuota justa en "Crear Apuesta": solo tiene valor si su cuota es mayor. Se priorizan las combinadas con menos selecciones (cada una añade margen de la casa) y los mercados que mejor predice el modelo.</p>`;
+  return h + `<p class="nota">Probabilidad y cuota justa calculadas simulando el partido ${N_SIM.toLocaleString("es-ES")} veces. bet365 pagará menos que la cuota justa en "Crear Apuesta": solo tiene valor si su cuota es mayor. Se priorizan las combinadas con menos selecciones (cada una añade margen de la casa) y los mercados que mejor predice el modelo. ${NOTA_VECES}</p>`;
 }
 
 // ---------- Chuleta: qué buscar en bet365 y desde qué cuota ----------
@@ -478,12 +528,12 @@ function filaChuleta(c, m) {
   let sub = { g: "Goles", e: "Equipo", j: "Jugador · si es titular" }[c.tipo];
   const cuota = c.tipo === "g" ? m.goles.cuotas[c.leg.k] : null;
   if (cuota) sub += ` · bet365 ahora ${cuota.toFixed(2)}: ${cuota * c.p >= 1 ? "con valor" : cuota * c.p >= 1 - CASI ? "casi justa" : "sin valor"}`;
-  return `<div class="fila"><div class="nombre">${esc(c.leg.label)}<small>${esc(sub)}</small></div><div class="p">${pct(c.p)}</div>
+  return `<div class="fila"><div class="nombre">${esc(c.leg.label)}<small>${esc(sub)}</small>${lineaVeces(m, [c.leg])}</div><div class="p">${pct(c.p)}</div>
     <div class="c umbral"><b>≥ ${umbral(c.p)}</b><span>casi ${umbralCasi(c.p)}</span></div>${botonMas(c.leg)}</div>`;
 }
 
-const celdaChuleta = (leg, texto, p) => `<button class="lado" aria-pressed="${enBoleto(leg)}" data-pata='${esc(JSON.stringify(leg))}'>
-  <span>${texto} · ${pct(p)}</span><b>≥ ${umbral(p)}</b><small>casi ${umbralCasi(p)}</small></button>`;
+const celdaChuleta = (m, leg, texto, p) => `<button class="lado" aria-pressed="${enBoleto(leg)}" data-pata='${esc(JSON.stringify(leg))}'>
+  <span>${texto} · ${pct(p)}</span><b>≥ ${umbral(p)}</b><small>casi ${umbralCasi(p)}</small><i class="hist">${textoVeces(m, [leg], true)}</i></button>`;
 
 function tabChuleta(m) {
   let h = `<div class="aviso">Busca estas apuestas en bet365 y compara su cuota. Si es <b class="valor">igual o mayor que la verde</b>, tiene valor. Si llega a la <b class="casi">amarilla</b>, está casi justa (a menos de un 5 %). Si no llega, bet365 se queda demasiado margen.</div>`;
@@ -503,8 +553,8 @@ function tabChuleta(m) {
       for (let y = 0.5; y < 60; y++) { const d = Math.abs(probEquipo(m, stat, lado, "mas", y) - 0.5); if (d < mejor) { mejor = d; x = y; } }
       const pm = probEquipo(m, stat, lado, "mas", x), base = { t: "e", m: m.id, stat, lado, linea: x };
       h += `<div class="dos"><div class="nombre">${esc(nombre)}<small>línea ${x}</small></div>` +
-        celdaChuleta({ ...base, dir: "mas", label: `${nombre}: más de ${x} ${NOMBRE_EQ[stat]}` }, "Más", pm) +
-        celdaChuleta({ ...base, dir: "menos", label: `${nombre}: menos de ${x} ${NOMBRE_EQ[stat]}` }, "Menos", 1 - pm) + `</div>`;
+        celdaChuleta(m, { ...base, dir: "mas", label: `${nombre}: más de ${x} ${NOMBRE_EQ[stat]}` }, "Más", pm) +
+        celdaChuleta(m, { ...base, dir: "menos", label: `${nombre}: menos de ${x} ${NOMBRE_EQ[stat]}` }, "Menos", 1 - pm) + `</div>`;
     }
     h += `</div>`;
   }
@@ -519,7 +569,7 @@ function tabChuleta(m) {
   js.sort((a, b) => Math.abs(a.p - 0.5) - Math.abs(b.p - 0.5));
   if (js.length) h += `<div class="card"><h3>Jugadores</h3>` + js.slice(0, 10).sort((a, b) => b.esperado - a.esperado).map((c) => filaChuleta(c, m)).join("") + `</div>`;
 
-  return h + `<p class="nota">Si bet365 ofrece otra línea (por ejemplo 4.5 corners en vez de 5.5), búscala en las pestañas Equipos o Jugadores. Toca cualquier apuesta para añadirla al boleto. Que bet365 pague más que la cuota justa no garantiza nada: a veces sabe algo que el modelo no (una baja de última hora, por ejemplo).</p>`;
+  return h + `<p class="nota">Si bet365 ofrece otra línea (por ejemplo 4.5 corners en vez de 5.5), búscala en las pestañas Equipos o Jugadores. Toca cualquier apuesta para añadirla al boleto. Que bet365 pague más que la cuota justa no garantiza nada: a veces sabe algo que el modelo no (una baja de última hora, por ejemplo). En las líneas principales, «7/10 · 4/10» son los últimos 10 del local y del visitante. ${NOTA_VECES}</p>`;
 }
 
 function tabGoles(m) {
@@ -538,7 +588,8 @@ function tabGoles(m) {
   h += `<div class="card"><h3>Resultado exacto</h3>` + ms.slice(0, 6).map(([p, i, j]) =>
     fila(`${m.local} ${i} – ${j} ${m.visitante}`, "", p, { t: "g", m: m.id, k: `CS:${i}-${j}`, label: `Resultado exacto ${i}-${j}` })).join("") + `</div>`;
   h += `<div class="card"><h3>Combinaciones más probables (Crear Apuesta)</h3>${sugerencias(m)}
-    <p class="nota">Probabilidad exacta del combo, teniendo en cuenta que los mercados están relacionados. Compárala con la cuota de bet365: solo hay valor si su cuota supera la justa.</p></div>`;
+    <p class="nota">Probabilidad exacta del combo, teniendo en cuenta que los mercados están relacionados. Compárala con la cuota de bet365: solo hay valor si su cuota supera la justa.</p></div>
+    <p class="nota">${NOTA_VECES}</p>`;
   return h;
 }
 
@@ -559,7 +610,7 @@ function sugerencias(m) {
   return res.slice(0, 8).map(([p, a, b]) => {
     const etq = `${etqGol(a, m)} + ${etqGol(b, m)}`;
     const marcado = enBoleto({ t: "g", m: m.id, k: a }) && enBoleto({ t: "g", m: m.id, k: b });
-    return `<div class="fila"><div class="nombre">${esc(etq)}</div><div class="p">${pct(p)}</div><div class="c">justa <b>${cj(p)}</b></div>
+    return `<div class="fila"><div class="nombre">${esc(etq)}${lineaVeces(m, [{ t: "g", k: a }, { t: "g", k: b }])}</div><div class="p">${pct(p)}</div><div class="c">justa <b>${cj(p)}</b></div>
       <button class="mas" aria-label="Añadir al boleto" aria-pressed="${marcado}" data-combo='${esc(JSON.stringify([m.id, a, b]))}'>${marcado ? "✓" : "+"}</button></div>`;
   }).join("");
 }
@@ -589,7 +640,7 @@ function tabEquipos(m) {
     }
     h += `</div>`;
   }
-  return h + `<p class="nota">Modelo por equipo con lo que cada uno genera y concede, ventaja de local y partidos recientes con más peso.</p>`;
+  return h + `<p class="nota">Modelo por equipo con lo que cada uno genera y concede, ventaja de local y partidos recientes con más peso. ${NOTA_VECES}</p>`;
 }
 
 function tabJugadores(m) {
@@ -601,7 +652,7 @@ function tabJugadores(m) {
     prevista: "Alineación prevista por FotMob (la oficial sale ~1 h antes)",
     ultimo_once: "Alineación probable: el último once de cada equipo (la oficial sale ~1 h antes)",
   }[m.alineacion] || "Titulares probables: los habituales de los últimos 5 partidos";
-  let h = `<div class="chips">${chips}</div><div class="chips">${lineas}${filtro}</div><div class="aviso">${estado}. Probabilidades si el jugador es titular.</div>`;
+  let h = `<div class="chips">${chips}</div><div class="chips">${lineas}${filtro}</div><div class="aviso">${estado}. Probabilidades si el jugador es titular. «Últimos 10»: veces que lo consiguió en sus últimos 10 partidos como titular.</div>`;
   for (const [lado, nombre] of [["local", m.local], ["visitante", m.visitante]]) {
     let js = m.jugadores[lado] || [];
     if (S.soloTitulares && js.some((j) => j.titular)) js = js.filter((j) => j.titular);
@@ -630,7 +681,7 @@ function abrirBoleto() {
   const { p, mismoJugador } = probBoleto();
   const filas = S.boleto.map((l, i) => {
     const m = partidoPorId(l.m), pp = probPata(l);
-    return `<div class="fila" style="grid-template-columns:1fr auto auto"><div class="nombre">${esc(l.label)}<small>${m ? esc(m.local + " – " + m.visitante) : "Partido ya no disponible"}</small></div>
+    return `<div class="fila" style="grid-template-columns:1fr auto auto"><div class="nombre">${esc(l.label)}<small>${m ? esc(m.local + " – " + m.visitante) : "Partido ya no disponible"}</small>${lineaVeces(m, [l])}</div>
       <div class="p">${pp != null ? pct(pp) : "–"}</div><button class="quitar" data-quitar="${i}">Quitar</button></div>`;
   }).join("");
   const cuota = parseFloat(String(S.cuotaBoleto).replace(",", "."));

@@ -14,12 +14,34 @@ import pandas as pd
 import fotmob
 from analisis import analizar_partido
 from datos import LIGAS, cargar_proximos, cargar_resultados
-from estadisticas import ModeloEstadisticas
+from estadisticas import STATS_JUGADOR, ModeloEstadisticas
 from mercados import cuotas_bet365
 from modelo import ModeloEuropa
 
 AQUI = Path(__file__).parent
 SALIDA = AQUI / "docs" / "data.json"
+STATS_HIST = ["goles", "corners", "remates", "tiros_puerta", "faltas", "amarillas", "entradas"]
+
+
+def _int(x):
+    return None if pd.isna(x) else int(round(float(x)))
+
+
+def historial_equipos(eq, n=10):
+    """Últimos n partidos de cada equipo: [lo suyo, lo del rival] en cada estadística."""
+    rival = eq[["partido_id", "equipo_id"] + STATS_HIST].rename(
+        columns={"equipo_id": "rival_id", **{s: f"{s}_r" for s in STATS_HIST}})
+    d = eq.merge(rival, on=["partido_id", "rival_id"]).sort_values("fecha", ascending=False)
+    return {int(e): {"rival": g["rival"].head(n).tolist(),
+                     **{s: [[_int(a), _int(b)] for a, b in zip(g[s].head(n), g[f"{s}_r"].head(n))] for s in STATS_HIST}}
+            for e, g in d.groupby("equipo_id", sort=False)}
+
+
+def historial_jugadores(ju, n=10):
+    """Últimos n partidos como titular de cada jugador."""
+    t = ju[ju["titular"] == 1].sort_values("fecha", ascending=False)
+    return {int(j): {s: [_int(x) for x in g[s].head(n)] for s in STATS_JUGADOR}
+            for j, g in t.groupby("jugador_id", sort=False)}
 
 
 def main():
@@ -37,6 +59,7 @@ def main():
     stats = ModeloEstadisticas().fit(eq, ju, hoy + pd.Timedelta(days=1))
     print("4/5 Próximos partidos")
     proximos = fotmob.proximos_partidos(dias=8)
+    hist_eq, hist_ju = historial_equipos(eq), historial_jugadores(ju)
 
     salida = []
     for m in proximos:
@@ -53,6 +76,8 @@ def main():
                                              ("visitante", m["visitante_id"], m["local_id"], False)):
             jug[lado] = stats.jugadores_partido(eq_id, rival, es_local, desde, set(m[f"titulares_{lado}"]),
                                                 {b["id"] for b in m[f"bajas_{lado}"]}, m["competicion"])
+            for j in jug[lado]:
+                j["ult10"] = hist_ju.get(j["id"])
         salida.append({
             "id": m["id"], "fecha": m["fecha"], "competicion": m["competicion"],
             "local": m["local"], "visitante": m["visitante"],
@@ -67,6 +92,7 @@ def main():
             "equipo": {s: [round(a, 3), round(b, 3), None if k is None else round(k, 2)]
                        for s, (a, b, k) in stats.equipo_partido(m["local_id"], m["visitante_id"], m["competicion"]).items()},
             "jugadores": jug,
+            "historial": {"local": hist_eq.get(m["local_id"]), "visitante": hist_eq.get(m["visitante_id"])},
             "bajas": {"local": m["bajas_local"], "visitante": m["bajas_visitante"]},
         })
 

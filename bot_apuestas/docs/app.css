@@ -142,3 +142,7 @@ main { max-width: 720px; margin: 0 auto; padding: 12px 16px; }
 .lado b { color: var(--good); font-size: 15px; }
 .lado small { color: var(--warn); font-size: 12px; }
 .lado[aria-pressed="true"] { border-color: var(--accent); background: var(--accent-soft); }
+
+/* Veces que se cumplió en los últimos 10 partidos */
+.hist, .fila .nombre small.hist { display: block; color: var(--fg); font-size: 12px; font-style: normal; font-variant-numeric: tabular-nums; }
+.lado .hist { color: var(--muted); }
