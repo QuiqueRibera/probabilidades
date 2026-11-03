@@ -66,12 +66,19 @@ Probado con unos 150 partidos de La Liga y Champions de 2026-27 que el modelo no
 ## App del móvil
 
 `docs/` es una web instalable: en el móvil se ve como una app (icono, pantalla completa,
-funciona sin conexión con los últimos datos). Cada partido tiene cuatro pestañas:
+funciona sin conexión con los últimos datos). Cada partido tiene cinco pestañas:
 
 - **Combinadas**: 5 combinadas recomendadas que mezclan goles, equipo y jugador, para cuatro
   rangos de cuota justa (hasta 4, de 4 a 10, de 10 a 15 y más de 30). Se priorizan las de
   menos selecciones (cada una suma margen de la casa), los mercados que mejor predice el
   modelo y las patas que van en la misma dirección.
+- **Chuleta**: qué mirar al abrir bet365 y desde qué cuota compensa. Cada apuesta muestra la
+  cuota justa (en verde: si bet365 paga eso o más, hay valor) y la que se queda a menos de un
+  5 % (en amarillo: casi justa). Dos bloques: apuestas con un 70 % o más de probabilidad (la
+  línea menos obvia de cada mercado que aún llega) y las líneas principales de corners, tiros
+  a puerta, remates y jugadores, que es donde bet365 pone menos margen. Los goles no entran en
+  el segundo bloque porque su probabilidad sale en su mayor parte de las propias cuotas de
+  bet365.
 - **Goles**: 1X2, doble oportunidad, más/menos, ambos marcan, hándicap, resultado exacto y
   combinaciones "Crear Apuesta" con probabilidad exacta. Muestra la cuota de bet365 y el valor
   cuando la hay.

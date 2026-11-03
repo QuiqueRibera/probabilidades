@@ -310,9 +310,9 @@ function vistaPartido(m) {
   $("#titulo").textContent = `${m.local} – ${m.visitante}`;
   $("#subtitulo").textContent = `${m.competicion} · ${fmtFecha(m.fecha)}`;
   $("#atras").hidden = false;
-  const tabs = [["recomendadas", "Combinadas"], ["goles", "Goles"], ["equipos", "Equipos"], ["jugadores", "Jugadores"]]
+  const tabs = [["recomendadas", "Combinadas"], ["chuleta", "Chuleta"], ["goles", "Goles"], ["equipos", "Equipos"], ["jugadores", "Jugadores"]]
     .map(([k, n]) => `<button role="tab" data-tab="${k}" aria-selected="${S.tab === k}">${n}</button>`).join("");
-  const cuerpo = { recomendadas: tabRecomendadas, goles: tabGoles, equipos: tabEquipos, jugadores: tabJugadores }[S.tab](m);
+  const cuerpo = { recomendadas: tabRecomendadas, chuleta: tabChuleta, goles: tabGoles, equipos: tabEquipos, jugadores: tabJugadores }[S.tab](m);
   $("#vista").innerHTML = `<div class="tabs" role="tablist">${tabs}</div>${cuerpo}`;
 }
 
@@ -435,6 +435,91 @@ function tabRecomendadas(m) {
       <button class="boton-sec anadir" data-reco="${i}">Añadir al boleto</button></div>`;
   });
   return h + `<p class="nota">Probabilidad y cuota justa calculadas simulando el partido ${N_SIM.toLocaleString("es-ES")} veces. bet365 pagará menos que la cuota justa en "Crear Apuesta": solo tiene valor si su cuota es mayor. Se priorizan las combinadas con menos selecciones (cada una añade margen de la casa) y los mercados que mejor predice el modelo.</p>`;
+}
+
+// ---------- Chuleta: qué buscar en bet365 y desde qué cuota ----------
+// Sin las cuotas de bet365 no se sabe qué tiene valor, así que se da la vuelta: para cada apuesta
+// interesante se da la cuota a partir de la cual compensa (la justa) y la que se queda a menos
+// de un 5 % de ella (casi justa). El usuario solo tiene que compararlas al abrir bet365.
+const CASI = 0.05, ALTA = 0.7, MAX_ALTA = 0.93;
+const umbral = (p) => (Math.ceil(100 / p) / 100).toFixed(2);
+const umbralCasi = (p) => (Math.ceil(100 * (1 - CASI) / p) / 100).toFixed(2);
+const fiables = (t) => Object.entries(FIABILIDAD[t]).filter(([, w]) => w >= 0.7).map(([s]) => s);
+
+function altaProbabilidad(m) {
+  // Para cada mercado, la línea menos obvia que aún llega al 70 % (la que mejor paga).
+  const mejores = new Map();
+  const add = (grupo, leg, tipo, p) => {
+    if (p < ALTA || p > MAX_ALTA) return;
+    const actual = mejores.get(grupo);
+    if (!actual || p < actual.p) mejores.set(grupo, { leg, tipo, p });
+  };
+  if (m.goles) for (const k of ["1", "2", "1X", "X2", "O1.5", "O2.5", "U2.5", "U3.5", "BTTS", "NOBTTS", "L_O0.5", "V_O0.5", "L_O1.5", "V_O1.5"])
+    add("g:" + k, { t: "g", m: m.id, k, label: etqGol(k, m) }, "g", probGoles(m, [k]));
+  for (const stat of fiables("e")) {
+    if (!m.equipo[stat]) continue;
+    for (const [lado, nombre] of [["local", m.local], ["visitante", m.visitante], ["total", "Total"]]) for (const dir of ["mas", "menos"])
+      for (let x = 0.5; x < 60; x++)
+        add(`e:${stat}:${lado}:${dir}`, { t: "e", m: m.id, stat, lado, dir, linea: x, label: `${nombre}: ${dir === "mas" ? "más" : "menos"} de ${x} ${NOMBRE_EQ[stat]}` }, "e", probEquipo(m, stat, lado, dir, x));
+  }
+  for (const lado of ["local", "visitante"]) for (const j of (m.jugadores[lado] || []).filter((x) => x.titular))
+    for (const stat of fiables("j")) for (let n = 1; n <= 4; n++)
+      add(`j:${j.id}:${stat}`, { t: "j", m: m.id, jid: j.id, stat, n, label: `${j.nombre}: ${n}+ ${STATS_JUG[stat].toLowerCase()}` }, "j", probJugador(j, stat, n));
+  const todos = [...mejores.values()].sort((a, b) => b.p - a.p);
+  // Variedad: no más de dos jugadores con la misma estadística (si no, salen seis "1+ entradas").
+  const limite = { g: 3, e: 5, j: 6 }, porStat = {};
+  return todos.filter((c) => {
+    if (c.tipo === "j" && (porStat[c.leg.stat] = (porStat[c.leg.stat] || 0) + 1) > 2) return false;
+    return limite[c.tipo]-- > 0;
+  });
+}
+
+function filaChuleta(c, m) {
+  let sub = { g: "Goles", e: "Equipo", j: "Jugador · si es titular" }[c.tipo];
+  const cuota = c.tipo === "g" ? m.goles.cuotas[c.leg.k] : null;
+  if (cuota) sub += ` · bet365 ahora ${cuota.toFixed(2)}: ${cuota * c.p >= 1 ? "con valor" : cuota * c.p >= 1 - CASI ? "casi justa" : "sin valor"}`;
+  return `<div class="fila"><div class="nombre">${esc(c.leg.label)}<small>${esc(sub)}</small></div><div class="p">${pct(c.p)}</div>
+    <div class="c umbral"><b>≥ ${umbral(c.p)}</b><span>casi ${umbralCasi(c.p)}</span></div>${botonMas(c.leg)}</div>`;
+}
+
+const celdaChuleta = (leg, texto, p) => `<button class="lado" aria-pressed="${enBoleto(leg)}" data-pata='${esc(JSON.stringify(leg))}'>
+  <span>${texto} · ${pct(p)}</span><b>≥ ${umbral(p)}</b><small>casi ${umbralCasi(p)}</small></button>`;
+
+function tabChuleta(m) {
+  let h = `<div class="aviso">Busca estas apuestas en bet365 y compara su cuota. Si es <b class="valor">igual o mayor que la verde</b>, tiene valor. Si llega a la <b class="casi">amarilla</b>, está casi justa (a menos de un 5 %). Si no llega, bet365 se queda demasiado margen.</div>`;
+  const alta = altaProbabilidad(m);
+  h += `<div class="card"><h3>Alta probabilidad <span class="nota">· 70 % o más</span></h3>` +
+    (alta.length ? alta.map((c) => filaChuleta(c, m)).join("") : `<p class="nota">Nada llega al 70 % en este partido.</p>`) + `</div>`;
+
+  // Líneas principales (cerca del 50 %), que es donde bet365 pone menos margen y más fácil es
+  // encontrar una cuota casi justa. No se incluyen los goles: su probabilidad sale en su mayor
+  // parte de las propias cuotas de bet365, así que nunca se alejaría de ellas.
+  h += `<h2 class="seccion">Para comparar con bet365</h2>`;
+  for (const stat of ["corners", "tiros_puerta", "remates"]) {
+    if (!m.equipo[stat]) continue;
+    h += `<div class="card"><h3>${STATS_EQ[stat].nombre}</h3>`;
+    for (const [lado, nombre] of [["local", m.local], ["visitante", m.visitante], ["total", "Total del partido"]]) {
+      let x = 0.5, mejor = 1;
+      for (let y = 0.5; y < 60; y++) { const d = Math.abs(probEquipo(m, stat, lado, "mas", y) - 0.5); if (d < mejor) { mejor = d; x = y; } }
+      const pm = probEquipo(m, stat, lado, "mas", x), base = { t: "e", m: m.id, stat, lado, linea: x };
+      h += `<div class="dos"><div class="nombre">${esc(nombre)}<small>línea ${x}</small></div>` +
+        celdaChuleta({ ...base, dir: "mas", label: `${nombre}: más de ${x} ${NOMBRE_EQ[stat]}` }, "Más", pm) +
+        celdaChuleta({ ...base, dir: "menos", label: `${nombre}: menos de ${x} ${NOMBRE_EQ[stat]}` }, "Menos", 1 - pm) + `</div>`;
+    }
+    h += `</div>`;
+  }
+
+  const js = [];
+  for (const lado of ["local", "visitante"]) for (const j of (m.jugadores[lado] || []).filter((x) => x.titular))
+    for (const stat of ["tiros_puerta", "remates"]) {
+      let mejor = null;
+      for (let n = 1; n <= 5; n++) { const p = probJugador(j, stat, n); if (p >= 0.3 && p <= 0.7 && (!mejor || Math.abs(p - 0.5) < Math.abs(mejor.p - 0.5))) mejor = { n, p }; }
+      if (mejor) js.push({ tipo: "j", p: mejor.p, esperado: j[stat], leg: { t: "j", m: m.id, jid: j.id, stat, n: mejor.n, label: `${j.nombre}: ${mejor.n}+ ${STATS_JUG[stat].toLowerCase()}` } });
+    }
+  js.sort((a, b) => Math.abs(a.p - 0.5) - Math.abs(b.p - 0.5));
+  if (js.length) h += `<div class="card"><h3>Jugadores</h3>` + js.slice(0, 10).sort((a, b) => b.esperado - a.esperado).map((c) => filaChuleta(c, m)).join("") + `</div>`;
+
+  return h + `<p class="nota">Si bet365 ofrece otra línea (por ejemplo 4.5 corners en vez de 5.5), búscala en las pestañas Equipos o Jugadores. Toca cualquier apuesta para añadirla al boleto. Que bet365 pague más que la cuota justa no garantiza nada: a veces sabe algo que el modelo no (una baja de última hora, por ejemplo).</p>`;
 }
 
 function tabGoles(m) {
