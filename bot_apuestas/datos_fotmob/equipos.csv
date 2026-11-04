@@ -3481,3 +3481,39 @@ partido_id,fecha,competicion,equipo_id,equipo,rival_id,rival,local,xg,remates,ti
 6112399,2026-10-22,Conference League,8358,Freiburg,9829,Monaco,0,1.26,12.0,1.0,1.0,11.0,20.0,10.0,0
 6112540,2026-10-22,Conference League,10191,Thun,10154,Hajduk Split,1,1.61,12.0,4.0,2.0,2.0,22.0,23.0,0
 6112540,2026-10-22,Conference League,10154,Hajduk Split,10191,Thun,0,1.26,11.0,4.0,2.0,3.0,21.0,16.0,1
+6106341,2026-11-03,Champions,8637,Galatasaray,10269,VfB Stuttgart,1,0.98,13.0,4.0,3.0,6.0,16.0,13.0,2
+6106341,2026-11-03,Champions,10269,VfB Stuttgart,8637,Galatasaray,0,2.2,13.0,5.0,5.0,4.0,12.0,16.0,0
+6106335,2026-11-03,Champions,9728,Shakhtar Donetsk,9768,Sporting CP,1,1.6,14.0,4.0,1.0,7.0,19.0,10.0,0
+6106335,2026-11-03,Champions,9768,Sporting CP,9728,Shakhtar Donetsk,0,1.52,11.0,3.0,1.0,2.0,23.0,18.0,1
+6106266,2026-11-03,Champions,9906,Atlético Madrid,9823,Bayern München,1,1.02,9.0,3.0,1.0,4.0,26.0,13.0,0
+6106266,2026-11-03,Champions,9823,Bayern München,9906,Atlético Madrid,0,1.91,19.0,5.0,2.0,4.0,30.0,3.0,2
+6106263,2026-11-03,Champions,8634,Barcelona,10252,Aston Villa,1,1.96,16.0,8.0,1.0,4.0,18.0,14.0,3
+6106263,2026-11-03,Champions,10252,Aston Villa,8634,Barcelona,0,0.72,9.0,1.0,3.0,8.0,18.0,9.0,0
+6106316,2026-11-03,Champions,8402,Bodø/Glimt,8639,Lille,1,0.5,4.0,4.0,0.0,3.0,11.0,12.0,0
+6106316,2026-11-03,Champions,8639,Lille,8402,Bodø/Glimt,0,0.57,9.0,2.0,1.0,4.0,21.0,8.0,0
+6106306,2026-11-03,Champions,10235,Feyenoord,8636,Inter,1,0.71,11.0,2.0,1.0,5.0,16.0,7.0,0
+6106306,2026-11-03,Champions,8636,Inter,10235,Feyenoord,0,0.92,11.0,6.0,2.0,4.0,15.0,13.0,3
+6106408,2026-11-03,Champions,9977,LASK,6019,Slovan Bratislava,1,4.69,29.0,10.0,0.0,8.0,25.0,5.0,4
+6106408,2026-11-03,Champions,6019,Slovan Bratislava,9977,LASK,0,0.47,7.0,5.0,2.0,2.0,20.0,9.0,0
+6106291,2026-11-03,Champions,10260,Manchester United,8686,Roma,1,2.7,15.0,6.0,3.0,3.0,21.0,11.0,3
+6106291,2026-11-03,Champions,8686,Roma,10260,Manchester United,0,1.6,7.0,4.0,3.0,1.0,20.0,14.0,2
+6106326,2026-11-03,Champions,10205,Villarreal,9847,Paris Saint-Germain,1,0.66,14.0,2.0,4.0,4.0,16.0,19.0,0
+6106326,2026-11-03,Champions,9847,Paris Saint-Germain,10205,Villarreal,0,2.69,22.0,12.0,1.0,8.0,13.0,4.0,6
+5836911,2026-11-03,Championship,8655,Blackburn Rovers,10194,Stoke City,1,1.81,14.0,3.0,3.0,6.0,29.0,12.0,1
+5836911,2026-11-03,Championship,10194,Stoke City,8655,Blackburn Rovers,0,0.92,11.0,3.0,4.0,5.0,21.0,19.0,2
+5836920,2026-11-03,Championship,8451,Charlton Athletic,8559,Bolton Wanderers,1,0.84,14.0,2.0,1.0,4.0,17.0,9.0,0
+5836920,2026-11-03,Championship,8559,Bolton Wanderers,8451,Charlton Athletic,0,0.67,11.0,3.0,1.0,3.0,19.0,13.0,1
+5836912,2026-11-03,Championship,10170,Derby County,9850,Norwich City,1,0.69,6.0,2.0,1.0,4.0,26.0,10.0,0
+5836912,2026-11-03,Championship,9850,Norwich City,10170,Derby County,0,1.8,19.0,8.0,0.0,5.0,12.0,8.0,4
+5836913,2026-11-03,Championship,8462,Portsmouth,10003,Swansea City,1,1.25,13.0,5.0,2.0,5.0,13.0,12.0,3
+5836913,2026-11-03,Championship,10003,Swansea City,8462,Portsmouth,0,1.68,9.0,3.0,0.0,5.0,20.0,8.0,1
+5836914,2026-11-03,Championship,8411,Preston North End,8657,Sheffield United,1,0.88,6.0,2.0,1.0,3.0,14.0,12.0,2
+5836914,2026-11-03,Championship,8657,Sheffield United,8411,Preston North End,0,1.96,18.0,5.0,0.0,3.0,19.0,7.0,3
+5836915,2026-11-03,Championship,10172,Queens Park Rangers,8191,Burnley,1,1.76,20.0,5.0,1.0,8.0,10.0,5.0,1
+5836915,2026-11-03,Championship,8191,Burnley,10172,Queens Park Rangers,0,0.15,4.0,1.0,2.0,1.0,23.0,7.0,1
+5836916,2026-11-03,Championship,9817,Watford,8430,Lincoln City,1,0.61,18.0,2.0,5.0,7.0,12.0,17.0,1
+5836916,2026-11-03,Championship,8430,Lincoln City,9817,Watford,0,0.75,12.0,1.0,2.0,6.0,20.0,10.0,0
+5836910,2026-11-03,Championship,8658,Birmingham City,10004,Millwall,1,1.18,19.0,8.0,1.0,6.0,11.0,12.0,3
+5836910,2026-11-03,Championship,10004,Millwall,8658,Birmingham City,0,0.91,15.0,2.0,1.0,2.0,11.0,9.0,0
+5836917,2026-11-03,Championship,8659,West Bromwich Albion,8466,Southampton,1,2.09,17.0,5.0,2.0,3.0,21.0,13.0,1
+5836917,2026-11-03,Championship,8466,Southampton,8659,West Bromwich Albion,0,1.38,10.0,3.0,1.0,5.0,21.0,10.0,1
