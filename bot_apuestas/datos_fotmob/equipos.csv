@@ -3517,3 +3517,11 @@ partido_id,fecha,competicion,equipo_id,equipo,rival_id,rival,local,xg,remates,ti
 5836910,2026-11-03,Championship,10004,Millwall,8658,Birmingham City,0,0.91,15.0,2.0,1.0,2.0,11.0,9.0,0
 5836917,2026-11-03,Championship,8659,West Bromwich Albion,8466,Southampton,1,2.09,17.0,5.0,2.0,3.0,21.0,13.0,1
 5836917,2026-11-03,Championship,8466,Southampton,8659,West Bromwich Albion,0,1.38,10.0,3.0,1.0,5.0,21.0,10.0,1
+6106401,2026-11-04,Champions,8563,AEK Athens,8633,Real Madrid,1,0.87,9.0,5.0,1.0,0.0,17.0,9.0,2
+6106401,2026-11-04,Champions,8633,Real Madrid,8563,AEK Athens,0,3.35,24.0,8.0,1.0,7.0,22.0,16.0,3
+6106330,2026-11-04,Champions,8695,Fenerbahçe,8650,Liverpool,1,1.7,17.0,6.0,1.0,4.0,16.0,13.0,3
+6106330,2026-11-04,Champions,8650,Liverpool,8695,Fenerbahçe,0,1.57,22.0,6.0,1.0,12.0,7.0,12.0,2
+5868523,2026-11-02,Segunda,9867,Tenerife,494050,FC Andorra,1,1.27,5.0,2.0,2.0,0.0,12.0,11.0,2
+5868523,2026-11-02,Segunda,494050,FC Andorra,9867,Tenerife,0,1.86,11.0,4.0,5.0,3.0,12.0,13.0,2
+6112306,2026-11-04,Europa League,9851,Rennes,8638,Olympiacos,1,0.53,9.0,4.0,1.0,3.0,14.0,15.0,0
+6112306,2026-11-04,Europa League,8638,Olympiacos,9851,Rennes,0,0.97,12.0,3.0,0.0,3.0,25.0,11.0,0

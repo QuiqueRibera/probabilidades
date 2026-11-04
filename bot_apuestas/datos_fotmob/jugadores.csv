@@ -55175,3 +55175,96 @@ partido_id,fecha,competicion,jugador_id,jugador,equipo_id,equipo,rival_id,rival,
 5836917,2026-11-03,Championship,1336906,Kuryu Matsuki,8466,Southampton,8659,West Bromwich Albion,0,DEL,1,88.0,1.0,0.0,4.0,1.0,1.0
 5836917,2026-11-03,Championship,1360349,Harry Whitwell,8659,West Bromwich Albion,8466,Southampton,1,MED,0,19.0,0.0,0.0,3.0,1.0,1.0
 5836917,2026-11-03,Championship,1609064,Rabby Nzingoula,8659,West Bromwich Albion,8466,Southampton,1,MED,1,71.0,1.0,0.0,1.0,1.0,2.0
+6106401,2026-11-04,Champions,170323,Thibaut Courtois,8633,Real Madrid,8563,AEK Athens,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+6106401,2026-11-04,Champions,276738,Antonio Rüdiger,8633,Real Madrid,8563,AEK Athens,0,DEF,1,90.0,0.0,0.0,1.0,0.0,0.0
+6106401,2026-11-04,Champions,299879,Alberto Brignoli,8563,AEK Athens,8633,Real Madrid,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+6106401,2026-11-04,Champions,448859,Mijat Gaćinović,8563,AEK Athens,8633,Real Madrid,1,MED,1,60.0,1.0,1.0,1.0,6.0,0.0
+6106401,2026-11-04,Champions,463291,Luka Jović,8563,AEK Athens,8633,Real Madrid,1,DEL,1,88.0,1.0,1.0,0.0,1.0,1.0
+6106401,2026-11-04,Champions,488139,Bernardo Silva,8633,Real Madrid,8563,AEK Athens,0,MED,1,67.0,1.0,0.0,1.0,0.0,1.0
+6106401,2026-11-04,Champions,547454,Kaan Kairinen,8563,AEK Athens,8633,Real Madrid,1,MED,1,60.0,0.0,0.0,0.0,0.0,1.0
+6106401,2026-11-04,Champions,574844,Răzvan Marin,8563,AEK Athens,8633,Real Madrid,1,MED,0,30.0,2.0,0.0,0.0,0.0,0.0
+6106401,2026-11-04,Champions,593118,Denzel Dumfries,8633,Real Madrid,8563,AEK Athens,0,DEF,1,90.0,1.0,1.0,0.0,0.0,1.0
+6106401,2026-11-04,Champions,637737,Harold Moukoudi,8563,AEK Athens,8633,Real Madrid,1,DEF,1,90.0,1.0,1.0,1.0,0.0,0.0
+6106401,2026-11-04,Champions,655636,Oleksandr Zubkov,8563,AEK Athens,8633,Real Madrid,1,DEL,0,2.0,0.0,0.0,0.0,0.0,0.0
+6106401,2026-11-04,Champions,701154,Kylian Mbappé,8633,Real Madrid,8563,AEK Athens,0,DEL,1,90.0,7.0,3.0,0.0,1.0,0.0
+6106401,2026-11-04,Champions,725695,Aboubakary Koïta,8563,AEK Athens,8633,Real Madrid,1,MED,1,90.0,3.0,1.0,4.0,3.0,0.0
+6106401,2026-11-04,Champions,743533,Federico Valverde,8633,Real Madrid,8563,AEK Athens,0,MED,0,23.0,1.0,1.0,0.0,0.0,0.0
+6106401,2026-11-04,Champions,750027,Brahim Díaz,8633,Real Madrid,8563,AEK Athens,0,DEL,0,9.0,1.0,0.0,0.0,1.0,0.0
+6106401,2026-11-04,Champions,762721,Lovro Majer,8563,AEK Athens,8633,Real Madrid,1,MED,1,53.0,0.0,0.0,3.0,0.0,0.0
+6106401,2026-11-04,Champions,796504,Barnabás Varga,8563,AEK Athens,8633,Real Madrid,1,DEL,0,30.0,0.0,0.0,0.0,1.0,1.0
+6106401,2026-11-04,Champions,839750,Kervin Arriaga,8563,AEK Athens,8633,Real Madrid,1,MED,1,90.0,0.0,0.0,0.0,1.0,3.0
+6106401,2026-11-04,Champions,844415,Éder Militao,8633,Real Madrid,8563,AEK Athens,0,DEF,1,90.0,2.0,1.0,3.0,1.0,1.0
+6106401,2026-11-04,Champions,846033,Vinícius Júnior,8633,Real Madrid,8563,AEK Athens,0,DEL,1,81.0,3.0,0.0,0.0,2.0,0.0
+6106401,2026-11-04,Champions,873289,Marc Cucurella,8633,Real Madrid,8563,AEK Athens,0,DEF,1,81.0,2.0,1.0,4.0,0.0,5.0
+6106401,2026-11-04,Champions,949866,Lazaros Rota,8563,AEK Athens,8633,Real Madrid,1,DEF,1,90.0,0.0,0.0,4.0,1.0,3.0
+6106401,2026-11-04,Champions,1015185,Eduardo Camavinga,8633,Real Madrid,8563,AEK Athens,0,MED,1,90.0,0.0,0.0,9.0,1.0,6.0
+6106401,2026-11-04,Champions,1015750,Stavros Pilios,8563,AEK Athens,8633,Real Madrid,1,DEF,1,90.0,1.0,1.0,0.0,0.0,0.0
+6106401,2026-11-04,Champions,1077894,Jude Bellingham,8633,Real Madrid,8563,AEK Athens,0,MED,1,86.0,3.0,1.0,2.0,3.0,0.0
+6106401,2026-11-04,Champions,1106943,Zine,8563,AEK Athens,8633,Real Madrid,1,DEL,0,37.0,0.0,0.0,4.0,3.0,0.0
+6106401,2026-11-04,Champions,1190025,Alvaro Carreras,8633,Real Madrid,8563,AEK Athens,0,DEF,0,9.0,0.0,0.0,0.0,0.0,1.0
+6106401,2026-11-04,Champions,1285815,Filipe Relvas,8563,AEK Athens,8633,Real Madrid,1,DEF,1,90.0,0.0,0.0,0.0,0.0,0.0
+6106401,2026-11-04,Champions,1406729,Endrick,8633,Real Madrid,8563,AEK Athens,0,DEL,0,23.0,2.0,0.0,0.0,0.0,1.0
+6106401,2026-11-04,Champions,1610744,Carlos Espí,8633,Real Madrid,8563,AEK Athens,0,DEL,0,4.0,0.0,0.0,0.0,0.0,0.0
+6106401,2026-11-04,Champions,1735453,Yan Diomande,8633,Real Madrid,8563,AEK Athens,0,DEL,1,67.0,1.0,0.0,2.0,0.0,0.0
+6106330,2026-11-04,Champions,181276,Romelu Lukaku,8695,Fenerbahçe,8650,Liverpool,1,DEL,1,63.0,1.0,1.0,0.0,0.0,2.0
+6106330,2026-11-04,Champions,209405,Virgil van Dijk,8650,Liverpool,8695,Fenerbahçe,0,DEF,1,90.0,3.0,2.0,0.0,1.0,2.0
+6106330,2026-11-04,Champions,309328,Milan Škriniar,8695,Fenerbahçe,8650,Liverpool,1,DEF,1,90.0,0.0,0.0,1.0,2.0,0.0
+6106330,2026-11-04,Champions,316544,İrfan Kahveci,8695,Fenerbahçe,8650,Liverpool,1,DEL,1,75.0,1.0,0.0,3.0,1.0,1.0
+6106330,2026-11-04,Champions,319300,N'Golo Kanté,8695,Fenerbahçe,8650,Liverpool,1,MED,1,90.0,1.0,0.0,1.0,2.0,2.0
+6106330,2026-11-04,Champions,319784,Alisson Becker,8650,Liverpool,8695,Fenerbahçe,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+6106330,2026-11-04,Champions,363364,Ederson,8695,Fenerbahçe,8650,Liverpool,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+6106330,2026-11-04,Champions,470834,Nélson Semedo,8695,Fenerbahçe,8650,Liverpool,1,DEF,1,75.0,1.0,0.0,1.0,1.0,3.0
+6106330,2026-11-04,Champions,517052,Vedat Muriqi,8695,Fenerbahçe,8650,Liverpool,1,DEL,0,27.0,1.0,1.0,0.0,0.0,0.0
+6106330,2026-11-04,Champions,568571,Joseph Gomez,8650,Liverpool,8695,Fenerbahçe,0,DEF,1,66.0,1.0,0.0,0.0,1.0,0.0
+6106330,2026-11-04,Champions,671529,Konstantinos Tsimikas,8650,Liverpool,8695,Fenerbahçe,0,DEF,1,76.0,0.0,0.0,0.0,2.0,0.0
+6106330,2026-11-04,Champions,690107,Alexander Isak,8650,Liverpool,8695,Fenerbahçe,0,DEL,0,24.0,3.0,1.0,0.0,0.0,0.0
+6106330,2026-11-04,Champions,800609,Mattéo Guendouzi,8695,Fenerbahçe,8650,Liverpool,1,MED,1,90.0,3.0,0.0,0.0,1.0,0.0
+6106330,2026-11-04,Champions,806552,Cody Gakpo,8650,Liverpool,8695,Fenerbahçe,0,DEL,0,24.0,1.0,0.0,1.0,0.0,0.0
+6106330,2026-11-04,Champions,831489,Alexis Mac Allister,8650,Liverpool,8695,Fenerbahçe,0,MED,1,90.0,1.0,1.0,2.0,2.0,1.0
+6106330,2026-11-04,Champions,846005,Dominik Szoboszlai,8650,Liverpool,8695,Fenerbahçe,0,MED,1,90.0,2.0,0.0,0.0,0.0,1.0
+6106330,2026-11-04,Champions,904098,Mert Müldür,8695,Fenerbahçe,8650,Liverpool,1,DEF,0,15.0,0.0,0.0,0.0,0.0,0.0
+6106330,2026-11-04,Champions,950473,Mason Greenwood,8695,Fenerbahçe,8650,Liverpool,1,DEL,1,89.0,4.0,2.0,1.0,2.0,3.0
+6106330,2026-11-04,Champions,1092015,Oğuz Aydın,8695,Fenerbahçe,8650,Liverpool,1,DEL,0,1.0,0.0,0.0,0.0,0.0,0.0
+6106330,2026-11-04,Champions,1113704,Archie Brown,8695,Fenerbahçe,8650,Liverpool,1,DEF,1,90.0,3.0,2.0,3.0,0.0,2.0
+6106330,2026-11-04,Champions,1117570,Kerem Aktürkoglu,8695,Fenerbahçe,8650,Liverpool,1,DEL,0,15.0,1.0,0.0,0.0,1.0,0.0
+6106330,2026-11-04,Champions,1152455,Florian Wirtz,8650,Liverpool,8695,Fenerbahçe,0,DEL,0,24.0,0.0,0.0,0.0,0.0,0.0
+6106330,2026-11-04,Champions,1183589,Ismail Yüksek,8695,Fenerbahçe,8650,Liverpool,1,MED,1,90.0,1.0,0.0,5.0,0.0,0.0
+6106330,2026-11-04,Champions,1195281,Miloš Kerkez,8650,Liverpool,8695,Fenerbahçe,0,DEF,0,14.0,0.0,0.0,0.0,0.0,0.0
+6106330,2026-11-04,Champions,1297165,Bradley Barcola,8650,Liverpool,8695,Fenerbahçe,0,DEL,1,90.0,3.0,1.0,0.0,1.0,2.0
+6106330,2026-11-04,Champions,1364042,Lewis Koumas,8650,Liverpool,8695,Fenerbahçe,0,DEL,0,5.0,0.0,0.0,0.0,0.0,0.0
+6106330,2026-11-04,Champions,1429607,Kojo Peprah Oppong,8695,Fenerbahçe,8650,Liverpool,1,DEF,1,90.0,0.0,0.0,1.0,2.0,0.0
+6106330,2026-11-04,Champions,1436258,Trey Nyoni,8650,Liverpool,8695,Fenerbahçe,0,MED,1,85.0,1.0,1.0,2.0,0.0,1.0
+6106330,2026-11-04,Champions,1473534,Jérémy Jacquet,8650,Liverpool,8695,Fenerbahçe,0,DEF,1,90.0,2.0,0.0,1.0,1.0,2.0
+6106330,2026-11-04,Champions,1553105,Víctor Muñoz,8650,Liverpool,8695,Fenerbahçe,0,DEL,1,66.0,3.0,0.0,0.0,1.0,2.0
+6106330,2026-11-04,Champions,1597668,Rio Ngumoha,8650,Liverpool,8695,Fenerbahçe,0,DEL,1,66.0,2.0,0.0,1.0,4.0,1.0
+6112306,2026-11-04,Europa League,209430,Konstantinos Fortounis,8638,Olympiakos,9851,Rennes,0,DEL,1,90.0,2.0,0.0,0.0,4.0,1.0
+6112306,2026-11-04,Europa League,276729,Stefan Ortega,8638,Olympiakos,9851,Rennes,0,POR,1,90.0,0.0,0.0,0.0,1.0,0.0
+6112306,2026-11-04,Europa League,279714,Brice Samba,9851,Rennes,8638,Olympiacos,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+6112306,2026-11-04,Europa League,317062,Adrien Thomasson,9851,Rennes,8638,Olympiacos,1,MED,1,81.0,0.0,0.0,3.0,2.0,6.0
+6112306,2026-11-04,Europa League,530197,Manolis Saliakas,8638,Olympiakos,9851,Rennes,0,DEF,1,45.0,1.0,0.0,3.0,0.0,1.0
+6112306,2026-11-04,Europa League,562719,Valentin Rongier,9851,Rennes,8638,Olympiacos,1,MED,0,30.0,2.0,1.0,0.0,0.0,3.0
+6112306,2026-11-04,Europa League,566644,Chiquinho,8638,Olympiakos,9851,Rennes,0,MED,0,11.0,0.0,0.0,0.0,1.0,0.0
+6112306,2026-11-04,Europa League,575225,Gelson Martins,8638,Olympiakos,9851,Rennes,0,DEL,0,31.0,2.0,2.0,2.0,0.0,0.0
+6112306,2026-11-04,Europa League,643690,Roman Yaremchuk,8638,Olympiakos,9851,Rennes,0,DEL,0,31.0,1.0,0.0,0.0,1.0,0.0
+6112306,2026-11-04,Europa League,671331,Leon Bailey,8638,Olympiakos,9851,Rennes,0,DEL,1,59.0,1.0,1.0,0.0,0.0,1.0
+6112306,2026-11-04,Europa League,693171,Ludovic Blas,9851,Rennes,8638,Olympiacos,1,DEL,0,10.0,0.0,0.0,0.0,0.0,0.0
+6112306,2026-11-04,Europa League,719055,Panagiotis Retsos,8638,Olympiakos,9851,Rennes,0,DEF,1,90.0,1.0,0.0,3.0,0.0,0.0
+6112306,2026-11-04,Europa League,765466,Sebastian Szymański,9851,Rennes,8638,Olympiacos,1,MED,1,60.0,1.0,0.0,0.0,0.0,0.0
+6112306,2026-11-04,Europa League,770321,Mahdi Camara,9851,Rennes,8638,Olympiacos,1,MED,1,90.0,0.0,0.0,1.0,0.0,2.0
+6112306,2026-11-04,Europa League,813055,Mousa Tamari,9851,Rennes,8638,Olympiacos,1,DEL,1,80.0,3.0,2.0,0.0,3.0,0.0
+6112306,2026-11-04,Europa League,924446,Bryan Reynolds,9851,Rennes,8638,Olympiacos,1,DEF,1,90.0,1.0,0.0,0.0,0.0,2.0
+6112306,2026-11-04,Europa League,935622,Marcus Holmgren Pedersen,8638,Olympiakos,9851,Rennes,0,MED,0,45.0,0.0,0.0,1.0,0.0,1.0
+6112306,2026-11-04,Europa League,951976,Nair Tiknizyan,8638,Olympiakos,9851,Rennes,0,DEF,0,8.0,0.0,0.0,0.0,0.0,0.0
+6112306,2026-11-04,Europa League,954962,David Carmo,8638,Olympiakos,9851,Rennes,0,DEF,1,90.0,0.0,0.0,2.0,0.0,3.0
+6112306,2026-11-04,Europa League,972120,Boulaye Dia,9851,Rennes,8638,Olympiacos,1,DEL,1,81.0,0.0,0.0,1.0,2.0,0.0
+6112306,2026-11-04,Europa League,1079554,Anthony Rouault,9851,Rennes,8638,Olympiacos,1,DEF,1,90.0,1.0,0.0,4.0,1.0,1.0
+6112306,2026-11-04,Europa League,1131349,Santiago Hezze,8638,Olympiakos,9851,Rennes,0,MED,1,90.0,0.0,0.0,5.0,0.0,1.0
+6112306,2026-11-04,Europa League,1186444,Charlie Cresswell,9851,Rennes,8638,Olympiacos,1,DEF,1,90.0,1.0,1.0,1.0,0.0,1.0
+6112306,2026-11-04,Europa League,1287837,Bruno Onyemaechi,8638,Olympiakos,9851,Rennes,0,DEF,1,82.0,0.0,0.0,3.0,0.0,1.0
+6112306,2026-11-04,Europa League,1331597,Gustavo Puerta,8638,Olympiakos,9851,Rennes,0,MED,1,90.0,2.0,0.0,2.0,3.0,1.0
+6112306,2026-11-04,Europa League,1391052,Eliezer Mayenda,9851,Rennes,8638,Olympiacos,1,DEL,0,9.0,0.0,0.0,0.0,0.0,0.0
+6112306,2026-11-04,Europa League,1395482,Gustavo Sá,8638,Olympiakos,9851,Rennes,0,MED,1,79.0,1.0,0.0,3.0,4.0,1.0
+6112306,2026-11-04,Europa League,1456983,Armando González,8638,Olympiakos,9851,Rennes,0,DEL,1,59.0,1.0,0.0,1.0,0.0,0.0
+6112306,2026-11-04,Europa League,1553514,Mahamadou Nagida,9851,Rennes,8638,Olympiacos,1,DEF,1,90.0,0.0,0.0,3.0,3.0,0.0
+6112306,2026-11-04,Europa League,1553515,Djaoui Cissé,9851,Rennes,8638,Olympiacos,1,MED,0,9.0,0.0,0.0,0.0,0.0,0.0
+6112306,2026-11-04,Europa League,1692872,Gonçalo Oliveira,9851,Rennes,8638,Olympiacos,1,DEF,1,90.0,0.0,0.0,1.0,0.0,0.0
