@@ -3545,3 +3545,37 @@ partido_id,fecha,competicion,equipo_id,equipo,rival_id,rival,local,xg,remates,ti
 5836921,2026-11-04,Championship,8549,Middlesbrough,9841,Wrexham,0,0.89,12.0,2.0,0.0,2.0,9.0,6.0,0
 5836918,2026-11-04,Championship,8427,Bristol City,8602,Wolverhampton Wanderers,1,0.99,5.0,3.0,2.0,2.0,23.0,8.0,1
 5836918,2026-11-04,Championship,8602,Wolverhampton Wanderers,8427,Bristol City,0,2.35,17.0,8.0,1.0,5.0,18.0,9.0,2
+6112255,2026-11-05,Europa League,8564,Milan,8222,Ferencváros,1,1.01,15.0,2.0,2.0,2.0,12.0,9.0,0
+6112255,2026-11-05,Europa League,8222,Ferencváros,8564,Milan,0,3.11,12.0,8.0,1.0,4.0,20.0,13.0,2
+6112311,2026-11-05,Europa League,8635,Anderlecht,10013,Salzburg,1,2.53,12.0,7.0,4.0,5.0,10.0,14.0,2
+6112311,2026-11-05,Europa League,10013,Salzburg,8635,Anderlecht,0,0.52,8.0,3.0,3.0,4.0,21.0,20.0,0
+6112325,2026-11-05,Europa League,9826,Crystal Palace,8226,Hoffenheim,1,1.05,13.0,5.0,4.0,5.0,16.0,13.0,1
+6112325,2026-11-05,Europa League,8226,Hoffenheim,9826,Crystal Palace,0,1.23,15.0,5.0,3.0,5.0,23.0,15.0,1
+6112380,2026-11-05,Europa League,8632,Levski Sofia,1957,Jagiellonia Białystok,1,0.73,13.0,5.0,3.0,4.0,19.0,8.0,1
+6112380,2026-11-05,Europa League,1957,Jagiellonia Białystok,8632,Levski Sofia,0,1.03,10.0,2.0,3.0,5.0,22.0,13.0,0
+6112375,2026-11-05,Europa League,8476,Lillestrøm,6033,Viktoria Plzeň,1,0.53,15.0,4.0,2.0,3.0,17.0,7.0,0
+6112375,2026-11-05,Europa League,6033,Viktoria Plzeň,8476,Lillestrøm,0,1.7,17.0,11.0,4.0,6.0,14.0,10.0,1
+6112368,2026-11-05,Europa League,8464,NEC Nijmegen,8044,Omonia Nicosia,1,1.49,19.0,9.0,1.0,5.0,16.0,11.0,3
+6112368,2026-11-05,Europa League,8044,Omonia Nicosia,8464,NEC Nijmegen,0,0.67,6.0,3.0,0.0,2.0,25.0,12.0,1
+6112270,2026-11-05,Europa League,8560,Real Sociedad,9748,Lyon,1,1.33,11.0,4.0,3.0,5.0,16.0,23.0,1
+6112270,2026-11-05,Europa League,9748,Lyon,8560,Real Sociedad,0,1.1,12.0,4.0,4.0,6.0,10.0,10.0,1
+6112304,2026-11-05,Europa League,10247,Sparta Prague,8678,AFC Bournemouth,1,1.95,12.0,3.0,2.0,3.0,15.0,10.0,1
+6112304,2026-11-05,Europa League,8678,AFC Bournemouth,10247,Sparta Prague,0,2.3,20.0,9.0,2.0,10.0,26.0,11.0,3
+6112532,2026-11-05,Conference League,8071,AGF,10264,Braga,1,1.57,14.0,5.0,2.0,2.0,9.0,7.0,0
+6112532,2026-11-05,Conference League,10264,Braga,8071,AGF,0,2.35,26.0,8.0,2.0,7.0,17.0,14.0,0
+6112388,2026-11-05,Conference League,8524,Atalanta,8037,Kairat Almaty,1,1.89,16.0,7.0,3.0,9.0,14.0,15.0,1
+6112388,2026-11-05,Conference League,8037,Kairat Almaty,8524,Atalanta,0,0.67,7.0,3.0,4.0,2.0,23.0,10.0,1
+6112405,2026-11-05,Conference League,8113,FC Midtjylland,8593,Ajax,1,1.68,10.0,4.0,1.0,1.0,13.0,10.0,1
+6112405,2026-11-05,Conference League,8593,Ajax,8113,FC Midtjylland,0,3.45,24.0,11.0,0.0,8.0,8.0,8.0,6
+6112410,2026-11-05,Conference League,8687,FK Crvena Zvezda,10050,Inter Club d'Escaldes,1,3.15,29.0,8.0,2.0,6.0,14.0,12.0,2
+6112410,2026-11-05,Conference League,10050,Inter Club d'Escaldes,8687,FK Crvena Zvezda,0,1.44,6.0,3.0,3.0,3.0,17.0,15.0,1
+6112477,2026-11-05,Conference League,1693,KuPS,9991,Gent,1,0.26,6.0,1.0,1.0,3.0,8.0,18.0,0
+6112477,2026-11-05,Conference League,9991,Gent,1693,KuPS,0,1.51,20.0,3.0,2.0,7.0,12.0,11.0,0
+6112485,2026-11-05,Conference League,545012,Lincoln Red Imps FC,10154,Hajduk Split,1,0.16,5.0,0.0,3.0,0.0,22.0,21.0,1
+6112485,2026-11-05,Conference League,10154,Hajduk Split,545012,Lincoln Red Imps FC,0,1.37,15.0,1.0,4.0,8.0,19.0,22.0,0
+6112548,2026-11-05,Conference League,8127,Mjällby,10116,Borac Banja Luka,1,1.68,11.0,5.0,0.0,4.0,13.0,16.0,2
+6112548,2026-11-05,Conference League,10116,Borac Banja Luka,8127,Mjällby,0,1.45,15.0,4.0,2.0,6.0,16.0,12.0,0
+6112539,2026-11-05,Conference League,10191,Thun,9860,Heart of Midlothian,1,1.84,18.0,8.0,4.0,4.0,21.0,26.0,3
+6112539,2026-11-05,Conference League,9860,Heart of Midlothian,10191,Thun,0,1.22,15.0,4.0,1.0,5.0,20.0,8.0,1
+6112501,2026-11-05,Conference League,9752,Trabzonspor,8358,Freiburg,1,1.67,15.0,2.0,2.0,7.0,10.0,10.0,0
+6112501,2026-11-05,Conference League,8358,Freiburg,9752,Trabzonspor,0,0.99,12.0,5.0,3.0,4.0,16.0,19.0,1
