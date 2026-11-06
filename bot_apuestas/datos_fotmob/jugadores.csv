@@ -56662,3 +56662,61 @@ partido_id,fecha,competicion,jugador_id,jugador,equipo_id,equipo,rival_id,rival,
 6112506,2026-11-05,Conference League,1685339,Numan Ajetovikj,10039,Egnatia Rrogozhinë,480286,Universitatea Craiova,0,DEF,1,60.0,0.0,0.0,1.0,2.0,0.0
 6112506,2026-11-05,Conference League,1785966,Ibrahim Diabaté,10039,Egnatia Rrogozhinë,480286,Universitatea Craiova,0,MED,0,5.0,0.0,0.0,0.0,0.0,0.0
 6112506,2026-11-05,Conference League,1897357,Daniel Adjessa,10039,Egnatia Rrogozhinë,480286,Universitatea Craiova,0,DEL,1,72.0,1.0,0.0,0.0,1.0,2.0
+5881724,2026-11-06,2. Bundesliga,237541,Felix Klaus,8357,SpVgg Greuther Fürth,8480,Dynamo Dresden,0,DEL,1,65.0,2.0,1.0,1.0,1.0,0.0
+5881724,2026-11-06,2. Bundesliga,467488,Vincent Vermeij,8480,SG Dynamo Dresden,8357,Greuther Fürth,1,DEL,1,82.0,2.0,1.0,0.0,1.0,1.0
+5881724,2026-11-06,2. Bundesliga,522139,Dennis Srbeny,8357,SpVgg Greuther Fürth,8480,Dynamo Dresden,0,MED,0,29.0,1.0,1.0,1.0,0.0,1.0
+5881724,2026-11-06,2. Bundesliga,602300,Jannik Dehm,8357,SpVgg Greuther Fürth,8480,Dynamo Dresden,0,DEF,1,90.0,0.0,0.0,0.0,1.0,1.0
+5881724,2026-11-06,2. Bundesliga,616917,Nicolai Rapp,8480,SG Dynamo Dresden,8357,Greuther Fürth,1,MED,1,90.0,0.0,0.0,0.0,2.0,1.0
+5881724,2026-11-06,2. Bundesliga,659047,Niklas Hauptmann,8480,SG Dynamo Dresden,8357,Greuther Fürth,1,MED,1,82.0,1.0,0.0,3.0,2.0,2.0
+5881724,2026-11-06,2. Bundesliga,773519,Christoph Daferner,8480,SG Dynamo Dresden,8357,Greuther Fürth,1,DEL,0,8.0,0.0,0.0,0.0,0.0,0.0
+5881724,2026-11-06,2. Bundesliga,801122,Lennart Grill,8480,SG Dynamo Dresden,8357,Greuther Fürth,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5881724,2026-11-06,2. Bundesliga,815958,Ahmet Muhamedbegović,8480,SG Dynamo Dresden,8357,Greuther Fürth,1,DEF,1,90.0,1.0,0.0,1.0,0.0,1.0
+5881724,2026-11-06,2. Bundesliga,832736,Gian-Luca Itter,8357,SpVgg Greuther Fürth,8480,Dynamo Dresden,0,DEF,1,90.0,3.0,0.0,2.0,0.0,0.0
+5881724,2026-11-06,2. Bundesliga,950823,Paul Will,8357,SpVgg Greuther Fürth,8480,Dynamo Dresden,0,MED,1,90.0,0.0,0.0,4.0,1.0,1.0
+5881724,2026-11-06,2. Bundesliga,978212,Simon Straudi,8480,SG Dynamo Dresden,8357,Greuther Fürth,1,DEF,1,90.0,0.0,0.0,1.0,0.0,1.0
+5881724,2026-11-06,2. Bundesliga,982335,Tobias Raschl,8480,SG Dynamo Dresden,8357,Greuther Fürth,1,MED,1,90.0,1.0,0.0,1.0,1.0,0.0
+5881724,2026-11-06,2. Bundesliga,1036220,Jannis Heuer,8357,SpVgg Greuther Fürth,8480,Dynamo Dresden,0,DEF,1,90.0,3.0,0.0,1.0,1.0,1.0
+5881724,2026-11-06,2. Bundesliga,1039217,Shinta Appelkamp,8357,SpVgg Greuther Fürth,8480,Dynamo Dresden,0,MED,1,61.0,1.0,0.0,0.0,0.0,0.0
+5881724,2026-11-06,2. Bundesliga,1140913,Jonas Sterner,8480,SG Dynamo Dresden,8357,Greuther Fürth,1,DEF,1,90.0,1.0,0.0,2.0,0.0,0.0
+5881724,2026-11-06,2. Bundesliga,1187364,Ole Pohlmann,8357,SpVgg Greuther Fürth,8480,Dynamo Dresden,0,MED,1,61.0,2.0,1.0,0.0,1.0,0.0
+5881724,2026-11-06,2. Bundesliga,1279694,Ben Bobzien,8480,SG Dynamo Dresden,8357,Greuther Fürth,1,DEL,1,88.0,2.0,1.0,1.0,2.0,1.0
+5881724,2026-11-06,2. Bundesliga,1281111,Robert Wagner,8480,SG Dynamo Dresden,8357,Greuther Fürth,1,MED,1,90.0,1.0,1.0,1.0,0.0,0.0
+5881724,2026-11-06,2. Bundesliga,1414649,Krisztián Keresztes,8357,SpVgg Greuther Fürth,8480,Dynamo Dresden,0,DEF,0,25.0,0.0,0.0,0.0,1.0,0.0
+5881724,2026-11-06,2. Bundesliga,1437477,Sacha Bansé,8357,SpVgg Greuther Fürth,8480,Dynamo Dresden,0,MED,1,61.0,2.0,1.0,1.0,0.0,1.0
+5881724,2026-11-06,2. Bundesliga,1437911,Hendry Blank,8357,SpVgg Greuther Fürth,8480,Dynamo Dresden,0,DEF,1,62.0,1.0,0.0,0.0,1.0,2.0
+5881724,2026-11-06,2. Bundesliga,1455252,Kennedy Okpala,8480,SG Dynamo Dresden,8357,Greuther Fürth,1,DEL,0,2.0,0.0,0.0,0.0,0.0,0.0
+5881724,2026-11-06,2. Bundesliga,1520546,Aaron Keller,8357,SpVgg Greuther Fürth,8480,Dynamo Dresden,0,MED,0,29.0,1.0,0.0,1.0,0.0,0.0
+5881724,2026-11-06,2. Bundesliga,1531528,Benjamin Zank,8357,SpVgg Greuther Fürth,8480,Dynamo Dresden,0,DEL,0,29.0,1.0,0.0,0.0,0.0,2.0
+5881724,2026-11-06,2. Bundesliga,1606165,Kaan İnanoğlu,8480,SG Dynamo Dresden,8357,Greuther Fürth,1,DEL,0,8.0,0.0,0.0,0.0,0.0,0.0
+5881724,2026-11-06,2. Bundesliga,1619435,Omar Sillah,8357,SpVgg Greuther Fürth,8480,Dynamo Dresden,0,DEL,1,61.0,3.0,1.0,0.0,2.0,0.0
+5881724,2026-11-06,2. Bundesliga,1646943,Patrice Čović,8480,SG Dynamo Dresden,8357,Greuther Fürth,1,DEL,1,90.0,2.0,1.0,0.0,1.0,2.0
+5881724,2026-11-06,2. Bundesliga,1709671,Faton Ademi,8357,SpVgg Greuther Fürth,8480,Dynamo Dresden,0,MED,0,29.0,0.0,0.0,0.0,0.0,0.0
+5881724,2026-11-06,2. Bundesliga,1789642,Florian Hellstern,8357,SpVgg Greuther Fürth,8480,Dynamo Dresden,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5881718,2026-11-06,2. Bundesliga,260470,Leonardo Bittencourt,8398,FC Energie Cottbus,9776,Eintracht Braunschweig,0,MED,1,90.0,0.0,0.0,3.0,4.0,2.0
+5881718,2026-11-06,2. Bundesliga,555654,Tolcay Ciğerci,8398,FC Energie Cottbus,9776,Eintracht Braunschweig,0,MED,0,3.0,0.0,0.0,0.0,0.0,0.0
+5881718,2026-11-06,2. Bundesliga,637199,Leon Guwara,8398,FC Energie Cottbus,9776,Eintracht Braunschweig,0,DEF,1,87.0,0.0,0.0,6.0,0.0,0.0
+5881718,2026-11-06,2. Bundesliga,820748,Aaron Opoku,9776,Eintracht Braunschweig,8398,Energie Cottbus,1,DEL,1,90.0,2.0,0.0,2.0,0.0,1.0
+5881718,2026-11-06,2. Bundesliga,859752,Ron-Thorben Hoffmann,9776,Eintracht Braunschweig,8398,Energie Cottbus,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5881718,2026-11-06,2. Bundesliga,865059,Robin Heußer,9776,Eintracht Braunschweig,8398,Energie Cottbus,1,MED,1,70.0,0.0,0.0,1.0,2.0,0.0
+5881718,2026-11-06,2. Bundesliga,956863,Christian Kinsombi,8398,FC Energie Cottbus,9776,Eintracht Braunschweig,0,DEL,1,78.0,1.0,0.0,1.0,0.0,2.0
+5881718,2026-11-06,2. Bundesliga,978378,Moritz Hannemann,8398,FC Energie Cottbus,9776,Eintracht Braunschweig,0,DEL,1,90.0,1.0,0.0,2.0,1.0,1.0
+5881718,2026-11-06,2. Bundesliga,1024937,Kevin Ehlers,9776,Eintracht Braunschweig,8398,Energie Cottbus,1,DEF,1,90.0,1.0,0.0,2.0,1.0,0.0
+5881718,2026-11-06,2. Bundesliga,1072530,Florian Flick,9776,Eintracht Braunschweig,8398,Energie Cottbus,1,MED,1,90.0,0.0,0.0,4.0,1.0,1.0
+5881718,2026-11-06,2. Bundesliga,1106859,Henry Rorig,8398,FC Energie Cottbus,9776,Eintracht Braunschweig,0,DEF,1,90.0,1.0,0.0,0.0,0.0,1.0
+5881718,2026-11-06,2. Bundesliga,1162510,Justin Butler,8398,FC Energie Cottbus,9776,Eintracht Braunschweig,0,DEL,1,90.0,2.0,1.0,0.0,1.0,3.0
+5881718,2026-11-06,2. Bundesliga,1235057,Lukas Frenkert,9776,Eintracht Braunschweig,8398,Energie Cottbus,1,DEF,1,90.0,0.0,0.0,2.0,2.0,1.0
+5881718,2026-11-06,2. Bundesliga,1237634,Mehmet Aydın,9776,Eintracht Braunschweig,8398,Energie Cottbus,1,DEF,1,70.0,1.0,0.0,1.0,2.0,0.0
+5881718,2026-11-06,2. Bundesliga,1257828,Marcel Lotka,8398,FC Energie Cottbus,9776,Eintracht Braunschweig,0,POR,1,90.0,0.0,0.0,0.0,1.0,0.0
+5881718,2026-11-06,2. Bundesliga,1276194,Lucas Copado,8398,FC Energie Cottbus,9776,Eintracht Braunschweig,0,DEL,1,90.0,0.0,0.0,2.0,0.0,1.0
+5881718,2026-11-06,2. Bundesliga,1368656,Jovan Mijatović,9776,Eintracht Braunschweig,8398,Energie Cottbus,1,DEL,1,45.0,1.0,1.0,0.0,1.0,2.0
+5881718,2026-11-06,2. Bundesliga,1381854,Fabio Di Michele,9776,Eintracht Braunschweig,8398,Energie Cottbus,1,DEF,1,90.0,1.0,0.0,1.0,0.0,1.0
+5881718,2026-11-06,2. Bundesliga,1400168,Jannis Boziaris,8398,FC Energie Cottbus,9776,Eintracht Braunschweig,0,MED,0,12.0,1.0,0.0,0.0,0.0,0.0
+5881718,2026-11-06,2. Bundesliga,1480622,Junior Zé,9776,Eintracht Braunschweig,8398,Energie Cottbus,1,DEL,0,20.0,0.0,0.0,1.0,0.0,0.0
+5881718,2026-11-06,2. Bundesliga,1520061,Yann Sturm,9776,Eintracht Braunschweig,8398,Energie Cottbus,1,DEL,1,90.0,0.0,0.0,0.0,1.0,2.0
+5881718,2026-11-06,2. Bundesliga,1532192,Max Marie,9776,Eintracht Braunschweig,8398,Energie Cottbus,1,MED,1,90.0,2.0,0.0,4.0,3.0,3.0
+5881718,2026-11-06,2. Bundesliga,1541355,Jan Urbich,9776,Eintracht Braunschweig,8398,Energie Cottbus,1,DEL,0,45.0,1.0,0.0,1.0,2.0,3.0
+5881718,2026-11-06,2. Bundesliga,1559822,King Manu,8398,FC Energie Cottbus,9776,Eintracht Braunschweig,0,DEF,1,90.0,1.0,0.0,1.0,4.0,0.0
+5881718,2026-11-06,2. Bundesliga,1669829,Fousseny Doumbia,8398,FC Energie Cottbus,9776,Eintracht Braunschweig,0,DEF,0,3.0,0.0,0.0,0.0,0.0,0.0
+5881718,2026-11-06,2. Bundesliga,1701764,Lukas Michelbrink,8398,FC Energie Cottbus,9776,Eintracht Braunschweig,0,MED,1,87.0,2.0,0.0,0.0,0.0,3.0
+5881718,2026-11-06,2. Bundesliga,1709032,Luca Erlein,8398,FC Energie Cottbus,9776,Eintracht Braunschweig,0,DEF,1,90.0,1.0,1.0,2.0,2.0,3.0
+5881718,2026-11-06,2. Bundesliga,1819406,Tristan Wagner,9776,Eintracht Braunschweig,8398,Energie Cottbus,1,DEF,0,20.0,0.0,0.0,0.0,0.0,0.0

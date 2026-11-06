@@ -3615,3 +3615,7 @@ partido_id,fecha,competicion,equipo_id,equipo,rival_id,rival,local,xg,remates,ti
 6112490,2026-11-05,Conference League,8468,Brann,9997,St.Truiden,0,0.64,9.0,5.0,1.0,7.0,16.0,10.0,1
 6112506,2026-11-05,Conference League,480286,Universitatea Craiova,10039,Egnatia,1,2.55,19.0,9.0,4.0,5.0,10.0,12.0,2
 6112506,2026-11-05,Conference League,10039,Egnatia,480286,Universitatea Craiova,0,0.43,9.0,4.0,0.0,6.0,10.0,8.0,0
+5881724,2026-11-06,2. Bundesliga,8480,Dynamo Dresden,8357,Greuther Fürth,1,1.88,11.0,4.0,1.0,3.0,10.0,9.0,3
+5881724,2026-11-06,2. Bundesliga,8357,Greuther Fürth,8480,Dynamo Dresden,0,1.19,20.0,5.0,0.0,9.0,11.0,9.0,0
+5881718,2026-11-06,2. Bundesliga,9776,Eintracht Braunschweig,8398,Energie Cottbus,1,0.73,9.0,1.0,1.0,5.0,19.0,14.0,0
+5881718,2026-11-06,2. Bundesliga,8398,Energie Cottbus,9776,Eintracht Braunschweig,0,0.54,10.0,2.0,1.0,4.0,17.0,16.0,0
