@@ -3579,3 +3579,39 @@ partido_id,fecha,competicion,equipo_id,equipo,rival_id,rival,local,xg,remates,ti
 6112539,2026-11-05,Conference League,9860,Heart of Midlothian,10191,Thun,0,1.22,15.0,4.0,1.0,5.0,20.0,8.0,1
 6112501,2026-11-05,Conference League,9752,Trabzonspor,8358,Freiburg,1,1.67,15.0,2.0,2.0,7.0,10.0,10.0,0
 6112501,2026-11-05,Conference League,8358,Freiburg,9752,Trabzonspor,0,0.99,12.0,5.0,3.0,4.0,16.0,19.0,1
+6112262,2026-11-05,Europa League,10229,AZ Alkmaar,9885,Juventus,1,2.19,18.0,3.0,1.0,4.0,19.0,13.0,1
+6112262,2026-11-05,Europa League,9885,Juventus,10229,AZ Alkmaar,0,0.57,9.0,3.0,3.0,2.0,16.0,20.0,2
+6112242,2026-11-05,Europa League,8178,Bayer Leverkusen,8592,Marseille,1,0.86,10.0,3.0,1.0,6.0,15.0,7.0,0
+6112242,2026-11-05,Europa League,8592,Marseille,8178,Bayer Leverkusen,0,1.11,8.0,2.0,3.0,2.0,16.0,12.0,1
+6112248,2026-11-05,Europa League,9772,Benfica,2182,Lech Poznań,1,2.24,24.0,12.0,2.0,6.0,10.0,15.0,3
+6112248,2026-11-05,Europa League,2182,Lech Poznań,9772,Benfica,0,0.42,6.0,5.0,1.0,3.0,11.0,11.0,1
+6112347,2026-11-05,Europa League,9910,Celta Vigo,7978,Union St.Gilloise,1,1.01,13.0,4.0,1.0,11.0,15.0,17.0,1
+6112347,2026-11-05,Europa League,7978,Union St.Gilloise,9910,Celta Vigo,0,2.13,15.0,3.0,1.0,1.0,19.0,11.0,2
+6112301,2026-11-05,Europa League,9925,Celtic,10188,Beşiktaş,1,1.19,10.0,6.0,1.0,5.0,31.0,10.0,3
+6112301,2026-11-05,Europa League,10188,Beşiktaş,9925,Celtic,0,1.59,15.0,4.0,2.0,7.0,14.0,11.0,2
+6112365,2026-11-05,Europa League,9754,Hapoel Beer Sheva,7753,OFI Crete,1,1.31,16.0,4.0,3.0,4.0,20.0,15.0,0
+6112365,2026-11-05,Europa League,7753,OFI Crete,9754,Hapoel Beer Sheva,0,0.84,11.0,3.0,1.0,2.0,12.0,10.0,2
+6112316,2026-11-05,Europa League,10014,Sturm Graz,4622,NK Celje,1,3.15,31.0,7.0,1.0,12.0,12.0,16.0,2
+6112316,2026-11-05,Europa League,4622,NK Celje,10014,Sturm Graz,0,1.28,8.0,7.0,2.0,2.0,17.0,13.0,3
+6112331,2026-11-05,Europa League,8472,Sunderland,10156,Dinamo Zagreb,1,1.76,17.0,7.0,3.0,5.0,19.0,9.0,0
+6112331,2026-11-05,Europa League,10156,Dinamo Zagreb,8472,Sunderland,0,1.48,9.0,4.0,2.0,3.0,19.0,17.0,2
+6112361,2026-11-05,Europa League,212820,Torreense,866109,Ararat Armenia,1,1.82,12.0,5.0,3.0,4.0,10.0,13.0,3
+6112361,2026-11-05,Europa League,866109,Ararat Armenia,212820,Torreense,0,1.43,19.0,8.0,5.0,6.0,11.0,11.0,2
+6112404,2026-11-05,Conference League,8391,FC København,480291,Iberia 1999,1,2.23,12.0,4.0,2.0,3.0,15.0,15.0,2
+6112404,2026-11-05,Conference League,480291,Iberia 1999,8391,FC København,0,0.22,5.0,2.0,5.0,2.0,12.0,17.0,1
+6112480,2026-11-05,Conference League,8611,FC Twente,2137,Pafos FC,1,4.33,29.0,13.0,1.0,12.0,21.0,13.0,3
+6112480,2026-11-05,Conference League,2137,Pafos FC,8611,FC Twente,0,0.91,6.0,4.0,0.0,1.0,11.0,9.0,1
+6112474,2026-11-05,Conference League,8305,Getafe,10204,Brighton & Hove Albion,1,0.26,8.0,4.0,1.0,5.0,5.0,10.0,0
+6112474,2026-11-05,Conference League,10204,Brighton & Hove Albion,8305,Getafe,0,1.65,15.0,3.0,4.0,5.0,12.0,13.0,1
+6112471,2026-11-05,Conference League,7896,Lugano,439132,FK Kauno Žalgiris,1,1.44,14.0,5.0,1.0,4.0,12.0,8.0,3
+6112471,2026-11-05,Conference League,439132,FK Kauno Žalgiris,7896,Lugano,0,0.29,5.0,1.0,2.0,2.0,19.0,14.0,0
+6112401,2026-11-05,Conference League,9829,Monaco,10202,Nordsjælland,1,2.37,11.0,5.0,1.0,4.0,12.0,6.0,2
+6112401,2026-11-05,Conference League,10202,Nordsjælland,9829,Monaco,0,0.05,3.0,1.0,2.0,3.0,15.0,7.0,0
+6112416,2026-11-05,Conference League,10200,Panathinaikos,10144,CSKA Sofia,1,2.64,24.0,12.0,4.0,12.0,24.0,12.0,2
+6112416,2026-11-05,Conference League,10144,CSKA Sofia,10200,Panathinaikos,0,1.06,9.0,5.0,0.0,4.0,33.0,16.0,1
+6112522,2026-11-05,Conference League,624924,Riga FC,7758,Jablonec,1,1.32,13.0,2.0,1.0,5.0,20.0,17.0,1
+6112522,2026-11-05,Conference League,7758,Jablonec,624924,Riga FC,0,0.9,11.0,3.0,2.0,5.0,15.0,7.0,1
+6112490,2026-11-05,Conference League,9997,St.Truiden,8468,Brann,1,1.09,17.0,5.0,1.0,4.0,23.0,13.0,1
+6112490,2026-11-05,Conference League,8468,Brann,9997,St.Truiden,0,0.64,9.0,5.0,1.0,7.0,16.0,10.0,1
+6112506,2026-11-05,Conference League,480286,Universitatea Craiova,10039,Egnatia,1,2.55,19.0,9.0,4.0,5.0,10.0,12.0,2
+6112506,2026-11-05,Conference League,10039,Egnatia,480286,Universitatea Craiova,0,0.43,9.0,4.0,0.0,6.0,10.0,8.0,0

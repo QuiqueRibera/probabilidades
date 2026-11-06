@@ -56101,3 +56101,564 @@ partido_id,fecha,competicion,jugador_id,jugador,equipo_id,equipo,rival_id,rival,
 6112501,2026-11-05,Conference League,1460591,Wagner Pina,9752,Trabzonspor,8358,Freiburg,1,DEF,1,90.0,0.0,0.0,1.0,1.0,0.0
 6112501,2026-11-05,Conference League,1526221,Cyriaque Irié,8358,Sport-Club Freiburg,9752,Trabzonspor,0,DEL,1,72.0,1.0,0.0,3.0,0.0,4.0
 6112501,2026-11-05,Conference League,1793475,Noah Saviolo,9752,Trabzonspor,8358,Freiburg,1,DEL,1,90.0,0.0,0.0,0.0,3.0,1.0
+6112262,2026-11-05,Europa League,209384,Jordy Clasie,10229,AZ,9885,Juventus,1,MED,0,27.0,2.0,0.0,1.0,0.0,0.0
+6112262,2026-11-05,Europa League,465628,Wesley Hoedt,10229,AZ,9885,Juventus,1,DEF,0,67.0,0.0,0.0,1.0,2.0,2.0
+6112262,2026-11-05,Europa League,538501,Guglielmo Vicario,9885,Juventus,10229,AZ Alkmaar,0,POR,1,90.0,0.0,0.0,0.0,1.0,0.0
+6112262,2026-11-05,Europa League,643229,Jérémie Boga,9885,Juventus,10229,AZ Alkmaar,0,DEL,0,30.0,0.0,0.0,1.0,2.0,0.0
+6112262,2026-11-05,Europa League,787350,Douglas Luiz,9885,Juventus,10229,AZ Alkmaar,0,MED,0,5.0,0.0,0.0,0.0,0.0,0.0
+6112262,2026-11-05,Europa League,800624,Calvin Stengs,10229,AZ,9885,Juventus,1,DEL,1,73.0,0.0,0.0,1.0,0.0,0.0
+6112262,2026-11-05,Europa League,819215,Lloyd Kelly,9885,Juventus,10229,AZ Alkmaar,0,DEF,1,90.0,0.0,0.0,0.0,2.0,1.0
+6112262,2026-11-05,Europa League,823825,Randal Kolo Muani,9885,Juventus,10229,AZ Alkmaar,0,DEL,1,85.0,2.0,1.0,1.0,1.0,3.0
+6112262,2026-11-05,Europa League,824747,Jari De Busser,10229,AZ,9885,Juventus,1,POR,1,90.0,0.0,0.0,1.0,0.0,0.0
+6112262,2026-11-05,Europa League,857269,Gleison Bremer,9885,Juventus,10229,AZ Alkmaar,0,DEF,0,11.0,0.0,0.0,0.0,0.0,1.0
+6112262,2026-11-05,Europa League,860913,Jhon Lucumí,9885,Juventus,10229,AZ Alkmaar,0,DEF,1,90.0,0.0,0.0,2.0,1.0,0.0
+6112262,2026-11-05,Europa League,866516,Teun Koopmeiners,9885,Juventus,10229,AZ Alkmaar,0,MED,1,90.0,2.0,1.0,2.0,0.0,2.0
+6112262,2026-11-05,Europa League,873560,Mees de Wit,10229,AZ,9885,Juventus,1,DEF,1,90.0,1.0,0.0,0.0,0.0,0.0
+6112262,2026-11-05,Europa League,915415,Peer Koopmeiners,10229,AZ,9885,Juventus,1,MED,1,90.0,2.0,0.0,4.0,1.0,3.0
+6112262,2026-11-05,Europa League,1078846,Andrea Cambiaso,9885,Juventus,10229,AZ Alkmaar,0,MED,1,60.0,0.0,0.0,2.0,0.0,2.0
+6112262,2026-11-05,Europa League,1083562,Juan Cabal,9885,Juventus,10229,AZ Alkmaar,0,MED,0,30.0,0.0,0.0,0.0,0.0,1.0
+6112262,2026-11-05,Europa League,1106563,Nick Woltemade,9885,Juventus,10229,AZ Alkmaar,0,DEL,1,78.0,0.0,0.0,0.0,1.0,1.0
+6112262,2026-11-05,Europa League,1107280,Pape Sarr,9885,Juventus,10229,AZ Alkmaar,0,MED,1,90.0,1.0,0.0,4.0,0.0,2.0
+6112262,2026-11-05,Europa League,1114874,Denso Kasius,10229,AZ,9885,Juventus,1,DEF,1,63.0,1.0,0.0,2.0,1.0,1.0
+6112262,2026-11-05,Europa League,1131217,Pierre Kalulu,9885,Juventus,10229,AZ Alkmaar,0,DEF,1,90.0,0.0,0.0,1.0,1.0,3.0
+6112262,2026-11-05,Europa League,1189288,Federico Gatti,9885,Juventus,10229,AZ Alkmaar,0,DEF,1,79.0,1.0,0.0,1.0,1.0,0.0
+6112262,2026-11-05,Europa League,1307387,Wouter Goes,10229,AZ,9885,Juventus,1,DEF,1,63.0,2.0,0.0,1.0,5.0,0.0
+6112262,2026-11-05,Europa League,1321125,Mexx Meerdink,10229,AZ,9885,Juventus,1,DEL,1,90.0,1.0,1.0,0.0,1.0,3.0
+6112262,2026-11-05,Europa League,1329774,Lewis Schouten,10229,AZ,9885,Juventus,1,DEF,1,23.0,0.0,0.0,1.0,0.0,0.0
+6112262,2026-11-05,Europa League,1332217,Valdemar Byskov,10229,AZ,9885,Juventus,1,MED,1,63.0,1.0,0.0,0.0,2.0,1.0
+6112262,2026-11-05,Europa League,1352213,Ro-Zangelo Daal,10229,AZ,9885,Juventus,1,DEL,1,90.0,2.0,0.0,1.0,2.0,0.0
+6112262,2026-11-05,Europa League,1389199,Dave Kwakman,10229,AZ,9885,Juventus,1,MED,1,90.0,2.0,1.0,4.0,2.0,0.0
+6112262,2026-11-05,Europa League,1417581,Kees Smit,10229,AZ,9885,Juventus,1,MED,0,27.0,3.0,0.0,1.0,0.0,1.0
+6112262,2026-11-05,Europa League,1466557,Elijah Dijkstra,10229,AZ,9885,Juventus,1,DEF,0,27.0,0.0,0.0,0.0,2.0,1.0
+6112262,2026-11-05,Europa League,1656600,Ayoub Oufkir,10229,AZ,9885,Juventus,1,DEL,0,17.0,1.0,1.0,1.0,0.0,1.0
+6112262,2026-11-05,Europa League,1669628,Jeff Ekhator,9885,Juventus,10229,AZ Alkmaar,0,DEL,0,12.0,1.0,1.0,0.0,1.0,2.0
+6112262,2026-11-05,Europa League,1684401,Kerim Alajbegović,9885,Juventus,10229,AZ Alkmaar,0,MED,1,60.0,2.0,0.0,2.0,1.0,2.0
+6112242,2026-11-05,Europa League,214972,Geoffrey Kondogbia,8592,Marseille,8178,Bayer Leverkusen,0,MED,1,71.0,1.0,0.0,2.0,0.0,1.0
+6112242,2026-11-05,Europa League,266523,Pierre-Emile Højbjerg,8592,Marseille,8178,Bayer Leverkusen,0,MED,1,90.0,0.0,0.0,1.0,2.0,1.0
+6112242,2026-11-05,Europa League,330643,Mark Flekken,8178,Bayer 04 Leverkusen,8592,Marseille,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+6112242,2026-11-05,Europa League,331542,Jonas Hofmann,8178,Bayer 04 Leverkusen,8592,Marseille,1,MED,1,79.0,0.0,0.0,0.0,0.0,0.0
+6112242,2026-11-05,Europa League,359193,Lucas Vázquez,8178,Bayer 04 Leverkusen,8592,Marseille,1,MED,1,68.0,0.0,0.0,0.0,0.0,0.0
+6112242,2026-11-05,Europa League,391064,Neal Maupay,8592,Marseille,8178,Bayer Leverkusen,0,DEL,0,6.0,0.0,0.0,0.0,0.0,1.0
+6112242,2026-11-05,Europa League,411851,Robert Andrich,8178,Bayer 04 Leverkusen,8592,Marseille,1,DEF,1,68.0,1.0,1.0,3.0,0.0,2.0
+6112242,2026-11-05,Europa League,520979,Ulisses Garcia,8592,Marseille,8178,Bayer Leverkusen,0,DEF,1,84.0,0.0,0.0,1.0,1.0,2.0
+6112242,2026-11-05,Europa League,540097,Patrik Schick,8178,Bayer 04 Leverkusen,8592,Marseille,1,DEL,1,90.0,2.0,1.0,1.0,2.0,0.0
+6112242,2026-11-05,Europa League,617310,Nayef Aguerd,8592,Marseille,8178,Bayer Leverkusen,0,DEF,1,90.0,1.0,0.0,2.0,0.0,0.0
+6112242,2026-11-05,Europa League,642551,Aleix García,8178,Bayer 04 Leverkusen,8592,Marseille,1,MED,1,90.0,0.0,0.0,2.0,0.0,0.0
+6112242,2026-11-05,Europa League,687868,Jeffrey De Lange,8592,Marseille,8178,Bayer Leverkusen,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+6112242,2026-11-05,Europa League,789914,Edmond Tapsoba,8178,Bayer 04 Leverkusen,8592,Marseille,1,DEF,1,90.0,2.0,0.0,1.0,0.0,0.0
+6112242,2026-11-05,Europa League,812652,Facundo Medina,8178,Bayer 04 Leverkusen,8592,Marseille,1,DEF,1,90.0,0.0,0.0,1.0,1.0,1.0
+6112242,2026-11-05,Europa League,844437,Amine Gouiri,8592,Marseille,8178,Bayer Leverkusen,0,DEL,1,84.0,3.0,2.0,0.0,0.0,1.0
+6112242,2026-11-05,Europa League,889536,Timothy Weah,8592,Marseille,8178,Bayer Leverkusen,0,DEF,1,90.0,1.0,0.0,1.0,2.0,1.0
+6112242,2026-11-05,Europa League,942379,Miguel Gutiérrez,8178,Bayer 04 Leverkusen,8592,Marseille,1,DEF,1,90.0,1.0,0.0,0.0,0.0,1.0
+6112242,2026-11-05,Europa League,956659,Himad Abdelli,8592,Marseille,8178,Bayer Leverkusen,0,MED,1,90.0,0.0,0.0,1.0,0.0,1.0
+6112242,2026-11-05,Europa League,1107620,Jarell Quansah,8178,Bayer 04 Leverkusen,8592,Marseille,1,DEF,1,90.0,3.0,0.0,2.0,3.0,1.0
+6112242,2026-11-05,Europa League,1126058,Malik Tillman,8178,Bayer 04 Leverkusen,8592,Marseille,1,MED,0,11.0,0.0,0.0,0.0,1.0,0.0
+6112242,2026-11-05,Europa League,1187227,CJ Egan-Riley,8592,Marseille,8178,Bayer Leverkusen,0,DEF,1,90.0,1.0,0.0,1.0,0.0,1.0
+6112242,2026-11-05,Europa League,1199959,Equi Fernández,8178,Bayer 04 Leverkusen,8592,Marseille,1,MED,0,22.0,0.0,0.0,0.0,1.0,0.0
+6112242,2026-11-05,Europa League,1265963,Igor Paixão,8592,Marseille,8178,Bayer Leverkusen,0,DEL,1,71.0,1.0,0.0,1.0,1.0,1.0
+6112242,2026-11-05,Europa League,1353104,Tochukwu Nnadi,8592,Marseille,8178,Bayer Leverkusen,0,MED,0,19.0,0.0,0.0,2.0,1.0,1.0
+6112242,2026-11-05,Europa League,1367047,Afonso Moreira,8178,Bayer 04 Leverkusen,8592,Marseille,1,DEL,0,22.0,0.0,0.0,0.0,1.0,0.0
+6112242,2026-11-05,Europa League,1457626,Ibrahim Maza,8178,Bayer 04 Leverkusen,8592,Marseille,1,MED,1,79.0,1.0,1.0,5.0,2.0,2.0
+6112242,2026-11-05,Europa League,1669618,Alexi Koum,8592,Marseille,8178,Bayer Leverkusen,0,DEF,0,6.0,0.0,0.0,0.0,0.0,0.0
+6112242,2026-11-05,Europa League,1793199,Montrell Culbreath,8178,Bayer 04 Leverkusen,8592,Marseille,1,MED,0,11.0,0.0,0.0,0.0,1.0,0.0
+6112242,2026-11-05,Europa League,1814264,Tadjidine Mmadi,8592,Marseille,8178,Bayer Leverkusen,0,DEL,0,19.0,0.0,0.0,1.0,0.0,1.0
+6112242,2026-11-05,Europa League,1843428,Kelyann Bezahaf,8592,Marseille,8178,Bayer Leverkusen,0,DEF,1,90.0,0.0,0.0,3.0,0.0,0.0
+6112248,2026-11-05,Europa League,310768,Fredrik Aursnes,9772,Benfica,2182,Lech Poznań,1,MED,0,28.0,0.0,0.0,0.0,0.0,1.0
+6112248,2026-11-05,Europa League,412981,Radosław Murawski,2182,Lech Poznan,9772,Benfica,0,MED,1,90.0,0.0,0.0,0.0,1.0,1.0
+6112248,2026-11-05,Europa League,477023,Rafa Silva,9772,Benfica,2182,Lech Poznań,1,DEL,1,62.0,3.0,2.0,1.0,2.0,2.0
+6112248,2026-11-05,Europa League,502931,Filip Jagiełło,2182,Lech Poznan,9772,Benfica,0,MED,0,20.0,0.0,0.0,0.0,1.0,0.0
+6112248,2026-11-05,Europa League,524434,João Palhinha,9772,Benfica,2182,Lech Poznań,1,MED,0,21.0,0.0,0.0,0.0,0.0,0.0
+6112248,2026-11-05,Europa League,614169,Gustav Berggren,2182,Lech Poznan,9772,Benfica,0,MED,0,19.0,0.0,0.0,0.0,0.0,0.0
+6112248,2026-11-05,Europa League,630036,Mateusz Lis,2182,Lech Poznan,9772,Benfica,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+6112248,2026-11-05,Europa League,672803,Joel Pereira,2182,Lech Poznan,9772,Benfica,0,DEF,1,79.0,0.0,0.0,2.0,0.0,2.0
+6112248,2026-11-05,Europa League,688876,Dodi Lukébakio,9772,Benfica,2182,Lech Poznań,1,DEL,0,8.0,3.0,2.0,0.0,0.0,2.0
+6112248,2026-11-05,Europa League,731338,Robert Gumny,2182,Lech Poznan,9772,Benfica,0,DEF,0,11.0,0.0,0.0,2.0,0.0,0.0
+6112248,2026-11-05,Europa League,822402,Leo Bengtsson,2182,Lech Poznan,9772,Benfica,0,MED,0,19.0,1.0,1.0,0.0,0.0,0.0
+6112248,2026-11-05,Europa League,881626,Luis Palma,2182,Lech Poznan,9772,Benfica,0,DEL,0,28.0,1.0,1.0,1.0,0.0,1.0
+6112248,2026-11-05,Europa League,1022350,Anatoliy Trubin,9772,Benfica,2182,Lech Poznań,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+6112248,2026-11-05,Europa League,1031428,Daniel Håkans,2182,Lech Poznan,9772,Benfica,0,DEL,1,62.0,0.0,0.0,1.0,0.0,0.0
+6112248,2026-11-05,Europa League,1042022,Mateusz Skrzypczak,2182,Lech Poznan,9772,Benfica,0,DEF,1,90.0,0.0,0.0,0.0,4.0,1.0
+6112248,2026-11-05,Europa League,1079500,Souffian El Karouani,9772,Benfica,2182,Lech Poznań,1,DEF,1,90.0,1.0,1.0,0.0,1.0,1.0
+6112248,2026-11-05,Europa League,1088066,Jhon Durán,9772,Benfica,2182,Lech Poznań,1,DEL,1,90.0,5.0,2.0,0.0,3.0,2.0
+6112248,2026-11-05,Europa League,1100266,Pablo Rodríguez,2182,Lech Poznan,9772,Benfica,0,MED,1,70.0,2.0,2.0,0.0,3.0,1.0
+6112248,2026-11-05,Europa League,1134825,Patrik Wålemark,2182,Lech Poznan,9772,Benfica,0,DEL,1,71.0,1.0,1.0,1.0,1.0,0.0
+6112248,2026-11-05,Europa League,1187283,Tomás Araújo,9772,Benfica,2182,Lech Poznań,1,DEF,1,69.0,0.0,0.0,0.0,0.0,1.0
+6112248,2026-11-05,Europa League,1192398,Georgiy Sudakov,9772,Benfica,2182,Lech Poznań,1,MED,1,90.0,1.0,1.0,2.0,0.0,0.0
+6112248,2026-11-05,Europa League,1198071,Manu Silva,9772,Benfica,2182,Lech Poznań,1,MED,1,62.0,1.0,0.0,2.0,1.0,2.0
+6112248,2026-11-05,Europa League,1227397,Antoni Kozubal,2182,Lech Poznan,9772,Benfica,0,MED,1,71.0,1.0,0.0,2.0,1.0,0.0
+6112248,2026-11-05,Europa League,1228558,Andreas Schjelderup,9772,Benfica,2182,Lech Poznań,1,DEL,1,82.0,2.0,1.0,0.0,2.0,1.0
+6112248,2026-11-05,Europa League,1307326,Yannick Agnero,2182,Lech Poznan,9772,Benfica,0,DEL,1,90.0,0.0,0.0,0.0,2.0,1.0
+6112248,2026-11-05,Europa League,1318686,Alessandro Circati,9772,Benfica,2182,Lech Poznań,1,DEF,1,90.0,0.0,0.0,2.0,0.0,0.0
+6112248,2026-11-05,Europa League,1352923,Enzo Barrenechea,9772,Benfica,2182,Lech Poznań,1,MED,0,28.0,0.0,0.0,0.0,0.0,0.0
+6112248,2026-11-05,Europa League,1363660,Gianluca Prestianni,9772,Benfica,2182,Lech Poznań,1,DEL,0,28.0,3.0,1.0,0.0,0.0,0.0
+6112248,2026-11-05,Europa League,1375810,Terry Yegbe,2182,Lech Poznan,9772,Benfica,0,DEF,1,90.0,0.0,0.0,2.0,0.0,4.0
+6112248,2026-11-05,Europa League,1437855,Michał Gurgul,2182,Lech Poznan,9772,Benfica,0,DEF,1,90.0,0.0,0.0,0.0,2.0,0.0
+6112248,2026-11-05,Europa League,1486264,Claudio Echeverri,9772,Benfica,2182,Lech Poznań,1,DEL,1,62.0,3.0,1.0,0.0,1.0,2.0
+6112248,2026-11-05,Europa League,1763613,Daniel Banjaqui,9772,Benfica,2182,Lech Poznań,1,DEF,1,90.0,2.0,1.0,3.0,1.0,1.0
+6112347,2026-11-05,Europa League,174472,Iago Aspas,9910,Celta de Vigo,7978,Union St.Gilloise,1,DEL,0,30.0,0.0,0.0,0.0,1.0,0.0
+6112347,2026-11-05,Europa League,196169,Marcos Alonso,9910,Celta de Vigo,7978,Union St.Gilloise,1,DEF,1,90.0,0.0,0.0,2.0,0.0,2.0
+6112347,2026-11-05,Europa League,430838,Nikki Havenaar,7978,Union Saint-Gilloise,9910,Celta Vigo,0,DEF,1,81.0,0.0,0.0,4.0,0.0,2.0
+6112347,2026-11-05,Europa League,671686,Aleix Febas,9910,Celta de Vigo,7978,Union St.Gilloise,1,MED,1,60.0,1.0,0.0,1.0,0.0,1.0
+6112347,2026-11-05,Europa League,681213,Ionuț Radu,9910,Celta de Vigo,7978,Union St.Gilloise,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+6112347,2026-11-05,Europa League,695405,Hervé Koffi,7978,Union Saint-Gilloise,9910,Celta Vigo,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+6112347,2026-11-05,Europa League,768266,Ross Sykes,7978,Union Saint-Gilloise,9910,Celta Vigo,0,DEF,0,9.0,0.0,0.0,0.0,0.0,0.0
+6112347,2026-11-05,Europa League,817821,Darius Olaru,7978,Union Saint-Gilloise,9910,Celta Vigo,0,MED,0,4.0,0.0,0.0,0.0,0.0,0.0
+6112347,2026-11-05,Europa League,972406,Adem Zorgane,7978,Union Saint-Gilloise,9910,Celta Vigo,0,MED,1,66.0,2.0,0.0,1.0,0.0,0.0
+6112347,2026-11-05,Europa League,1102732,Ferrán Jutglà,9910,Celta de Vigo,7978,Union St.Gilloise,1,DEL,0,9.0,1.0,0.0,0.0,0.0,0.0
+6112347,2026-11-05,Europa League,1106742,Sergio Carreira,9910,Celta de Vigo,7978,Union St.Gilloise,1,MED,1,90.0,2.0,0.0,0.0,1.0,1.0
+6112347,2026-11-05,Europa League,1109046,Ilaix Moriba,9910,Celta de Vigo,7978,Union St.Gilloise,1,MED,0,30.0,1.0,0.0,1.0,0.0,0.0
+6112347,2026-11-05,Europa League,1178319,Louis Patris,7978,Union Saint-Gilloise,9910,Celta Vigo,0,MED,1,90.0,2.0,0.0,1.0,1.0,3.0
+6112347,2026-11-05,Europa League,1184693,Couhaib Driouech,9910,Celta de Vigo,7978,Union St.Gilloise,1,DEL,0,19.0,1.0,0.0,0.0,0.0,0.0
+6112347,2026-11-05,Europa League,1232229,Denzel De Roeve,7978,Union Saint-Gilloise,9910,Celta Vigo,0,DEF,0,24.0,0.0,0.0,0.0,0.0,0.0
+6112347,2026-11-05,Europa League,1272740,Williot Swedberg,9910,Celta de Vigo,7978,Union St.Gilloise,1,DEL,1,71.0,0.0,0.0,1.0,2.0,0.0
+6112347,2026-11-05,Europa League,1307981,Guilherme Smith,7978,Union Saint-Gilloise,9910,Celta Vigo,0,MED,1,81.0,1.0,0.0,4.0,0.0,1.0
+6112347,2026-11-05,Europa League,1308414,Hugo Álvarez,9910,Celta de Vigo,7978,Union St.Gilloise,1,DEL,1,60.0,0.0,0.0,0.0,1.0,0.0
+6112347,2026-11-05,Europa League,1310440,Javi Rueda,9910,Celta de Vigo,7978,Union St.Gilloise,1,MED,1,81.0,0.0,0.0,2.0,3.0,0.0
+6112347,2026-11-05,Europa League,1322858,Pablo Durán,9910,Celta de Vigo,7978,Union St.Gilloise,1,DEL,1,90.0,5.0,3.0,1.0,1.0,7.0
+6112347,2026-11-05,Europa League,1338361,Besfort Zeneli,7978,Union Saint-Gilloise,9910,Celta Vigo,0,MED,1,90.0,4.0,3.0,0.0,2.0,1.0
+6112347,2026-11-05,Europa League,1417095,Kamiel van de Perre,7978,Union Saint-Gilloise,9910,Celta Vigo,0,MED,1,90.0,1.0,0.0,4.0,0.0,2.0
+6112347,2026-11-05,Europa League,1421270,Kevin Rodríguez,7978,Union Saint-Gilloise,9910,Celta Vigo,0,DEL,1,66.0,1.0,0.0,0.0,5.0,0.0
+6112347,2026-11-05,Europa League,1435439,Javi Rodríguez,9910,Celta de Vigo,7978,Union St.Gilloise,1,DEF,1,90.0,1.0,1.0,1.0,1.0,2.0
+6112347,2026-11-05,Europa League,1471333,Relebohile Mofokeng,7978,Union Saint-Gilloise,9910,Celta Vigo,0,DEL,1,86.0,2.0,0.0,1.0,0.0,0.0
+6112347,2026-11-05,Europa League,1499651,Dylan Aquino,7978,Union Saint-Gilloise,9910,Celta Vigo,0,DEL,0,24.0,0.0,0.0,1.0,0.0,0.0
+6112347,2026-11-05,Europa League,1578176,Yoel Lago,9910,Celta de Vigo,7978,Union St.Gilloise,1,DEF,1,90.0,0.0,0.0,3.0,0.0,3.0
+6112347,2026-11-05,Europa League,1668203,Nohim Chibani,7978,Union Saint-Gilloise,9910,Celta Vigo,0,DEF,1,90.0,1.0,0.0,1.0,0.0,1.0
+6112347,2026-11-05,Europa League,1670317,Massiré Sylla,7978,Union Saint-Gilloise,9910,Celta Vigo,0,DEF,1,90.0,1.0,0.0,2.0,7.0,1.0
+6112347,2026-11-05,Europa League,1732791,Andrés Antañón,9910,Celta de Vigo,7978,Union St.Gilloise,1,DEL,0,9.0,0.0,0.0,0.0,0.0,0.0
+6112347,2026-11-05,Europa League,1825995,Hugo Burcio,9910,Celta de Vigo,7978,Union St.Gilloise,1,MED,1,81.0,1.0,0.0,3.0,0.0,1.0
+6112347,2026-11-05,Europa League,1869291,Ilan Hurtevent,7978,Union Saint-Gilloise,9910,Celta Vigo,0,MED,0,9.0,0.0,0.0,0.0,0.0,0.0
+6112301,2026-11-05,Europa League,111060,Callum McGregor,9925,Celtic,10188,Beşiktaş,1,MED,1,90.0,0.0,0.0,4.0,0.0,0.0
+6112301,2026-11-05,Europa League,185566,James Forrest,9925,Celtic,10188,Beşiktaş,1,DEL,1,61.0,1.0,1.0,2.0,0.0,0.0
+6112301,2026-11-05,Europa League,280287,Sam Johnstone,9925,Celtic,10188,Beşiktaş,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+6112301,2026-11-05,Europa League,318615,Leandro Trossard,10188,Besiktas,9925,Celtic,0,DEL,1,90.0,4.0,0.0,1.0,2.0,0.0
+6112301,2026-11-05,Europa League,554534,Alexander Nübel,10188,Besiktas,9925,Celtic,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+6112301,2026-11-05,Europa League,582499,Kieran Tierney,9925,Celtic,10188,Beşiktaş,1,DEF,1,90.0,1.0,0.0,2.0,0.0,0.0
+6112301,2026-11-05,Europa League,623540,Václav Cerny,10188,Besiktas,9925,Celtic,0,DEL,1,83.0,1.0,0.0,1.0,0.0,1.0
+6112301,2026-11-05,Europa League,643589,Cameron Carter-Vickers,9925,Celtic,10188,Beşiktaş,1,DEF,1,78.0,0.0,0.0,1.0,0.0,1.0
+6112301,2026-11-05,Europa League,643635,Amir Murillo,10188,Besiktas,9925,Celtic,0,DEF,1,90.0,0.0,0.0,3.0,2.0,0.0
+6112301,2026-11-05,Europa League,643771,Jordan Lotomba,9925,Celtic,10188,Beşiktaş,1,DEF,1,61.0,1.0,0.0,3.0,3.0,1.0
+6112301,2026-11-05,Europa League,737857,Dušan Vlahović,10188,Besiktas,9925,Celtic,0,DEL,0,20.0,0.0,0.0,0.0,0.0,0.0
+6112301,2026-11-05,Europa League,738064,Salih Özcan,10188,Besiktas,9925,Celtic,0,MED,1,76.0,0.0,0.0,2.0,0.0,1.0
+6112301,2026-11-05,Europa League,782705,Liam Scales,9925,Celtic,10188,Beşiktaş,1,DEF,1,90.0,1.0,1.0,3.0,1.0,0.0
+6112301,2026-11-05,Europa League,866358,Tiago Djaló,10188,Besiktas,9925,Celtic,0,DEF,0,20.0,0.0,0.0,0.0,0.0,0.0
+6112301,2026-11-05,Europa League,873855,Emirhan Topçu,10188,Besiktas,9925,Celtic,0,DEF,1,90.0,0.0,0.0,0.0,2.0,1.0
+6112301,2026-11-05,Europa League,921919,Sebastian Tounekti,9925,Celtic,10188,Beşiktaş,1,DEL,1,61.0,0.0,0.0,1.0,0.0,2.0
+6112301,2026-11-05,Europa League,931605,Benjamin Nygren,9925,Celtic,10188,Beşiktaş,1,MED,1,90.0,2.0,0.0,4.0,3.0,4.0
+6112301,2026-11-05,Europa League,934960,Kasper Waarts Høgh,9925,Celtic,10188,Beşiktaş,1,DEL,1,77.0,0.0,0.0,0.0,1.0,1.0
+6112301,2026-11-05,Europa League,935409,Orkun Kökcü,10188,Besiktas,9925,Celtic,0,MED,0,14.0,1.0,1.0,1.0,1.0,0.0
+6112301,2026-11-05,Europa League,971787,Haissem Hassan,9925,Celtic,10188,Beşiktaş,1,DEL,0,13.0,1.0,1.0,0.0,0.0,0.0
+6112301,2026-11-05,Europa League,992071,Rıdvan Yılmaz,10188,Besiktas,9925,Celtic,0,DEF,0,7.0,0.0,0.0,1.0,0.0,0.0
+6112301,2026-11-05,Europa League,1044299,Hyeon-Gyu Oh,10188,Besiktas,9925,Celtic,0,DEL,1,70.0,1.0,0.0,0.0,1.0,1.0
+6112301,2026-11-05,Europa League,1114979,Emmanuel Agbadou,10188,Besiktas,9925,Celtic,0,DEF,1,70.0,0.0,0.0,2.0,0.0,1.0
+6112301,2026-11-05,Europa League,1249915,Dane Murray,9925,Celtic,10188,Beşiktaş,1,DEF,0,12.0,0.0,0.0,0.0,0.0,0.0
+6112301,2026-11-05,Europa League,1251666,Ernest Poku,10188,Besiktas,9925,Celtic,0,MED,1,90.0,2.0,1.0,1.0,1.0,3.0
+6112301,2026-11-05,Europa League,1264368,Junior Olaïtan,10188,Besiktas,9925,Celtic,0,MED,1,90.0,6.0,2.0,2.0,0.0,0.0
+6112301,2026-11-05,Europa League,1329169,Mika Baur,9925,Celtic,10188,Beşiktaş,1,MED,1,90.0,0.0,0.0,10.0,1.0,1.0
+6112301,2026-11-05,Europa League,1387194,Kassoum Ouattara,10188,Besiktas,9925,Celtic,0,DEF,1,83.0,0.0,0.0,0.0,0.0,3.0
+6112301,2026-11-05,Europa League,1416581,Callum Osmand,9925,Celtic,10188,Beşiktaş,1,DEL,0,29.0,1.0,1.0,0.0,0.0,0.0
+6112301,2026-11-05,Europa League,1576597,Camilo Durán,9925,Celtic,10188,Beşiktaş,1,DEL,0,29.0,2.0,2.0,0.0,0.0,0.0
+6112301,2026-11-05,Europa League,1642084,İlhan Fakılı,10188,Besiktas,9925,Celtic,0,DEL,0,7.0,0.0,0.0,0.0,0.0,0.0
+6112301,2026-11-05,Europa League,1663615,Colby Donovan,9925,Celtic,10188,Beşiktaş,1,DEF,0,29.0,0.0,0.0,1.0,0.0,0.0
+6112365,2026-11-05,Europa League,300618,Andreas Bouchalakis,7753,OFI,9754,Hapoel Beer Sheva,0,MED,1,89.0,0.0,0.0,5.0,2.0,2.0
+6112365,2026-11-05,Europa League,307446,Taxiarchis Fountas,7753,OFI,9754,Hapoel Beer Sheva,0,DEL,1,64.0,3.0,1.0,1.0,0.0,0.0
+6112365,2026-11-05,Europa League,487334,Ofir Marciano,9754,Hapoel Be'er Sheva,7753,OFI Crete,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+6112365,2026-11-05,Europa League,543172,Lorenzo Dickmann,7753,OFI,9754,Hapoel Beer Sheva,0,MED,1,90.0,0.0,0.0,2.0,4.0,2.0
+6112365,2026-11-05,Europa League,547722,Adrián Ugarriza,9754,Hapoel Be'er Sheva,7753,OFI Crete,1,DEL,1,62.0,2.0,0.0,0.0,0.0,1.0
+6112365,2026-11-05,Europa League,574623,Kenan Kodro,7753,OFI,9754,Hapoel Beer Sheva,0,DEL,1,80.0,0.0,0.0,0.0,0.0,0.0
+6112365,2026-11-05,Europa League,604348,Achilleas Poungouras,7753,OFI,9754,Hapoel Beer Sheva,0,DEF,1,90.0,1.0,1.0,0.0,1.0,0.0
+6112365,2026-11-05,Europa League,655165,Zisis Karachalios,7753,OFI,9754,Hapoel Beer Sheva,0,MED,0,10.0,0.0,0.0,1.0,0.0,0.0
+6112365,2026-11-05,Europa League,675600,Aitor Cantalapiedra,7753,OFI,9754,Hapoel Beer Sheva,0,MED,0,26.0,1.0,0.0,0.0,0.0,0.0
+6112365,2026-11-05,Europa League,723574,Dimitrios Nikolaou,7753,OFI,9754,Hapoel Beer Sheva,0,DEF,1,90.0,0.0,0.0,0.0,0.0,0.0
+6112365,2026-11-05,Europa League,784493,Thanasis Androutsos,7753,OFI,9754,Hapoel Beer Sheva,0,MED,1,89.0,2.0,1.0,1.0,1.0,1.0
+6112365,2026-11-05,Europa League,805779,Igor Zlatanović,9754,Hapoel Be'er Sheva,7753,OFI Crete,1,DEL,0,28.0,1.0,0.0,0.0,1.0,0.0
+6112365,2026-11-05,Europa League,809171,Matan Baltaxa,9754,Hapoel Be'er Sheva,7753,OFI Crete,1,DEF,1,75.0,0.0,0.0,0.0,2.0,1.0
+6112365,2026-11-05,Europa League,899188,Idan Nachmias,9754,Hapoel Be'er Sheva,7753,OFI Crete,1,DEF,1,90.0,0.0,0.0,2.0,1.0,0.0
+6112365,2026-11-05,Europa League,916949,Giorgios Kanellopoulos,7753,OFI,9754,Hapoel Beer Sheva,0,MED,0,1.0,0.0,0.0,0.0,0.0,0.0
+6112365,2026-11-05,Europa League,919525,Javon East,9754,Hapoel Be'er Sheva,7753,OFI Crete,1,DEL,0,15.0,0.0,0.0,0.0,0.0,0.0
+6112365,2026-11-05,Europa League,923481,Pedro Amador,9754,Hapoel Be'er Sheva,7753,OFI Crete,1,DEF,0,15.0,0.0,0.0,1.0,0.0,1.0
+6112365,2026-11-05,Europa League,929781,Yonas Malede,9754,Hapoel Be'er Sheva,7753,OFI Crete,1,DEL,1,75.0,2.0,1.0,2.0,0.0,2.0
+6112365,2026-11-05,Europa League,1033314,Thiago Nuss,7753,OFI,9754,Hapoel Beer Sheva,0,DEL,1,89.0,2.0,0.0,1.0,4.0,3.0
+6112365,2026-11-05,Europa League,1071487,Borja González,7753,OFI,9754,Hapoel Beer Sheva,0,MED,0,1.0,1.0,0.0,0.0,0.0,0.0
+6112365,2026-11-05,Europa League,1109151,Mohamad Kanaan,9754,Hapoel Be'er Sheva,7753,OFI Crete,1,MED,0,21.0,2.0,2.0,1.0,0.0,1.0
+6112365,2026-11-05,Europa League,1202240,Zahi Ahmed,9754,Hapoel Be'er Sheva,7753,OFI Crete,1,DEL,1,90.0,4.0,1.0,0.0,1.0,3.0
+6112365,2026-11-05,Europa League,1225435,Nikolaos Athanasiou,7753,OFI,9754,Hapoel Beer Sheva,0,MED,1,90.0,1.0,0.0,0.0,1.0,2.0
+6112365,2026-11-05,Europa League,1229526,Forson Amankwah,9754,Hapoel Be'er Sheva,7753,OFI Crete,1,MED,1,69.0,1.0,0.0,3.0,0.0,3.0
+6112365,2026-11-05,Europa League,1238236,Guy Mizrahi,9754,Hapoel Be'er Sheva,7753,OFI Crete,1,DEF,1,90.0,0.0,0.0,4.0,1.0,1.0
+6112365,2026-11-05,Europa League,1240425,Krešimir Krizmanić,7753,OFI,9754,Hapoel Beer Sheva,0,DEF,1,90.0,0.0,0.0,1.0,0.0,0.0
+6112365,2026-11-05,Europa League,1316534,Djibril Diop,9754,Hapoel Be'er Sheva,7753,OFI Crete,1,DEF,1,90.0,0.0,0.0,3.0,0.0,2.0
+6112365,2026-11-05,Europa League,1398146,Giannis Theodosoulakis,7753,OFI,9754,Hapoel Beer Sheva,0,DEL,0,1.0,0.0,0.0,0.0,1.0,0.0
+6112365,2026-11-05,Europa League,1414052,Amir Ganah,9754,Hapoel Be'er Sheva,7753,OFI Crete,1,DEL,0,28.0,2.0,0.0,0.0,1.0,0.0
+6112365,2026-11-05,Europa League,1497826,Mohammed Abu Rumi,9754,Hapoel Be'er Sheva,7753,OFI Crete,1,DEL,1,62.0,1.0,0.0,1.0,3.0,0.0
+6112365,2026-11-05,Europa League,1533544,Klidman Lilo,7753,OFI,9754,Hapoel Beer Sheva,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+6112365,2026-11-05,Europa League,1605895,Niv Yehoshua,9754,Hapoel Be'er Sheva,7753,OFI Crete,1,MED,1,90.0,1.0,0.0,3.0,0.0,0.0
+6112316,2026-11-05,Europa League,266992,Benjamin Verbič,4622,Celje,10014,Sturm Graz,0,DEL,1,58.0,2.0,2.0,1.0,3.0,1.0
+6112316,2026-11-05,Europa League,280262,Mario Kvesić,4622,Celje,10014,Sturm Graz,0,MED,0,32.0,0.0,0.0,2.0,0.0,1.0
+6112316,2026-11-05,Europa League,446392,Jon Gorenc Stankovič,10014,SK Puntigamer Sturm Graz,4622,NK Celje,1,MED,1,90.0,5.0,1.0,1.0,1.0,0.0
+6112316,2026-11-05,Europa League,540903,Žan Žužek,4622,Celje,10014,Sturm Graz,0,DEF,0,32.0,0.0,0.0,0.0,0.0,0.0
+6112316,2026-11-05,Europa League,757630,Pijus Širvys,4622,Celje,10014,Sturm Graz,0,DEF,1,90.0,0.0,0.0,2.0,0.0,1.0
+6112316,2026-11-05,Europa League,768118,Blaž Kramer,4622,Celje,10014,Sturm Graz,0,DEL,0,24.0,1.0,1.0,0.0,0.0,1.0
+6112316,2026-11-05,Europa League,861728,Ammar Helac,10014,SK Puntigamer Sturm Graz,4622,NK Celje,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+6112316,2026-11-05,Europa League,861777,Jürgen Heil,10014,SK Puntigamer Sturm Graz,4622,NK Celje,1,DEF,1,90.0,0.0,0.0,1.0,1.0,2.0
+6112316,2026-11-05,Europa League,1002670,Paul-Friedrich Koller,10014,SK Puntigamer Sturm Graz,4622,NK Celje,1,DEF,1,90.0,0.0,0.0,1.0,1.0,3.0
+6112316,2026-11-05,Europa League,1208886,Łukasz Bejger,4622,Celje,10014,Sturm Graz,0,DEF,1,90.0,0.0,0.0,1.0,2.0,1.0
+6112316,2026-11-05,Europa League,1224534,Veton Tusha,4622,Celje,10014,Sturm Graz,0,DEL,1,66.0,1.0,1.0,0.0,1.0,2.0
+6112316,2026-11-05,Europa League,1239563,Žan-Luk Leban,4622,Celje,10014,Sturm Graz,0,POR,1,90.0,0.0,0.0,0.0,1.0,0.0
+6112316,2026-11-05,Europa League,1252806,Milot Avdyli,4622,Celje,10014,Sturm Graz,0,DEF,1,90.0,0.0,0.0,2.0,0.0,1.0
+6112316,2026-11-05,Europa League,1281972,Artemijus Tutyškinas,4622,Celje,10014,Sturm Graz,0,DEF,1,90.0,0.0,0.0,3.0,1.0,1.0
+6112316,2026-11-05,Europa League,1283000,Mark Zabukovnik,4622,Celje,10014,Sturm Graz,0,MED,1,90.0,0.0,0.0,2.0,1.0,0.0
+6112316,2026-11-05,Europa League,1284555,Svit Sešlar,4622,Celje,10014,Sturm Graz,0,MED,1,90.0,2.0,2.0,2.0,1.0,2.0
+6112316,2026-11-05,Europa League,1312274,Armandas Kučys,4622,Celje,10014,Sturm Graz,0,DEL,1,78.0,2.0,1.0,1.0,5.0,1.0
+6112316,2026-11-05,Europa League,1328540,Oumar Diakité,10014,SK Puntigamer Sturm Graz,4622,NK Celje,1,DEL,1,90.0,9.0,3.0,0.0,3.0,5.0
+6112316,2026-11-05,Europa League,1382325,Gizo Mamageishvili,10014,SK Puntigamer Sturm Graz,4622,NK Celje,1,MED,0,5.0,1.0,0.0,0.0,1.0,0.0
+6112316,2026-11-05,Europa League,1385123,Simon Seidl,10014,SK Puntigamer Sturm Graz,4622,NK Celje,1,MED,1,85.0,5.0,1.0,0.0,0.0,0.0
+6112316,2026-11-05,Europa League,1385185,Belmin Beganović,10014,SK Puntigamer Sturm Graz,4622,NK Celje,1,DEL,0,16.0,1.0,0.0,0.0,0.0,0.0
+6112316,2026-11-05,Europa League,1419287,Joshua Quarshie,10014,SK Puntigamer Sturm Graz,4622,NK Celje,1,DEF,1,90.0,1.0,0.0,1.0,0.0,3.0
+6112316,2026-11-05,Europa League,1422124,Valmir Matoshi,10014,SK Puntigamer Sturm Graz,4622,NK Celje,1,MED,1,58.0,2.0,0.0,0.0,1.0,0.0
+6112316,2026-11-05,Europa League,1515122,Arjan Malić,10014,SK Puntigamer Sturm Graz,4622,NK Celje,1,DEF,1,74.0,1.0,0.0,2.0,1.0,1.0
+6112316,2026-11-05,Europa League,1584085,Luís Balbo,10014,SK Puntigamer Sturm Graz,4622,NK Celje,1,DEF,1,90.0,3.0,1.0,1.0,1.0,1.0
+6112316,2026-11-05,Europa League,1587610,Jacob Hödl,10014,SK Puntigamer Sturm Graz,4622,NK Celje,1,MED,0,32.0,0.0,0.0,2.0,0.0,1.0
+6112316,2026-11-05,Europa League,1619293,Darko Hrka,4622,Celje,10014,Sturm Graz,0,DEF,0,12.0,0.0,0.0,1.0,1.0,0.0
+6112316,2026-11-05,Europa League,1690821,Papa Daniel,4622,Celje,10014,Sturm Graz,0,MED,1,58.0,0.0,0.0,0.0,0.0,1.0
+6112316,2026-11-05,Europa League,1698675,Luca Weinhandl,10014,SK Puntigamer Sturm Graz,4622,NK Celje,1,MED,1,90.0,3.0,1.0,3.0,3.0,0.0
+6112331,2026-11-05,Europa League,184595,Mislav Oršić,10156,Dinamo Zagreb,8472,Sunderland,0,DEL,1,80.0,3.0,1.0,2.0,1.0,0.0
+6112331,2026-11-05,Europa League,207236,Granit Xhaka,8472,Sunderland,10156,Dinamo Zagreb,1,MED,1,90.0,1.0,1.0,2.0,3.0,2.0
+6112331,2026-11-05,Europa League,277771,Thomas Meunier,8472,Sunderland,10156,Dinamo Zagreb,1,DEF,1,45.0,1.0,0.0,2.0,0.0,0.0
+6112331,2026-11-05,Europa League,344093,Josip Mišić,10156,Dinamo Zagreb,8472,Sunderland,0,MED,1,90.0,1.0,0.0,1.0,1.0,1.0
+6112331,2026-11-05,Europa League,554930,Smail Prevljak,10156,Dinamo Zagreb,8472,Sunderland,0,DEL,0,20.0,0.0,0.0,0.0,0.0,0.0
+6112331,2026-11-05,Europa League,600524,Reinildo,8472,Sunderland,10156,Dinamo Zagreb,1,DEF,0,45.0,1.0,0.0,0.0,0.0,0.0
+6112331,2026-11-05,Europa League,653982,Stjepan Radeljić,10156,Dinamo Zagreb,8472,Sunderland,0,DEF,0,45.0,0.0,0.0,1.0,0.0,0.0
+6112331,2026-11-05,Europa League,688297,Luka Ivanušec,10156,Dinamo Zagreb,8472,Sunderland,0,MED,0,26.0,0.0,0.0,1.0,0.0,2.0
+6112331,2026-11-05,Europa League,751998,Omar Alderete,8472,Sunderland,10156,Dinamo Zagreb,1,DEF,1,90.0,0.0,0.0,0.0,1.0,0.0
+6112331,2026-11-05,Europa League,754126,Kevin Danso,8472,Sunderland,10156,Dinamo Zagreb,1,DEF,1,90.0,1.0,0.0,2.0,0.0,1.0
+6112331,2026-11-05,Europa League,857618,Arbër Hoxha,10156,Dinamo Zagreb,8472,Sunderland,0,DEL,0,10.0,0.0,0.0,0.0,1.0,1.0
+6112331,2026-11-05,Europa League,861642,Bruno Goda,10156,Dinamo Zagreb,8472,Sunderland,0,DEF,1,80.0,0.0,0.0,1.0,1.0,4.0
+6112331,2026-11-05,Europa League,873557,Dominik Kotarski,10156,Dinamo Zagreb,8472,Sunderland,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+6112331,2026-11-05,Europa League,887703,Wilson Isidor,8472,Sunderland,10156,Dinamo Zagreb,1,DEL,1,64.0,4.0,2.0,0.0,0.0,0.0
+6112331,2026-11-05,Europa League,940446,Brian Brobbey,8472,Sunderland,10156,Dinamo Zagreb,1,DEL,0,26.0,2.0,1.0,0.0,0.0,0.0
+6112331,2026-11-05,Europa League,1049999,Enzo Le Fée,8472,Sunderland,10156,Dinamo Zagreb,1,MED,0,45.0,2.0,1.0,1.0,1.0,1.0
+6112331,2026-11-05,Europa League,1067763,Trai Hume,8472,Sunderland,10156,Dinamo Zagreb,1,DEF,0,45.0,1.0,0.0,1.0,2.0,1.0
+6112331,2026-11-05,Europa League,1125720,Robin Roefs,8472,Sunderland,10156,Dinamo Zagreb,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+6112331,2026-11-05,Europa League,1186606,Dion Drena Beljo,10156,Dinamo Zagreb,8472,Sunderland,0,DEL,1,70.0,2.0,1.0,1.0,1.0,1.0
+6112331,2026-11-05,Europa League,1190350,Niko Galešić,10156,Dinamo Zagreb,8472,Sunderland,0,DEF,1,90.0,0.0,0.0,1.0,0.0,1.0
+6112331,2026-11-05,Europa League,1254292,Lukas Kačavenda,10156,Dinamo Zagreb,8472,Sunderland,0,MED,1,90.0,0.0,0.0,5.0,3.0,3.0
+6112331,2026-11-05,Europa League,1287010,Nilson Angulo,8472,Sunderland,10156,Dinamo Zagreb,1,DEL,1,90.0,0.0,0.0,5.0,5.0,2.0
+6112331,2026-11-05,Europa League,1302796,Mateo Lisica,10156,Dinamo Zagreb,8472,Sunderland,0,DEL,1,90.0,0.0,0.0,1.0,0.0,1.0
+6112331,2026-11-05,Europa League,1327319,Chris Rigg,8472,Sunderland,10156,Dinamo Zagreb,1,DEL,1,45.0,0.0,0.0,0.0,0.0,0.0
+6112331,2026-11-05,Europa League,1358149,Luka Stojković,10156,Dinamo Zagreb,8472,Sunderland,0,MED,1,64.0,3.0,2.0,1.0,0.0,2.0
+6112331,2026-11-05,Europa League,1359649,Noah Sadiki,8472,Sunderland,10156,Dinamo Zagreb,1,MED,0,45.0,1.0,0.0,1.0,2.0,1.0
+6112331,2026-11-05,Europa League,1364069,Malick Fofana,8472,Sunderland,10156,Dinamo Zagreb,1,DEL,1,90.0,2.0,1.0,1.0,2.0,0.0
+6112331,2026-11-05,Europa League,1494521,Moris Valinčić,10156,Dinamo Zagreb,8472,Sunderland,0,DEF,1,90.0,0.0,0.0,1.0,1.0,1.0
+6112331,2026-11-05,Europa League,1628516,Matteo Perez Vinlöf,10156,Dinamo Zagreb,8472,Sunderland,0,DEF,0,10.0,0.0,0.0,1.0,0.0,0.0
+6112331,2026-11-05,Europa League,1664716,Dayann Méthalie,8472,Sunderland,10156,Dinamo Zagreb,1,MED,1,45.0,0.0,0.0,2.0,0.0,0.0
+6112331,2026-11-05,Europa League,1665435,Sergi Domínguez,10156,Dinamo Zagreb,8472,Sunderland,0,DEF,1,45.0,0.0,0.0,2.0,0.0,0.0
+6112331,2026-11-05,Europa League,1811265,Jules Ahoka,8472,Sunderland,10156,Dinamo Zagreb,1,MED,1,45.0,1.0,1.0,2.0,1.0,1.0
+6112361,2026-11-05,Europa League,191785,David Bruno,212820,Torreense,866109,Ararat Armenia,1,DEF,0,24.0,0.0,0.0,0.0,1.0,2.0
+6112361,2026-11-05,Europa League,388021,Kamo Hovhannisyan,866109,Ararat-Armenia,212820,Torreense,0,DEF,0,10.0,0.0,0.0,0.0,0.0,0.0
+6112361,2026-11-05,Europa League,453044,Karen Muradyan,866109,Ararat-Armenia,212820,Torreense,0,MED,1,90.0,2.0,2.0,0.0,0.0,0.0
+6112361,2026-11-05,Europa League,477205,Sandro Lima,866109,Ararat-Armenia,212820,Torreense,0,DEL,1,90.0,2.0,2.0,1.0,1.0,0.0
+6112361,2026-11-05,Europa League,492157,Amine Oudrhiri Idrissi,212820,Torreense,866109,Ararat Armenia,1,MED,0,14.0,0.0,0.0,0.0,1.0,0.0
+6112361,2026-11-05,Europa League,540414,Bruno Wilson,866109,Ararat-Armenia,212820,Torreense,0,DEF,1,90.0,1.0,1.0,2.0,1.0,1.0
+6112361,2026-11-05,Europa League,739736,Juan Balanta,866109,Ararat-Armenia,212820,Torreense,0,MED,1,80.0,1.0,0.0,0.0,1.0,0.0
+6112361,2026-11-05,Europa League,783643,Benny,866109,Ararat-Armenia,212820,Torreense,0,MED,1,68.0,3.0,0.0,0.0,1.0,2.0
+6112361,2026-11-05,Europa League,784878,Alexandros Malis,866109,Ararat-Armenia,212820,Torreense,0,DEF,1,90.0,0.0,0.0,1.0,0.0,3.0
+6112361,2026-11-05,Europa League,824659,Zidane Banjaqui,866109,Ararat-Armenia,212820,Torreense,0,DEL,0,22.0,2.0,1.0,0.0,0.0,0.0
+6112361,2026-11-05,Europa League,864840,Maxence Carlier,866109,Ararat-Armenia,212820,Torreense,0,MED,0,5.0,0.0,0.0,0.0,0.0,0.0
+6112361,2026-11-05,Europa League,886809,Javi Vázquez,212820,Torreense,866109,Ararat Armenia,1,DEF,1,90.0,3.0,2.0,1.0,1.0,0.0
+6112361,2026-11-05,Europa League,921208,Lucas Paes,212820,Torreense,866109,Ararat Armenia,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+6112361,2026-11-05,Europa League,988846,França,866109,Ararat-Armenia,212820,Torreense,0,MED,0,22.0,0.0,0.0,0.0,3.0,1.0
+6112361,2026-11-05,Europa League,1065537,Zhirayr Shaghoyan,866109,Ararat-Armenia,212820,Torreense,0,DEL,1,68.0,1.0,0.0,2.0,0.0,0.0
+6112361,2026-11-05,Europa League,1070819,Arman Nersesyan,866109,Ararat-Armenia,212820,Torreense,0,POR,0,11.0,0.0,0.0,1.0,0.0,0.0
+6112361,2026-11-05,Europa League,1184041,Volnei,212820,Torreense,866109,Ararat Armenia,1,DEF,1,90.0,0.0,0.0,0.0,0.0,1.0
+6112361,2026-11-05,Europa League,1185314,João Bravim,866109,Ararat-Armenia,212820,Torreense,0,POR,1,76.0,0.0,0.0,0.0,0.0,1.0
+6112361,2026-11-05,Europa League,1190510,Edgar Grigoryan,866109,Ararat-Armenia,212820,Torreense,0,DEF,1,90.0,1.0,0.0,2.0,0.0,1.0
+6112361,2026-11-05,Europa League,1203824,Jorge Aguirre,212820,Torreense,866109,Ararat Armenia,1,DEL,1,25.0,1.0,1.0,1.0,0.0,1.0
+6112361,2026-11-05,Europa League,1213413,Hugo Oliveira,866109,Ararat-Armenia,212820,Torreense,0,MED,1,85.0,2.0,1.0,2.0,3.0,1.0
+6112361,2026-11-05,Europa League,1216019,Juan Alcedo,212820,Torreense,866109,Ararat Armenia,1,DEF,0,14.0,0.0,0.0,0.0,1.0,0.0
+6112361,2026-11-05,Europa League,1219562,Manuel Pozo,212820,Torreense,866109,Ararat Armenia,1,DEL,1,66.0,0.0,0.0,3.0,1.0,1.0
+6112361,2026-11-05,Europa League,1246713,Dany Jean,212820,Torreense,866109,Ararat Armenia,1,DEL,1,76.0,1.0,0.0,2.0,0.0,0.0
+6112361,2026-11-05,Europa League,1300497,Artur Serobyan,866109,Ararat-Armenia,212820,Torreense,0,DEL,1,79.0,4.0,1.0,0.0,3.0,1.0
+6112361,2026-11-05,Europa League,1319208,Musa Drammeh,212820,Torreense,866109,Ararat Armenia,1,DEL,0,54.0,1.0,1.0,0.0,1.0,2.0
+6112361,2026-11-05,Europa League,1366623,Karem Zoabi,212820,Torreense,866109,Ararat Armenia,1,DEL,1,36.0,0.0,0.0,0.0,0.0,3.0
+6112361,2026-11-05,Europa League,1393916,Alejandro Alfaro,212820,Torreense,866109,Ararat Armenia,1,MED,1,90.0,0.0,0.0,1.0,1.0,0.0
+6112361,2026-11-05,Europa League,1428671,João Marques,212820,Torreense,866109,Ararat Armenia,1,DEL,1,76.0,1.0,0.0,1.0,2.0,2.0
+6112361,2026-11-05,Europa League,1526177,Luis Quintero,212820,Torreense,866109,Ararat Armenia,1,DEL,0,24.0,3.0,1.0,0.0,0.0,1.0
+6112361,2026-11-05,Europa League,1668003,Jonathan Mutombo,212820,Torreense,866109,Ararat Armenia,1,DEF,1,66.0,0.0,0.0,1.0,1.0,0.0
+6112361,2026-11-05,Europa League,1695868,Mohamed Ali Diadie,212820,Torreense,866109,Ararat Armenia,1,DEF,1,90.0,2.0,0.0,0.0,0.0,0.0
+6112404,2026-11-05,Conference League,104432,Giorgi Makaridze,480291,Saburtalo,8391,FC København,0,POR,1,90.0,0.0,0.0,0.0,0.0,1.0
+6112404,2026-11-05,Conference League,170218,Thomas Delaney,8391,FC København,480291,Iberia 1999,1,MED,1,90.0,2.0,0.0,1.0,2.0,2.0
+6112404,2026-11-05,Conference League,261936,Mohamed Elyounoussi,8391,FC København,480291,Iberia 1999,1,MED,1,45.0,1.0,1.0,1.0,0.0,0.0
+6112404,2026-11-05,Conference League,509349,Asger Sørensen,8391,FC København,480291,Iberia 1999,1,DEF,1,45.0,1.0,1.0,0.0,0.0,1.0
+6112404,2026-11-05,Conference League,653584,Bakar Kardava,480291,Saburtalo,8391,FC København,0,MED,1,90.0,0.0,0.0,2.0,1.0,2.0
+6112404,2026-11-05,Conference League,766608,Vahid Selimović,480291,Saburtalo,8391,FC København,0,DEF,1,90.0,0.0,0.0,0.0,0.0,1.0
+6112404,2026-11-05,Conference League,775246,Mads Madsen,8391,FC København,480291,Iberia 1999,1,MED,0,6.0,0.0,0.0,0.0,0.0,0.0
+6112404,2026-11-05,Conference League,823209,Marcos López,8391,FC København,480291,Iberia 1999,1,DEF,1,90.0,2.0,0.0,2.0,2.0,0.0
+6112404,2026-11-05,Conference League,836797,Alex Král,8391,FC København,480291,Iberia 1999,1,MED,1,63.0,0.0,0.0,1.0,1.0,0.0
+6112404,2026-11-05,Conference League,858710,Ibrahim Alhassan,480291,Saburtalo,8391,FC København,0,MED,0,10.0,0.0,0.0,1.0,0.0,0.0
+6112404,2026-11-05,Conference League,976051,Giorgi Kobuladze,480291,Saburtalo,8391,FC København,0,DEF,1,90.0,1.0,1.0,0.0,2.0,0.0
+6112404,2026-11-05,Conference League,1042347,Diant Ramaj,8391,FC København,480291,Iberia 1999,1,POR,1,90.0,0.0,0.0,0.0,2.0,0.0
+6112404,2026-11-05,Conference League,1065639,Jemali-Giorgi Jinjolava,480291,Saburtalo,8391,FC København,0,DEF,1,90.0,0.0,0.0,5.0,1.0,0.0
+6112404,2026-11-05,Conference League,1320887,William Clem,8391,FC København,480291,Iberia 1999,1,MED,0,45.0,1.0,0.0,2.0,1.0,1.0
+6112404,2026-11-05,Conference League,1337765,Junnosuke Suzuki,8391,FC København,480291,Iberia 1999,1,DEF,1,90.0,0.0,0.0,2.0,1.0,2.0
+6112404,2026-11-05,Conference League,1445810,Zviad Natchkebia,480291,Saburtalo,8391,FC København,0,DEL,1,89.0,1.0,0.0,1.0,1.0,3.0
+6112404,2026-11-05,Conference League,1447817,Lado Chikhradze,480291,Saburtalo,8391,FC København,0,DEL,0,1.0,0.0,0.0,0.0,0.0,0.0
+6112404,2026-11-05,Conference League,1494913,Robert,8391,FC København,480291,Iberia 1999,1,DEL,0,13.0,0.0,0.0,1.0,0.0,0.0
+6112404,2026-11-05,Conference League,1502401,Lucas Café,480291,Saburtalo,8391,FC København,0,DEL,0,1.0,0.0,0.0,0.0,1.0,2.0
+6112404,2026-11-05,Conference League,1509069,Viktor Daðason,8391,FC København,480291,Iberia 1999,1,DEL,1,90.0,0.0,0.0,2.0,2.0,2.0
+6112404,2026-11-05,Conference League,1591669,Ákos Markgráf,8391,FC København,480291,Iberia 1999,1,DEF,0,45.0,0.0,0.0,0.0,1.0,2.0
+6112404,2026-11-05,Conference League,1593435,Hunor Németh,8391,FC København,480291,Iberia 1999,1,MED,1,84.0,1.0,0.0,1.0,0.0,1.0
+6112404,2026-11-05,Conference League,1608521,Jean-Marc Tiboue,480291,Saburtalo,8391,FC København,0,DEL,1,80.0,1.0,0.0,0.0,0.0,1.0
+6112404,2026-11-05,Conference League,1617957,Nika Sikharulashvili,480291,Saburtalo,8391,FC København,0,DEL,1,74.0,0.0,0.0,2.0,1.0,0.0
+6112404,2026-11-05,Conference League,1618860,Maher Carrizo,8391,FC København,480291,Iberia 1999,1,DEL,1,77.0,1.0,0.0,1.0,1.0,1.0
+6112404,2026-11-05,Conference League,1641118,Kenay Myrie,8391,FC København,480291,Iberia 1999,1,MED,0,27.0,1.0,1.0,1.0,0.0,2.0
+6112404,2026-11-05,Conference League,1661580,Nikoloz Dadiani,480291,Saburtalo,8391,FC København,0,MED,1,89.0,1.0,0.0,1.0,1.0,2.0
+6112404,2026-11-05,Conference League,1761101,Amiran Dzagania,480291,Saburtalo,8391,FC København,0,DEL,1,90.0,1.0,1.0,0.0,3.0,2.0
+6112404,2026-11-05,Conference League,1780047,Aleksandre Amisulashvili,480291,Saburtalo,8391,FC København,0,DEF,1,90.0,0.0,0.0,0.0,2.0,3.0
+6112404,2026-11-05,Conference League,1829265,Stephen Ende,480291,Saburtalo,8391,FC København,0,DEL,0,16.0,0.0,0.0,0.0,0.0,0.0
+6112404,2026-11-05,Conference League,1901848,Geovanni Vianney,8391,FC København,480291,Iberia 1999,1,DEL,1,90.0,2.0,1.0,0.0,4.0,1.0
+6112480,2026-11-05,Conference League,52133,David Luiz,2137,Pafos,8611,FC Twente,0,DEF,1,90.0,0.0,0.0,0.0,2.0,0.0
+6112480,2026-11-05,Conference League,298933,Robin Pröpper,8611,FC Twente,2137,Pafos FC,1,DEF,1,90.0,0.0,0.0,4.0,0.0,1.0
+6112480,2026-11-05,Conference League,307235,Marko Pjaca,8611,FC Twente,2137,Pafos FC,1,DEL,0,5.0,0.0,0.0,0.0,0.0,0.0
+6112480,2026-11-05,Conference League,351999,Wout Weghorst,8611,FC Twente,2137,Pafos FC,1,DEL,1,90.0,3.0,2.0,1.0,0.0,2.0
+6112480,2026-11-05,Conference League,520670,Ken Sema,2137,Pafos,8611,FC Twente,0,MED,1,90.0,0.0,0.0,2.0,0.0,2.0
+6112480,2026-11-05,Conference League,541551,Ivan Šunjić,2137,Pafos,8611,FC Twente,0,MED,1,90.0,0.0,0.0,1.0,1.0,1.0
+6112480,2026-11-05,Conference League,545026,Nikolas Ioannou,2137,Pafos,8611,FC Twente,0,DEF,1,90.0,0.0,0.0,1.0,0.0,2.0
+6112480,2026-11-05,Conference League,560165,Samy Mmaee,2137,Pafos,8611,FC Twente,0,DEF,1,90.0,0.0,0.0,1.0,0.0,0.0
+6112480,2026-11-05,Conference League,588337,Joël Drommel,8611,FC Twente,2137,Pafos FC,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+6112480,2026-11-05,Conference League,658539,Bruno Felipe,2137,Pafos,8611,FC Twente,0,DEF,1,90.0,0.0,0.0,1.0,1.0,1.0
+6112480,2026-11-05,Conference League,666950,João Correia,2137,Pafos,8611,FC Twente,0,DEL,1,69.0,1.0,0.0,0.0,2.0,0.0
+6112480,2026-11-05,Conference League,724909,Radosław Majecki,2137,Pafos,8611,FC Twente,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+6112480,2026-11-05,Conference League,749484,Quina,2137,Pafos,8611,FC Twente,0,MED,0,9.0,0.0,0.0,1.0,0.0,0.0
+6112480,2026-11-05,Conference League,759567,Vlad Dragomir,2137,Pafos,8611,FC Twente,0,MED,1,81.0,0.0,0.0,2.0,0.0,0.0
+6112480,2026-11-05,Conference League,767713,Guga,2137,Pafos,8611,FC Twente,0,MED,0,9.0,0.0,0.0,0.0,1.0,0.0
+6112480,2026-11-05,Conference League,876734,Anderson Silva,2137,Pafos,8611,FC Twente,0,DEL,0,21.0,0.0,0.0,0.0,0.0,0.0
+6112480,2026-11-05,Conference League,955203,Thomas van den Belt,8611,FC Twente,2137,Pafos FC,1,MED,0,9.0,3.0,0.0,2.0,0.0,0.0
+6112480,2026-11-05,Conference League,956726,Bart van Rooij,8611,FC Twente,2137,Pafos FC,1,DEF,1,90.0,0.0,0.0,4.0,1.0,2.0
+6112480,2026-11-05,Conference League,1074967,Ramiz Zerrouki,8611,FC Twente,2137,Pafos FC,1,MED,1,90.0,2.0,2.0,4.0,1.0,2.0
+6112480,2026-11-05,Conference League,1203490,Daan Rots,8611,FC Twente,2137,Pafos FC,1,DEL,1,77.0,0.0,0.0,0.0,2.0,1.0
+6112480,2026-11-05,Conference League,1298600,Younes Taha,8611,FC Twente,2137,Pafos FC,1,MED,1,81.0,4.0,1.0,0.0,1.0,1.0
+6112480,2026-11-05,Conference League,1338320,Lelê,2137,Pafos,8611,FC Twente,0,DEL,1,64.0,4.0,3.0,0.0,2.0,2.0
+6112480,2026-11-05,Conference League,1353293,Sondre Ørjasæter,8611,FC Twente,2137,Pafos FC,1,DEL,1,85.0,6.0,3.0,0.0,1.0,0.0
+6112480,2026-11-05,Conference League,1382346,Daouda Weidmann,8611,FC Twente,2137,Pafos FC,1,MED,1,85.0,4.0,4.0,0.0,2.0,1.0
+6112480,2026-11-05,Conference League,1391319,Aske Adelgaard,8611,FC Twente,2137,Pafos FC,1,DEF,1,86.0,2.0,0.0,3.0,1.0,1.0
+6112480,2026-11-05,Conference League,1442493,Michał Rosiak,8611,FC Twente,2137,Pafos FC,1,DEF,0,4.0,0.0,0.0,0.0,0.0,0.0
+6112480,2026-11-05,Conference League,1525419,Alexandre Brito,2137,Pafos,8611,FC Twente,0,MED,1,81.0,1.0,1.0,2.0,1.0,1.0
+6112480,2026-11-05,Conference League,1552456,Jordy Bawuah,8611,FC Twente,2137,Pafos FC,1,MED,0,5.0,1.0,0.0,0.0,0.0,0.0
+6112480,2026-11-05,Conference League,1607488,Lucas Vennegoor of Hesselink,8611,FC Twente,2137,Pafos FC,1,DEL,0,13.0,2.0,0.0,2.0,0.0,0.0
+6112480,2026-11-05,Conference League,1709029,Ruud Nijstad,8611,FC Twente,2137,Pafos FC,1,DEF,1,90.0,2.0,1.0,1.0,0.0,2.0
+6112474,2026-11-05,Conference League,167008,Pascal Groß,10204,Brighton and Hove Albion,8305,Getafe,0,MED,1,70.0,0.0,0.0,4.0,1.0,2.0
+6112474,2026-11-05,Conference League,175311,Kiko,8305,Getafe,10204,Brighton & Hove Albion,1,DEF,1,73.0,0.0,0.0,1.0,0.0,0.0
+6112474,2026-11-05,Conference League,178753,Nemanja Gudelj,8305,Getafe,10204,Brighton & Hove Albion,1,DEF,1,90.0,0.0,0.0,0.0,2.0,1.0
+6112474,2026-11-05,Conference League,201690,Lewis Dunk,10204,Brighton and Hove Albion,8305,Getafe,0,DEF,1,45.0,0.0,0.0,0.0,0.0,1.0
+6112474,2026-11-05,Conference League,421365,Djené,8305,Getafe,10204,Brighton & Hove Albion,1,DEF,1,90.0,0.0,0.0,1.0,1.0,0.0
+6112474,2026-11-05,Conference League,464486,Enes Ünal,8305,Getafe,10204,Brighton & Hove Albion,1,DEL,0,19.0,0.0,0.0,0.0,1.0,0.0
+6112474,2026-11-05,Conference League,474673,Johan Mojica,8305,Getafe,10204,Brighton & Hove Albion,1,DEF,1,90.0,0.0,0.0,0.0,0.0,2.0
+6112474,2026-11-05,Conference League,581919,David Soria,8305,Getafe,10204,Brighton & Hove Albion,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+6112474,2026-11-05,Conference League,613715,Olivier Boscagli,10204,Brighton and Hove Albion,8305,Getafe,0,DEF,1,78.0,0.0,0.0,1.0,2.0,0.0
+6112474,2026-11-05,Conference League,635772,Borja Mayoral,8305,Getafe,10204,Brighton & Hove Albion,1,DEL,0,5.0,0.0,0.0,0.0,0.0,0.0
+6112474,2026-11-05,Conference League,765693,Orel Mangala,8305,Getafe,10204,Brighton & Hove Albion,1,MED,1,73.0,0.0,0.0,0.0,0.0,1.0
+6112474,2026-11-05,Conference League,866686,Matthew O'Riley,10204,Brighton and Hove Albion,8305,Getafe,0,MED,0,1.0,0.0,0.0,0.0,0.0,0.0
+6112474,2026-11-05,Conference League,951921,Michael Svoboda,10204,Brighton and Hove Albion,8305,Getafe,0,DEF,1,90.0,0.0,0.0,2.0,0.0,2.0
+6112474,2026-11-05,Conference League,956925,Georginio Rutter,10204,Brighton and Hove Albion,8305,Getafe,0,DEL,1,89.0,3.0,0.0,0.0,1.0,1.0
+6112474,2026-11-05,Conference League,1079456,Costinha,10204,Brighton and Hove Albion,8305,Getafe,0,DEF,1,90.0,1.0,0.0,1.0,1.0,1.0
+6112474,2026-11-05,Conference League,1131987,Bart Verbruggen,10204,Brighton and Hove Albion,8305,Getafe,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+6112474,2026-11-05,Conference League,1134871,Maxim De Cuyper,10204,Brighton and Hove Albion,8305,Getafe,0,DEL,0,19.0,0.0,0.0,0.0,0.0,1.0
+6112474,2026-11-05,Conference League,1168311,Yasin Ayari,10204,Brighton and Hove Albion,8305,Getafe,0,MED,1,90.0,1.0,0.0,0.0,0.0,1.0
+6112474,2026-11-05,Conference League,1178324,Jaouen Hadjam,10204,Brighton and Hove Albion,8305,Getafe,0,DEF,1,71.0,2.0,1.0,0.0,0.0,1.0
+6112474,2026-11-05,Conference League,1183650,Francho Serrano,8305,Getafe,10204,Brighton & Hove Albion,1,MED,0,17.0,0.0,0.0,0.0,0.0,1.0
+6112474,2026-11-05,Conference League,1197039,Martín Satriano,8305,Getafe,10204,Brighton & Hove Albion,1,DEL,1,85.0,3.0,2.0,0.0,3.0,0.0
+6112474,2026-11-05,Conference League,1202587,Ramón Terrats,8305,Getafe,10204,Brighton & Hove Albion,1,MED,1,71.0,1.0,0.0,0.0,3.0,0.0
+6112474,2026-11-05,Conference League,1203946,Iván Azon,8305,Getafe,10204,Brighton & Hove Albion,1,DEL,1,90.0,2.0,2.0,0.0,2.0,2.0
+6112474,2026-11-05,Conference League,1215410,Ibrahim Osman,10204,Brighton and Hove Albion,8305,Getafe,0,DEL,0,12.0,1.0,0.0,0.0,0.0,0.0
+6112474,2026-11-05,Conference League,1251334,Jack Hinshelwood,10204,Brighton and Hove Albion,8305,Getafe,0,MED,1,90.0,2.0,0.0,0.0,1.0,1.0
+6112474,2026-11-05,Conference League,1321605,Mario Martín,8305,Getafe,10204,Brighton & Hove Albion,1,MED,0,17.0,0.0,0.0,0.0,0.0,0.0
+6112474,2026-11-05,Conference League,1354561,Diego Gómez,10204,Brighton and Hove Albion,8305,Getafe,0,DEL,0,20.0,1.0,0.0,1.0,0.0,0.0
+6112474,2026-11-05,Conference League,1413996,Luka Vušković,10204,Brighton and Hove Albion,8305,Getafe,0,DEF,0,45.0,1.0,0.0,1.0,1.0,1.0
+6112474,2026-11-05,Conference League,1414777,Sebastián Boselli,8305,Getafe,10204,Brighton & Hove Albion,1,DEF,1,90.0,2.0,0.0,3.0,0.0,1.0
+6112474,2026-11-05,Conference League,1430406,Andrés García,8305,Getafe,10204,Brighton & Hove Albion,1,DEL,1,90.0,0.0,0.0,0.0,0.0,2.0
+6112474,2026-11-05,Conference League,1602352,Malick Junior Yalcouyé,10204,Brighton and Hove Albion,8305,Getafe,0,MED,1,90.0,3.0,2.0,2.0,2.0,1.0
+6112471,2026-11-05,Conference League,338299,David von Ballmoos,7896,Lugano,439132,FK Kauno Žalgiris,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+6112471,2026-11-05,Conference League,406283,Ezgjan Alioski,7896,Lugano,439132,FK Kauno Žalgiris,1,MED,1,90.0,1.0,1.0,5.0,0.0,0.0
+6112471,2026-11-05,Conference League,487356,Gratas Sirgėdas,439132,Kauno Zalgiris,7896,Lugano,0,MED,0,9.0,0.0,0.0,0.0,0.0,0.0
+6112471,2026-11-05,Conference League,527104,Albian Ajeti,7896,Lugano,439132,FK Kauno Žalgiris,1,DEL,1,70.0,2.0,0.0,0.0,0.0,0.0
+6112471,2026-11-05,Conference League,527840,Vykintas Slivka,439132,Kauno Zalgiris,7896,Lugano,0,MED,1,90.0,0.0,0.0,0.0,0.0,1.0
+6112471,2026-11-05,Conference League,539204,Ivan Fiolić,439132,Kauno Zalgiris,7896,Lugano,0,DEL,0,29.0,1.0,1.0,0.0,0.0,0.0
+6112471,2026-11-05,Conference League,588425,Anthony Kalik,439132,Kauno Zalgiris,7896,Lugano,0,MED,1,61.0,0.0,0.0,0.0,0.0,2.0
+6112471,2026-11-05,Conference League,614923,Kevin Behrens,7896,Lugano,439132,FK Kauno Žalgiris,1,DEL,0,20.0,1.0,1.0,0.0,0.0,0.0
+6112471,2026-11-05,Conference League,643518,Aldayr Hernández,439132,Kauno Zalgiris,7896,Lugano,0,DEF,1,90.0,0.0,0.0,1.0,0.0,2.0
+6112471,2026-11-05,Conference League,656668,Anto Grgic,7896,Lugano,439132,FK Kauno Žalgiris,1,MED,0,20.0,0.0,0.0,0.0,0.0,0.0
+6112471,2026-11-05,Conference League,768318,Nosa Iyobosa Edokpolor,439132,Kauno Zalgiris,7896,Lugano,0,DEF,1,90.0,1.0,0.0,1.0,0.0,0.0
+6112471,2026-11-05,Conference League,844430,Lars Lukas Mai,7896,Lugano,439132,FK Kauno Žalgiris,1,DEF,1,45.0,0.0,0.0,1.0,0.0,0.0
+6112471,2026-11-05,Conference League,852373,Lirim Kastrati,439132,Kauno Zalgiris,7896,Lugano,0,DEF,0,29.0,0.0,0.0,3.0,0.0,0.0
+6112471,2026-11-05,Conference League,857693,Deividas Mikelionis,439132,Kauno Zalgiris,7896,Lugano,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+6112471,2026-11-05,Conference League,862625,Amine Benchaib,439132,Kauno Zalgiris,7896,Lugano,0,MED,1,45.0,0.0,0.0,0.0,1.0,0.0
+6112471,2026-11-05,Conference League,867797,Gabriel Debeljuh,439132,Kauno Zalgiris,7896,Lugano,0,DEL,1,61.0,0.0,0.0,0.0,5.0,1.0
+6112471,2026-11-05,Conference League,892068,Antonios Papadopoulos,7896,Lugano,439132,FK Kauno Žalgiris,1,DEF,1,90.0,0.0,0.0,0.0,2.0,0.0
+6112471,2026-11-05,Conference League,1119114,Anton Tolordava,439132,Kauno Zalgiris,7896,Lugano,0,DEF,1,90.0,0.0,0.0,5.0,0.0,1.0
+6112471,2026-11-05,Conference League,1124844,Ahmed Kendouci,7896,Lugano,439132,FK Kauno Žalgiris,1,MED,1,90.0,0.0,0.0,2.0,0.0,0.0
+6112471,2026-11-05,Conference League,1135667,Leon Kreković,439132,Kauno Zalgiris,7896,Lugano,0,MED,1,45.0,0.0,0.0,1.0,0.0,0.0
+6112471,2026-11-05,Conference League,1177753,Yanis Cimignani,7896,Lugano,439132,FK Kauno Žalgiris,1,MED,1,77.0,3.0,1.0,0.0,2.0,1.0
+6112471,2026-11-05,Conference League,1177966,Joris Moutachy,439132,Kauno Zalgiris,7896,Lugano,0,DEF,1,81.0,0.0,0.0,2.0,0.0,1.0
+6112471,2026-11-05,Conference League,1178624,Motiejus Burba,439132,Kauno Zalgiris,7896,Lugano,0,MED,0,45.0,1.0,0.0,1.0,1.0,4.0
+6112471,2026-11-05,Conference League,1189687,Uran Bislimi,7896,Lugano,439132,FK Kauno Žalgiris,1,MED,1,70.0,0.0,0.0,0.0,4.0,3.0
+6112471,2026-11-05,Conference League,1244384,Daniel Dos Santos,7896,Lugano,439132,FK Kauno Žalgiris,1,MED,1,45.0,3.0,1.0,2.0,0.0,0.0
+6112471,2026-11-05,Conference League,1257562,Yukiyoshi Karashima,439132,Kauno Zalgiris,7896,Lugano,0,MED,0,45.0,1.0,0.0,3.0,1.0,0.0
+6112471,2026-11-05,Conference League,1360601,Rokas Lekiatas,439132,Kauno Zalgiris,7896,Lugano,0,DEF,1,90.0,1.0,0.0,2.0,0.0,2.0
+6112471,2026-11-05,Conference League,1454308,Beckham Castro,7896,Lugano,439132,FK Kauno Žalgiris,1,DEL,0,13.0,1.0,0.0,0.0,1.0,0.0
+6112471,2026-11-05,Conference League,1520468,Martim Marques,7896,Lugano,439132,FK Kauno Žalgiris,1,DEF,1,90.0,0.0,0.0,0.0,0.0,1.0
+6112471,2026-11-05,Conference League,1612762,Elias Pihlström,7896,Lugano,439132,FK Kauno Žalgiris,1,DEL,0,45.0,2.0,1.0,0.0,3.0,0.0
+6112471,2026-11-05,Conference League,1697796,Damian Kelvin,7896,Lugano,439132,FK Kauno Žalgiris,1,DEF,0,45.0,0.0,0.0,2.0,1.0,2.0
+6112471,2026-11-05,Conference League,1898281,Behruzjon Karimov,7896,Lugano,439132,FK Kauno Žalgiris,1,MED,1,90.0,1.0,0.0,0.0,0.0,1.0
+6112401,2026-11-05,Conference League,66757,Lukás Hrádecky,9829,Monaco,10202,Nordsjælland,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+6112401,2026-11-05,Conference League,350528,Andreas Hansen,10202,FC Nordsjælland,9829,Monaco,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+6112401,2026-11-05,Conference League,361315,Eric Dier,9829,Monaco,10202,Nordsjælland,1,DEF,1,58.0,0.0,0.0,0.0,0.0,1.0
+6112401,2026-11-05,Conference League,408943,Takumi Minamino,9829,Monaco,10202,Nordsjælland,1,MED,1,90.0,3.0,1.0,0.0,0.0,0.0
+6112401,2026-11-05,Conference League,502717,Tobias Salquist,10202,FC Nordsjælland,9829,Monaco,0,DEF,1,90.0,0.0,0.0,1.0,0.0,0.0
+6112401,2026-11-05,Conference League,586388,Aleksandr Golovin,9829,Monaco,10202,Nordsjælland,1,MED,0,32.0,0.0,0.0,1.0,0.0,1.0
+6112401,2026-11-05,Conference League,598355,Denis Zakaria,9829,Monaco,10202,Nordsjælland,1,MED,1,90.0,0.0,0.0,2.0,0.0,0.0
+6112401,2026-11-05,Conference League,683894,Mark Brink,10202,FC Nordsjælland,9829,Monaco,0,MED,1,90.0,0.0,0.0,0.0,1.0,0.0
+6112401,2026-11-05,Conference League,776594,Victor Nelsson,10202,FC Nordsjælland,9829,Monaco,0,DEF,1,90.0,1.0,0.0,1.0,0.0,1.0
+6112401,2026-11-05,Conference League,803342,Nicklas Røjkjær,10202,FC Nordsjælland,9829,Monaco,0,MED,0,4.0,0.0,0.0,0.0,1.0,0.0
+6112401,2026-11-05,Conference League,890263,Jordan Teze,9829,Monaco,10202,Nordsjælland,1,DEF,1,90.0,0.0,0.0,0.0,2.0,0.0
+6112401,2026-11-05,Conference League,917779,Ola Solbakken,10202,FC Nordsjælland,9829,Monaco,0,DEL,1,70.0,0.0,0.0,1.0,0.0,0.0
+6112401,2026-11-05,Conference League,982677,Folarin Balogun,9829,Monaco,10202,Nordsjælland,1,DEL,1,78.0,2.0,1.0,0.0,0.0,0.0
+6112401,2026-11-05,Conference League,1186437,Runar Robinsønn Norheim,10202,FC Nordsjælland,9829,Monaco,0,MED,0,20.0,0.0,0.0,1.0,0.0,0.0
+6112401,2026-11-05,Conference League,1207992,Vanderson,9829,Monaco,10202,Nordsjælland,1,DEF,0,33.0,0.0,0.0,2.0,0.0,0.0
+6112401,2026-11-05,Conference League,1250492,Matthis Abline,9829,Monaco,10202,Nordsjælland,1,DEL,0,12.0,3.0,2.0,0.0,0.0,0.0
+6112401,2026-11-05,Conference League,1272436,Ibrahim Adel,10202,FC Nordsjælland,9829,Monaco,0,DEL,0,29.0,1.0,0.0,0.0,0.0,0.0
+6112401,2026-11-05,Conference League,1385897,Edan Diop,9829,Monaco,10202,Nordsjælland,1,MED,1,58.0,0.0,0.0,1.0,0.0,0.0
+6112401,2026-11-05,Conference League,1406428,Christian Mawissa,9829,Monaco,10202,Nordsjælland,1,DEF,1,90.0,0.0,0.0,2.0,0.0,1.0
+6112401,2026-11-05,Conference League,1412956,Paris Brunner,9829,Monaco,10202,Nordsjælland,1,DEL,1,70.0,1.0,0.0,0.0,1.0,0.0
+6112401,2026-11-05,Conference League,1523208,Sadibou Sané,9829,Monaco,10202,Nordsjælland,1,DEF,0,32.0,0.0,0.0,1.0,0.0,0.0
+6112401,2026-11-05,Conference League,1524548,Mamadou Coulibaly,9829,Monaco,10202,Nordsjælland,1,MED,0,20.0,1.0,0.0,0.0,0.0,1.0
+6112401,2026-11-05,Conference League,1579475,Noah Markmann,10202,FC Nordsjælland,9829,Monaco,0,DEF,1,90.0,1.0,1.0,0.0,0.0,1.0
+6112401,2026-11-05,Conference League,1709473,Mathys Detourbet,9829,Monaco,10202,Nordsjælland,1,DEL,1,90.0,1.0,1.0,0.0,2.0,1.0
+6112401,2026-11-05,Conference League,1713876,Villum Berthelsen,10202,FC Nordsjælland,9829,Monaco,0,DEL,1,61.0,0.0,0.0,1.0,0.0,1.0
+6112401,2026-11-05,Conference League,1717547,Juho Lähteenmäki,10202,FC Nordsjælland,9829,Monaco,0,MED,1,90.0,0.0,0.0,2.0,2.0,0.0
+6112401,2026-11-05,Conference League,1717551,Markus Walker,10202,FC Nordsjælland,9829,Monaco,0,MED,1,70.0,0.0,0.0,3.0,1.0,1.0
+6112401,2026-11-05,Conference League,1735791,Hjalte Boe Rasmussen,10202,FC Nordsjælland,9829,Monaco,0,DEL,0,20.0,0.0,0.0,0.0,0.0,1.0
+6112401,2026-11-05,Conference League,1777651,Malte Heyde,10202,FC Nordsjælland,9829,Monaco,0,MED,1,86.0,0.0,0.0,2.0,0.0,0.0
+6112401,2026-11-05,Conference League,1785785,Prince Junior,10202,FC Nordsjælland,9829,Monaco,0,DEL,0,29.0,0.0,0.0,2.0,0.0,2.0
+6112401,2026-11-05,Conference League,1815791,Ilane Touré,9829,Monaco,10202,Nordsjælland,1,DEF,1,57.0,0.0,0.0,3.0,2.0,1.0
+6112401,2026-11-05,Conference League,1881339,Lamine Sadio,10202,FC Nordsjælland,9829,Monaco,0,DEL,1,61.0,0.0,0.0,1.0,1.0,0.0
+6112416,2026-11-05,Conference League,188555,Stefan de Vrij,10200,Panathinaikos,10144,CSKA Sofia,1,DEF,1,90.0,0.0,0.0,1.0,1.0,0.0
+6112416,2026-11-05,Conference League,445226,Jean-Philippe Gbamin,10144,CSKA Sofia,10200,Panathinaikos,0,DEF,1,90.0,1.0,0.0,7.0,1.0,4.0
+6112416,2026-11-05,Conference League,470479,Stefano Sensi,10144,CSKA Sofia,10200,Panathinaikos,0,MED,1,70.0,1.0,1.0,0.0,2.0,2.0
+6112416,2026-11-05,Conference League,518633,Giorgos Kyriakopoulos,10200,Panathinaikos,10144,CSKA Sofia,1,DEF,1,90.0,3.0,0.0,4.0,0.0,0.0
+6112416,2026-11-05,Conference League,526230,Cyriel Dessers,10200,Panathinaikos,10144,CSKA Sofia,1,DEL,0,14.0,0.0,0.0,1.0,0.0,1.0
+6112416,2026-11-05,Conference League,612755,Davide Calabria,10200,Panathinaikos,10144,CSKA Sofia,1,DEF,1,90.0,5.0,3.0,3.0,2.0,0.0
+6112416,2026-11-05,Conference League,640279,Dinis Almeida,10144,CSKA Sofia,10200,Panathinaikos,0,DEF,1,90.0,1.0,1.0,5.0,1.0,2.0
+6112416,2026-11-05,Conference League,653963,Ioannis Pittas,10144,CSKA Sofia,10200,Panathinaikos,0,DEL,1,45.0,0.0,0.0,2.0,0.0,0.0
+6112416,2026-11-05,Conference League,690302,Rick van Drongelen,10200,Panathinaikos,10144,CSKA Sofia,1,DEF,1,90.0,1.0,1.0,0.0,0.0,0.0
+6112416,2026-11-05,Conference League,717557,Levi García,10200,Panathinaikos,10144,CSKA Sofia,1,DEL,1,76.0,5.0,2.0,1.0,4.0,0.0
+6112416,2026-11-05,Conference League,777052,Bruno Jordão,10144,CSKA Sofia,10200,Panathinaikos,0,MED,0,45.0,0.0,0.0,3.0,1.0,1.0
+6112416,2026-11-05,Conference League,805592,Ángelo Martino,10144,CSKA Sofia,10200,Panathinaikos,0,DEF,1,90.0,1.0,1.0,2.0,4.0,2.0
+6112416,2026-11-05,Conference League,857736,Max Ebong,10144,CSKA Sofia,10200,Panathinaikos,0,MED,0,45.0,1.0,0.0,2.0,1.0,1.0
+6112416,2026-11-05,Conference League,990996,Iñaki Peña,10200,Panathinaikos,10144,CSKA Sofia,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+6112416,2026-11-05,Conference League,993022,Imrân Louza,10200,Panathinaikos,10144,CSKA Sofia,1,MED,1,65.0,0.0,0.0,1.0,2.0,2.0
+6112416,2026-11-05,Conference League,999083,Joël Zwarts,10144,CSKA Sofia,10200,Panathinaikos,0,DEL,0,10.0,0.0,0.0,0.0,0.0,0.0
+6112416,2026-11-05,Conference League,1027330,Andrey Yordanov,10144,CSKA Sofia,10200,Panathinaikos,0,DEF,1,80.0,1.0,1.0,2.0,0.0,0.0
+6112416,2026-11-05,Conference League,1061612,Kings Kangwa,10200,Panathinaikos,10144,CSKA Sofia,1,MED,1,90.0,1.0,1.0,6.0,4.0,1.0
+6112416,2026-11-05,Conference League,1177022,Mohamed Brahimi,10144,CSKA Sofia,10200,Panathinaikos,0,DEL,0,20.0,0.0,0.0,0.0,0.0,1.0
+6112416,2026-11-05,Conference League,1188769,Leandro Godoy,10144,CSKA Sofia,10200,Panathinaikos,0,DEL,1,90.0,3.0,1.0,2.0,0.0,0.0
+6112416,2026-11-05,Conference League,1222191,Étienne Camara,10200,Panathinaikos,10144,CSKA Sofia,1,MED,0,25.0,0.0,0.0,1.0,0.0,2.0
+6112416,2026-11-05,Conference League,1280328,Vicente Taborda,10200,Panathinaikos,10144,CSKA Sofia,1,MED,1,90.0,1.0,1.0,4.0,0.0,3.0
+6112416,2026-11-05,Conference League,1288517,Pastor,10144,CSKA Sofia,10200,Panathinaikos,0,DEF,1,55.0,0.0,0.0,4.0,0.0,1.0
+6112416,2026-11-05,Conference League,1318701,Andrews Tetteh,10200,Panathinaikos,10144,CSKA Sofia,1,DEL,0,26.0,0.0,0.0,0.0,0.0,1.0
+6112416,2026-11-05,Conference League,1347804,Elmin Rastoder,10200,Panathinaikos,10144,CSKA Sofia,1,DEL,1,64.0,4.0,1.0,0.0,0.0,0.0
+6112416,2026-11-05,Conference League,1469804,Fedor Lapoukhov,10144,CSKA Sofia,10200,Panathinaikos,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+6112416,2026-11-05,Conference League,1515990,Adriano Jagušić,10200,Panathinaikos,10144,CSKA Sofia,1,MED,0,5.0,1.0,0.0,0.0,0.0,0.0
+6112416,2026-11-05,Conference League,1529086,Tamimou Ouorou,10144,CSKA Sofia,10200,Panathinaikos,0,DEF,0,35.0,0.0,0.0,1.0,0.0,0.0
+6112416,2026-11-05,Conference League,1559642,Isaac Solet,10144,CSKA Sofia,10200,Panathinaikos,0,MED,1,45.0,0.0,0.0,2.0,1.0,2.0
+6112416,2026-11-05,Conference League,1620791,Teodor Ivanov,10144,CSKA Sofia,10200,Panathinaikos,0,DEF,1,90.0,0.0,0.0,1.0,1.0,0.0
+6112416,2026-11-05,Conference League,1680164,Santino Andino Valencia,10200,Panathinaikos,10144,CSKA Sofia,1,DEL,1,85.0,3.0,3.0,2.0,3.0,2.0
+6112522,2026-11-05,Conference League,170411,Filip Novák,7758,FK Jablonec,624924,Riga FC,0,DEF,0,6.0,0.0,0.0,1.0,0.0,0.0
+6112522,2026-11-05,Conference League,464514,Vakhtang Tchanturishvili,7758,FK Jablonec,624924,Riga FC,0,MED,1,90.0,0.0,0.0,2.0,2.0,0.0
+6112522,2026-11-05,Conference League,559272,Kenan Pirić,624924,Riga FC,7758,Jablonec,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+6112522,2026-11-05,Conference League,632243,Raivis Jurkovskis,624924,Riga FC,7758,Jablonec,1,DEF,1,90.0,0.0,0.0,2.0,0.0,0.0
+6112522,2026-11-05,Conference League,776562,Lamin Jawo,7758,FK Jablonec,624924,Riga FC,0,DEL,0,24.0,1.0,0.0,0.0,1.0,1.0
+6112522,2026-11-05,Conference League,805256,Antonín Růsek,7758,FK Jablonec,624924,Riga FC,0,DEL,1,66.0,1.0,0.0,1.0,2.0,0.0
+6112522,2026-11-05,Conference League,892662,Mohamed Badamosi,624924,Riga FC,7758,Jablonec,1,DEL,0,12.0,1.0,0.0,0.0,0.0,0.0
+6112522,2026-11-05,Conference League,922813,Daniel Souček,7758,FK Jablonec,624924,Riga FC,0,MED,0,24.0,0.0,0.0,0.0,0.0,0.0
+6112522,2026-11-05,Conference League,923526,Jirí Sláma,7758,FK Jablonec,624924,Riga FC,0,DEF,1,84.0,0.0,0.0,1.0,0.0,0.0
+6112522,2026-11-05,Conference League,956673,Richard Sedlácek,7758,FK Jablonec,624924,Riga FC,0,MED,1,90.0,1.0,0.0,2.0,3.0,0.0
+6112522,2026-11-05,Conference League,963947,Sebastian Nebyla,7758,FK Jablonec,624924,Riga FC,0,MED,1,90.0,3.0,2.0,1.0,1.0,2.0
+6112522,2026-11-05,Conference League,997555,Matěj Polidar,7758,FK Jablonec,624924,Riga FC,0,MED,1,45.0,0.0,0.0,0.0,0.0,0.0
+6112522,2026-11-05,Conference League,997556,Martin Cedidla,7758,FK Jablonec,624924,Riga FC,0,DEF,1,90.0,0.0,0.0,1.0,1.0,1.0
+6112522,2026-11-05,Conference League,1079219,Samuel Pedro,624924,Riga FC,7758,Jablonec,1,DEL,0,3.0,2.0,1.0,0.0,0.0,0.0
+6112522,2026-11-05,Conference League,1187287,Salah Oulad M'Hand,624924,Riga FC,7758,Jablonec,1,MED,1,87.0,0.0,0.0,4.0,0.0,4.0
+6112522,2026-11-05,Conference League,1197671,Maksims Toņiševs,624924,Riga FC,7758,Jablonec,1,DEF,1,90.0,0.0,0.0,0.0,0.0,1.0
+6112522,2026-11-05,Conference League,1255939,Dominik Hollý,7758,FK Jablonec,624924,Riga FC,0,DEL,1,76.0,3.0,1.0,2.0,3.0,1.0
+6112522,2026-11-05,Conference League,1263849,Reginaldo Ramires,624924,Riga FC,7758,Jablonec,1,DEL,1,78.0,2.0,1.0,0.0,3.0,1.0
+6112522,2026-11-05,Conference League,1273606,Baba Musah,624924,Riga FC,7758,Jablonec,1,DEF,1,90.0,0.0,0.0,0.0,1.0,2.0
+6112522,2026-11-05,Conference League,1284070,Nelson Okeke,7758,FK Jablonec,624924,Riga FC,0,MED,0,14.0,0.0,0.0,1.0,0.0,0.0
+6112522,2026-11-05,Conference League,1284324,Klemen Mihelak,7758,FK Jablonec,624924,Riga FC,0,POR,1,90.0,0.0,0.0,0.0,0.0,1.0
+6112522,2026-11-05,Conference League,1318685,Ahmed Ankrah,624924,Riga FC,7758,Jablonec,1,MED,1,90.0,1.0,0.0,6.0,2.0,2.0
+6112522,2026-11-05,Conference League,1324022,Garang Kuol,7758,FK Jablonec,624924,Riga FC,0,DEL,0,45.0,1.0,0.0,2.0,2.0,0.0
+6112522,2026-11-05,Conference League,1364542,Raki Aouani,624924,Riga FC,7758,Jablonec,1,DEL,1,78.0,1.0,0.0,0.0,0.0,1.0
+6112522,2026-11-05,Conference League,1384399,Meïssa Diop,624924,Riga FC,7758,Jablonec,1,DEL,1,70.0,1.0,0.0,2.0,0.0,1.0
+6112522,2026-11-05,Conference League,1395204,Saidou Alioum,7758,FK Jablonec,624924,Riga FC,0,DEL,1,66.0,1.0,0.0,0.0,2.0,0.0
+6112522,2026-11-05,Conference League,1419539,Coli Saco,624924,Riga FC,7758,Jablonec,1,MED,0,12.0,1.0,0.0,1.0,0.0,0.0
+6112522,2026-11-05,Conference League,1516214,Iago Siqueira,624924,Riga FC,7758,Jablonec,1,MED,1,90.0,3.0,0.0,3.0,1.0,1.0
+6112522,2026-11-05,Conference League,1657945,Karl Gameni Wassom,624924,Riga FC,7758,Jablonec,1,DEF,1,90.0,0.0,0.0,1.0,0.0,2.0
+6112522,2026-11-05,Conference League,1670494,Caio Ferreira,624924,Riga FC,7758,Jablonec,1,DEL,0,20.0,1.0,0.0,1.0,0.0,2.0
+6112522,2026-11-05,Conference League,1675512,Dušan Pavlović,7758,FK Jablonec,624924,Riga FC,0,DEF,1,90.0,0.0,0.0,1.0,0.0,1.0
+6112490,2026-11-05,Conference League,308469,Visar Musliu,9997,Sint-Truidense VV,8468,Brann,1,DEF,1,90.0,1.0,0.0,2.0,0.0,0.0
+6112490,2026-11-05,Conference League,444485,Thore Pedersen,8468,Brann,9997,St.Truiden,0,DEF,1,45.0,0.0,0.0,1.0,1.0,0.0
+6112490,2026-11-05,Conference League,523731,Shogo Taniguchi,9997,Sint-Truidense VV,8468,Brann,1,DEF,1,90.0,0.0,0.0,0.0,1.0,0.0
+6112490,2026-11-05,Conference League,532947,Vetle Dragsnes,8468,Brann,9997,St.Truiden,0,DEF,0,3.0,0.0,0.0,0.0,0.0,0.0
+6112490,2026-11-05,Conference League,533370,Kristian Eriksen,8468,Brann,9997,St.Truiden,0,DEL,0,45.0,0.0,0.0,1.0,0.0,0.0
+6112490,2026-11-05,Conference League,538644,Joachim Soltvedt,8468,Brann,9997,St.Truiden,0,DEF,0,27.0,0.0,0.0,0.0,0.0,1.0
+6112490,2026-11-05,Conference League,601990,Fredrik Pallesen Knudsen,8468,Brann,9997,St.Truiden,0,DEF,1,90.0,0.0,0.0,2.0,1.0,0.0
+6112490,2026-11-05,Conference League,630366,Niklas Castro,8468,Brann,9997,St.Truiden,0,DEL,1,62.0,0.0,0.0,2.0,0.0,1.0
+6112490,2026-11-05,Conference League,683355,Sævar Atli Magnusson,8468,Brann,9997,St.Truiden,0,DEL,0,28.0,0.0,0.0,1.0,0.0,1.0
+6112490,2026-11-05,Conference League,764779,Abdoulaye Sissako,9997,Sint-Truidense VV,8468,Brann,1,MED,1,90.0,0.0,0.0,4.0,0.0,1.0
+6112490,2026-11-05,Conference League,816397,Joedrick Pupe,9997,Sint-Truidense VV,8468,Brann,1,DEF,1,90.0,0.0,0.0,3.0,1.0,2.0
+6112490,2026-11-05,Conference League,856936,Kristall Ingason,8468,Brann,9997,St.Truiden,0,MED,1,90.0,3.0,3.0,0.0,2.0,2.0
+6112490,2026-11-05,Conference League,857141,Arbnor Muja,9997,Sint-Truidense VV,8468,Brann,1,DEL,0,26.0,2.0,0.0,0.0,1.0,1.0
+6112490,2026-11-05,Conference League,940963,Ulrik Mathisen,8468,Brann,9997,St.Truiden,0,DEL,1,87.0,5.0,2.0,1.0,0.0,2.0
+6112490,2026-11-05,Conference League,942362,Leo Cornic,8468,Brann,9997,St.Truiden,0,MED,1,90.0,0.0,0.0,2.0,1.0,1.0
+6112490,2026-11-05,Conference League,1049799,Nathanaël Mbuku,9997,Sint-Truidense VV,8468,Brann,1,MED,1,64.0,2.0,0.0,1.0,1.0,0.0
+6112490,2026-11-05,Conference League,1083890,Neraysho Kasanwirjo,8468,Brann,9997,St.Truiden,0,DEF,1,90.0,0.0,0.0,2.0,3.0,1.0
+6112490,2026-11-05,Conference League,1126420,Simen Vidtun Nilsen,8468,Brann,9997,St.Truiden,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+6112490,2026-11-05,Conference League,1155621,Leo Kokubo,9997,Sint-Truidense VV,8468,Brann,1,POR,1,90.0,0.0,0.0,0.0,1.0,0.0
+6112490,2026-11-05,Conference League,1186576,Noah Holm,8468,Brann,9997,St.Truiden,0,DEL,1,90.0,1.0,0.0,1.0,2.0,1.0
+6112490,2026-11-05,Conference League,1233201,Niklas Jensen Wassberg,8468,Brann,9997,St.Truiden,0,MED,1,90.0,0.0,0.0,2.0,1.0,0.0
+6112490,2026-11-05,Conference League,1284492,Samed Baždar,9997,Sint-Truidense VV,8468,Brann,1,DEL,0,12.0,0.0,0.0,0.0,0.0,0.0
+6112490,2026-11-05,Conference League,1307959,Ilias Sebaoui,9997,Sint-Truidense VV,8468,Brann,1,DEL,1,90.0,1.0,1.0,2.0,1.0,1.0
+6112490,2026-11-05,Conference League,1377429,Jonas Torsvik,8468,Brann,9997,St.Truiden,0,DEF,1,63.0,0.0,0.0,1.0,0.0,0.0
+6112490,2026-11-05,Conference League,1381856,Nelson Ishiwatari,9997,Sint-Truidense VV,8468,Brann,1,MED,1,90.0,4.0,2.0,7.0,3.0,1.0
+6112490,2026-11-05,Conference League,1406310,Frédéric Soèllé Soèllé,9997,Sint-Truidense VV,8468,Brann,1,DEL,1,78.0,2.0,0.0,0.0,0.0,2.0
+6112490,2026-11-05,Conference League,1596061,Robert-Jan Vanwesemael,9997,Sint-Truidense VV,8468,Brann,1,DEF,1,90.0,0.0,0.0,2.0,0.0,2.0
+6112490,2026-11-05,Conference League,1609381,Ryan Merlen,9997,Sint-Truidense VV,8468,Brann,1,MED,0,31.0,2.0,0.0,1.0,1.0,0.0
+6112490,2026-11-05,Conference League,1717127,Shion Shinkawa,9997,Sint-Truidense VV,8468,Brann,1,DEL,1,59.0,3.0,2.0,1.0,0.0,3.0
+6112506,2026-11-05,Conference League,559954,Nicușor Bancu,480286,Universitatea Craiova,10039,Egnatia,1,MED,1,90.0,2.0,1.0,1.0,0.0,0.0
+6112506,2026-11-05,Conference League,699693,Fernando Medeiros,10039,Egnatia Rrogozhinë,480286,Universitatea Craiova,0,MED,1,90.0,3.0,2.0,0.0,0.0,1.0
+6112506,2026-11-05,Conference League,761795,Mario Dajsinani,10039,Egnatia Rrogozhinë,480286,Universitatea Craiova,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+6112506,2026-11-05,Conference League,770163,Alexandru Cicâldau,480286,Universitatea Craiova,10039,Egnatia,1,MED,1,76.0,5.0,3.0,1.0,0.0,2.0
+6112506,2026-11-05,Conference League,775661,Karim Loukili,10039,Egnatia Rrogozhinë,480286,Universitatea Craiova,0,MED,1,61.0,1.0,1.0,0.0,2.0,0.0
+6112506,2026-11-05,Conference League,816239,Teles,480286,Universitatea Craiova,10039,Egnatia,1,MED,0,26.0,3.0,2.0,0.0,0.0,1.0
+6112506,2026-11-05,Conference League,833603,Vladimir Screciu,480286,Universitatea Craiova,10039,Egnatia,1,DEF,1,90.0,0.0,0.0,0.0,2.0,1.0
+6112506,2026-11-05,Conference League,853796,Laurențiu Popescu,480286,Universitatea Craiova,10039,Egnatia,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+6112506,2026-11-05,Conference League,860535,Adrian Rus,480286,Universitatea Craiova,10039,Egnatia,1,DEF,0,6.0,0.0,0.0,0.0,0.0,0.0
+6112506,2026-11-05,Conference League,862022,Tudor Băluță,480286,Universitatea Craiova,10039,Egnatia,1,MED,1,90.0,1.0,0.0,3.0,0.0,1.0
+6112506,2026-11-05,Conference League,890946,Oleksandr Romanchuk,480286,Universitatea Craiova,10039,Egnatia,1,DEF,1,90.0,0.0,0.0,1.0,0.0,1.0
+6112506,2026-11-05,Conference League,948198,Eneo Bitri,10039,Egnatia Rrogozhinë,480286,Universitatea Craiova,0,DEF,1,83.0,1.0,0.0,2.0,1.0,3.0
+6112506,2026-11-05,Conference League,948488,Albano Aleksi,10039,Egnatia Rrogozhinë,480286,Universitatea Craiova,0,MED,1,90.0,0.0,0.0,1.0,2.0,0.0
+6112506,2026-11-05,Conference League,957098,João Lameira,480286,Universitatea Craiova,10039,Egnatia,1,MED,1,90.0,0.0,0.0,1.0,0.0,0.0
+6112506,2026-11-05,Conference League,1003369,Jurguens Montenegro,10039,Egnatia Rrogozhinë,480286,Universitatea Craiova,0,DEL,0,18.0,0.0,0.0,0.0,0.0,0.0
+6112506,2026-11-05,Conference League,1011895,Guillem Jaime,10039,Egnatia Rrogozhinë,480286,Universitatea Craiova,0,MED,1,60.0,0.0,0.0,2.0,0.0,0.0
+6112506,2026-11-05,Conference League,1057949,Nikola Stevanović,480286,Universitatea Craiova,10039,Egnatia,1,DEF,1,84.0,0.0,0.0,1.0,0.0,1.0
+6112506,2026-11-05,Conference League,1068661,Ledio Beqja,10039,Egnatia Rrogozhinë,480286,Universitatea Craiova,0,MED,0,29.0,1.0,0.0,0.0,0.0,0.0
+6112506,2026-11-05,Conference League,1068880,Ștefan Baiaram,480286,Universitatea Craiova,10039,Egnatia,1,DEL,1,64.0,1.0,0.0,1.0,0.0,0.0
+6112506,2026-11-05,Conference League,1106841,Altin Kryeziu,10039,Egnatia Rrogozhinë,480286,Universitatea Craiova,0,MED,1,90.0,1.0,1.0,1.0,0.0,0.0
+6112506,2026-11-05,Conference League,1134292,Assad Al Hamlawi,480286,Universitatea Craiova,10039,Egnatia,1,DEL,1,64.0,4.0,2.0,0.0,1.0,2.0
+6112506,2026-11-05,Conference League,1168833,Alessandro Albanese,10039,Egnatia Rrogozhinë,480286,Universitatea Craiova,0,DEL,1,85.0,1.0,0.0,0.0,1.0,0.0
+6112506,2026-11-05,Conference League,1178330,Simon Elisor,480286,Universitatea Craiova,10039,Egnatia,1,DEL,0,26.0,2.0,0.0,0.0,2.0,1.0
+6112506,2026-11-05,Conference League,1198659,Zamiq Əliyev,10039,Egnatia Rrogozhinë,480286,Universitatea Craiova,0,DEF,0,30.0,0.0,0.0,0.0,0.0,0.0
+6112506,2026-11-05,Conference League,1202707,Carlos Mora,480286,Universitatea Craiova,10039,Egnatia,1,MED,1,90.0,1.0,1.0,0.0,1.0,1.0
+6112506,2026-11-05,Conference League,1284353,Geralb Smajli,10039,Egnatia Rrogozhinë,480286,Universitatea Craiova,0,MED,0,30.0,0.0,0.0,0.0,1.0,1.0
+6112506,2026-11-05,Conference League,1451610,David Matei,480286,Universitatea Craiova,10039,Egnatia,1,DEL,0,14.0,0.0,0.0,1.0,1.0,1.0
+6112506,2026-11-05,Conference League,1508198,Andrey Yago,10039,Egnatia Rrogozhinë,480286,Universitatea Craiova,0,MED,1,90.0,0.0,0.0,3.0,2.0,1.0
+6112506,2026-11-05,Conference League,1685339,Numan Ajetovikj,10039,Egnatia Rrogozhinë,480286,Universitatea Craiova,0,DEF,1,60.0,0.0,0.0,1.0,2.0,0.0
+6112506,2026-11-05,Conference League,1785966,Ibrahim Diabaté,10039,Egnatia Rrogozhinë,480286,Universitatea Craiova,0,MED,0,5.0,0.0,0.0,0.0,0.0,0.0
+6112506,2026-11-05,Conference League,1897357,Daniel Adjessa,10039,Egnatia Rrogozhinë,480286,Universitatea Craiova,0,DEL,1,72.0,1.0,0.0,0.0,1.0,2.0
