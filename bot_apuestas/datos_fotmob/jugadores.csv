@@ -59386,3 +59386,222 @@ partido_id,fecha,competicion,jugador_id,jugador,equipo_id,equipo,rival_id,rival,
 5967141,2026-11-08,Serie B,1717226,Andrey Krastev,9882,Sampdoria,6488,Carrarese,0,POR,1,90.0,0.0,0.0,0.0,1.0,0.0
 5967141,2026-11-08,Serie B,1783599,Giacomo Marconi,6488,Carrarese,9882,Sampdoria,1,DEL,0,45.0,3.0,1.0,1.0,0.0,1.0
 5967141,2026-11-08,Serie B,2173276,Lorenzo Mezzotero,9882,Sampdoria,6488,Carrarese,0,DEL,1,68.0,0.0,0.0,0.0,0.0,2.0
+5868122,2026-11-08,La Liga,174472,Iago Aspas,9910,Celta de Vigo,8581,Levante,1,DEL,1,76.0,5.0,1.0,0.0,0.0,0.0
+5868122,2026-11-08,La Liga,185644,Mathew Ryan,8581,Levante,9910,Celta Vigo,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5868122,2026-11-08,La Liga,196169,Marcos Alonso,9910,Celta de Vigo,8581,Levante,1,DEF,1,90.0,1.0,0.0,1.0,2.0,0.0
+5868122,2026-11-08,La Liga,210683,Aïssa Mandi,8581,Levante,9910,Celta Vigo,0,DEF,1,90.0,0.0,0.0,2.0,1.0,0.0
+5868122,2026-11-08,La Liga,443966,Jeremy Toljan,8581,Levante,9910,Celta Vigo,0,DEF,1,90.0,0.0,0.0,0.0,1.0,0.0
+5868122,2026-11-08,La Liga,681213,Ionuț Radu,9910,Celta de Vigo,8581,Levante,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5868122,2026-11-08,La Liga,695062,Javi Galán,9910,Celta de Vigo,8581,Levante,1,DEF,0,45.0,1.0,1.0,1.0,0.0,3.0
+5868122,2026-11-08,La Liga,914401,Oriol Rey,8581,Levante,9910,Celta Vigo,0,MED,0,45.0,0.0,0.0,0.0,1.0,0.0
+5868122,2026-11-08,La Liga,952528,Adrián De La Fuente,8581,Levante,9910,Celta Vigo,0,DEF,0,45.0,0.0,0.0,0.0,0.0,1.0
+5868122,2026-11-08,La Liga,977618,Víctor García,8581,Levante,9910,Celta Vigo,0,DEL,0,34.0,0.0,0.0,0.0,1.0,0.0
+5868122,2026-11-08,La Liga,1020026,Sebastián Cáceres,9910,Celta de Vigo,8581,Levante,1,DEF,1,90.0,0.0,0.0,0.0,1.0,0.0
+5868122,2026-11-08,La Liga,1106742,Sergio Carreira,9910,Celta de Vigo,8581,Levante,1,MED,1,90.0,1.0,0.0,0.0,2.0,0.0
+5868122,2026-11-08,La Liga,1109046,Ilaix Moriba,9910,Celta de Vigo,8581,Levante,1,MED,1,90.0,0.0,0.0,4.0,2.0,0.0
+5868122,2026-11-08,La Liga,1131957,Jon Olasagasti,8581,Levante,9910,Celta Vigo,0,MED,1,90.0,1.0,0.0,1.0,2.0,2.0
+5868122,2026-11-08,La Liga,1184693,Couhaib Driouech,9910,Celta de Vigo,8581,Levante,1,DEL,1,76.0,0.0,0.0,0.0,0.0,1.0
+5868122,2026-11-08,La Liga,1209441,Iván Romero,8581,Levante,9910,Celta Vigo,0,DEL,0,45.0,1.0,0.0,0.0,0.0,0.0
+5868122,2026-11-08,La Liga,1226783,Hugo González,9910,Celta de Vigo,8581,Levante,1,DEL,0,14.0,0.0,0.0,0.0,0.0,0.0
+5868122,2026-11-08,La Liga,1254218,Hugo Sotelo,8581,Levante,9910,Celta Vigo,0,MED,1,45.0,0.0,0.0,0.0,0.0,0.0
+5868122,2026-11-08,La Liga,1272740,Williot Swedberg,9910,Celta de Vigo,8581,Levante,1,DEL,0,14.0,0.0,0.0,0.0,0.0,0.0
+5868122,2026-11-08,La Liga,1286471,Roger Brugué,8581,Levante,9910,Celta Vigo,0,DEL,1,90.0,3.0,0.0,3.0,0.0,1.0
+5868122,2026-11-08,La Liga,1308414,Hugo Álvarez,9910,Celta de Vigo,8581,Levante,1,DEL,0,45.0,1.0,0.0,0.0,1.0,0.0
+5868122,2026-11-08,La Liga,1310440,Javi Rueda,9910,Celta de Vigo,8581,Levante,1,MED,1,45.0,1.0,0.0,0.0,0.0,0.0
+5868122,2026-11-08,La Liga,1322858,Pablo Durán,9910,Celta de Vigo,8581,Levante,1,DEL,1,90.0,7.0,5.0,0.0,0.0,3.0
+5868122,2026-11-08,La Liga,1392779,Etta Eyong,8581,Levante,9910,Celta Vigo,0,DEL,1,45.0,0.0,0.0,0.0,0.0,1.0
+5868122,2026-11-08,La Liga,1435439,Javi Rodríguez,9910,Celta de Vigo,8581,Levante,1,DEF,1,45.0,2.0,0.0,1.0,0.0,0.0
+5868122,2026-11-08,La Liga,1460063,Thiago Fernández,8581,Levante,9910,Celta Vigo,0,DEL,1,56.0,0.0,0.0,0.0,1.0,0.0
+5868122,2026-11-08,La Liga,1481503,Dani Requena,8581,Levante,9910,Celta Vigo,0,MED,1,90.0,1.0,0.0,2.0,0.0,4.0
+5868122,2026-11-08,La Liga,1732791,Andrés Antañón,9910,Celta de Vigo,8581,Levante,1,DEL,1,64.0,3.0,1.0,2.0,0.0,1.0
+5868122,2026-11-08,La Liga,1780239,Ifeanyi Ndukwe,8581,Levante,9910,Celta Vigo,0,DEF,1,45.0,0.0,0.0,1.0,0.0,0.0
+5868122,2026-11-08,La Liga,1800611,Nacho Pérez,8581,Levante,9910,Celta Vigo,0,DEF,1,77.0,0.0,0.0,0.0,0.0,0.0
+5868122,2026-11-08,La Liga,1825995,Hugo Burcio,9910,Celta de Vigo,8581,Levante,1,MED,0,26.0,1.0,0.0,2.0,0.0,0.0
+5868122,2026-11-08,La Liga,2141146,Marc Santos,8581,Levante,9910,Celta Vigo,0,DEF,0,13.0,0.0,0.0,0.0,0.0,0.0
+5868121,2026-11-08,La Liga,177126,Jan Oblak,9906,Atlético de Madrid,8634,Barcelona,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5868121,2026-11-08,La Liga,184533,Koke,9906,Atlético de Madrid,8634,Barcelona,1,MED,1,72.0,0.0,0.0,1.0,2.0,1.0
+5868121,2026-11-08,La Liga,288406,Alejandro Grimaldo,9906,Atlético de Madrid,8634,Barcelona,1,MED,1,90.0,0.0,0.0,3.0,0.0,0.0
+5868121,2026-11-08,La Liga,361757,João Cancelo,8634,Barcelona,9906,Atlético Madrid,0,DEF,1,60.0,0.0,0.0,0.0,1.0,1.0
+5868121,2026-11-08,La Liga,440330,Alexander Sørloth,9906,Atlético de Madrid,8634,Barcelona,1,DEL,0,30.0,0.0,0.0,0.0,0.0,2.0
+5868121,2026-11-08,La Liga,449232,Andreas Christensen,8634,Barcelona,9906,Atlético Madrid,0,DEF,0,30.0,0.0,0.0,1.0,0.0,0.0
+5868121,2026-11-08,La Liga,602563,Marcos Llorente,9906,Atlético de Madrid,8634,Barcelona,1,DEF,1,90.0,0.0,0.0,4.0,1.0,2.0
+5868121,2026-11-08,La Liga,638622,Frenkie de Jong,8634,Barcelona,9906,Atlético Madrid,0,MED,0,45.0,0.0,0.0,0.0,1.0,0.0
+5868121,2026-11-08,La Liga,696679,Raphinha,8634,Barcelona,9906,Atlético Madrid,0,DEL,1,90.0,3.0,0.0,0.0,1.0,1.0
+5868121,2026-11-08,La Liga,727897,Dávid Hancko,9906,Atlético de Madrid,8634,Barcelona,1,DEF,1,90.0,0.0,0.0,3.0,0.0,0.0
+5868121,2026-11-08,La Liga,906937,Anthony Gordon,8634,Barcelona,9906,Atlético Madrid,0,DEL,1,86.0,1.0,1.0,1.0,0.0,2.0
+5868121,2026-11-08,La Liga,939569,Jonathan David,9906,Atlético de Madrid,8634,Barcelona,1,DEL,0,12.0,0.0,0.0,0.0,0.0,1.0
+5868121,2026-11-08,La Liga,940573,Eric García,8634,Barcelona,9906,Atlético Madrid,0,DEF,0,16.0,0.0,0.0,1.0,0.0,0.0
+5868121,2026-11-08,La Liga,940976,Kang-In Lee,9906,Atlético de Madrid,8634,Barcelona,1,DEL,1,60.0,1.0,1.0,0.0,1.0,1.0
+5868121,2026-11-08,La Liga,942372,Álex Baena,9906,Atlético de Madrid,8634,Barcelona,1,MED,1,72.0,2.0,1.0,0.0,3.0,2.0
+5868121,2026-11-08,La Liga,950199,Morten Hjulmand,9906,Atlético de Madrid,8634,Barcelona,1,MED,0,18.0,0.0,0.0,2.0,0.0,0.0
+5868121,2026-11-08,La Liga,959594,Karim Adeyemi,8634,Barcelona,9906,Atlético Madrid,0,DEL,0,4.0,0.0,0.0,0.0,1.0,0.0
+5868121,2026-11-08,La Liga,974753,Julián Álvarez,9906,Atlético de Madrid,8634,Barcelona,1,DEL,1,90.0,4.0,1.0,0.0,0.0,0.0
+5868121,2026-11-08,La Liga,1083323,Pedri,8634,Barcelona,9906,Atlético Madrid,0,MED,1,90.0,2.0,0.0,1.0,3.0,0.0
+5868121,2026-11-08,La Liga,1167220,Joan García,8634,Barcelona,9906,Atlético Madrid,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5868121,2026-11-08,La Liga,1173678,Johnny Cardoso,9906,Atlético de Madrid,8634,Barcelona,1,MED,0,18.0,0.0,0.0,1.0,1.0,0.0
+5868121,2026-11-08,La Liga,1226147,Giuliano Simeone,9906,Atlético de Madrid,8634,Barcelona,1,MED,1,90.0,1.0,1.0,6.0,3.0,1.0
+5868121,2026-11-08,La Liga,1279040,Gavi,8634,Barcelona,9906,Atlético Madrid,0,MED,0,16.0,0.0,0.0,1.0,0.0,0.0
+5868121,2026-11-08,La Liga,1323897,Marc Pubill,9906,Atlético de Madrid,8634,Barcelona,1,DEF,1,90.0,1.0,0.0,3.0,0.0,2.0
+5868121,2026-11-08,La Liga,1338192,Pablo Barrios,9906,Atlético de Madrid,8634,Barcelona,1,MED,1,78.0,0.0,0.0,7.0,3.0,2.0
+5868121,2026-11-08,La Liga,1404415,Fermín López,8634,Barcelona,9906,Atlético Madrid,0,MED,1,74.0,6.0,3.0,1.0,2.0,3.0
+5868121,2026-11-08,La Liga,1467236,Lamine Yamal,8634,Barcelona,9906,Atlético Madrid,0,DEL,1,90.0,5.0,0.0,3.0,2.0,1.0
+5868121,2026-11-08,La Liga,1532137,Pau Cubarsí,8634,Barcelona,9906,Atlético Madrid,0,DEF,1,90.0,1.0,0.0,0.0,0.0,1.0
+5868121,2026-11-08,La Liga,1573126,Marc Bernal,8634,Barcelona,9906,Atlético Madrid,0,MED,1,74.0,1.0,0.0,4.0,2.0,3.0
+5868121,2026-11-08,La Liga,1598982,Gerard Martín,8634,Barcelona,9906,Atlético Madrid,0,DEF,1,90.0,0.0,0.0,2.0,1.0,1.0
+5868121,2026-11-08,La Liga,1821727,Brian Fariñas,8634,Barcelona,9906,Atlético Madrid,0,MED,1,45.0,0.0,0.0,0.0,0.0,1.0
+5881219,2026-11-08,Bundesliga,15403,Edin Džeko,10189,FC Schalke 04,8226,Hoffenheim,0,DEL,0,13.0,1.0,1.0,0.0,1.0,1.0
+5881219,2026-11-08,Bundesliga,173461,Andrej Kramarić,8226,TSG 1899 Hoffenheim,10189,Schalke 04,1,MED,1,70.0,1.0,0.0,1.0,1.0,0.0
+5881219,2026-11-08,Bundesliga,178778,Oliver Baumann,8226,TSG 1899 Hoffenheim,10189,Schalke 04,1,POR,1,90.0,0.0,0.0,0.0,2.0,0.0
+5881219,2026-11-08,Bundesliga,215159,Kevin Müller,10189,FC Schalke 04,8226,Hoffenheim,0,POR,0,38.0,0.0,0.0,0.0,0.0,0.0
+5881219,2026-11-08,Bundesliga,287894,Loris Karius,10189,FC Schalke 04,8226,Hoffenheim,0,POR,1,52.0,0.0,0.0,0.0,0.0,0.0
+5881219,2026-11-08,Bundesliga,307317,Vladimír Coufal,8226,TSG 1899 Hoffenheim,10189,Schalke 04,1,DEF,1,90.0,0.0,0.0,1.0,2.0,0.0
+5881219,2026-11-08,Bundesliga,469763,Kenan Karaman,10189,FC Schalke 04,8226,Hoffenheim,0,MED,1,90.0,3.0,0.0,0.0,1.0,0.0
+5881219,2026-11-08,Bundesliga,518346,Robin Gosens,10189,FC Schalke 04,8226,Hoffenheim,0,DEF,1,51.0,2.0,0.0,0.0,0.0,1.0
+5881219,2026-11-08,Bundesliga,620026,Hee-Chan Hwang,10189,FC Schalke 04,8226,Hoffenheim,0,DEL,1,90.0,2.0,0.0,1.0,0.0,2.0
+5881219,2026-11-08,Bundesliga,637716,Bernardo,8226,TSG 1899 Hoffenheim,10189,Schalke 04,1,DEF,0,12.0,0.0,0.0,0.0,0.0,1.0
+5881219,2026-11-08,Bundesliga,725655,Nikola Katić,10189,FC Schalke 04,8226,Hoffenheim,0,DEF,1,90.0,0.0,0.0,0.0,0.0,1.0
+5881219,2026-11-08,Bundesliga,727817,Koki Machida,8226,TSG 1899 Hoffenheim,10189,Schalke 04,1,DEF,1,90.0,0.0,0.0,2.0,0.0,0.0
+5881219,2026-11-08,Bundesliga,794619,Hasan Kuruçay,10189,FC Schalke 04,8226,Hoffenheim,0,DEF,1,90.0,0.0,0.0,0.0,1.0,0.0
+5881219,2026-11-08,Bundesliga,845990,Ozan Kabak,8226,TSG 1899 Hoffenheim,10189,Schalke 04,1,DEF,1,90.0,1.0,1.0,0.0,1.0,2.0
+5881219,2026-11-08,Bundesliga,861668,Dejan Ljubičić,10189,FC Schalke 04,8226,Hoffenheim,0,DEL,1,77.0,2.0,0.0,0.0,0.0,0.0
+5881219,2026-11-08,Bundesliga,882163,Chukwubuike Adamu,10189,FC Schalke 04,8226,Hoffenheim,0,DEL,0,20.0,2.0,2.0,0.0,1.0,1.0
+5881219,2026-11-08,Bundesliga,947884,Wouter Burger,8226,TSG 1899 Hoffenheim,10189,Schalke 04,1,MED,1,90.0,0.0,0.0,2.0,1.0,1.0
+5881219,2026-11-08,Bundesliga,969870,Adam Hložek,8226,TSG 1899 Hoffenheim,10189,Schalke 04,1,DEL,0,20.0,1.0,0.0,0.0,0.0,1.0
+5881219,2026-11-08,Bundesliga,1027194,Alexander Prass,8226,TSG 1899 Hoffenheim,10189,Schalke 04,1,MED,1,90.0,4.0,1.0,2.0,0.0,1.0
+5881219,2026-11-08,Bundesliga,1040889,Junior Dina Ebimbe,10189,FC Schalke 04,8226,Hoffenheim,0,DEL,0,20.0,3.0,1.0,2.0,0.0,0.0
+5881219,2026-11-08,Bundesliga,1047664,Adil Aouchiche,10189,FC Schalke 04,8226,Hoffenheim,0,MED,1,90.0,7.0,2.0,1.0,3.0,1.0
+5881219,2026-11-08,Bundesliga,1124825,Tim Lemperle,8226,TSG 1899 Hoffenheim,10189,Schalke 04,1,DEL,1,89.0,3.0,2.0,2.0,0.0,2.0
+5881219,2026-11-08,Bundesliga,1155066,Satoshi Tanaka,10189,FC Schalke 04,8226,Hoffenheim,0,MED,1,70.0,0.0,0.0,1.0,0.0,1.0
+5881219,2026-11-08,Bundesliga,1219540,Fisnik Asllani,8226,TSG 1899 Hoffenheim,10189,Schalke 04,1,DEL,1,78.0,4.0,2.0,1.0,0.0,1.0
+5881219,2026-11-08,Bundesliga,1249185,Soufian El-Faouzi,10189,FC Schalke 04,8226,Hoffenheim,0,MED,1,90.0,1.0,0.0,2.0,1.0,0.0
+5881219,2026-11-08,Bundesliga,1353000,Adam Daghim,8226,TSG 1899 Hoffenheim,10189,Schalke 04,1,DEL,0,12.0,0.0,0.0,0.0,1.0,0.0
+5881219,2026-11-08,Bundesliga,1445416,Mats Rots,8226,TSG 1899 Hoffenheim,10189,Schalke 04,1,DEF,1,78.0,1.0,1.0,3.0,0.0,0.0
+5881219,2026-11-08,Bundesliga,1478148,Leon Avdullahu,8226,TSG 1899 Hoffenheim,10189,Schalke 04,1,MED,1,90.0,0.0,0.0,3.0,0.0,1.0
+5881219,2026-11-08,Bundesliga,1486537,Max Moerstedt,8226,TSG 1899 Hoffenheim,10189,Schalke 04,1,DEL,0,1.0,0.0,0.0,0.0,0.0,0.0
+5881219,2026-11-08,Bundesliga,1659420,Vitalie Becker,10189,FC Schalke 04,8226,Hoffenheim,0,DEF,0,39.0,0.0,0.0,4.0,2.0,1.0
+5881219,2026-11-08,Bundesliga,1755657,Mertcan Ayhan,10189,FC Schalke 04,8226,Hoffenheim,0,DEF,1,70.0,0.0,0.0,3.0,0.0,0.0
+5749742,2026-11-08,Serie A,182917,David de Gea,8535,Fiorentina,9885,Juventus,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5749742,2026-11-08,Serie A,538501,Guglielmo Vicario,9885,Juventus,8535,Fiorentina,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5749742,2026-11-08,Serie A,643229,Jérémie Boga,9885,Juventus,8535,Fiorentina,0,DEL,1,57.0,0.0,0.0,0.0,4.0,1.0
+5749742,2026-11-08,Serie A,787350,Douglas Luiz,9885,Juventus,8535,Fiorentina,0,MED,1,90.0,3.0,0.0,0.0,0.0,2.0
+5749742,2026-11-08,Serie A,823825,Randal Kolo Muani,9885,Juventus,8535,Fiorentina,0,DEL,1,90.0,2.0,0.0,2.0,1.0,3.0
+5749742,2026-11-08,Serie A,848266,Weston McKennie,9885,Juventus,8535,Fiorentina,0,MED,1,78.0,1.0,0.0,1.0,0.0,0.0
+5749742,2026-11-08,Serie A,857269,Gleison Bremer,9885,Juventus,8535,Fiorentina,0,DEF,1,90.0,1.0,1.0,2.0,1.0,2.0
+5749742,2026-11-08,Serie A,860913,Jhon Lucumí,9885,Juventus,8535,Fiorentina,0,DEF,1,89.0,1.0,0.0,0.0,0.0,0.0
+5749742,2026-11-08,Serie A,862616,Edon Zhegrova,9885,Juventus,8535,Fiorentina,0,MED,0,33.0,0.0,0.0,0.0,1.0,1.0
+5749742,2026-11-08,Serie A,866516,Teun Koopmeiners,9885,Juventus,8535,Fiorentina,0,MED,1,90.0,2.0,0.0,2.0,3.0,3.0
+5749742,2026-11-08,Serie A,867225,Zeki Çelik,9885,Juventus,8535,Fiorentina,0,MED,0,34.0,0.0,0.0,3.0,2.0,1.0
+5749742,2026-11-08,Serie A,875133,Pote,8535,Fiorentina,9885,Juventus,1,DEL,1,65.0,2.0,0.0,2.0,1.0,3.0
+5749742,2026-11-08,Serie A,950596,Marco Brescianini,8535,Fiorentina,9885,Juventus,1,MED,0,25.0,1.0,1.0,0.0,0.0,0.0
+5749742,2026-11-08,Serie A,951712,Nicolò Fagioli,8535,Fiorentina,9885,Juventus,1,MED,0,25.0,0.0,0.0,1.0,0.0,1.0
+5749742,2026-11-08,Serie A,958421,João Mário,8535,Fiorentina,9885,Juventus,1,DEF,1,90.0,1.0,0.0,0.0,2.0,1.0
+5749742,2026-11-08,Serie A,1079485,Beto,8535,Fiorentina,9885,Juventus,1,DEL,0,4.0,1.0,0.0,0.0,0.0,1.0
+5749742,2026-11-08,Serie A,1083562,Juan Cabal,9885,Juventus,8535,Fiorentina,0,MED,1,56.0,3.0,2.0,1.0,0.0,1.0
+5749742,2026-11-08,Serie A,1106563,Nick Woltemade,9885,Juventus,8535,Fiorentina,0,DEL,1,57.0,3.0,2.0,2.0,2.0,2.0
+5749742,2026-11-08,Serie A,1107286,Wilfried Gnonto,8535,Fiorentina,9885,Juventus,1,DEL,0,4.0,0.0,0.0,0.0,0.0,0.0
+5749742,2026-11-08,Serie A,1131217,Pierre Kalulu,9885,Juventus,8535,Fiorentina,0,DEF,1,90.0,0.0,0.0,2.0,1.0,0.0
+5749742,2026-11-08,Serie A,1189288,Federico Gatti,9885,Juventus,8535,Fiorentina,0,DEF,0,1.0,0.0,0.0,0.0,0.0,0.0
+5749742,2026-11-08,Serie A,1203661,Radu Drăgușin,8535,Fiorentina,9885,Juventus,1,DEF,1,90.0,1.0,0.0,2.0,1.0,2.0
+5749742,2026-11-08,Serie A,1224237,Mateo Pellegrino,8535,Fiorentina,9885,Juventus,1,DEL,1,86.0,4.0,2.0,0.0,3.0,1.0
+5749742,2026-11-08,Serie A,1246009,Cher Ndour,8535,Fiorentina,9885,Juventus,1,MED,1,90.0,2.0,0.0,2.0,0.0,0.0
+5749742,2026-11-08,Serie A,1501917,Viery,8535,Fiorentina,9885,Juventus,1,DEF,1,90.0,1.0,0.0,1.0,0.0,1.0
+5749742,2026-11-08,Serie A,1526689,Álex Jiménez,8535,Fiorentina,9885,Juventus,1,DEF,1,90.0,0.0,0.0,3.0,2.0,0.0
+5749742,2026-11-08,Serie A,1607014,Alieu Njie,8535,Fiorentina,9885,Juventus,1,DEL,1,86.0,3.0,1.0,2.0,2.0,2.0
+5749742,2026-11-08,Serie A,1607566,Franco Mastantuono,8535,Fiorentina,9885,Juventus,1,DEL,1,90.0,6.0,2.0,4.0,1.0,0.0
+5749742,2026-11-08,Serie A,1666494,Christ Inao Oulaï,8535,Fiorentina,9885,Juventus,1,MED,1,65.0,0.0,0.0,3.0,3.0,4.0
+5749742,2026-11-08,Serie A,1669628,Jeff Ekhator,9885,Juventus,8535,Fiorentina,0,DEL,0,12.0,1.0,0.0,0.0,0.0,0.0
+5749742,2026-11-08,Serie A,1684401,Kerim Alajbegović,9885,Juventus,8535,Fiorentina,0,MED,0,33.0,1.0,1.0,1.0,0.0,2.0
+5802990,2026-11-08,Ligue 1,214972,Geoffrey Kondogbia,8592,Marseille,8588,Lens,0,MED,0,1.0,0.0,0.0,0.0,0.0,0.0
+5802990,2026-11-08,Ligue 1,254308,Florian Thauvin,8588,Lens,8592,Marseille,1,MED,1,90.0,4.0,2.0,0.0,0.0,1.0
+5802990,2026-11-08,Ligue 1,264190,Thorgan Hazard,8588,Lens,8592,Marseille,1,DEL,1,68.0,0.0,0.0,1.0,1.0,1.0
+5802990,2026-11-08,Ligue 1,266523,Pierre-Emile Højbjerg,8592,Marseille,8588,Lens,0,MED,1,90.0,2.0,0.0,1.0,1.0,1.0
+5802990,2026-11-08,Ligue 1,513072,Jonathan Gradit,8588,Lens,8592,Marseille,1,DEF,1,85.0,0.0,0.0,1.0,1.0,2.0
+5802990,2026-11-08,Ligue 1,520979,Ulisses Garcia,8592,Marseille,8588,Lens,0,DEF,1,90.0,0.0,0.0,2.0,0.0,2.0
+5802990,2026-11-08,Ligue 1,561046,Ruben Aguilar,8588,Lens,8592,Marseille,1,MED,0,5.0,0.0,0.0,0.0,1.0,0.0
+5802990,2026-11-08,Ligue 1,612699,Florian Sotoca,8588,Lens,8592,Marseille,1,MED,1,85.0,0.0,0.0,2.0,3.0,0.0
+5802990,2026-11-08,Ligue 1,617310,Nayef Aguerd,8592,Marseille,8588,Lens,0,DEF,1,90.0,0.0,0.0,2.0,0.0,1.0
+5802990,2026-11-08,Ligue 1,660326,Matthieu Udol,8588,Lens,8592,Marseille,1,MED,1,90.0,3.0,2.0,0.0,0.0,1.0
+5802990,2026-11-08,Ligue 1,687868,Jeffrey De Lange,8592,Marseille,8588,Lens,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5802990,2026-11-08,Ligue 1,688830,Amadou Haidara,8588,Lens,8592,Marseille,1,MED,1,68.0,1.0,0.0,2.0,0.0,1.0
+5802990,2026-11-08,Ligue 1,780815,Amine Harit,8592,Marseille,8588,Lens,0,DEL,1,78.0,2.0,1.0,3.0,1.0,0.0
+5802990,2026-11-08,Ligue 1,844437,Amine Gouiri,8592,Marseille,8588,Lens,0,DEL,1,90.0,4.0,2.0,0.0,2.0,0.0
+5802990,2026-11-08,Ligue 1,848667,Angel Gomes,8592,Marseille,8588,Lens,0,MED,0,12.0,1.0,0.0,2.0,0.0,0.0
+5802990,2026-11-08,Ligue 1,861445,Michaël Cuisance,8588,Lens,8592,Marseille,1,MED,0,22.0,0.0,0.0,0.0,0.0,0.0
+5802990,2026-11-08,Ligue 1,889536,Timothy Weah,8592,Marseille,8588,Lens,0,DEF,1,90.0,0.0,0.0,0.0,1.0,0.0
+5802990,2026-11-08,Ligue 1,954190,Michał Skóras,8588,Lens,8592,Marseille,1,MED,0,2.0,0.0,0.0,0.0,0.0,0.0
+5802990,2026-11-08,Ligue 1,955214,Jean-Clair Todibo,8588,Lens,8592,Marseille,1,DEF,1,90.0,1.0,0.0,1.0,0.0,3.0
+5802990,2026-11-08,Ligue 1,956659,Himad Abdelli,8592,Marseille,8588,Lens,0,MED,1,78.0,1.0,0.0,1.0,1.0,1.0
+5802990,2026-11-08,Ligue 1,1002617,Saud Abdulhamid,8588,Lens,8592,Marseille,1,MED,1,88.0,1.0,0.0,1.0,2.0,1.0
+5802990,2026-11-08,Ligue 1,1187227,CJ Egan-Riley,8592,Marseille,8588,Lens,0,DEF,1,90.0,0.0,0.0,0.0,1.0,0.0
+5802990,2026-11-08,Ligue 1,1265963,Igor Paixão,8592,Marseille,8588,Lens,0,DEL,1,90.0,4.0,1.0,1.0,2.0,2.0
+5802990,2026-11-08,Ligue 1,1276626,Samson Baidoo,8588,Lens,8592,Marseille,1,DEF,1,90.0,0.0,0.0,1.0,0.0,0.0
+5802990,2026-11-08,Ligue 1,1288907,Yacine Titraoui,8588,Lens,8592,Marseille,1,MED,1,90.0,3.0,2.0,1.0,0.0,3.0
+5802990,2026-11-08,Ligue 1,1334534,Junior Kadile,8588,Lens,8592,Marseille,1,DEL,0,5.0,0.0,0.0,0.0,0.0,1.0
+5802990,2026-11-08,Ligue 1,1353104,Tochukwu Nnadi,8592,Marseille,8588,Lens,0,MED,1,89.0,1.0,0.0,3.0,6.0,0.0
+5802990,2026-11-08,Ligue 1,1390336,Robin Risser,8588,Lens,8592,Marseille,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5802990,2026-11-08,Ligue 1,1638922,Keyliane Abdallah,8592,Marseille,8588,Lens,0,DEL,0,12.0,1.0,1.0,0.0,0.0,1.0
+5802990,2026-11-08,Ligue 1,1980586,Mezian Mesloub Soares,8588,Lens,8592,Marseille,1,MED,0,22.0,0.0,0.0,0.0,0.0,1.0
+5868535,2026-11-08,Segunda,282471,Carlos Clerc,10281,Real Valladolid,9869,Sporting Gijón,0,DEF,1,90.0,0.0,0.0,3.0,3.0,0.0
+5868535,2026-11-08,Segunda,477594,Rubén Yánez,9869,Sporting de Gijón,10281,Real Valladolid,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5868535,2026-11-08,Segunda,573780,Jorge Sáenz,9869,Sporting de Gijón,10281,Real Valladolid,1,DEF,1,90.0,1.0,0.0,1.0,0.0,1.0
+5868535,2026-11-08,Segunda,640089,Iván Alejo,10281,Real Valladolid,9869,Sporting Gijón,0,DEF,1,82.0,1.0,0.0,4.0,4.0,2.0
+5868535,2026-11-08,Segunda,643537,Juan Otero,9869,Sporting de Gijón,10281,Real Valladolid,1,DEL,1,90.0,5.0,1.0,1.0,1.0,4.0
+5868535,2026-11-08,Segunda,643668,Mamadou Loum Ndiaye,9869,Sporting de Gijón,10281,Real Valladolid,1,MED,0,8.0,1.0,0.0,0.0,0.0,0.0
+5868535,2026-11-08,Segunda,792308,Pablo Vázquez,9869,Sporting de Gijón,10281,Real Valladolid,1,DEF,1,90.0,1.0,0.0,1.0,1.0,0.0
+5868535,2026-11-08,Segunda,874045,Alex Corredera,9869,Sporting de Gijón,10281,Real Valladolid,1,MED,1,90.0,1.0,1.0,1.0,2.0,1.0
+5868535,2026-11-08,Segunda,938564,Miguel Rubio,10281,Real Valladolid,9869,Sporting Gijón,0,DEF,1,90.0,0.0,0.0,2.0,0.0,1.0
+5868535,2026-11-08,Segunda,953065,Stanko Jurić,10281,Real Valladolid,9869,Sporting Gijón,0,MED,1,90.0,0.0,0.0,3.0,0.0,2.0
+5868535,2026-11-08,Segunda,955206,Julien Ponceau,10281,Real Valladolid,9869,Sporting Gijón,0,MED,1,90.0,3.0,2.0,1.0,1.0,0.0
+5868535,2026-11-08,Segunda,1103823,Nikita Iosifov,9869,Sporting de Gijón,10281,Real Valladolid,1,DEL,0,17.0,1.0,0.0,0.0,1.0,1.0
+5868535,2026-11-08,Segunda,1116736,Gaspar Campos,9869,Sporting de Gijón,10281,Real Valladolid,1,DEL,1,73.0,1.0,0.0,0.0,1.0,2.0
+5868535,2026-11-08,Segunda,1120109,Guille Rosas,9869,Sporting de Gijón,10281,Real Valladolid,1,DEF,1,90.0,4.0,3.0,6.0,0.0,0.0
+5868535,2026-11-08,Segunda,1120936,Hugo Guillamón,9869,Sporting de Gijón,10281,Real Valladolid,1,MED,1,45.0,0.0,0.0,0.0,1.0,3.0
+5868535,2026-11-08,Segunda,1287470,Pablo Tomeo,10281,Real Valladolid,9869,Sporting Gijón,0,DEF,0,1.0,0.0,0.0,0.0,0.0,0.0
+5868535,2026-11-08,Segunda,1305626,Nacho Martín,9869,Sporting de Gijón,10281,Real Valladolid,1,MED,0,45.0,3.0,0.0,0.0,0.0,1.0
+5868535,2026-11-08,Segunda,1357591,Álvaro Aceves,10281,Real Valladolid,9869,Sporting Gijón,0,POR,1,90.0,0.0,0.0,0.0,1.0,0.0
+5868535,2026-11-08,Segunda,1377639,Tay Abed,10281,Real Valladolid,9869,Sporting Gijón,0,DEL,1,89.0,4.0,2.0,0.0,0.0,0.0
+5868535,2026-11-08,Segunda,1386351,Andrés Ferrari,9869,Sporting de Gijón,10281,Real Valladolid,1,DEL,0,17.0,0.0,0.0,0.0,0.0,0.0
+5868535,2026-11-08,Segunda,1392303,Thiago Ojeda,10281,Real Valladolid,9869,Sporting Gijón,0,MED,1,74.0,0.0,0.0,0.0,0.0,1.0
+5868535,2026-11-08,Segunda,1395716,David Torres,10281,Real Valladolid,9869,Sporting Gijón,0,DEF,1,90.0,0.0,0.0,3.0,0.0,2.0
+5868535,2026-11-08,Segunda,1403392,Víctor Barberà,10281,Real Valladolid,9869,Sporting Gijón,0,DEL,0,8.0,0.0,0.0,0.0,0.0,0.0
+5868535,2026-11-08,Segunda,1411822,Luis Chacón,10281,Real Valladolid,9869,Sporting Gijón,0,DEL,0,16.0,0.0,0.0,0.0,1.0,0.0
+5868535,2026-11-08,Segunda,1418942,Dani Pérez,10281,Real Valladolid,9869,Sporting Gijón,0,MED,0,16.0,0.0,0.0,0.0,0.0,0.0
+5868535,2026-11-08,Segunda,1553774,Adrián Arnuncio,10281,Real Valladolid,9869,Sporting Gijón,0,DEL,1,82.0,1.0,0.0,0.0,3.0,1.0
+5868535,2026-11-08,Segunda,1665439,Andrés Cuenca,9869,Sporting de Gijón,10281,Real Valladolid,1,DEF,1,82.0,1.0,0.0,0.0,1.0,0.0
+5868535,2026-11-08,Segunda,1670167,Víctor Fernández,10281,Real Valladolid,9869,Sporting Gijón,0,MED,1,74.0,6.0,2.0,0.0,2.0,1.0
+5868535,2026-11-08,Segunda,1748414,Enol Prendes,9869,Sporting de Gijón,10281,Real Valladolid,1,DEL,1,45.0,0.0,0.0,1.0,1.0,0.0
+5868535,2026-11-08,Segunda,1785753,Trilli,10281,Real Valladolid,9869,Sporting Gijón,0,DEF,0,8.0,0.0,0.0,0.0,0.0,1.0
+5868535,2026-11-08,Segunda,1833800,Miguel Conde,9869,Sporting de Gijón,10281,Real Valladolid,1,DEL,1,73.0,2.0,1.0,0.0,1.0,0.0
+5868535,2026-11-08,Segunda,1971125,Diego Matabuena,9869,Sporting de Gijón,10281,Real Valladolid,1,MED,0,45.0,0.0,0.0,1.0,0.0,2.0
+5967145,2026-11-08,Serie B,56994,Nicolò Brighenti,145007,Vicenza Virtus,7801,Cremonese,1,DEF,1,90.0,0.0,0.0,0.0,0.0,2.0
+5967145,2026-11-08,Serie B,410411,Andrea Fulignati,7801,Cremonese,145007,LR Vicenza,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5967145,2026-11-08,Serie B,421773,Filippo Costa,145007,Vicenza Virtus,7801,Cremonese,1,MED,1,62.0,1.0,1.0,2.0,0.0,0.0
+5967145,2026-11-08,Serie B,439148,Morten Thorsby,7801,Cremonese,145007,LR Vicenza,0,MED,1,90.0,3.0,1.0,1.0,1.0,0.0
+5967145,2026-11-08,Serie B,466113,Jari Vandeputte,7801,Cremonese,145007,LR Vicenza,0,MED,1,65.0,0.0,0.0,1.0,0.0,0.0
+5967145,2026-11-08,Serie B,491798,Alessandro Bellemo,145007,Vicenza Virtus,7801,Cremonese,1,MED,1,90.0,1.0,1.0,1.0,1.0,0.0
+5967145,2026-11-08,Serie B,543306,Federico Bonazzoli,7801,Cremonese,145007,LR Vicenza,0,DEL,1,81.0,6.0,3.0,0.0,1.0,0.0
+5967145,2026-11-08,Serie B,575364,Alberto Grassi,7801,Cremonese,145007,LR Vicenza,0,MED,0,4.0,0.0,0.0,0.0,0.0,0.0
+5967145,2026-11-08,Serie B,604330,Sebastiano Luperto,7801,Cremonese,145007,LR Vicenza,0,DEF,1,90.0,0.0,0.0,2.0,0.0,1.0
+5967145,2026-11-08,Serie B,643283,Claudio Morra,145007,Vicenza Virtus,7801,Cremonese,1,DEL,0,28.0,2.0,1.0,0.0,0.0,0.0
+5967145,2026-11-08,Serie B,670928,Giuseppe Pezzella,7801,Cremonese,145007,LR Vicenza,0,MED,1,90.0,1.0,1.0,1.0,1.0,0.0
+5967145,2026-11-08,Serie B,695055,Riccardo Gagno,145007,Vicenza Virtus,7801,Cremonese,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5967145,2026-11-08,Serie B,719946,Riccardo Marchizza,145007,Vicenza Virtus,7801,Cremonese,1,DEF,1,90.0,0.0,0.0,0.0,0.0,0.0
+5967145,2026-11-08,Serie B,725773,Loris Zonta,145007,Vicenza Virtus,7801,Cremonese,1,MED,0,28.0,0.0,0.0,1.0,0.0,1.0
+5967145,2026-11-08,Serie B,789064,Giuseppe Cuomo,145007,Vicenza Virtus,7801,Cremonese,1,DEF,0,13.0,0.0,0.0,1.0,0.0,1.0
+5967145,2026-11-08,Serie B,799230,Federico Baschirotto,7801,Cremonese,145007,LR Vicenza,0,DEF,1,90.0,0.0,0.0,1.0,0.0,0.0
+5967145,2026-11-08,Serie B,868449,Marco Carraro,145007,Vicenza Virtus,7801,Cremonese,1,MED,1,62.0,2.0,0.0,0.0,0.0,0.0
+5967145,2026-11-08,Serie B,934873,Salvatore Elia,7801,Cremonese,145007,LR Vicenza,0,MED,0,41.0,0.0,0.0,1.0,1.0,2.0
+5967145,2026-11-08,Serie B,953635,Armand Rada,145007,Vicenza Virtus,7801,Cremonese,1,MED,1,90.0,0.0,0.0,2.0,0.0,1.0
+5967145,2026-11-08,Serie B,1069645,Nicola Rauti,145007,Vicenza Virtus,7801,Cremonese,1,DEL,1,62.0,0.0,0.0,3.0,0.0,0.0
+5967145,2026-11-08,Serie B,1072056,Tommaso Barbieri,7801,Cremonese,145007,LR Vicenza,0,MED,1,90.0,1.0,0.0,3.0,1.0,1.0
+5967145,2026-11-08,Serie B,1190381,Lorenzo Caferri,145007,Vicenza Virtus,7801,Cremonese,1,MED,1,72.0,1.0,0.0,1.0,0.0,0.0
+5967145,2026-11-08,Serie B,1280158,Tommaso Berti,7801,Cremonese,145007,LR Vicenza,0,MED,1,86.0,0.0,0.0,0.0,0.0,0.0
+5967145,2026-11-08,Serie B,1310433,Silvio Merkaj,145007,Vicenza Virtus,7801,Cremonese,1,DEL,1,90.0,2.0,2.0,0.0,1.0,1.0
+5967145,2026-11-08,Serie B,1386005,Marco Nasti,7801,Cremonese,145007,LR Vicenza,0,DEL,0,25.0,0.0,0.0,1.0,0.0,0.0
+5967145,2026-11-08,Serie B,1526283,Tommaso Corazza,145007,Vicenza Virtus,7801,Cremonese,1,MED,0,28.0,0.0,0.0,1.0,1.0,0.0
+5967145,2026-11-08,Serie B,1526880,Alessandro Pietrelli,145007,Vicenza Virtus,7801,Cremonese,1,MED,0,18.0,1.0,0.0,0.0,0.0,0.0
+5967145,2026-11-08,Serie B,1645665,Adin Ličina,7801,Cremonese,145007,LR Vicenza,0,DEL,1,45.0,1.0,0.0,0.0,0.0,0.0
+5967145,2026-11-08,Serie B,1668221,David Stückler,7801,Cremonese,145007,LR Vicenza,0,DEL,0,9.0,2.0,1.0,0.0,0.0,0.0
+5967145,2026-11-08,Serie B,1668225,Dachi Lordkipanidze,7801,Cremonese,145007,LR Vicenza,0,MED,0,4.0,0.0,0.0,1.0,0.0,0.0
+5967145,2026-11-08,Serie B,1958786,Simone Lottici Tessadri,7801,Cremonese,145007,LR Vicenza,0,MED,1,90.0,2.0,0.0,1.0,0.0,0.0
+5967145,2026-11-08,Serie B,2140591,Matteo Vescovi,145007,Vicenza Virtus,7801,Cremonese,1,DEF,1,77.0,0.0,0.0,2.0,0.0,0.0
