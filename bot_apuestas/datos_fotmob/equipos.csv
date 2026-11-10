@@ -3803,3 +3803,7 @@ partido_id,fecha,competicion,equipo_id,equipo,rival_id,rival,local,xg,remates,ti
 5868535,2026-11-08,Segunda,10281,Real Valladolid,9869,Sporting Gijón,0,1.17,15.0,6.0,3.0,6.0,16.0,11.0,2
 5967145,2026-11-08,Serie B,145007,LR Vicenza,7801,Cremonese,1,1.07,10.0,5.0,3.0,4.0,14.0,6.0,1
 5967145,2026-11-08,Serie B,7801,Cremonese,145007,LR Vicenza,0,2.73,16.0,6.0,0.0,3.0,13.0,4.0,4
+5868533,2026-11-09,Segunda,8306,Las Palmas,8288,Eldense,1,1.14,12.0,5.0,2.0,5.0,12.0,11.0,2
+5868533,2026-11-09,Segunda,8288,Eldense,8306,Las Palmas,0,0.33,7.0,1.0,7.0,2.0,17.0,23.0,0
+5868534,2026-11-09,Segunda,4033,Sabadell,161744,Real Sociedad B,1,0.79,19.0,3.0,2.0,5.0,16.0,16.0,0
+5868534,2026-11-09,Segunda,161744,Real Sociedad B,4033,Sabadell,0,1.22,10.0,1.0,3.0,3.0,20.0,18.0,0

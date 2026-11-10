@@ -59605,3 +59605,68 @@ partido_id,fecha,competicion,jugador_id,jugador,equipo_id,equipo,rival_id,rival,
 5967145,2026-11-08,Serie B,1668225,Dachi Lordkipanidze,7801,Cremonese,145007,LR Vicenza,0,MED,0,4.0,0.0,0.0,1.0,0.0,0.0
 5967145,2026-11-08,Serie B,1958786,Simone Lottici Tessadri,7801,Cremonese,145007,LR Vicenza,0,MED,1,90.0,2.0,0.0,1.0,0.0,0.0
 5967145,2026-11-08,Serie B,2140591,Matteo Vescovi,145007,Vicenza Virtus,7801,Cremonese,1,DEF,1,77.0,0.0,0.0,2.0,0.0,0.0
+5868533,2026-11-09,Segunda,202610,Fidel Chaves,8288,Eldense,8306,Las Palmas,0,DEL,1,66.0,0.0,0.0,0.0,0.0,0.0
+5868533,2026-11-09,Segunda,281085,Jesé,8306,Las Palmas,8288,Eldense,1,DEL,1,77.0,2.0,1.0,1.0,1.0,0.0
+5868533,2026-11-09,Segunda,287255,Jefté Betancor,8306,Las Palmas,8288,Eldense,1,DEL,0,13.0,2.0,2.0,0.0,0.0,0.0
+5868533,2026-11-09,Segunda,477615,Sandro Ramírez,8306,Las Palmas,8288,Eldense,1,DEL,0,6.0,0.0,0.0,0.0,1.0,0.0
+5868533,2026-11-09,Segunda,730472,Waldo Rubio,8288,Eldense,8306,Las Palmas,0,DEL,0,18.0,0.0,0.0,0.0,0.0,0.0
+5868533,2026-11-09,Segunda,783699,José Antonio Caro,8306,Las Palmas,8288,Eldense,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5868533,2026-11-09,Segunda,879609,Alex Suárez,8306,Las Palmas,8288,Eldense,1,DEF,1,90.0,1.0,1.0,0.0,1.0,3.0
+5868533,2026-11-09,Segunda,887705,Taisei Miyashiro,8306,Las Palmas,8288,Eldense,1,MED,1,84.0,0.0,0.0,1.0,4.0,0.0
+5868533,2026-11-09,Segunda,916546,Manu Fuster,8306,Las Palmas,8288,Eldense,1,MED,1,68.0,1.0,0.0,0.0,1.0,1.0
+5868533,2026-11-09,Segunda,936206,Kirian Rodríguez,8306,Las Palmas,8288,Eldense,1,MED,1,90.0,1.0,0.0,1.0,0.0,1.0
+5868533,2026-11-09,Segunda,937397,Enzo Loiodice,8306,Las Palmas,8288,Eldense,1,MED,1,90.0,1.0,0.0,3.0,2.0,0.0
+5868533,2026-11-09,Segunda,967085,Roberto López,8288,Eldense,8306,Las Palmas,0,MED,1,66.0,2.0,0.0,1.0,1.0,1.0
+5868533,2026-11-09,Segunda,1009832,Iván Jaime,8306,Las Palmas,8288,Eldense,1,MED,1,90.0,0.0,0.0,2.0,7.0,1.0
+5868533,2026-11-09,Segunda,1086527,Jordi Martín,8288,Eldense,8306,Las Palmas,0,DEF,0,24.0,0.0,0.0,0.0,0.0,2.0
+5868533,2026-11-09,Segunda,1195885,Juan Larios,8288,Eldense,8306,Las Palmas,0,DEF,1,90.0,0.0,0.0,5.0,1.0,4.0
+5868533,2026-11-09,Segunda,1204395,Jesús Clemente,8288,Eldense,8306,Las Palmas,0,DEF,1,90.0,1.0,1.0,1.0,0.0,3.0
+5868533,2026-11-09,Segunda,1210310,Iker Recio,8288,Eldense,8306,Las Palmas,0,DEF,1,90.0,0.0,0.0,0.0,1.0,1.0
+5868533,2026-11-09,Segunda,1283073,Justin Smith,8288,Eldense,8306,Las Palmas,0,MED,1,90.0,0.0,0.0,3.0,0.0,3.0
+5868533,2026-11-09,Segunda,1291883,Ale García,8306,Las Palmas,8288,Eldense,1,DEL,0,22.0,1.0,0.0,1.0,1.0,0.0
+5868533,2026-11-09,Segunda,1323239,Marcos Bustillo,8288,Eldense,8306,Las Palmas,0,MED,1,87.0,0.0,0.0,2.0,0.0,1.0
+5868533,2026-11-09,Segunda,1432918,Jorge Rastrojo,8288,Eldense,8306,Las Palmas,0,DEL,1,66.0,0.0,0.0,1.0,3.0,1.0
+5868533,2026-11-09,Segunda,1526611,Juanma Herzog,8306,Las Palmas,8288,Eldense,1,DEF,1,90.0,1.0,0.0,1.0,2.0,2.0
+5868533,2026-11-09,Segunda,1575777,Aingeru Olabarrieta,8288,Eldense,8306,Las Palmas,0,DEL,0,24.0,0.0,0.0,0.0,0.0,0.0
+5868533,2026-11-09,Segunda,1580562,Andrés Rodríguez,8306,Las Palmas,8288,Eldense,1,DEF,1,68.0,0.0,0.0,0.0,0.0,1.0
+5868533,2026-11-09,Segunda,1646375,Pau Cabanes,8288,Eldense,8306,Las Palmas,0,DEL,0,24.0,1.0,0.0,2.0,1.0,0.0
+5868533,2026-11-09,Segunda,1658531,Ramón Vilà,8288,Eldense,8306,Las Palmas,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5868533,2026-11-09,Segunda,1668267,Valentín Pezzolesi,8306,Las Palmas,8288,Eldense,1,DEF,1,90.0,2.0,1.0,2.0,3.0,2.0
+5868533,2026-11-09,Segunda,1669636,Carlos Guirao,8288,Eldense,8306,Las Palmas,0,MED,0,3.0,0.0,0.0,0.0,0.0,0.0
+5868533,2026-11-09,Segunda,1669653,Álex Serra,8288,Eldense,8306,Las Palmas,0,DEF,1,90.0,2.0,0.0,2.0,1.0,4.0
+5868533,2026-11-09,Segunda,1685541,Mariano Carmona,8288,Eldense,8306,Las Palmas,0,DEL,1,72.0,1.0,0.0,0.0,3.0,3.0
+5868533,2026-11-09,Segunda,2305260,Adrian Rodriguez,8306,Las Palmas,8288,Eldense,1,DEF,0,22.0,0.0,0.0,0.0,0.0,0.0
+5868534,2026-11-09,Segunda,391408,Pere Pons,4033,Sabadell,161744,Real Sociedad B,1,MED,1,90.0,2.0,1.0,0.0,0.0,2.0
+5868534,2026-11-09,Segunda,629921,Nikolay Obolskiy,4033,Sabadell,161744,Real Sociedad B,1,DEL,0,22.0,0.0,0.0,0.0,1.0,1.0
+5868534,2026-11-09,Segunda,670034,Yanis Rahmani,4033,Sabadell,161744,Real Sociedad B,1,DEL,1,55.0,2.0,0.0,1.0,0.0,1.0
+5868534,2026-11-09,Segunda,785825,Kaiser,4033,Sabadell,161744,Real Sociedad B,1,DEF,0,12.0,0.0,0.0,0.0,1.0,0.0
+5868534,2026-11-09,Segunda,892375,Alain Ribeiro,4033,Sabadell,161744,Real Sociedad B,1,DEL,0,12.0,0.0,0.0,0.0,0.0,0.0
+5868534,2026-11-09,Segunda,915987,Edgar González,4033,Sabadell,161744,Real Sociedad B,1,DEF,1,90.0,0.0,0.0,3.0,2.0,1.0
+5868534,2026-11-09,Segunda,936551,Ángel Baena,4033,Sabadell,161744,Real Sociedad B,1,DEL,1,90.0,2.0,0.0,1.0,3.0,0.0
+5868534,2026-11-09,Segunda,1106952,Diego Fuoli,4033,Sabadell,161744,Real Sociedad B,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5868534,2026-11-09,Segunda,1127218,Ton Ripoll,4033,Sabadell,161744,Real Sociedad B,1,MED,1,78.0,0.0,0.0,0.0,0.0,2.0
+5868534,2026-11-09,Segunda,1186262,Joel Priego,4033,Sabadell,161744,Real Sociedad B,1,DEL,1,90.0,5.0,2.0,2.0,0.0,0.0
+5868534,2026-11-09,Segunda,1197497,Arthur,4033,Sabadell,161744,Real Sociedad B,1,DEF,0,78.0,3.0,0.0,0.0,2.0,4.0
+5868534,2026-11-09,Segunda,1323220,Javi López-Pinto,4033,Sabadell,161744,Real Sociedad B,1,DEL,0,35.0,2.0,0.0,0.0,0.0,1.0
+5868534,2026-11-09,Segunda,1323983,Jon Balda,161744,Real Sociedad B,4033,Sabadell,0,DEF,0,25.0,0.0,0.0,1.0,0.0,1.0
+5868534,2026-11-09,Segunda,1333891,Genar Fornés,4033,Sabadell,161744,Real Sociedad B,1,DEF,1,68.0,0.0,0.0,3.0,0.0,0.0
+5868534,2026-11-09,Segunda,1418670,Unax Agote,161744,Real Sociedad B,4033,Sabadell,0,DEF,1,65.0,0.0,0.0,5.0,2.0,1.0
+5868534,2026-11-09,Segunda,1426185,Alex Lebarbier,161744,Real Sociedad B,4033,Sabadell,0,MED,1,90.0,0.0,0.0,2.0,1.0,1.0
+5868534,2026-11-09,Segunda,1431291,Gorka Carrera,161744,Real Sociedad B,4033,Sabadell,0,DEL,0,25.0,1.0,0.0,0.0,0.0,2.0
+5868534,2026-11-09,Segunda,1436231,Arkaitz Mariezkurrena,161744,Real Sociedad B,4033,Sabadell,0,DEL,0,12.0,0.0,0.0,0.0,2.0,1.0
+5868534,2026-11-09,Segunda,1439549,Yussif Owusu,4033,Sabadell,161744,Real Sociedad B,1,MED,0,22.0,0.0,0.0,2.0,2.0,1.0
+5868534,2026-11-09,Segunda,1464100,Gastón Vallés,4033,Sabadell,161744,Real Sociedad B,1,DEL,1,78.0,3.0,0.0,1.0,0.0,1.0
+5868534,2026-11-09,Segunda,1473997,Iñaki Rupérez,161744,Real Sociedad B,4033,Sabadell,0,DEF,1,90.0,2.0,1.0,2.0,3.0,2.0
+5868534,2026-11-09,Segunda,1578120,José Luis Català,4033,Sabadell,161744,Real Sociedad B,1,DEF,1,68.0,0.0,0.0,2.0,3.0,2.0
+5868534,2026-11-09,Segunda,1579469,Gorka Gorosabel,161744,Real Sociedad B,4033,Sabadell,0,MED,1,78.0,0.0,0.0,3.0,0.0,3.0
+5868534,2026-11-09,Segunda,1611191,Kazunari Kita,161744,Real Sociedad B,4033,Sabadell,0,DEF,1,90.0,0.0,0.0,1.0,0.0,1.0
+5868534,2026-11-09,Segunda,1697334,Luken Beitia,161744,Real Sociedad B,4033,Sabadell,0,DEF,1,90.0,1.0,0.0,0.0,0.0,1.0
+5868534,2026-11-09,Segunda,1697371,Lander Astiazarán,161744,Real Sociedad B,4033,Sabadell,0,MED,0,25.0,0.0,0.0,0.0,0.0,0.0
+5868534,2026-11-09,Segunda,1697390,Joan Oleaga,161744,Real Sociedad B,4033,Sabadell,0,MED,0,1.0,0.0,0.0,0.0,0.0,0.0
+5868534,2026-11-09,Segunda,1706627,Javier Soroeta,161744,Real Sociedad B,4033,Sabadell,0,DEL,1,65.0,3.0,0.0,1.0,5.0,4.0
+5868534,2026-11-09,Segunda,1712125,Dani Díaz,161744,Real Sociedad B,4033,Sabadell,0,DEL,1,78.0,1.0,0.0,0.0,0.0,0.0
+5868534,2026-11-09,Segunda,1721611,Álex Marchal,161744,Real Sociedad B,4033,Sabadell,0,DEL,1,65.0,0.0,0.0,0.0,1.0,0.0
+5868534,2026-11-09,Segunda,1796849,Tomy Carbonell,161744,Real Sociedad B,4033,Sabadell,0,MED,1,89.0,1.0,0.0,5.0,1.0,1.0
+5868534,2026-11-09,Segunda,1889248,Quadri Liameed,4033,Sabadell,161744,Real Sociedad B,1,MED,1,12.0,0.0,0.0,1.0,1.0,0.0
+5868534,2026-11-09,Segunda,1897363,Andrews Adjabeng,161744,Real Sociedad B,4033,Sabadell,0,DEL,0,12.0,1.0,0.0,0.0,0.0,0.0
+5868534,2026-11-09,Segunda,1911589,Lander Olasagasti,161744,Real Sociedad B,4033,Sabadell,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
