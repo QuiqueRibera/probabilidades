@@ -3807,3 +3807,5 @@ partido_id,fecha,competicion,equipo_id,equipo,rival_id,rival,local,xg,remates,ti
 5868533,2026-11-09,Segunda,8288,Eldense,8306,Las Palmas,0,0.33,7.0,1.0,7.0,2.0,17.0,23.0,0
 5868534,2026-11-09,Segunda,4033,Sabadell,161744,Real Sociedad B,1,0.79,19.0,3.0,2.0,5.0,16.0,16.0,0
 5868534,2026-11-09,Segunda,161744,Real Sociedad B,4033,Sabadell,0,1.22,10.0,1.0,3.0,3.0,20.0,18.0,0
+5868541,2026-11-13,Segunda,7854,Leganés,7876,Burgos CF,1,1.45,7.0,3.0,3.0,4.0,22.0,10.0,3
+5868541,2026-11-13,Segunda,7876,Burgos CF,7854,Leganés,0,1.35,21.0,3.0,4.0,9.0,13.0,18.0,1

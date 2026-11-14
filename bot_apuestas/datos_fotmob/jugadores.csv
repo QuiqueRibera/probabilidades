@@ -59670,3 +59670,35 @@ partido_id,fecha,competicion,jugador_id,jugador,equipo_id,equipo,rival_id,rival,
 5868534,2026-11-09,Segunda,1889248,Quadri Liameed,4033,Sabadell,161744,Real Sociedad B,1,MED,1,12.0,0.0,0.0,1.0,1.0,0.0
 5868534,2026-11-09,Segunda,1897363,Andrews Adjabeng,161744,Real Sociedad B,4033,Sabadell,0,DEL,0,12.0,1.0,0.0,0.0,0.0,0.0
 5868534,2026-11-09,Segunda,1911589,Lander Olasagasti,161744,Real Sociedad B,4033,Sabadell,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5868541,2026-11-13,Segunda,213501,Álvaro Morata,7854,Leganés,7876,Burgos CF,1,DEL,1,90.0,0.0,0.0,1.0,4.0,2.0
+5868541,2026-11-13,Segunda,213516,Dani Rodríguez,7854,Leganés,7876,Burgos CF,1,MED,1,78.0,1.0,1.0,0.0,2.0,3.0
+5868541,2026-11-13,Segunda,242418,Ignasi Miquel,7854,Leganés,7876,Burgos CF,1,DEF,1,90.0,0.0,0.0,2.0,0.0,0.0
+5868541,2026-11-13,Segunda,518534,Ander Cantero,7876,Burgos CF,7854,Leganés,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5868541,2026-11-13,Segunda,522083,Pablo Galdames,7876,Burgos CF,7854,Leganés,0,MED,1,56.0,2.0,0.0,2.0,1.0,1.0
+5868541,2026-11-13,Segunda,640725,Curro Sánchez,7876,Burgos CF,7854,Leganés,0,DEL,1,67.0,1.0,0.0,0.0,3.0,2.0
+5868541,2026-11-13,Segunda,671685,Álvaro Tejero,7854,Leganés,7876,Burgos CF,1,DEF,1,78.0,1.0,1.0,2.0,1.0,0.0
+5868541,2026-11-13,Segunda,715347,Grego Sierra,7876,Burgos CF,7854,Leganés,0,DEF,1,90.0,0.0,0.0,1.0,2.0,2.0
+5868541,2026-11-13,Segunda,770880,Luca Zidane,7854,Leganés,7876,Burgos CF,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5868541,2026-11-13,Segunda,864236,Patrick Soko,7854,Leganés,7876,Burgos CF,1,DEL,0,23.0,0.0,0.0,1.0,0.0,0.0
+5868541,2026-11-13,Segunda,867647,Víctor Mollejo,7876,Burgos CF,7854,Leganés,0,MED,0,23.0,2.0,0.0,0.0,0.0,1.0
+5868541,2026-11-13,Segunda,884262,Oier Luengo,7876,Burgos CF,7854,Leganés,0,DEF,1,56.0,1.0,0.0,1.0,0.0,3.0
+5868541,2026-11-13,Segunda,915168,Sergio González,7876,Burgos CF,7854,Leganés,0,DEF,0,34.0,0.0,0.0,0.0,0.0,0.0
+5868541,2026-11-13,Segunda,1007717,Unai Vencedor,7876,Burgos CF,7854,Leganés,0,MED,1,90.0,0.0,0.0,3.0,0.0,4.0
+5868541,2026-11-13,Segunda,1033116,Ignasi Vilarrasa,7876,Burgos CF,7854,Leganés,0,DEF,1,90.0,2.0,0.0,0.0,2.0,0.0
+5868541,2026-11-13,Segunda,1093297,Álex Millán,7854,Leganés,7876,Burgos CF,1,DEL,1,67.0,2.0,1.0,0.0,3.0,0.0
+5868541,2026-11-13,Segunda,1106969,Rubén Pulido,7854,Leganés,7876,Burgos CF,1,DEF,1,90.0,1.0,0.0,0.0,0.0,0.0
+5868541,2026-11-13,Segunda,1119683,Miguel Atienza,7854,Leganés,7876,Burgos CF,1,MED,1,90.0,1.0,0.0,6.0,0.0,2.0
+5868541,2026-11-13,Segunda,1180299,Zico Buurmeester,7854,Leganés,7876,Burgos CF,1,MED,0,12.0,0.0,0.0,1.0,0.0,0.0
+5868541,2026-11-13,Segunda,1255855,Yassine Kechta,7854,Leganés,7876,Burgos CF,1,MED,0,29.0,0.0,0.0,0.0,0.0,1.0
+5868541,2026-11-13,Segunda,1287785,Naim García,7854,Leganés,7876,Burgos CF,1,DEF,0,23.0,0.0,0.0,1.0,1.0,0.0
+5868541,2026-11-13,Segunda,1304120,Álex Forés,7876,Burgos CF,7854,Leganés,0,DEL,1,67.0,1.0,0.0,0.0,0.0,1.0
+5868541,2026-11-13,Segunda,1315828,Javi Llabrés,7876,Burgos CF,7854,Leganés,0,DEL,1,76.0,1.0,0.0,1.0,0.0,1.0
+5868541,2026-11-13,Segunda,1323207,Álex Sancris,7854,Leganés,7876,Burgos CF,1,MED,1,67.0,1.0,0.0,2.0,0.0,0.0
+5868541,2026-11-13,Segunda,1323828,Alberto Dadie,7876,Burgos CF,7854,Leganés,0,DEF,1,90.0,5.0,0.0,1.0,1.0,3.0
+5868541,2026-11-13,Segunda,1342790,Marvel,7854,Leganés,7876,Burgos CF,1,DEF,1,90.0,0.0,0.0,5.0,4.0,1.0
+5868541,2026-11-13,Segunda,1563625,Fermín García,7876,Burgos CF,7854,Leganés,0,MED,0,23.0,0.0,0.0,0.0,0.0,0.0
+5868541,2026-11-13,Segunda,1666511,Santiago Lencina,7876,Burgos CF,7854,Leganés,0,MED,0,34.0,4.0,1.0,0.0,0.0,0.0
+5868541,2026-11-13,Segunda,1687218,Irian Ribas,7876,Burgos CF,7854,Leganés,0,DEL,0,14.0,2.0,2.0,0.0,0.0,0.0
+5868541,2026-11-13,Segunda,1755863,Álex Lizancos,7876,Burgos CF,7854,Leganés,0,DEF,1,90.0,0.0,0.0,4.0,1.0,0.0
+5868541,2026-11-13,Segunda,1900239,Unax del Cura,7854,Leganés,7876,Burgos CF,1,DEL,1,61.0,0.0,0.0,1.0,0.0,1.0
+5868541,2026-11-13,Segunda,2405720,Jorge Martínez,7854,Leganés,7876,Burgos CF,1,MED,0,12.0,0.0,0.0,0.0,0.0,0.0
