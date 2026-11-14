@@ -3809,3 +3809,11 @@ partido_id,fecha,competicion,equipo_id,equipo,rival_id,rival,local,xg,remates,ti
 5868534,2026-11-09,Segunda,161744,Real Sociedad B,4033,Sabadell,0,1.22,10.0,1.0,3.0,3.0,20.0,18.0,0
 5868541,2026-11-13,Segunda,7854,Leganés,7876,Burgos CF,1,1.45,7.0,3.0,3.0,4.0,22.0,10.0,3
 5868541,2026-11-13,Segunda,7876,Burgos CF,7854,Leganés,0,1.35,21.0,3.0,4.0,9.0,13.0,18.0,1
+5868546,2026-11-14,Segunda,10281,Real Valladolid,10279,Castellón,1,0.79,7.0,3.0,4.0,3.0,15.0,11.0,0
+5868546,2026-11-14,Segunda,10279,Castellón,10281,Real Valladolid,0,1.74,15.0,3.0,3.0,9.0,15.0,13.0,1
+5868544,2026-11-14,Segunda,161744,Real Sociedad B,9869,Sporting Gijón,1,1.35,18.0,4.0,2.0,6.0,13.0,15.0,2
+5868544,2026-11-14,Segunda,9869,Sporting Gijón,161744,Real Sociedad B,0,2.06,13.0,4.0,2.0,6.0,10.0,9.0,2
+5868537,2026-11-14,Segunda,9865,Almería,494050,FC Andorra,1,1.23,5.0,4.0,1.0,0.0,13.0,11.0,2
+5868537,2026-11-14,Segunda,494050,FC Andorra,9865,Almería,0,1.37,16.0,5.0,2.0,6.0,16.0,16.0,1
+5868542,2026-11-14,Segunda,8661,Mallorca,7869,Córdoba,1,1.63,16.0,7.0,1.0,8.0,14.0,10.0,3
+5868542,2026-11-14,Segunda,7869,Córdoba,8661,Mallorca,0,2.32,14.0,4.0,5.0,3.0,20.0,23.0,3

@@ -59702,3 +59702,129 @@ partido_id,fecha,competicion,jugador_id,jugador,equipo_id,equipo,rival_id,rival,
 5868541,2026-11-13,Segunda,1755863,Álex Lizancos,7876,Burgos CF,7854,Leganés,0,DEF,1,90.0,0.0,0.0,4.0,1.0,0.0
 5868541,2026-11-13,Segunda,1900239,Unax del Cura,7854,Leganés,7876,Burgos CF,1,DEL,1,61.0,0.0,0.0,1.0,0.0,1.0
 5868541,2026-11-13,Segunda,2405720,Jorge Martínez,7854,Leganés,7876,Burgos CF,1,MED,0,12.0,0.0,0.0,0.0,0.0,0.0
+5868546,2026-11-14,Segunda,282471,Carlos Clerc,10281,Real Valladolid,10279,Castellón,1,DEF,1,90.0,0.0,0.0,4.0,3.0,1.0
+5868546,2026-11-14,Segunda,477603,Alberto Jiménez,10279,Castellón,10281,Real Valladolid,0,DEF,1,90.0,0.0,0.0,3.0,4.0,0.0
+5868546,2026-11-14,Segunda,670030,Iñigo Córdoba,10279,Castellón,10281,Real Valladolid,0,MED,1,90.0,1.0,0.0,3.0,0.0,1.0
+5868546,2026-11-14,Segunda,727838,Ryotaro Ito,10281,Real Valladolid,10279,Castellón,1,MED,0,19.0,0.0,0.0,1.0,0.0,0.0
+5868546,2026-11-14,Segunda,732103,Adam Jakobsen,10279,Castellón,10281,Real Valladolid,0,DEL,1,82.0,4.0,3.0,0.0,3.0,1.0
+5868546,2026-11-14,Segunda,746787,Juanjo Nieto,10279,Castellón,10281,Real Valladolid,0,DEF,1,69.0,1.0,0.0,0.0,0.0,0.0
+5868546,2026-11-14,Segunda,815764,Jérémy Mellot,10279,Castellón,10281,Real Valladolid,0,DEF,1,90.0,0.0,0.0,3.0,1.0,1.0
+5868546,2026-11-14,Segunda,867669,Barri,10279,Castellón,10281,Real Valladolid,0,MED,1,90.0,0.0,0.0,0.0,0.0,0.0
+5868546,2026-11-14,Segunda,883272,Romain Matthys,10279,Castellón,10281,Real Valladolid,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5868546,2026-11-14,Segunda,905441,Raúl Sánchez,10279,Castellón,10281,Real Valladolid,0,DEL,0,21.0,2.0,0.0,0.0,1.0,0.0
+5868546,2026-11-14,Segunda,935788,Jari Vlak,10279,Castellón,10281,Real Valladolid,0,MED,0,21.0,0.0,0.0,1.0,0.0,1.0
+5868546,2026-11-14,Segunda,938564,Miguel Rubio,10281,Real Valladolid,10279,Castellón,1,DEF,1,90.0,1.0,0.0,3.0,2.0,0.0
+5868546,2026-11-14,Segunda,953065,Stanko Jurić,10281,Real Valladolid,10279,Castellón,1,MED,1,71.0,0.0,0.0,2.0,1.0,1.0
+5868546,2026-11-14,Segunda,955206,Julien Ponceau,10281,Real Valladolid,10279,Castellón,1,MED,1,90.0,0.0,0.0,1.0,0.0,1.0
+5868546,2026-11-14,Segunda,1186690,Agustín Sienra,10279,Castellón,10281,Real Valladolid,0,DEF,1,90.0,0.0,0.0,0.0,0.0,0.0
+5868546,2026-11-14,Segunda,1205428,Álvaro García,10279,Castellón,10281,Real Valladolid,0,DEL,0,8.0,0.0,0.0,0.0,0.0,1.0
+5868546,2026-11-14,Segunda,1228047,Mathis Lachuer,10281,Real Valladolid,10279,Castellón,1,MED,0,29.0,1.0,1.0,1.0,0.0,2.0
+5868546,2026-11-14,Segunda,1294782,Álvaro Martín,10279,Castellón,10281,Real Valladolid,0,MED,1,69.0,3.0,0.0,1.0,0.0,3.0
+5868546,2026-11-14,Segunda,1324100,Lucas Alcázar,10279,Castellón,10281,Real Valladolid,0,DEF,0,8.0,0.0,0.0,0.0,0.0,0.0
+5868546,2026-11-14,Segunda,1357591,Álvaro Aceves,10281,Real Valladolid,10279,Castellón,1,POR,1,90.0,1.0,0.0,0.0,1.0,0.0
+5868546,2026-11-14,Segunda,1377639,Tay Abed,10281,Real Valladolid,10279,Castellón,1,DEL,1,61.0,1.0,1.0,1.0,0.0,1.0
+5868546,2026-11-14,Segunda,1385857,Antonio Gala,10279,Castellón,10281,Real Valladolid,0,MED,0,32.0,1.0,0.0,2.0,0.0,2.0
+5868546,2026-11-14,Segunda,1392303,Thiago Ojeda,10281,Real Valladolid,10279,Castellón,1,MED,1,61.0,0.0,0.0,1.0,0.0,1.0
+5868546,2026-11-14,Segunda,1395716,David Torres,10281,Real Valladolid,10279,Castellón,1,DEF,1,90.0,0.0,0.0,1.0,1.0,0.0
+5868546,2026-11-14,Segunda,1403392,Víctor Barberà,10281,Real Valladolid,10279,Castellón,1,DEL,0,19.0,0.0,0.0,0.0,1.0,0.0
+5868546,2026-11-14,Segunda,1411822,Luis Chacón,10281,Real Valladolid,10279,Castellón,1,DEL,0,29.0,0.0,0.0,0.0,0.0,0.0
+5868546,2026-11-14,Segunda,1428550,Ousmane Nana Camara,10279,Castellón,10281,Real Valladolid,0,DEL,1,82.0,1.0,0.0,2.0,0.0,2.0
+5868546,2026-11-14,Segunda,1537231,Pablo Santiago,10279,Castellón,10281,Real Valladolid,0,MED,1,58.0,2.0,0.0,0.0,2.0,1.0
+5868546,2026-11-14,Segunda,1553774,Adrián Arnuncio,10281,Real Valladolid,10279,Castellón,1,DEL,1,90.0,1.0,1.0,0.0,1.0,1.0
+5868546,2026-11-14,Segunda,1592621,Ramón Martínez,10281,Real Valladolid,10279,Castellón,1,DEF,0,85.0,1.0,0.0,0.0,0.0,3.0
+5868546,2026-11-14,Segunda,1670167,Víctor Fernández,10281,Real Valladolid,10279,Castellón,1,MED,1,71.0,1.0,0.0,0.0,2.0,0.0
+5868546,2026-11-14,Segunda,1785753,Trilli,10281,Real Valladolid,10279,Castellón,1,DEF,1,5.0,0.0,0.0,0.0,0.0,0.0
+5868544,2026-11-14,Segunda,477594,Rubén Yáñez,9869,Sporting de Gijón,161744,Real Sociedad B,0,POR,1,90.0,0.0,0.0,0.0,1.0,0.0
+5868544,2026-11-14,Segunda,573780,Jorge Sáenz,9869,Sporting de Gijón,161744,Real Sociedad B,0,DEF,1,90.0,1.0,0.0,1.0,2.0,0.0
+5868544,2026-11-14,Segunda,643668,Mamadou Loum Ndiaye,9869,Sporting de Gijón,161744,Real Sociedad B,0,MED,0,4.0,0.0,0.0,0.0,0.0,0.0
+5868544,2026-11-14,Segunda,874045,Alex Corredera,9869,Sporting de Gijón,161744,Real Sociedad B,0,MED,1,80.0,3.0,1.0,0.0,4.0,2.0
+5868544,2026-11-14,Segunda,1103823,Nikita Iosifov,9869,Sporting de Gijón,161744,Real Sociedad B,0,DEL,1,70.0,0.0,0.0,0.0,1.0,0.0
+5868544,2026-11-14,Segunda,1116736,Gaspar Campos,9869,Sporting de Gijón,161744,Real Sociedad B,0,DEL,1,57.0,1.0,1.0,1.0,0.0,2.0
+5868544,2026-11-14,Segunda,1120109,Guille Rosas,9869,Sporting de Gijón,161744,Real Sociedad B,0,DEF,1,90.0,1.0,0.0,1.0,1.0,1.0
+5868544,2026-11-14,Segunda,1305626,Nacho Martín,9869,Sporting de Gijón,161744,Real Sociedad B,0,MED,1,90.0,0.0,0.0,2.0,0.0,0.0
+5868544,2026-11-14,Segunda,1323983,Jon Balda,161744,Real Sociedad B,9869,Sporting Gijón,1,DEF,1,87.0,3.0,2.0,1.0,1.0,3.0
+5868544,2026-11-14,Segunda,1386351,Andrés Ferrari,9869,Sporting de Gijón,161744,Real Sociedad B,0,DEL,0,33.0,1.0,0.0,0.0,0.0,0.0
+5868544,2026-11-14,Segunda,1418670,Unax Agote,161744,Real Sociedad B,9869,Sporting Gijón,1,DEF,0,3.0,0.0,0.0,2.0,0.0,0.0
+5868544,2026-11-14,Segunda,1426185,Alex Lebarbier,161744,Real Sociedad B,9869,Sporting Gijón,1,MED,1,90.0,1.0,1.0,1.0,2.0,2.0
+5868544,2026-11-14,Segunda,1431291,Gorka Carrera,161744,Real Sociedad B,9869,Sporting Gijón,1,DEL,0,32.0,4.0,0.0,1.0,0.0,2.0
+5868544,2026-11-14,Segunda,1436231,Arkaitz Mariezkurrena,161744,Real Sociedad B,9869,Sporting Gijón,1,DEL,0,3.0,1.0,0.0,0.0,1.0,0.0
+5868544,2026-11-14,Segunda,1553777,Jon Garro,161744,Real Sociedad B,9869,Sporting Gijón,1,DEF,1,90.0,1.0,0.0,0.0,0.0,1.0
+5868544,2026-11-14,Segunda,1560755,Jon Eceizabarrena,161744,Real Sociedad B,9869,Sporting Gijón,1,MED,1,58.0,2.0,0.0,1.0,0.0,0.0
+5868544,2026-11-14,Segunda,1579469,Gorka Gorosabel,161744,Real Sociedad B,9869,Sporting Gijón,1,MED,0,32.0,0.0,0.0,1.0,0.0,0.0
+5868544,2026-11-14,Segunda,1580248,Aimar Duñabeitia,9869,Sporting de Gijón,161744,Real Sociedad B,0,DEF,1,90.0,2.0,1.0,2.0,0.0,1.0
+5868544,2026-11-14,Segunda,1665439,Andrés Cuenca,9869,Sporting de Gijón,161744,Real Sociedad B,0,DEF,1,90.0,2.0,0.0,2.0,0.0,1.0
+5868544,2026-11-14,Segunda,1697334,Luken Beitia,161744,Real Sociedad B,9869,Sporting Gijón,1,DEF,1,90.0,0.0,0.0,3.0,0.0,2.0
+5868544,2026-11-14,Segunda,1706627,Javier Soroeta,161744,Real Sociedad B,9869,Sporting Gijón,1,DEL,1,58.0,1.0,0.0,0.0,1.0,1.0
+5868544,2026-11-14,Segunda,1712125,Dani Díaz,161744,Real Sociedad B,9869,Sporting Gijón,1,DEL,1,73.0,1.0,1.0,0.0,1.0,1.0
+5868544,2026-11-14,Segunda,1721611,Álex Marchal,161744,Real Sociedad B,9869,Sporting Gijón,1,DEL,1,87.0,0.0,0.0,0.0,2.0,0.0
+5868544,2026-11-14,Segunda,1748414,Enol Prendes,9869,Sporting de Gijón,161744,Real Sociedad B,0,DEL,0,33.0,0.0,0.0,0.0,3.0,0.0
+5868544,2026-11-14,Segunda,1796849,Tomy Carbonell,161744,Real Sociedad B,9869,Sporting Gijón,1,MED,1,90.0,1.0,0.0,1.0,0.0,2.0
+5868544,2026-11-14,Segunda,1819365,Iker Calderón,161744,Real Sociedad B,9869,Sporting Gijón,1,DEF,1,90.0,1.0,0.0,0.0,0.0,1.0
+5868544,2026-11-14,Segunda,1833800,Miguel Conde,9869,Sporting de Gijón,161744,Real Sociedad B,0,DEL,1,57.0,1.0,0.0,1.0,0.0,2.0
+5868544,2026-11-14,Segunda,1897363,Andrews Adjabeng,161744,Real Sociedad B,9869,Sporting Gijón,1,DEL,0,17.0,2.0,0.0,2.0,1.0,0.0
+5868544,2026-11-14,Segunda,1911589,Lander Olasagasti,161744,Real Sociedad B,9869,Sporting Gijón,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5868544,2026-11-14,Segunda,1971125,Mata,9869,Sporting de Gijón,161744,Real Sociedad B,0,MED,1,90.0,1.0,1.0,0.0,3.0,0.0
+5868544,2026-11-14,Segunda,2144594,Bruno Rubio,9869,Sporting de Gijón,161744,Real Sociedad B,0,MED,0,16.0,0.0,0.0,0.0,0.0,0.0
+5868537,2026-11-14,Segunda,104986,Andrés Fernández,9865,Almería,494050,FC Andorra,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5868537,2026-11-14,Segunda,213482,Jorge Pulido,9865,Almería,494050,FC Andorra,1,DEF,1,90.0,0.0,0.0,0.0,0.0,0.0
+5868537,2026-11-14,Segunda,358127,Léo Baptistão,9865,Almería,494050,FC Andorra,1,DEL,0,8.0,0.0,0.0,0.0,0.0,1.0
+5868537,2026-11-14,Segunda,482331,Adrián Embarba,9865,Almería,494050,FC Andorra,1,DEL,1,70.0,0.0,0.0,2.0,2.0,1.0
+5868537,2026-11-14,Segunda,512040,Álex Muñoz,9865,Almería,494050,FC Andorra,1,DEF,0,8.0,0.0,0.0,0.0,0.0,0.0
+5868537,2026-11-14,Segunda,532942,Pau López,494050,FC Andorra,9865,Almería,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5868537,2026-11-14,Segunda,616531,Javi Muñoz,9865,Almería,494050,FC Andorra,1,MED,1,90.0,0.0,0.0,2.0,0.0,0.0
+5868537,2026-11-14,Segunda,616545,Mikel Vesga,9865,Almería,494050,FC Andorra,1,MED,1,70.0,0.0,0.0,4.0,0.0,3.0
+5868537,2026-11-14,Segunda,638736,Diego Alende,494050,FC Andorra,9865,Almería,0,DEF,1,90.0,0.0,0.0,2.0,1.0,4.0
+5868537,2026-11-14,Segunda,789544,Sergio Molina,494050,FC Andorra,9865,Almería,0,MED,1,45.0,0.0,0.0,2.0,0.0,0.0
+5868537,2026-11-14,Segunda,889102,Thomas Carrique,494050,FC Andorra,9865,Almería,0,DEF,1,90.0,2.0,1.0,0.0,2.0,1.0
+5868537,2026-11-14,Segunda,902647,Chumi,9865,Almería,494050,FC Andorra,1,DEF,1,90.0,0.0,0.0,1.0,0.0,0.0
+5868537,2026-11-14,Segunda,902901,Miguel de la Fuente,9865,Almería,494050,FC Andorra,1,DEL,1,82.0,4.0,3.0,0.0,3.0,2.0
+5868537,2026-11-14,Segunda,998300,Federico Bonini,9865,Almería,494050,FC Andorra,1,DEF,1,90.0,0.0,0.0,0.0,1.0,0.0
+5868537,2026-11-14,Segunda,1168058,Randy Schneider,494050,FC Andorra,9865,Almería,0,MED,1,90.0,3.0,1.0,3.0,1.0,3.0
+5868537,2026-11-14,Segunda,1187766,Sergio Arribas,9865,Almería,494050,FC Andorra,1,MED,1,82.0,1.0,1.0,0.0,3.0,1.0
+5868537,2026-11-14,Segunda,1217550,Daijiro Chirino,9865,Almería,494050,FC Andorra,1,DEF,0,20.0,0.0,0.0,0.0,2.0,0.0
+5868537,2026-11-14,Segunda,1254705,Nacho Quintana,494050,FC Andorra,9865,Almería,0,DEL,1,61.0,0.0,0.0,1.0,4.0,1.0
+5868537,2026-11-14,Segunda,1281236,Leonardo Lelo,9865,Almería,494050,FC Andorra,1,DEF,1,90.0,0.0,0.0,1.0,2.0,1.0
+5868537,2026-11-14,Segunda,1282447,Gui Guedes,9865,Almería,494050,FC Andorra,1,MED,0,20.0,0.0,0.0,1.0,1.0,1.0
+5868537,2026-11-14,Segunda,1286054,Enes Sali,494050,FC Andorra,9865,Almería,0,DEL,0,45.0,2.0,1.0,1.0,0.0,1.0
+5868537,2026-11-14,Segunda,1324041,Jordi Cano,494050,FC Andorra,9865,Almería,0,DEL,1,45.0,0.0,0.0,0.0,0.0,0.0
+5868537,2026-11-14,Segunda,1396376,Bomba,494050,FC Andorra,9865,Almería,0,DEF,1,90.0,0.0,0.0,1.0,0.0,3.0
+5868537,2026-11-14,Segunda,1448033,Alex Calvo,494050,FC Andorra,9865,Almería,0,DEF,0,6.0,0.0,0.0,0.0,0.0,0.0
+5868537,2026-11-14,Segunda,1579843,Quim Junyent,9865,Almería,494050,FC Andorra,1,MED,1,90.0,0.0,0.0,2.0,2.0,1.0
+5868537,2026-11-14,Segunda,1639357,Marc Domènech,494050,FC Andorra,9865,Almería,0,MED,1,90.0,0.0,0.0,3.0,1.0,2.0
+5868537,2026-11-14,Segunda,1693550,Diego Díaz,494050,FC Andorra,9865,Almería,0,DEL,1,45.0,1.0,0.0,0.0,0.0,0.0
+5868537,2026-11-14,Segunda,1713218,Hugo Solozábal,494050,FC Andorra,9865,Almería,0,MED,0,45.0,0.0,0.0,0.0,0.0,1.0
+5868537,2026-11-14,Segunda,1807857,Hugo López,494050,FC Andorra,9865,Almería,0,DEL,0,29.0,3.0,1.0,1.0,0.0,0.0
+5868537,2026-11-14,Segunda,1816777,Moró Sidibe,494050,FC Andorra,9865,Almería,0,DEL,1,84.0,1.0,0.0,0.0,0.0,0.0
+5868537,2026-11-14,Segunda,2136950,Stefan Golubović,494050,FC Andorra,9865,Almería,0,DEL,0,45.0,4.0,1.0,2.0,1.0,0.0
+5868542,2026-11-14,Segunda,245311,Abdón Prats,8661,Mallorca,7869,Córdoba,1,DEL,0,1.0,1.0,0.0,0.0,0.0,0.0
+5868542,2026-11-14,Segunda,282472,Sergi Darder,8661,Mallorca,7869,Córdoba,1,MED,1,90.0,4.0,3.0,1.0,0.0,0.0
+5868542,2026-11-14,Segunda,314605,Alberto Moreno,8661,Mallorca,7869,Córdoba,1,DEF,1,45.0,1.0,1.0,0.0,1.0,1.0
+5868542,2026-11-14,Segunda,557396,Adam Buksa,8661,Mallorca,7869,Córdoba,1,DEL,0,30.0,1.0,1.0,0.0,0.0,1.0
+5868542,2026-11-14,Segunda,640231,Antonio Raíllo,8661,Mallorca,7869,Córdoba,1,DEF,1,90.0,0.0,0.0,3.0,2.0,0.0
+5868542,2026-11-14,Segunda,674518,Toni Lato,8661,Mallorca,7869,Córdoba,1,DEF,0,45.0,1.0,0.0,3.0,1.0,1.0
+5868542,2026-11-14,Segunda,717021,Rubén Alves,7869,Córdoba,8661,Mallorca,0,DEF,1,90.0,0.0,0.0,0.0,0.0,1.0
+5868542,2026-11-14,Segunda,942375,Arnau Tenas,8661,Mallorca,7869,Córdoba,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5868542,2026-11-14,Segunda,972407,Adrián Fuentes,8661,Mallorca,7869,Córdoba,1,DEL,1,89.0,0.0,0.0,0.0,1.0,1.0
+5868542,2026-11-14,Segunda,1055327,Antonio Sánchez,8661,Mallorca,7869,Córdoba,1,MED,1,60.0,0.0,0.0,1.0,1.0,3.0
+5868542,2026-11-14,Segunda,1077917,Arnau Puigmal,8661,Mallorca,7869,Córdoba,1,DEL,1,60.0,0.0,0.0,0.0,2.0,2.0
+5868542,2026-11-14,Segunda,1081302,Álex Martín,7869,Córdoba,8661,Mallorca,0,DEF,0,8.0,0.0,0.0,0.0,0.0,1.0
+5868542,2026-11-14,Segunda,1158927,Diego Bri,7869,Córdoba,8661,Mallorca,0,DEL,1,78.0,1.0,0.0,2.0,1.0,4.0
+5868542,2026-11-14,Segunda,1202049,Dani Tasende,7869,Córdoba,8661,Mallorca,0,DEF,1,82.0,1.0,0.0,1.0,3.0,1.0
+5868542,2026-11-14,Segunda,1203885,Ismael Ruiz,7869,Córdoba,8661,Mallorca,0,MED,1,90.0,0.0,0.0,4.0,1.0,1.0
+5868542,2026-11-14,Segunda,1217911,Damián Cáceres,7869,Córdoba,8661,Mallorca,0,MED,0,12.0,1.0,1.0,0.0,0.0,1.0
+5868542,2026-11-14,Segunda,1231073,Enol Rodríguez,7869,Córdoba,8661,Mallorca,0,DEL,0,12.0,0.0,0.0,1.0,0.0,1.0
+5868542,2026-11-14,Segunda,1233404,Pablo Torre,8661,Mallorca,7869,Córdoba,1,MED,1,89.0,1.0,0.0,1.0,4.0,0.0
+5868542,2026-11-14,Segunda,1280198,Álex Sala,8661,Mallorca,7869,Córdoba,1,MED,1,90.0,3.0,2.0,1.0,2.0,1.0
+5868542,2026-11-14,Segunda,1321439,Percan,7869,Córdoba,8661,Mallorca,0,DEL,1,78.0,3.0,0.0,0.0,1.0,0.0
+5868542,2026-11-14,Segunda,1324045,Juan Gutiérrez,7869,Córdoba,8661,Mallorca,0,DEF,1,90.0,0.0,0.0,1.0,0.0,0.0
+5868542,2026-11-14,Segunda,1422602,Eder García,7869,Córdoba,8661,Mallorca,0,MED,1,90.0,2.0,0.0,2.0,0.0,1.0
+5868542,2026-11-14,Segunda,1489445,Salim El Jebari,7869,Córdoba,8661,Mallorca,0,DEL,1,64.0,1.0,1.0,1.0,2.0,1.0
+5868542,2026-11-14,Segunda,1532197,Guilherme Fernandes,7869,Córdoba,8661,Mallorca,0,POR,1,90.0,0.0,0.0,0.0,1.0,0.0
+5868542,2026-11-14,Segunda,1541825,Adrián Liso,8661,Mallorca,7869,Córdoba,1,MED,1,90.0,2.0,0.0,2.0,3.0,0.0
+5868542,2026-11-14,Segunda,1560045,Egoitz Muñoz,7869,Córdoba,8661,Mallorca,0,DEF,0,8.0,0.0,0.0,0.0,0.0,1.0
+5868542,2026-11-14,Segunda,1617612,Daniel Budesca,7869,Córdoba,8661,Mallorca,0,DEF,1,82.0,0.0,0.0,5.0,0.0,2.0
+5868542,2026-11-14,Segunda,1623826,Aboubaka Soumahoro,8661,Mallorca,7869,Córdoba,1,DEF,1,90.0,2.0,0.0,2.0,2.0,0.0
+5868542,2026-11-14,Segunda,1626723,Víctor Sánchez,7869,Córdoba,8661,Mallorca,0,DEL,0,26.0,1.0,0.0,0.0,0.0,3.0
+5868542,2026-11-14,Segunda,1642593,Adnane Ghailan,7869,Córdoba,8661,Mallorca,0,MED,1,90.0,4.0,2.0,3.0,1.0,5.0
+5868542,2026-11-14,Segunda,1981023,Miguel Calatayud,8661,Mallorca,7869,Córdoba,1,DEF,0,30.0,0.0,0.0,0.0,3.0,0.0
+5868542,2026-11-14,Segunda,1981027,Luis Orejuela,8661,Mallorca,7869,Córdoba,1,DEF,0,1.0,0.0,0.0,0.0,1.0,0.0
