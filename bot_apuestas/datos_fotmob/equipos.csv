@@ -3817,3 +3817,5 @@ partido_id,fecha,competicion,equipo_id,equipo,rival_id,rival,local,xg,remates,ti
 5868537,2026-11-14,Segunda,494050,FC Andorra,9865,Almería,0,1.37,16.0,5.0,2.0,6.0,16.0,16.0,1
 5868542,2026-11-14,Segunda,8661,Mallorca,7869,Córdoba,1,1.63,16.0,7.0,1.0,8.0,14.0,10.0,3
 5868542,2026-11-14,Segunda,7869,Córdoba,8661,Mallorca,0,2.32,14.0,4.0,5.0,3.0,20.0,23.0,3
+5868543,2026-11-14,Segunda,8670,Real Oviedo,7732,Girona,1,0.88,17.0,5.0,2.0,6.0,16.0,13.0,1
+5868543,2026-11-14,Segunda,7732,Girona,8670,Real Oviedo,0,2.09,17.0,5.0,2.0,6.0,22.0,11.0,2

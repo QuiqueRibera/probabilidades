@@ -59828,3 +59828,35 @@ partido_id,fecha,competicion,jugador_id,jugador,equipo_id,equipo,rival_id,rival,
 5868542,2026-11-14,Segunda,1642593,Adnane Ghailan,7869,Córdoba,8661,Mallorca,0,MED,1,90.0,4.0,2.0,3.0,1.0,5.0
 5868542,2026-11-14,Segunda,1981023,Miguel Calatayud,8661,Mallorca,7869,Córdoba,1,DEF,0,30.0,0.0,0.0,0.0,3.0,0.0
 5868542,2026-11-14,Segunda,1981027,Luis Orejuela,8661,Mallorca,7869,Córdoba,1,DEF,0,1.0,0.0,0.0,0.0,1.0,0.0
+5868543,2026-11-14,Segunda,58294,Cristhian Stuani,7732,Girona,8670,Real Oviedo,0,DEL,0,1.0,1.0,0.0,0.0,1.0,1.0
+5868543,2026-11-14,Segunda,215584,David López,7732,Girona,8670,Real Oviedo,0,DEF,1,90.0,2.0,1.0,4.0,1.0,0.0
+5868543,2026-11-14,Segunda,278285,Paulo Gazzaniga,7732,Girona,8670,Real Oviedo,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5868543,2026-11-14,Segunda,282692,Portu,7732,Girona,8670,Real Oviedo,0,MED,0,30.0,0.0,0.0,2.0,0.0,2.0
+5868543,2026-11-14,Segunda,477472,José Luis Morales,8670,Real Oviedo,7732,Girona,1,DEL,0,13.0,1.0,1.0,1.0,0.0,0.0
+5868543,2026-11-14,Segunda,477588,Álex Moreno,7732,Girona,8670,Real Oviedo,0,DEF,1,90.0,0.0,0.0,4.0,1.0,0.0
+5868543,2026-11-14,Segunda,479217,David Costas,8670,Real Oviedo,7732,Girona,1,DEF,1,90.0,0.0,0.0,2.0,2.0,5.0
+5868543,2026-11-14,Segunda,534955,Aarón Escandell,8670,Real Oviedo,7732,Girona,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5868543,2026-11-14,Segunda,612836,Donny van de Beek,7732,Girona,8670,Real Oviedo,0,MED,0,30.0,0.0,0.0,0.0,0.0,0.0
+5868543,2026-11-14,Segunda,748380,Abel Ruiz,7732,Girona,8670,Real Oviedo,0,DEL,1,60.0,1.0,1.0,1.0,2.0,1.0
+5868543,2026-11-14,Segunda,776591,Abdul Mumin,7732,Girona,8670,Real Oviedo,0,DEF,0,1.0,0.0,0.0,0.0,0.0,0.0
+5868543,2026-11-14,Segunda,785508,Jacobo González,8670,Real Oviedo,7732,Girona,1,DEL,0,24.0,1.0,1.0,0.0,0.0,0.0
+5868543,2026-11-14,Segunda,785511,Fran Beltrán,7732,Girona,8670,Real Oviedo,0,MED,1,90.0,2.0,0.0,3.0,2.0,0.0
+5868543,2026-11-14,Segunda,844478,Mateu Morey,7732,Girona,8670,Real Oviedo,0,DEF,1,90.0,0.0,0.0,2.0,1.0,1.0
+5868543,2026-11-14,Segunda,873297,Carles Pérez,7732,Girona,8670,Real Oviedo,0,DEL,1,89.0,4.0,1.0,2.0,0.0,2.0
+5868543,2026-11-14,Segunda,1026223,Alexandru Ișfan,8670,Real Oviedo,7732,Girona,1,DEL,1,77.0,1.0,1.0,0.0,0.0,0.0
+5868543,2026-11-14,Segunda,1112511,Alejandro Francés,7732,Girona,8670,Real Oviedo,0,DEF,1,90.0,1.0,0.0,0.0,1.0,0.0
+5868543,2026-11-14,Segunda,1162677,Dani Villahermosa,8670,Real Oviedo,7732,Girona,1,MED,0,13.0,0.0,0.0,0.0,0.0,0.0
+5868543,2026-11-14,Segunda,1167189,Youness Lachhab,8670,Real Oviedo,7732,Girona,1,MED,1,90.0,2.0,0.0,2.0,1.0,1.0
+5868543,2026-11-14,Segunda,1169595,Ilyas Chaira,8670,Real Oviedo,7732,Girona,1,DEL,1,77.0,3.0,0.0,2.0,1.0,0.0
+5868543,2026-11-14,Segunda,1254217,Carlos Domínguez,8670,Real Oviedo,7732,Girona,1,DEF,1,90.0,1.0,0.0,2.0,0.0,1.0
+5868543,2026-11-14,Segunda,1321603,Estanis Pedrola,8670,Real Oviedo,7732,Girona,1,DEL,1,66.0,1.0,1.0,1.0,1.0,1.0
+5868543,2026-11-14,Segunda,1323510,Alberto Reina,8670,Real Oviedo,7732,Girona,1,MED,1,66.0,1.0,1.0,0.0,0.0,1.0
+5868543,2026-11-14,Segunda,1326046,Unai Hernández,7732,Girona,8670,Real Oviedo,0,MED,1,60.0,3.0,1.0,1.0,0.0,1.0
+5868543,2026-11-14,Segunda,1340594,Mikel Goti,8670,Real Oviedo,7732,Girona,1,MED,1,90.0,3.0,0.0,2.0,2.0,1.0
+5868543,2026-11-14,Segunda,1370087,Pablo Sáenz,8670,Real Oviedo,7732,Girona,1,DEL,0,24.0,0.0,0.0,1.0,0.0,1.0
+5868543,2026-11-14,Segunda,1413780,David Jiménez,8670,Real Oviedo,7732,Girona,1,DEF,1,90.0,2.0,0.0,1.0,2.0,0.0
+5868543,2026-11-14,Segunda,1580553,Víctor Mingo,8670,Real Oviedo,7732,Girona,1,DEL,0,2.0,0.0,0.0,0.0,0.0,0.0
+5868543,2026-11-14,Segunda,1643963,Lass Kourouma,7732,Girona,8670,Real Oviedo,0,MED,0,1.0,0.0,0.0,0.0,0.0,1.0
+5868543,2026-11-14,Segunda,1665022,Oleksandr Pyshchur,7732,Girona,8670,Real Oviedo,0,DEL,1,89.0,3.0,1.0,1.0,2.0,2.0
+5868543,2026-11-14,Segunda,1683631,Izan González,7732,Girona,8670,Real Oviedo,0,MED,1,89.0,0.0,0.0,2.0,2.0,0.0
+5868543,2026-11-14,Segunda,1720593,Samu Rodríguez,8670,Real Oviedo,7732,Girona,1,DEF,1,88.0,1.0,0.0,2.0,1.0,2.0
