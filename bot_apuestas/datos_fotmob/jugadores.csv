@@ -59860,3 +59860,128 @@ partido_id,fecha,competicion,jugador_id,jugador,equipo_id,equipo,rival_id,rival,
 5868543,2026-11-14,Segunda,1665022,Oleksandr Pyshchur,7732,Girona,8670,Real Oviedo,0,DEL,1,89.0,3.0,1.0,1.0,2.0,2.0
 5868543,2026-11-14,Segunda,1683631,Izan González,7732,Girona,8670,Real Oviedo,0,MED,1,89.0,0.0,0.0,2.0,2.0,0.0
 5868543,2026-11-14,Segunda,1720593,Samu Rodríguez,8670,Real Oviedo,7732,Girona,1,DEF,1,88.0,1.0,0.0,2.0,1.0,2.0
+5868545,2026-11-15,Segunda,174529,Marc Mateu,9867,Tenerife,357259,AD Ceuta FC,1,DEF,0,3.0,0.0,0.0,0.0,0.0,0.0
+5868545,2026-11-15,Segunda,477600,Carlos Hernández,357259,AD Ceuta FC,9867,Tenerife,0,DEF,1,90.0,4.0,0.0,1.0,0.0,1.0
+5868545,2026-11-15,Segunda,563069,Yann Bodiger,357259,AD Ceuta FC,9867,Tenerife,0,MED,1,90.0,0.0,0.0,1.0,0.0,0.0
+5868545,2026-11-15,Segunda,627003,Guillermo Vallejo,357259,AD Ceuta FC,9867,Tenerife,0,POR,1,90.0,0.0,0.0,1.0,0.0,0.0
+5868545,2026-11-15,Segunda,638072,Kuki Zalazar,357259,AD Ceuta FC,9867,Tenerife,0,MED,1,87.0,5.0,1.0,1.0,2.0,2.0
+5868545,2026-11-15,Segunda,639136,Nacho Gil,9867,Tenerife,357259,AD Ceuta FC,1,MED,1,87.0,2.0,1.0,1.0,0.0,4.0
+5868545,2026-11-15,Segunda,639458,Enric Gallego,9867,Tenerife,357259,AD Ceuta FC,1,DEL,1,90.0,3.0,0.0,2.0,1.0,2.0
+5868545,2026-11-15,Segunda,647245,Mauro Pittón,9867,Tenerife,357259,AD Ceuta FC,1,MED,0,3.0,0.0,0.0,0.0,0.0,0.0
+5868545,2026-11-15,Segunda,670416,Gerard Valentín,9867,Tenerife,357259,AD Ceuta FC,1,MED,0,28.0,0.0,0.0,2.0,0.0,0.0
+5868545,2026-11-15,Segunda,708877,Anthony Landázuri,9867,Tenerife,357259,AD Ceuta FC,1,DEF,1,90.0,1.0,1.0,1.0,3.0,0.0
+5868545,2026-11-15,Segunda,866969,Carlos Redruello,357259,AD Ceuta FC,9867,Tenerife,0,DEF,1,90.0,0.0,0.0,1.0,1.0,1.0
+5868545,2026-11-15,Segunda,922897,Álex Petxa,357259,AD Ceuta FC,9867,Tenerife,0,DEF,1,90.0,0.0,0.0,3.0,2.0,0.0
+5868545,2026-11-15,Segunda,1003309,Jordi Escobar,357259,AD Ceuta FC,9867,Tenerife,0,DEL,1,90.0,2.0,0.0,0.0,2.0,1.0
+5868545,2026-11-15,Segunda,1059674,Jesús Álvarez,9867,Tenerife,357259,AD Ceuta FC,1,MED,1,90.0,1.0,1.0,4.0,1.0,2.0
+5868545,2026-11-15,Segunda,1093264,Cedric Teguia,357259,AD Ceuta FC,9867,Tenerife,0,DEL,0,45.0,3.0,1.0,1.0,0.0,0.0
+5868545,2026-11-15,Segunda,1120767,Álex Camacho,357259,AD Ceuta FC,9867,Tenerife,0,DEL,1,45.0,0.0,0.0,1.0,1.0,1.0
+5868545,2026-11-15,Segunda,1121005,Alejandro Meléndez,357259,AD Ceuta FC,9867,Tenerife,0,MED,1,78.0,0.0,0.0,0.0,1.0,1.0
+5868545,2026-11-15,Segunda,1128940,Edgar Sevikyan,357259,AD Ceuta FC,9867,Tenerife,0,DEL,1,66.0,0.0,0.0,3.0,2.0,1.0
+5868545,2026-11-15,Segunda,1197723,David Rodríguez,9867,Tenerife,357259,AD Ceuta FC,1,DEF,1,90.0,0.0,0.0,1.0,0.0,0.0
+5868545,2026-11-15,Segunda,1204802,Christian Gomis,9867,Tenerife,357259,AD Ceuta FC,1,DEL,1,62.0,0.0,0.0,2.0,1.0,2.0
+5868545,2026-11-15,Segunda,1292813,Juanjo,9867,Tenerife,357259,AD Ceuta FC,1,MED,0,12.0,0.0,0.0,0.0,0.0,0.0
+5868545,2026-11-15,Segunda,1292869,Noel López,9867,Tenerife,357259,AD Ceuta FC,1,MED,1,62.0,1.0,1.0,1.0,2.0,0.0
+5868545,2026-11-15,Segunda,1416751,Marino Illescas,357259,AD Ceuta FC,9867,Tenerife,0,MED,1,90.0,0.0,0.0,4.0,1.0,2.0
+5868545,2026-11-15,Segunda,1426166,Neal Viereck,9867,Tenerife,357259,AD Ceuta FC,1,DEF,1,90.0,1.0,1.0,1.0,0.0,0.0
+5868545,2026-11-15,Segunda,1526620,Víctor Moreno,9867,Tenerife,357259,AD Ceuta FC,1,DEL,0,28.0,0.0,0.0,1.0,0.0,0.0
+5868545,2026-11-15,Segunda,1541976,Omar Sadik,357259,AD Ceuta FC,9867,Tenerife,0,DEL,0,3.0,0.0,0.0,0.0,0.0,0.0
+5868545,2026-11-15,Segunda,1585840,César Álvarez,9867,Tenerife,357259,AD Ceuta FC,1,DEF,1,87.0,2.0,0.0,0.0,3.0,2.0
+5868545,2026-11-15,Segunda,1693583,Fabricio,9867,Tenerife,357259,AD Ceuta FC,1,MED,1,78.0,0.0,0.0,1.0,0.0,1.0
+5868545,2026-11-15,Segunda,1715710,Gabriel Lozano,9867,Tenerife,357259,AD Ceuta FC,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5868545,2026-11-15,Segunda,1927874,Chidiebere Okoro,357259,AD Ceuta FC,9867,Tenerife,0,MED,0,24.0,0.0,0.0,2.0,0.0,0.0
+5868545,2026-11-15,Segunda,2297838,Abraham Bueno,357259,AD Ceuta FC,9867,Tenerife,0,MED,0,12.0,1.0,0.0,0.0,0.0,1.0
+5868540,2026-11-15,Segunda,281085,Jesé,8306,Las Palmas,7878,Granada,0,DEL,1,90.0,3.0,1.0,0.0,2.0,0.0
+5868540,2026-11-15,Segunda,287255,Jefté Betancor,8306,Las Palmas,7878,Granada,0,DEL,0,14.0,0.0,0.0,0.0,0.0,1.0
+5868540,2026-11-15,Segunda,522234,Gerard Gumbau,7878,Granada CF,8306,Las Palmas,1,MED,1,90.0,1.0,0.0,0.0,0.0,2.0
+5868540,2026-11-15,Segunda,639144,Rubén Alcaraz,7878,Granada CF,8306,Las Palmas,1,MED,1,90.0,2.0,0.0,1.0,0.0,0.0
+5868540,2026-11-15,Segunda,783699,José Antonio Caro,8306,Las Palmas,7878,Granada,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5868540,2026-11-15,Segunda,850934,Nicholas Opoku,8306,Las Palmas,7878,Granada,0,DEF,0,1.0,0.0,0.0,0.0,0.0,1.0
+5868540,2026-11-15,Segunda,879609,Álex Suárez,8306,Las Palmas,7878,Granada,0,DEF,1,90.0,2.0,0.0,3.0,0.0,0.0
+5868540,2026-11-15,Segunda,881124,Diego Pampín,7878,Granada CF,8306,Las Palmas,1,DEF,1,90.0,2.0,0.0,4.0,0.0,0.0
+5868540,2026-11-15,Segunda,887705,Taisei Miyashiro,8306,Las Palmas,7878,Granada,0,MED,1,83.0,0.0,0.0,1.0,1.0,0.0
+5868540,2026-11-15,Segunda,913184,Abdoul Kader Bamba,7878,Granada CF,8306,Las Palmas,1,MED,1,67.0,1.0,0.0,1.0,2.0,1.0
+5868540,2026-11-15,Segunda,916546,Manu Fuster,8306,Las Palmas,7878,Granada,0,MED,1,64.0,1.0,1.0,0.0,1.0,0.0
+5868540,2026-11-15,Segunda,929835,Alejandro Marqués,7878,Granada CF,8306,Las Palmas,1,DEL,0,23.0,0.0,0.0,0.0,0.0,1.0
+5868540,2026-11-15,Segunda,936206,Kirian Rodríguez,8306,Las Palmas,7878,Granada,0,MED,1,90.0,0.0,0.0,1.0,2.0,0.0
+5868540,2026-11-15,Segunda,937397,Enzo Loiodice,8306,Las Palmas,7878,Granada,0,MED,1,76.0,1.0,0.0,0.0,3.0,0.0
+5868540,2026-11-15,Segunda,952529,Sergio López,7878,Granada CF,8306,Las Palmas,1,DEF,1,90.0,1.0,0.0,0.0,0.0,1.0
+5868540,2026-11-15,Segunda,1009832,Iván Jaime,8306,Las Palmas,7878,Granada,0,MED,1,90.0,2.0,2.0,1.0,1.0,0.0
+5868540,2026-11-15,Segunda,1106895,Marvin Park,8306,Las Palmas,7878,Granada,0,DEF,0,26.0,1.0,0.0,0.0,0.0,0.0
+5868540,2026-11-15,Segunda,1226848,Manu Lama,7878,Granada CF,8306,Las Palmas,1,DEF,1,90.0,0.0,0.0,1.0,1.0,1.0
+5868540,2026-11-15,Segunda,1308894,Pedro Alemañ,7878,Granada CF,8306,Las Palmas,1,MED,1,67.0,2.0,1.0,0.0,0.0,3.0
+5868540,2026-11-15,Segunda,1329320,Alberto Flores,7878,Granada CF,8306,Las Palmas,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5868540,2026-11-15,Segunda,1336006,Jorge Pascual,7878,Granada CF,8306,Las Palmas,1,DEL,1,81.0,4.0,2.0,2.0,1.0,1.0
+5868540,2026-11-15,Segunda,1337009,Giovanni Bonfanti,8306,Las Palmas,7878,Granada,0,DEF,1,90.0,1.0,1.0,2.0,1.0,1.0
+5868540,2026-11-15,Segunda,1403389,Diego Hormigo,7878,Granada CF,8306,Las Palmas,1,DEF,0,9.0,0.0,0.0,0.0,1.0,0.0
+5868540,2026-11-15,Segunda,1436230,Sergio Rodelas,7878,Granada CF,8306,Las Palmas,1,DEL,1,81.0,4.0,0.0,1.0,1.0,1.0
+5868540,2026-11-15,Segunda,1580562,Andrés Rodríguez,8306,Las Palmas,7878,Granada,0,DEF,1,64.0,1.0,1.0,1.0,0.0,2.0
+5868540,2026-11-15,Segunda,1609840,Jeremía Recoba,8306,Las Palmas,7878,Granada,0,MED,0,7.0,0.0,0.0,1.0,0.0,0.0
+5868540,2026-11-15,Segunda,1714481,Elías Romero,8306,Las Palmas,7878,Granada,0,DEL,0,26.0,0.0,0.0,1.0,0.0,1.0
+5868540,2026-11-15,Segunda,1800640,Mario Jiménez,7878,Granada CF,8306,Las Palmas,1,DEL,0,23.0,0.0,0.0,2.0,0.0,0.0
+5868540,2026-11-15,Segunda,1825696,Juanjo,7878,Granada CF,8306,Las Palmas,1,DEF,1,90.0,0.0,0.0,1.0,0.0,0.0
+5868540,2026-11-15,Segunda,2140601,Chinaza Onouha,7878,Granada CF,8306,Las Palmas,1,DEL,0,9.0,0.0,0.0,0.0,1.0,1.0
+5868540,2026-11-15,Segunda,2305260,Adrián Rodríguez,8306,Las Palmas,7878,Granada,0,DEF,1,84.0,0.0,0.0,2.0,0.0,1.0
+5868538,2026-11-15,Segunda,202639,Sergio Álvarez,8372,Eibar,8385,Cádiz,1,MED,0,20.0,0.0,0.0,2.0,0.0,1.0
+5868538,2026-11-15,Segunda,213814,Anaitz Arbilla,8372,Eibar,8385,Cádiz,1,DEF,1,90.0,1.0,0.0,2.0,0.0,1.0
+5868538,2026-11-15,Segunda,496728,David Gil,8385,Cádiz,8372,Eibar,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5868538,2026-11-15,Segunda,636565,Jon Bautista,8372,Eibar,8385,Cádiz,1,DEL,1,66.0,3.0,0.0,1.0,2.0,2.0
+5868538,2026-11-15,Segunda,696449,Javi Ontiveros,8385,Cádiz,8372,Eibar,0,DEL,0,33.0,0.0,0.0,0.0,1.0,0.0
+5868538,2026-11-15,Segunda,792071,Peru Nolaskoain,8372,Eibar,8385,Cádiz,1,DEF,1,90.0,0.0,0.0,0.0,1.0,0.0
+5868538,2026-11-15,Segunda,820259,Álvaro Rodríguez,8372,Eibar,8385,Cádiz,1,DEF,1,90.0,0.0,0.0,2.0,1.0,1.0
+5868538,2026-11-15,Segunda,920095,Pejiño,8372,Eibar,8385,Cádiz,1,MED,0,8.0,1.0,1.0,0.0,1.0,0.0
+5868538,2026-11-15,Segunda,988197,Urko Izeta,8385,Cádiz,8372,Eibar,0,DEL,1,86.0,2.0,1.0,1.0,0.0,1.0
+5868538,2026-11-15,Segunda,1076508,Marc-Olivier Doué,8385,Cádiz,8372,Eibar,0,MED,1,86.0,0.0,0.0,3.0,3.0,2.0
+5868538,2026-11-15,Segunda,1110836,Iván Gil,8372,Eibar,8385,Cádiz,1,MED,1,67.0,1.0,1.0,0.0,2.0,0.0
+5868538,2026-11-15,Segunda,1179835,Giorgi Gocholeishvili,8385,Cádiz,8372,Eibar,0,MED,1,72.0,1.0,1.0,2.0,2.0,0.0
+5868538,2026-11-15,Segunda,1198494,Jon Guruzeta,8372,Eibar,8385,Cádiz,1,DEL,1,82.0,3.0,2.0,2.0,0.0,3.0
+5868538,2026-11-15,Segunda,1202048,Cristian Gutiérrez,8385,Cádiz,8372,Eibar,0,DEF,0,18.0,0.0,0.0,0.0,0.0,0.0
+5868538,2026-11-15,Segunda,1205433,Javi Martón,8372,Eibar,8385,Cádiz,1,DEL,0,24.0,1.0,1.0,0.0,1.0,0.0
+5868538,2026-11-15,Segunda,1233601,Jonmi Magunagoitia,8372,Eibar,8385,Cádiz,1,POR,1,90.0,0.0,0.0,0.0,1.0,0.0
+5868538,2026-11-15,Segunda,1287788,Jon Magunazelaia,8372,Eibar,8385,Cádiz,1,MED,0,23.0,0.0,0.0,0.0,0.0,1.0
+5868538,2026-11-15,Segunda,1327733,Aleix Garrido,8372,Eibar,8385,Cádiz,1,MED,1,70.0,2.0,2.0,1.0,1.0,2.0
+5868538,2026-11-15,Segunda,1331037,Adu Ares,8372,Eibar,8385,Cádiz,1,DEL,1,90.0,4.0,1.0,1.0,3.0,4.0
+5868538,2026-11-15,Segunda,1367987,Damián Rodríguez,8385,Cádiz,8372,Eibar,0,MED,0,4.0,0.0,0.0,0.0,0.0,1.0
+5868538,2026-11-15,Segunda,1432713,Markel Arana,8372,Eibar,8385,Cádiz,1,DEF,1,90.0,1.0,0.0,1.0,0.0,0.0
+5868538,2026-11-15,Segunda,1470065,Vladyslav Kopotun,8385,Cádiz,8372,Eibar,0,DEL,1,57.0,0.0,0.0,0.0,0.0,2.0
+5868538,2026-11-15,Segunda,1477856,Ibon Sánchez,8385,Cádiz,8372,Eibar,0,MED,0,4.0,0.0,0.0,0.0,0.0,0.0
+5868538,2026-11-15,Segunda,1526604,Ander Madariaga,8372,Eibar,8385,Cádiz,1,MED,1,90.0,1.0,1.0,1.0,0.0,0.0
+5868538,2026-11-15,Segunda,1622301,Borja Vázquez,8385,Cádiz,8372,Eibar,0,DEL,1,90.0,3.0,2.0,2.0,5.0,3.0
+5868538,2026-11-15,Segunda,1648518,Gonzalo Petit,8385,Cádiz,8372,Eibar,0,DEL,0,18.0,0.0,0.0,0.0,1.0,0.0
+5868538,2026-11-15,Segunda,1654534,Antoñito Cordero,8385,Cádiz,8372,Eibar,0,DEL,1,90.0,1.0,1.0,0.0,1.0,0.0
+5868538,2026-11-15,Segunda,1661194,Dilan Zárate,8385,Cádiz,8372,Eibar,0,MED,1,90.0,1.0,0.0,1.0,1.0,1.0
+5868538,2026-11-15,Segunda,1701546,Sergio Arribas,8385,Cádiz,8372,Eibar,0,DEF,1,72.0,0.0,0.0,4.0,0.0,3.0
+5868538,2026-11-15,Segunda,2140576,Noah Obioma,8385,Cádiz,8372,Eibar,0,DEF,1,90.0,0.0,0.0,3.0,0.0,1.0
+5868538,2026-11-15,Segunda,2140577,Manuel Rivera,8385,Cádiz,8372,Eibar,0,DEF,1,90.0,0.0,0.0,1.0,0.0,1.0
+5868539,2026-11-15,Segunda,391408,Pere Pons,4033,Sabadell,8288,Eldense,0,MED,1,77.0,0.0,0.0,2.0,0.0,0.0
+5868539,2026-11-15,Segunda,629921,Nikolay Obolskiy,4033,Sabadell,8288,Eldense,0,DEL,0,13.0,0.0,0.0,1.0,0.0,1.0
+5868539,2026-11-15,Segunda,785825,Kaiser,4033,Sabadell,8288,Eldense,0,DEF,0,45.0,0.0,0.0,1.0,0.0,0.0
+5868539,2026-11-15,Segunda,892375,Alain Ribeiro,4033,Sabadell,8288,Eldense,0,DEL,0,22.0,0.0,0.0,0.0,0.0,1.0
+5868539,2026-11-15,Segunda,915987,Edgar González,4033,Sabadell,8288,Eldense,0,DEF,1,90.0,0.0,0.0,1.0,2.0,0.0
+5868539,2026-11-15,Segunda,920741,Javi Martínez,8288,Eldense,4033,Sabadell,1,MED,0,24.0,1.0,1.0,0.0,1.0,0.0
+5868539,2026-11-15,Segunda,936551,Ángel Baena,4033,Sabadell,8288,Eldense,0,DEL,1,90.0,1.0,0.0,0.0,1.0,0.0
+5868539,2026-11-15,Segunda,967085,Roberto López,8288,Eldense,4033,Sabadell,1,MED,0,33.0,6.0,2.0,1.0,1.0,0.0
+5868539,2026-11-15,Segunda,1086527,Jordi Martín,8288,Eldense,4033,Sabadell,1,DEF,1,90.0,0.0,0.0,1.0,1.0,0.0
+5868539,2026-11-15,Segunda,1093784,Manu Nieto,8288,Eldense,4033,Sabadell,1,DEL,0,16.0,1.0,1.0,0.0,0.0,0.0
+5868539,2026-11-15,Segunda,1106952,Diego Fuoli,4033,Sabadell,8288,Eldense,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5868539,2026-11-15,Segunda,1127218,Ton Ripoll,4033,Sabadell,8288,Eldense,0,MED,1,90.0,1.0,0.0,2.0,1.0,0.0
+5868539,2026-11-15,Segunda,1186262,Joel Priego,4033,Sabadell,8288,Eldense,0,DEL,1,68.0,0.0,0.0,0.0,1.0,0.0
+5868539,2026-11-15,Segunda,1197497,Arthur,4033,Sabadell,8288,Eldense,0,DEF,1,34.0,0.0,0.0,3.0,0.0,1.0
+5868539,2026-11-15,Segunda,1204395,Jesús Clemente,8288,Eldense,4033,Sabadell,1,DEF,1,74.0,1.0,1.0,0.0,1.0,1.0
+5868539,2026-11-15,Segunda,1210310,Iker Recio,8288,Eldense,4033,Sabadell,1,DEF,1,90.0,0.0,0.0,0.0,0.0,1.0
+5868539,2026-11-15,Segunda,1256502,David Ruiz,8288,Eldense,4033,Sabadell,1,DEF,1,57.0,0.0,0.0,0.0,0.0,0.0
+5868539,2026-11-15,Segunda,1279041,Óscar Sanz,4033,Sabadell,8288,Eldense,0,DEF,1,90.0,1.0,0.0,3.0,1.0,2.0
+5868539,2026-11-15,Segunda,1283073,Justin Smith,8288,Eldense,4033,Sabadell,1,MED,1,66.0,0.0,0.0,2.0,0.0,0.0
+5868539,2026-11-15,Segunda,1323220,Javi López-Pinto,4033,Sabadell,8288,Eldense,0,DEL,1,45.0,0.0,0.0,1.0,2.0,0.0
+5868539,2026-11-15,Segunda,1323239,Marcos Bustillo,8288,Eldense,4033,Sabadell,1,MED,1,90.0,1.0,0.0,1.0,3.0,4.0
+5868539,2026-11-15,Segunda,1327414,Alejandro Ibarrondo,8288,Eldense,4033,Sabadell,1,DEF,0,16.0,0.0,0.0,2.0,0.0,0.0
+5868539,2026-11-15,Segunda,1333891,Genar Fornés,4033,Sabadell,8288,Eldense,0,DEF,1,90.0,1.0,0.0,2.0,0.0,2.0
+5868539,2026-11-15,Segunda,1393472,Floris Smand,8288,Eldense,4033,Sabadell,1,DEF,1,90.0,0.0,0.0,1.0,0.0,0.0
+5868539,2026-11-15,Segunda,1439549,Yussif Owusu,4033,Sabadell,8288,Eldense,0,MED,0,45.0,1.0,0.0,3.0,0.0,2.0
+5868539,2026-11-15,Segunda,1464100,Gastón Vallés,4033,Sabadell,8288,Eldense,0,DEL,1,45.0,0.0,0.0,0.0,1.0,2.0
+5868539,2026-11-15,Segunda,1575777,Aingeru Olabarrieta,8288,Eldense,4033,Sabadell,1,DEL,1,90.0,2.0,0.0,0.0,1.0,1.0
+5868539,2026-11-15,Segunda,1578120,José Luis Català,4033,Sabadell,8288,Eldense,0,DEF,0,1.0,0.0,0.0,0.0,0.0,1.0
+5868539,2026-11-15,Segunda,1646375,Pau Cabanes,8288,Eldense,4033,Sabadell,1,DEL,1,57.0,0.0,0.0,0.0,0.0,1.0
+5868539,2026-11-15,Segunda,1658531,Ramón Vilà,8288,Eldense,4033,Sabadell,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5868539,2026-11-15,Segunda,1669653,Álex Serra,8288,Eldense,4033,Sabadell,1,DEF,0,33.0,0.0,0.0,0.0,1.0,0.0
+5868539,2026-11-15,Segunda,1685541,Mariano Carmona,8288,Eldense,4033,Sabadell,1,DEL,1,74.0,2.0,1.0,0.0,3.0,1.0
