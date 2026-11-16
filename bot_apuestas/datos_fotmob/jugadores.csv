@@ -59985,3 +59985,351 @@ partido_id,fecha,competicion,jugador_id,jugador,equipo_id,equipo,rival_id,rival,
 5868539,2026-11-15,Segunda,1658531,Ramón Vilà,8288,Eldense,4033,Sabadell,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
 5868539,2026-11-15,Segunda,1669653,Álex Serra,8288,Eldense,4033,Sabadell,1,DEF,0,33.0,0.0,0.0,0.0,1.0,0.0
 5868539,2026-11-15,Segunda,1685541,Mariano Carmona,8288,Eldense,4033,Sabadell,1,DEL,1,74.0,2.0,1.0,0.0,3.0,1.0
+1000024295,2026-08-21,Serie B,182836,Marco D'Alessandro,10168,Catanzaro,9877,Vicenza,0,DEL,1,58.0,1.0,1.0,0.0,0.0,0.0
+1000024295,2026-08-21,Serie B,244809,Mattia Valoti,9877,Vicenza,10168,Catanzaro,1,MED,1,90.0,2.0,1.0,1.0,1.0,3.0
+1000024295,2026-08-21,Serie B,282437,Mirko Pigliacelli,10168,Catanzaro,9877,Vicenza,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+1000024295,2026-08-21,Serie B,299949,Pietro Iemmello,10168,Catanzaro,9877,Vicenza,0,MED,1,73.0,1.0,1.0,0.0,1.0,1.0
+1000024295,2026-08-21,Serie B,421773,Filippo Costa,9877,Vicenza,10168,Catanzaro,1,MED,1,76.0,1.0,0.0,1.0,2.0,1.0
+1000024295,2026-08-21,Serie B,438507,Federico Di Francesco,10168,Catanzaro,9877,Vicenza,0,DEL,0,8.0,0.0,0.0,0.0,0.0,0.0
+1000024295,2026-08-21,Serie B,521964,Gabriele Moncini,9877,Vicenza,10168,Catanzaro,1,DEL,1,76.0,3.0,1.0,1.0,0.0,0.0
+1000024295,2026-08-21,Serie B,575731,Jacopo Petriccione,10168,Catanzaro,9877,Vicenza,0,MED,1,90.0,1.0,0.0,1.0,3.0,2.0
+1000024295,2026-08-21,Serie B,643283,Claudio Morra,9877,Vicenza,10168,Catanzaro,1,DEL,0,14.0,2.0,1.0,1.0,0.0,0.0
+1000024295,2026-08-21,Serie B,695055,Riccardo Gagno,9877,Vicenza,10168,Catanzaro,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+1000024295,2026-08-21,Serie B,719946,Riccardo Marchizza,9877,Vicenza,10168,Catanzaro,1,DEF,1,90.0,2.0,1.0,1.0,0.0,0.0
+1000024295,2026-08-21,Serie B,725773,Loris Zonta,9877,Vicenza,10168,Catanzaro,1,MED,0,28.0,0.0,0.0,2.0,0.0,1.0
+1000024295,2026-08-21,Serie B,746831,Nicola Mosti,10168,Catanzaro,9877,Vicenza,0,MED,1,82.0,1.0,1.0,1.0,1.0,0.0
+1000024295,2026-08-21,Serie B,789064,Giuseppe Cuomo,9877,Vicenza,10168,Catanzaro,1,DEF,1,90.0,1.0,1.0,3.0,0.0,0.0
+1000024295,2026-08-21,Serie B,813711,Matias Antonini,10168,Catanzaro,9877,Vicenza,0,DEF,1,90.0,1.0,0.0,2.0,0.0,2.0
+1000024295,2026-08-21,Serie B,814400,Antonio Candela,10168,Catanzaro,9877,Vicenza,0,DEL,1,90.0,1.0,1.0,0.0,0.0,3.0
+1000024295,2026-08-21,Serie B,865362,Maxime Leverbe,9877,Vicenza,10168,Catanzaro,1,DEF,1,90.0,0.0,0.0,0.0,0.0,2.0
+1000024295,2026-08-21,Serie B,868449,Marco Carraro,9877,Vicenza,10168,Catanzaro,1,MED,1,62.0,0.0,0.0,0.0,1.0,1.0
+1000024295,2026-08-21,Serie B,1050190,Marco Ruggero,10168,Catanzaro,9877,Vicenza,0,DEF,1,90.0,0.0,0.0,0.0,0.0,4.0
+1000024295,2026-08-21,Serie B,1050818,Samuel Giovane,10168,Catanzaro,9877,Vicenza,0,MED,0,8.0,0.0,0.0,0.0,1.0,0.0
+1000024295,2026-08-21,Serie B,1069645,Nicola Rauti,9877,Vicenza,10168,Catanzaro,1,DEL,0,19.0,4.0,2.0,0.0,3.0,1.0
+1000024295,2026-08-21,Serie B,1190381,Lorenzo Caferri,9877,Vicenza,10168,Catanzaro,1,MED,1,62.0,2.0,0.0,1.0,1.0,0.0
+1000024295,2026-08-21,Serie B,1295898,N'Dri Koffi,10168,Catanzaro,9877,Vicenza,0,DEL,1,82.0,3.0,1.0,0.0,4.0,1.0
+1000024295,2026-08-21,Serie B,1318247,Filippo Alessio,9877,Vicenza,10168,Catanzaro,1,DEL,1,71.0,2.0,0.0,1.0,6.0,3.0
+1000024295,2026-08-21,Serie B,1391722,Mehdi Dorval,10168,Catanzaro,9877,Vicenza,0,DEF,0,32.0,0.0,0.0,0.0,0.0,0.0
+1000024295,2026-08-21,Serie B,1413759,Gabriele Alesi,10168,Catanzaro,9877,Vicenza,0,MED,1,82.0,3.0,0.0,2.0,3.0,0.0
+1000024295,2026-08-21,Serie B,1455441,Bruno Verrengia,10168,Catanzaro,9877,Vicenza,0,DEF,1,90.0,1.0,1.0,0.0,1.0,3.0
+1000024295,2026-08-21,Serie B,1526283,Tommaso Corazza,9877,Vicenza,10168,Catanzaro,1,DEF,0,14.0,0.0,0.0,0.0,1.0,0.0
+1000024295,2026-08-21,Serie B,1526880,Alessandro Pietrelli,9877,Vicenza,10168,Catanzaro,1,MED,0,28.0,1.0,1.0,1.0,0.0,1.0
+1000024295,2026-08-21,Serie B,1741069,Gabriel Arditi,10168,Catanzaro,9877,Vicenza,0,DEL,0,8.0,0.0,0.0,0.0,0.0,0.0
+1000024295,2026-08-21,Serie B,1807590,Franky Tchaouna,10168,Catanzaro,9877,Vicenza,0,MED,0,17.0,0.0,0.0,1.0,0.0,0.0
+1000024295,2026-08-21,Serie B,2140588,Giulio Pellizzari,9877,Vicenza,10168,Catanzaro,1,MED,1,90.0,3.0,1.0,1.0,1.0,2.0
+1000024296,2026-08-29,Serie B,299934,Tommaso Cancellotti,6722,Avellino,9877,Vicenza,1,MED,1,90.0,0.0,0.0,3.0,2.0,0.0
+1000024296,2026-08-29,Serie B,301023,Armando Izzo,6722,Avellino,9877,Vicenza,1,DEF,1,90.0,1.0,1.0,2.0,0.0,1.0
+1000024296,2026-08-29,Serie B,365268,Dimitrios Sounas,6722,Avellino,9877,Vicenza,1,MED,0,26.0,0.0,0.0,0.0,0.0,1.0
+1000024296,2026-08-29,Serie B,421773,Filippo Costa,9877,Vicenza,6722,Avellino,0,MED,1,70.0,1.0,0.0,0.0,0.0,0.0
+1000024296,2026-08-29,Serie B,482419,Tommaso Biasci,6722,Avellino,9877,Vicenza,1,DEL,0,13.0,0.0,0.0,0.0,0.0,2.0
+1000024296,2026-08-29,Serie B,488525,Luca Palmiero,6722,Avellino,9877,Vicenza,1,MED,1,64.0,1.0,0.0,6.0,1.0,1.0
+1000024296,2026-08-29,Serie B,521964,Gabriele Moncini,9877,Vicenza,6722,Avellino,0,DEL,1,45.0,1.0,0.0,0.0,0.0,2.0
+1000024296,2026-08-29,Serie B,607149,Andrea Favilli,6722,Avellino,9877,Vicenza,1,DEL,1,64.0,0.0,0.0,2.0,3.0,3.0
+1000024296,2026-08-29,Serie B,634244,Lorenco Šimić,6722,Avellino,9877,Vicenza,1,DEF,1,90.0,0.0,0.0,1.0,1.0,1.0
+1000024296,2026-08-29,Serie B,643283,Claudio Morra,9877,Vicenza,6722,Avellino,0,DEL,0,45.0,2.0,1.0,0.0,1.0,2.0
+1000024296,2026-08-29,Serie B,695055,Riccardo Gagno,9877,Vicenza,6722,Avellino,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+1000024296,2026-08-29,Serie B,719946,Riccardo Marchizza,9877,Vicenza,6722,Avellino,0,DEF,1,90.0,2.0,1.0,0.0,0.0,0.0
+1000024296,2026-08-29,Serie B,725773,Loris Zonta,9877,Vicenza,6722,Avellino,0,MED,1,90.0,1.0,0.0,2.0,1.0,2.0
+1000024296,2026-08-29,Serie B,789064,Giuseppe Cuomo,9877,Vicenza,6722,Avellino,0,DEF,1,90.0,1.0,0.0,0.0,1.0,1.0
+1000024296,2026-08-29,Serie B,865362,Maxime Leverbe,9877,Vicenza,6722,Avellino,0,DEF,1,57.0,0.0,0.0,1.0,0.0,1.0
+1000024296,2026-08-29,Serie B,868449,Marco Carraro,9877,Vicenza,6722,Avellino,0,MED,1,45.0,2.0,0.0,0.0,1.0,0.0
+1000024296,2026-08-29,Serie B,1034330,Raffaele Russo,6722,Avellino,9877,Vicenza,1,DEL,1,77.0,1.0,1.0,1.0,1.0,1.0
+1000024296,2026-08-29,Serie B,1069645,Nicola Rauti,9877,Vicenza,6722,Avellino,0,DEL,0,33.0,1.0,0.0,1.0,1.0,1.0
+1000024296,2026-08-29,Serie B,1078113,Walid Cheddira,6722,Avellino,9877,Vicenza,1,DEL,0,26.0,1.0,1.0,0.0,0.0,0.0
+1000024296,2026-08-29,Serie B,1146635,Martin Palumbo,6722,Avellino,9877,Vicenza,1,MED,1,83.0,3.0,3.0,0.0,0.0,0.0
+1000024296,2026-08-29,Serie B,1172045,Patrick Enrici,6722,Avellino,9877,Vicenza,1,DEF,1,90.0,0.0,0.0,2.0,3.0,0.0
+1000024296,2026-08-29,Serie B,1190381,Lorenzo Caferri,9877,Vicenza,6722,Avellino,0,DEF,0,45.0,1.0,0.0,0.0,0.0,0.0
+1000024296,2026-08-29,Serie B,1318247,Filippo Alessio,9877,Vicenza,6722,Avellino,0,DEL,1,90.0,1.0,1.0,2.0,3.0,1.0
+1000024296,2026-08-29,Serie B,1368381,Luca Di Maggio,6722,Avellino,9877,Vicenza,1,MED,0,26.0,0.0,0.0,0.0,1.0,1.0
+1000024296,2026-08-29,Serie B,1384625,Giacomo Faticanti,6722,Avellino,9877,Vicenza,1,MED,0,7.0,0.0,0.0,0.0,0.0,1.0
+1000024296,2026-08-29,Serie B,1391528,Michele Besaggio,6722,Avellino,9877,Vicenza,1,MED,1,64.0,1.0,1.0,1.0,3.0,2.0
+1000024296,2026-08-29,Serie B,1393475,Raul Talarico,9877,Vicenza,6722,Avellino,0,MED,0,45.0,2.0,0.0,2.0,1.0,1.0
+1000024296,2026-08-29,Serie B,1420260,Tommaso Martinelli,6722,Avellino,9877,Vicenza,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+1000024296,2026-08-29,Serie B,1526283,Tommaso Corazza,9877,Vicenza,6722,Avellino,0,DEF,0,20.0,2.0,0.0,0.0,1.0,0.0
+1000024296,2026-08-29,Serie B,1526880,Alessandro Pietrelli,9877,Vicenza,6722,Avellino,0,MED,1,45.0,0.0,0.0,1.0,0.0,2.0
+1000024296,2026-08-29,Serie B,1560409,Brando Moruzzi,6722,Avellino,9877,Vicenza,1,MED,1,90.0,2.0,1.0,8.0,0.0,0.0
+1000024296,2026-08-29,Serie B,2140588,Giulio Pellizzari,9877,Vicenza,6722,Avellino,0,MED,1,90.0,1.0,0.0,0.0,2.0,3.0
+1000024298,2026-09-06,Serie B,56994,Nicolò Brighenti,9877,Vicenza,208932,Virtus Entella,0,DEF,1,90.0,0.0,0.0,1.0,1.0,1.0
+1000024298,2026-09-06,Serie B,244809,Mattia Valoti,9877,Vicenza,208932,Virtus Entella,0,MED,1,62.0,2.0,1.0,0.0,1.0,2.0
+1000024298,2026-09-06,Serie B,365447,Francesco Forte,208932,Virtus Entella,9877,Vicenza,1,DEL,1,58.0,2.0,0.0,0.0,0.0,0.0
+1000024298,2026-09-06,Serie B,421773,Filippo Costa,9877,Vicenza,208932,Virtus Entella,0,MED,1,61.0,1.0,0.0,0.0,0.0,1.0
+1000024298,2026-09-06,Serie B,491798,Alessandro Bellemo,9877,Vicenza,208932,Virtus Entella,0,MED,0,11.0,0.0,0.0,0.0,0.0,1.0
+1000024298,2026-09-06,Serie B,506248,Ivan Marconi,208932,Virtus Entella,9877,Vicenza,1,DEF,1,90.0,1.0,0.0,1.0,0.0,2.0
+1000024298,2026-09-06,Serie B,518522,Andrea Tiritiello,208932,Virtus Entella,9877,Vicenza,1,DEF,1,79.0,0.0,0.0,3.0,0.0,1.0
+1000024298,2026-09-06,Serie B,521964,Gabriele Moncini,9877,Vicenza,208932,Virtus Entella,0,DEL,1,56.0,2.0,1.0,0.0,0.0,1.0
+1000024298,2026-09-06,Serie B,624591,Luca Parodi,208932,Virtus Entella,9877,Vicenza,1,MED,1,90.0,0.0,0.0,0.0,3.0,0.0
+1000024298,2026-09-06,Serie B,664607,Luca Vignali,208932,Virtus Entella,9877,Vicenza,1,DEF,0,11.0,0.0,0.0,0.0,0.0,1.0
+1000024298,2026-09-06,Serie B,695055,Riccardo Gagno,9877,Vicenza,208932,Virtus Entella,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+1000024298,2026-09-06,Serie B,725773,Loris Zonta,9877,Vicenza,208932,Virtus Entella,0,MED,0,28.0,0.0,0.0,0.0,1.0,0.0
+1000024298,2026-09-06,Serie B,774643,Federico Del Frate,208932,Virtus Entella,9877,Vicenza,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+1000024298,2026-09-06,Serie B,789064,Giuseppe Cuomo,9877,Vicenza,208932,Virtus Entella,0,DEF,1,90.0,0.0,0.0,2.0,0.0,3.0
+1000024298,2026-09-06,Serie B,825823,Luigi Cuppone,208932,Virtus Entella,9877,Vicenza,1,DEL,1,90.0,2.0,1.0,0.0,2.0,1.0
+1000024298,2026-09-06,Serie B,867418,Leonardo Benedetti,208932,Virtus Entella,9877,Vicenza,1,MED,0,32.0,1.0,0.0,0.0,0.0,0.0
+1000024298,2026-09-06,Serie B,868449,Marco Carraro,9877,Vicenza,208932,Virtus Entella,0,MED,1,90.0,1.0,0.0,2.0,1.0,2.0
+1000024298,2026-09-06,Serie B,959370,Lucas Felippe,208932,Virtus Entella,9877,Vicenza,1,MED,0,17.0,1.0,0.0,1.0,1.0,0.0
+1000024298,2026-09-06,Serie B,1059658,Bernat Guiu,208932,Virtus Entella,9877,Vicenza,1,MED,1,73.0,3.0,2.0,4.0,7.0,4.0
+1000024298,2026-09-06,Serie B,1069645,Nicola Rauti,9877,Vicenza,208932,Virtus Entella,0,DEL,0,34.0,0.0,0.0,0.0,2.0,0.0
+1000024298,2026-09-06,Serie B,1190381,Lorenzo Caferri,9877,Vicenza,208932,Virtus Entella,0,MED,1,79.0,0.0,0.0,2.0,2.0,3.0
+1000024298,2026-09-06,Serie B,1197040,Niccolò Squizzato,208932,Virtus Entella,9877,Vicenza,1,MED,1,73.0,0.0,0.0,3.0,0.0,0.0
+1000024298,2026-09-06,Serie B,1289962,Thomas Sandon,9877,Vicenza,208932,Virtus Entella,0,DEF,1,90.0,2.0,1.0,0.0,0.0,0.0
+1000024298,2026-09-06,Serie B,1310433,Silvio Merkaj,9877,Vicenza,208932,Virtus Entella,0,DEL,1,90.0,3.0,2.0,0.0,1.0,0.0
+1000024298,2026-09-06,Serie B,1526283,Tommaso Corazza,9877,Vicenza,208932,Virtus Entella,0,DEF,0,29.0,1.0,0.0,1.0,1.0,1.0
+1000024298,2026-09-06,Serie B,1526880,Alessandro Pietrelli,9877,Vicenza,208932,Virtus Entella,0,MED,0,11.0,0.0,0.0,1.0,0.0,0.0
+1000024298,2026-09-06,Serie B,1572463,Andrea Franzoni,208932,Virtus Entella,9877,Vicenza,1,MED,1,90.0,0.0,0.0,1.0,3.0,1.0
+1000024298,2026-09-06,Serie B,1603723,Giacomo Corona,208932,Virtus Entella,9877,Vicenza,1,DEL,0,17.0,1.0,1.0,0.0,0.0,1.0
+1000024298,2026-09-06,Serie B,1682696,Marwane Kritta,208932,Virtus Entella,9877,Vicenza,1,DEF,0,11.0,0.0,0.0,0.0,0.0,0.0
+1000024298,2026-09-06,Serie B,1685569,Stefano Di Mario,208932,Virtus Entella,9877,Vicenza,1,MED,1,90.0,1.0,0.0,1.0,0.0,2.0
+1000024298,2026-09-06,Serie B,1810881,Mattia Alborghetti,208932,Virtus Entella,9877,Vicenza,1,DEF,1,79.0,2.0,1.0,2.0,0.0,1.0
+1000024298,2026-09-06,Serie B,2140588,Giulio Pellizzari,9877,Vicenza,208932,Virtus Entella,0,MED,1,79.0,0.0,0.0,2.0,4.0,1.0
+1000024299,2026-09-12,Serie B,56994,Nicolò Brighenti,9877,Vicenza,6106,Juve Stabia,1,DEF,1,90.0,1.0,0.0,2.0,1.0,0.0
+1000024299,2026-09-12,Serie B,244809,Mattia Valoti,9877,Vicenza,6106,Juve Stabia,1,MED,1,69.0,0.0,0.0,1.0,1.0,0.0
+1000024299,2026-09-12,Serie B,491798,Alessandro Bellemo,9877,Vicenza,6106,Juve Stabia,1,MED,0,3.0,1.0,0.0,0.0,0.0,1.0
+1000024299,2026-09-12,Serie B,643283,Claudio Morra,9877,Vicenza,6106,Juve Stabia,1,DEL,1,82.0,0.0,0.0,1.0,2.0,1.0
+1000024299,2026-09-12,Serie B,695055,Riccardo Gagno,9877,Vicenza,6106,Juve Stabia,1,POR,1,90.0,0.0,0.0,0.0,1.0,0.0
+1000024299,2026-09-12,Serie B,725773,Loris Zonta,9877,Vicenza,6106,Juve Stabia,1,MED,1,87.0,0.0,0.0,2.0,1.0,1.0
+1000024299,2026-09-12,Serie B,743743,Leonardo Candellone,6106,Juve Stabia,9877,Vicenza,0,DEL,1,64.0,2.0,0.0,0.0,2.0,0.0
+1000024299,2026-09-12,Serie B,789064,Giuseppe Cuomo,9877,Vicenza,6106,Juve Stabia,1,DEF,1,69.0,0.0,0.0,1.0,1.0,3.0
+1000024299,2026-09-12,Serie B,816781,Fabio Maistro,6106,Juve Stabia,9877,Vicenza,0,MED,0,17.0,0.0,0.0,0.0,1.0,0.0
+1000024299,2026-09-12,Serie B,836682,Antonio Di Nardo,6106,Juve Stabia,9877,Vicenza,0,DEL,1,90.0,3.0,2.0,0.0,2.0,1.0
+1000024299,2026-09-12,Serie B,843153,Davide Buglio,6106,Juve Stabia,9877,Vicenza,0,MED,1,64.0,0.0,0.0,0.0,1.0,1.0
+1000024299,2026-09-12,Serie B,867796,Marco Bellich,6106,Juve Stabia,9877,Vicenza,0,DEF,1,90.0,0.0,0.0,0.0,1.0,4.0
+1000024299,2026-09-12,Serie B,868449,Marco Carraro,9877,Vicenza,6106,Juve Stabia,1,MED,1,90.0,0.0,0.0,1.0,0.0,3.0
+1000024299,2026-09-12,Serie B,881770,Kevin Piscopo,6106,Juve Stabia,9877,Vicenza,0,DEL,0,3.0,0.0,0.0,0.0,0.0,0.0
+1000024299,2026-09-12,Serie B,954366,Nicola Pietrangeli,6106,Juve Stabia,9877,Vicenza,0,DEF,1,90.0,0.0,0.0,3.0,1.0,2.0
+1000024299,2026-09-12,Serie B,981048,Giuseppe Sibilli,6106,Juve Stabia,9877,Vicenza,0,DEL,0,26.0,1.0,0.0,0.0,2.0,1.0
+1000024299,2026-09-12,Serie B,1031127,Thomas Battistella,6106,Juve Stabia,9877,Vicenza,0,MED,0,17.0,1.0,0.0,0.0,1.0,1.0
+1000024299,2026-09-12,Serie B,1091015,Nermin Karić,6106,Juve Stabia,9877,Vicenza,0,MED,1,73.0,2.0,2.0,2.0,1.0,1.0
+1000024299,2026-09-12,Serie B,1138748,Andrea Papetti,9877,Vicenza,6106,Juve Stabia,1,DEF,0,21.0,0.0,0.0,1.0,0.0,2.0
+1000024299,2026-09-12,Serie B,1165467,Christian Pierobon,6106,Juve Stabia,9877,Vicenza,0,MED,1,87.0,1.0,1.0,0.0,3.0,1.0
+1000024299,2026-09-12,Serie B,1183746,Pietro Boer,6106,Juve Stabia,9877,Vicenza,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+1000024299,2026-09-12,Serie B,1189214,Tommaso Maggioni,6106,Juve Stabia,9877,Vicenza,0,DEF,1,90.0,0.0,0.0,0.0,1.0,0.0
+1000024299,2026-09-12,Serie B,1190381,Lorenzo Caferri,9877,Vicenza,6106,Juve Stabia,1,MED,1,69.0,1.0,0.0,2.0,0.0,2.0
+1000024299,2026-09-12,Serie B,1243495,Federico Artioli,6106,Juve Stabia,9877,Vicenza,0,MED,0,26.0,0.0,0.0,0.0,2.0,0.0
+1000024299,2026-09-12,Serie B,1289962,Thomas Sandon,9877,Vicenza,6106,Juve Stabia,1,DEF,1,90.0,1.0,0.0,1.0,0.0,1.0
+1000024299,2026-09-12,Serie B,1310433,Silvio Merkaj,9877,Vicenza,6106,Juve Stabia,1,DEL,1,90.0,2.0,1.0,1.0,3.0,3.0
+1000024299,2026-09-12,Serie B,1318247,Filippo Alessio,9877,Vicenza,6106,Juve Stabia,1,DEL,0,8.0,0.0,0.0,0.0,0.0,0.0
+1000024299,2026-09-12,Serie B,1526283,Tommaso Corazza,9877,Vicenza,6106,Juve Stabia,1,MED,1,90.0,1.0,1.0,2.0,2.0,1.0
+1000024299,2026-09-12,Serie B,1526880,Alessandro Pietrelli,9877,Vicenza,6106,Juve Stabia,1,MED,0,21.0,0.0,0.0,0.0,1.0,1.0
+1000024299,2026-09-12,Serie B,1529149,Nicola Patanè,6106,Juve Stabia,9877,Vicenza,0,DEL,1,73.0,4.0,2.0,2.0,0.0,2.0
+1000024299,2026-09-12,Serie B,1897605,Giulio Scuderi,6106,Juve Stabia,9877,Vicenza,0,DEF,1,90.0,0.0,0.0,2.0,2.0,0.0
+1000024299,2026-09-12,Serie B,2140588,Giulio Pellizzari,9877,Vicenza,6106,Juve Stabia,1,MED,0,21.0,0.0,0.0,1.0,1.0,1.0
+1000024300,2026-09-20,Serie B,56994,Nicolò Brighenti,9877,Vicenza,9876,Hellas Verona,0,DEF,1,67.0,0.0,0.0,2.0,0.0,2.0
+1000024300,2026-09-20,Serie B,213299,Nicola Leali,9876,Hellas Verona,9877,Vicenza,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+1000024300,2026-09-20,Serie B,244809,Mattia Valoti,9877,Vicenza,9876,Hellas Verona,0,MED,0,23.0,1.0,1.0,2.0,0.0,1.0
+1000024300,2026-09-20,Serie B,406505,Paweł Dawidowicz,9876,Hellas Verona,9877,Vicenza,1,DEF,1,59.0,0.0,0.0,1.0,1.0,2.0
+1000024300,2026-09-20,Serie B,421773,Filippo Costa,9877,Vicenza,9876,Hellas Verona,0,MED,1,90.0,0.0,0.0,4.0,2.0,1.0
+1000024300,2026-09-20,Serie B,491798,Alessandro Bellemo,9877,Vicenza,9876,Hellas Verona,0,MED,1,59.0,1.0,0.0,1.0,1.0,0.0
+1000024300,2026-09-20,Serie B,521964,Gabriele Moncini,9877,Vicenza,9876,Hellas Verona,0,DEL,0,12.0,1.0,0.0,0.0,0.0,0.0
+1000024300,2026-09-20,Serie B,643283,Claudio Morra,9877,Vicenza,9876,Hellas Verona,0,DEL,0,23.0,0.0,0.0,0.0,0.0,1.0
+1000024300,2026-09-20,Serie B,695055,Riccardo Gagno,9877,Vicenza,9876,Hellas Verona,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+1000024300,2026-09-20,Serie B,719946,Riccardo Marchizza,9877,Vicenza,9876,Hellas Verona,0,DEF,1,90.0,1.0,0.0,1.0,0.0,0.0
+1000024300,2026-09-20,Serie B,725773,Loris Zonta,9877,Vicenza,9876,Hellas Verona,0,MED,1,90.0,2.0,0.0,1.0,0.0,1.0
+1000024300,2026-09-20,Serie B,789064,Giuseppe Cuomo,9877,Vicenza,9876,Hellas Verona,0,DEF,1,78.0,0.0,0.0,2.0,1.0,1.0
+1000024300,2026-09-20,Serie B,846006,Andrias Edmundsson,9876,Hellas Verona,9877,Vicenza,1,DEF,0,80.0,0.0,0.0,2.0,0.0,2.0
+1000024300,2026-09-20,Serie B,846647,Nunzio Lella,9876,Hellas Verona,9877,Vicenza,1,MED,1,90.0,2.0,1.0,1.0,1.0,0.0
+1000024300,2026-09-20,Serie B,865362,Maxime Leverbe,9877,Vicenza,9876,Hellas Verona,0,DEF,0,23.0,0.0,0.0,0.0,0.0,1.0
+1000024300,2026-09-20,Serie B,923222,Samuele Mulattieri,9876,Hellas Verona,9877,Vicenza,1,DEL,1,45.0,1.0,1.0,0.0,1.0,0.0
+1000024300,2026-09-20,Serie B,949731,Gabriele Zappa,9876,Hellas Verona,9877,Vicenza,1,DEF,1,90.0,1.0,0.0,2.0,1.0,1.0
+1000024300,2026-09-20,Serie B,1055824,Seid Korač,9876,Hellas Verona,9877,Vicenza,1,DEF,1,10.0,0.0,0.0,0.0,0.0,1.0
+1000024300,2026-09-20,Serie B,1069645,Nicola Rauti,9877,Vicenza,9876,Hellas Verona,0,DEL,1,67.0,1.0,1.0,0.0,4.0,0.0
+1000024300,2026-09-20,Serie B,1127054,Tomás Suslov,9876,Hellas Verona,9877,Vicenza,1,DEL,1,45.0,2.0,0.0,0.0,1.0,1.0
+1000024300,2026-09-20,Serie B,1130732,Daniel Mosquera,9876,Hellas Verona,9877,Vicenza,1,DEL,0,22.0,2.0,2.0,1.0,2.0,0.0
+1000024300,2026-09-20,Serie B,1156568,Amin Sarr,9876,Hellas Verona,9877,Vicenza,1,DEL,1,90.0,3.0,1.0,0.0,2.0,1.0
+1000024300,2026-09-20,Serie B,1189692,Edoardo Iannoni,9876,Hellas Verona,9877,Vicenza,1,MED,1,90.0,1.0,0.0,1.0,0.0,0.0
+1000024300,2026-09-20,Serie B,1190381,Lorenzo Caferri,9877,Vicenza,9876,Hellas Verona,0,MED,1,90.0,0.0,0.0,2.0,3.0,3.0
+1000024300,2026-09-20,Serie B,1309634,Dailon Livramento,9876,Hellas Verona,9877,Vicenza,1,DEL,0,45.0,0.0,0.0,0.0,0.0,2.0
+1000024300,2026-09-20,Serie B,1310433,Silvio Merkaj,9877,Vicenza,9876,Hellas Verona,0,DEL,1,90.0,1.0,0.0,0.0,1.0,1.0
+1000024300,2026-09-20,Serie B,1318247,Filippo Alessio,9877,Vicenza,9876,Hellas Verona,0,MED,1,67.0,1.0,0.0,1.0,1.0,0.0
+1000024300,2026-09-20,Serie B,1367915,Tobias Slotsager,9876,Hellas Verona,9877,Vicenza,1,DEF,0,31.0,0.0,0.0,0.0,0.0,0.0
+1000024300,2026-09-20,Serie B,1393475,Raul Talarico,9877,Vicenza,9876,Hellas Verona,0,MED,0,31.0,0.0,0.0,1.0,1.0,0.0
+1000024300,2026-09-20,Serie B,1790181,Andréa Le Borgne,9876,Hellas Verona,9877,Vicenza,1,MED,1,90.0,1.0,0.0,2.0,0.0,1.0
+1000024300,2026-09-20,Serie B,1816329,Davide De Battisti,9876,Hellas Verona,9877,Vicenza,1,DEF,1,68.0,2.0,0.0,1.0,1.0,1.0
+1000024300,2026-09-20,Serie B,1920299,Salvatore Cerbone,9876,Hellas Verona,9877,Vicenza,1,DEL,0,45.0,1.0,1.0,0.0,2.0,2.0
+1000024301,2026-10-10,Serie B,244809,Mattia Valoti,9877,Vicenza,6479,Pisa,1,MED,0,36.0,1.0,0.0,2.0,0.0,1.0
+1000024301,2026-10-10,Serie B,421773,Filippo Costa,9877,Vicenza,6479,Pisa,1,DEF,0,17.0,0.0,0.0,0.0,0.0,0.0
+1000024301,2026-10-10,Serie B,506776,Stefano Moreo,6479,Pisa,9877,Vicenza,0,MED,1,72.0,1.0,0.0,0.0,0.0,0.0
+1000024301,2026-10-10,Serie B,521964,Gabriele Moncini,9877,Vicenza,6479,Pisa,1,DEL,0,26.0,2.0,0.0,0.0,0.0,0.0
+1000024301,2026-10-10,Serie B,583659,Arturo Calabresi,6479,Pisa,9877,Vicenza,0,DEF,1,90.0,1.0,1.0,2.0,1.0,2.0
+1000024301,2026-10-10,Serie B,695055,Riccardo Gagno,9877,Vicenza,6479,Pisa,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+1000024301,2026-10-10,Serie B,719946,Riccardo Marchizza,9877,Vicenza,6479,Pisa,1,DEF,1,90.0,0.0,0.0,0.0,0.0,1.0
+1000024301,2026-10-10,Serie B,723575,Alessandro Confente,6479,Pisa,9877,Vicenza,0,POR,1,90.0,0.0,0.0,0.0,2.0,0.0
+1000024301,2026-10-10,Serie B,725773,Loris Zonta,9877,Vicenza,6479,Pisa,1,MED,1,90.0,1.0,0.0,0.0,0.0,1.0
+1000024301,2026-10-10,Serie B,789064,Giuseppe Cuomo,9877,Vicenza,6479,Pisa,1,DEF,1,54.0,0.0,0.0,2.0,0.0,1.0
+1000024301,2026-10-10,Serie B,847357,Mehdi Léris,6479,Pisa,9877,Vicenza,0,MED,1,89.0,2.0,1.0,3.0,2.0,2.0
+1000024301,2026-10-10,Serie B,864006,Mattéo Tramoni,6479,Pisa,9877,Vicenza,0,MED,1,72.0,4.0,1.0,0.0,1.0,0.0
+1000024301,2026-10-10,Serie B,865362,Maxime Leverbe,9877,Vicenza,6479,Pisa,1,DEF,1,73.0,0.0,0.0,2.0,0.0,3.0
+1000024301,2026-10-10,Serie B,868449,Marco Carraro,9877,Vicenza,6479,Pisa,1,MED,1,45.0,1.0,0.0,1.0,0.0,0.0
+1000024301,2026-10-10,Serie B,897315,Simone Canestrelli,6479,Pisa,9877,Vicenza,0,DEF,0,1.0,0.0,0.0,0.0,0.0,0.0
+1000024301,2026-10-10,Serie B,953590,Simone Zanon,6479,Pisa,9877,Vicenza,0,MED,1,86.0,1.0,0.0,2.0,1.0,0.0
+1000024301,2026-10-10,Serie B,1069645,Nicola Rauti,9877,Vicenza,6479,Pisa,1,DEL,0,45.0,1.0,0.0,1.0,0.0,3.0
+1000024301,2026-10-10,Serie B,1190381,Lorenzo Caferri,9877,Vicenza,6479,Pisa,1,DEF,0,36.0,0.0,0.0,3.0,3.0,0.0
+1000024301,2026-10-10,Serie B,1195358,Filippo Pittarello,6479,Pisa,9877,Vicenza,0,DEL,1,90.0,2.0,2.0,1.0,4.0,1.0
+1000024301,2026-10-10,Serie B,1280172,Giuseppe Leone,6479,Pisa,9877,Vicenza,0,MED,1,90.0,2.0,1.0,3.0,0.0,0.0
+1000024301,2026-10-10,Serie B,1289942,Samuele Angori,6479,Pisa,9877,Vicenza,0,DEF,1,90.0,0.0,0.0,3.0,1.0,1.0
+1000024301,2026-10-10,Serie B,1289962,Thomas Sandon,9877,Vicenza,6479,Pisa,1,DEL,1,90.0,1.0,0.0,1.0,0.0,1.0
+1000024301,2026-10-10,Serie B,1310433,Silvio Merkaj,9877,Vicenza,6479,Pisa,1,DEL,1,90.0,0.0,0.0,1.0,0.0,1.0
+1000024301,2026-10-10,Serie B,1318247,Filippo Alessio,9877,Vicenza,6479,Pisa,1,DEL,1,64.0,2.0,0.0,1.0,2.0,2.0
+1000024301,2026-10-10,Serie B,1354820,Rosen Bozhinov,6479,Pisa,9877,Vicenza,0,DEF,0,18.0,0.0,0.0,0.0,0.0,0.0
+1000024301,2026-10-10,Serie B,1387381,Omar Correia,6479,Pisa,9877,Vicenza,0,MED,1,90.0,4.0,2.0,5.0,1.0,0.0
+1000024301,2026-10-10,Serie B,1434429,Emanuele Rao,6479,Pisa,9877,Vicenza,0,DEL,0,18.0,3.0,1.0,0.0,0.0,1.0
+1000024301,2026-10-10,Serie B,1481098,Francesco Coppola,6479,Pisa,9877,Vicenza,0,DEF,0,4.0,0.0,0.0,0.0,0.0,0.0
+1000024301,2026-10-10,Serie B,1526880,Alessandro Pietrelli,9877,Vicenza,6479,Pisa,1,MED,1,54.0,1.0,0.0,1.0,1.0,0.0
+1000024301,2026-10-10,Serie B,1666015,Andrea Primasso,6479,Pisa,9877,Vicenza,0,DEF,1,72.0,1.0,0.0,2.0,1.0,0.0
+1000024301,2026-10-10,Serie B,1667686,Tommaso Marras,6479,Pisa,9877,Vicenza,0,DEL,0,18.0,2.0,0.0,0.0,1.0,0.0
+1000024301,2026-10-10,Serie B,2140588,Giulio Pellizzari,9877,Vicenza,6479,Pisa,1,DEL,1,90.0,0.0,0.0,3.0,1.0,2.0
+1000024303,2026-10-17,Serie B,56994,Nicolò Brighenti,9877,Vicenza,6266,Benevento,0,DEF,1,90.0,0.0,0.0,0.0,2.0,3.0
+1000024303,2026-10-17,Serie B,244809,Mattia Valoti,9877,Vicenza,6266,Benevento,0,MED,0,45.0,0.0,0.0,0.0,1.0,0.0
+1000024303,2026-10-17,Serie B,282700,Stefano Scognamillo,6266,Benevento,9877,Vicenza,1,DEF,1,90.0,0.0,0.0,1.0,2.0,1.0
+1000024303,2026-10-17,Serie B,421773,Filippo Costa,9877,Vicenza,6266,Benevento,0,MED,1,66.0,1.0,0.0,0.0,1.0,0.0
+1000024303,2026-10-17,Serie B,478081,Mattia Maita,6266,Benevento,9877,Vicenza,1,MED,1,90.0,0.0,0.0,2.0,1.0,4.0
+1000024303,2026-10-17,Serie B,491222,Gianmarco Vannucchi,6266,Benevento,9877,Vicenza,1,POR,1,90.0,0.0,0.0,0.0,1.0,0.0
+1000024303,2026-10-17,Serie B,491798,Alessandro Bellemo,9877,Vicenza,6266,Benevento,0,MED,1,90.0,0.0,0.0,1.0,3.0,1.0
+1000024303,2026-10-17,Serie B,521964,Gabriele Moncini,9877,Vicenza,6266,Benevento,0,DEL,1,66.0,2.0,0.0,1.0,1.0,2.0
+1000024303,2026-10-17,Serie B,643283,Claudio Morra,9877,Vicenza,6266,Benevento,0,DEL,0,34.0,0.0,0.0,0.0,0.0,0.0
+1000024303,2026-10-17,Serie B,665312,Francesco Paolo Salvemini,6266,Benevento,9877,Vicenza,1,DEL,1,90.0,3.0,1.0,0.0,4.0,4.0
+1000024303,2026-10-17,Serie B,695055,Riccardo Gagno,9877,Vicenza,6266,Benevento,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+1000024303,2026-10-17,Serie B,719946,Riccardo Marchizza,9877,Vicenza,6266,Benevento,0,DEF,1,90.0,1.0,0.0,0.0,1.0,0.0
+1000024303,2026-10-17,Serie B,725773,Loris Zonta,9877,Vicenza,6266,Benevento,0,MED,1,45.0,0.0,0.0,0.0,0.0,1.0
+1000024303,2026-10-17,Serie B,740161,David Okereke,6266,Benevento,9877,Vicenza,1,DEL,1,72.0,5.0,2.0,2.0,0.0,2.0
+1000024303,2026-10-17,Serie B,864770,Pietro Beruatto,6266,Benevento,9877,Vicenza,1,DEF,1,83.0,2.0,1.0,0.0,1.0,0.0
+1000024303,2026-10-17,Serie B,912369,Christian Kouan,6266,Benevento,9877,Vicenza,1,MED,1,83.0,2.0,2.0,0.0,2.0,3.0
+1000024303,2026-10-17,Serie B,960598,Pier Luigi Simonetti,6266,Benevento,9877,Vicenza,1,MED,0,7.0,1.0,0.0,0.0,1.0,2.0
+1000024303,2026-10-17,Serie B,1069645,Nicola Rauti,9877,Vicenza,6266,Benevento,0,DEL,0,24.0,1.0,0.0,0.0,1.0,0.0
+1000024303,2026-10-17,Serie B,1130473,Christian Dalle Mura,6266,Benevento,9877,Vicenza,1,DEF,0,18.0,0.0,0.0,0.0,0.0,0.0
+1000024303,2026-10-17,Serie B,1138748,Andrea Papetti,9877,Vicenza,6266,Benevento,0,DEF,1,90.0,1.0,0.0,1.0,3.0,2.0
+1000024303,2026-10-17,Serie B,1189161,Davide Lamesta,6266,Benevento,9877,Vicenza,1,DEL,1,65.0,1.0,0.0,0.0,0.0,0.0
+1000024303,2026-10-17,Serie B,1190381,Lorenzo Caferri,9877,Vicenza,6266,Benevento,0,DEF,0,24.0,1.0,1.0,1.0,0.0,1.0
+1000024303,2026-10-17,Serie B,1204343,Edoardo Pierozzi,6266,Benevento,9877,Vicenza,1,DEF,1,90.0,1.0,0.0,1.0,1.0,1.0
+1000024303,2026-10-17,Serie B,1209977,Pietro Saio,6266,Benevento,9877,Vicenza,1,DEF,1,90.0,0.0,0.0,0.0,1.0,0.0
+1000024303,2026-10-17,Serie B,1283069,Antonis Siatounis,6266,Benevento,9877,Vicenza,1,MED,1,90.0,1.0,1.0,0.0,0.0,4.0
+1000024303,2026-10-17,Serie B,1310433,Silvio Merkaj,9877,Vicenza,6266,Benevento,0,DEL,1,56.0,1.0,0.0,0.0,1.0,4.0
+1000024303,2026-10-17,Serie B,1318247,Filippo Alessio,9877,Vicenza,6266,Benevento,0,DEL,0,8.0,1.0,0.0,0.0,1.0,1.0
+1000024303,2026-10-17,Serie B,1417286,Luigi Cherubini,6266,Benevento,9877,Vicenza,1,DEL,0,25.0,1.0,1.0,0.0,2.0,0.0
+1000024303,2026-10-17,Serie B,1526283,Tommaso Corazza,9877,Vicenza,6266,Benevento,0,MED,1,90.0,2.0,1.0,2.0,1.0,1.0
+1000024303,2026-10-17,Serie B,1703787,Raffaele Romano,6266,Benevento,9877,Vicenza,1,DEF,0,7.0,1.0,1.0,1.0,1.0,0.0
+1000024303,2026-10-17,Serie B,2140588,Giulio Pellizzari,9877,Vicenza,6266,Benevento,0,MED,1,82.0,1.0,0.0,1.0,5.0,2.0
+1000024304,2026-10-23,Serie B,56994,Nicolò Brighenti,9877,Vicenza,8534,Empoli,0,DEF,1,90.0,0.0,0.0,3.0,1.0,1.0
+1000024304,2026-10-23,Serie B,244809,Mattia Valoti,9877,Vicenza,8534,Empoli,0,MED,1,83.0,2.0,0.0,1.0,0.0,6.0
+1000024304,2026-10-23,Serie B,491798,Alessandro Bellemo,9877,Vicenza,8534,Empoli,0,MED,1,90.0,1.0,0.0,3.0,1.0,1.0
+1000024304,2026-10-23,Serie B,643283,Claudio Morra,9877,Vicenza,8534,Empoli,0,DEL,1,74.0,4.0,0.0,0.0,1.0,4.0
+1000024304,2026-10-23,Serie B,674829,Filippo Bandinelli,8534,Empoli,9877,Vicenza,1,MED,1,69.0,1.0,0.0,3.0,1.0,3.0
+1000024304,2026-10-23,Serie B,695055,Riccardo Gagno,9877,Vicenza,8534,Empoli,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+1000024304,2026-10-23,Serie B,718850,Cristian Cauz,8534,Empoli,9877,Vicenza,1,DEF,1,90.0,1.0,0.0,2.0,0.0,0.0
+1000024304,2026-10-23,Serie B,719946,Riccardo Marchizza,9877,Vicenza,8534,Empoli,0,DEF,1,78.0,0.0,0.0,1.0,0.0,2.0
+1000024304,2026-10-23,Serie B,725773,Loris Zonta,9877,Vicenza,8534,Empoli,0,MED,0,7.0,0.0,0.0,1.0,0.0,0.0
+1000024304,2026-10-23,Serie B,754438,Joseph Ceesay,8534,Empoli,9877,Vicenza,1,DEL,1,50.0,3.0,2.0,0.0,0.0,2.0
+1000024304,2026-10-23,Serie B,790725,Marco Curto,8534,Empoli,9877,Vicenza,1,DEF,1,55.0,1.0,0.0,2.0,2.0,1.0
+1000024304,2026-10-23,Serie B,819874,Luca Magnino,8534,Empoli,9877,Vicenza,1,DEF,1,82.0,0.0,0.0,4.0,2.0,1.0
+1000024304,2026-10-23,Serie B,1015263,Luca Belardinelli,8534,Empoli,9877,Vicenza,1,MED,0,21.0,1.0,1.0,0.0,0.0,0.0
+1000024304,2026-10-23,Serie B,1031128,Karim Zedadka,8534,Empoli,9877,Vicenza,1,MED,1,90.0,1.0,0.0,2.0,2.0,0.0
+1000024304,2026-10-23,Serie B,1069645,Nicola Rauti,9877,Vicenza,8534,Empoli,0,DEL,1,74.0,3.0,1.0,2.0,2.0,2.0
+1000024304,2026-10-23,Serie B,1115001,Niccolò Corrado,8534,Empoli,9877,Vicenza,1,MED,1,90.0,0.0,0.0,1.0,1.0,0.0
+1000024304,2026-10-23,Serie B,1138748,Andrea Papetti,9877,Vicenza,8534,Empoli,0,DEF,1,90.0,0.0,0.0,2.0,4.0,2.0
+1000024304,2026-10-23,Serie B,1190381,Lorenzo Caferri,9877,Vicenza,8534,Empoli,0,MED,1,90.0,2.0,1.0,1.0,0.0,2.0
+1000024304,2026-10-23,Serie B,1289962,Thomas Sandon,9877,Vicenza,8534,Empoli,0,DEF,0,12.0,0.0,0.0,0.0,0.0,0.0
+1000024304,2026-10-23,Serie B,1310433,Silvio Merkaj,9877,Vicenza,8534,Empoli,0,DEL,0,16.0,1.0,0.0,0.0,0.0,1.0
+1000024304,2026-10-23,Serie B,1315426,Filippo Distefano,8534,Empoli,9877,Vicenza,1,DEL,0,21.0,0.0,0.0,0.0,2.0,1.0
+1000024304,2026-10-23,Serie B,1318247,Filippo Alessio,9877,Vicenza,8534,Empoli,0,DEL,0,16.0,0.0,0.0,0.0,0.0,0.0
+1000024304,2026-10-23,Serie B,1368060,Duccio Degli Innocenti,8534,Empoli,9877,Vicenza,1,MED,1,70.0,1.0,0.0,2.0,6.0,1.0
+1000024304,2026-10-23,Serie B,1402629,Stiven Shpendi,8534,Empoli,9877,Vicenza,1,DEL,0,40.0,2.0,1.0,1.0,2.0,1.0
+1000024304,2026-10-23,Serie B,1414496,Jacopo Seghetti,8534,Empoli,9877,Vicenza,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+1000024304,2026-10-23,Serie B,1440966,Edoardo Saporiti,8534,Empoli,9877,Vicenza,1,MED,1,69.0,1.0,0.0,2.0,0.0,0.0
+1000024304,2026-10-23,Serie B,1526283,Tommaso Corazza,9877,Vicenza,8534,Empoli,0,MED,1,90.0,4.0,0.0,0.0,0.0,1.0
+1000024304,2026-10-23,Serie B,1669645,Bogdan Popov,8534,Empoli,9877,Vicenza,1,DEL,1,90.0,1.0,1.0,1.0,3.0,1.0
+1000024304,2026-10-23,Serie B,1837406,Lapo Deli,8534,Empoli,9877,Vicenza,1,MED,0,20.0,0.0,0.0,0.0,0.0,1.0
+1000024304,2026-10-23,Serie B,2140588,Giulio Pellizzari,9877,Vicenza,8534,Empoli,0,MED,1,90.0,2.0,1.0,4.0,3.0,1.0
+1000024304,2026-10-23,Serie B,2155260,Matteo Egan,8534,Empoli,9877,Vicenza,1,DEF,0,8.0,0.0,0.0,0.0,0.0,0.0
+1000024305,2026-10-27,Serie B,56994,Nicolò Brighenti,9877,Vicenza,9887,Modena,1,DEF,1,90.0,0.0,0.0,1.0,1.0,1.0
+1000024305,2026-10-27,Serie B,163805,Leandro Chichizola,9887,Modena,9877,Vicenza,0,POR,1,90.0,0.0,0.0,0.0,1.0,0.0
+1000024305,2026-10-27,Serie B,244809,Mattia Valoti,9877,Vicenza,9887,Modena,1,MED,1,76.0,1.0,1.0,3.0,0.0,3.0
+1000024305,2026-10-27,Serie B,267260,Gastón Brugman,9887,Modena,9877,Vicenza,0,MED,0,35.0,0.0,0.0,0.0,0.0,0.0
+1000024305,2026-10-27,Serie B,309726,Andrea Belotti,9887,Modena,9877,Vicenza,0,DEL,1,88.0,1.0,1.0,1.0,2.0,1.0
+1000024305,2026-10-27,Serie B,414924,Francesco Zampano,9887,Modena,9877,Vicenza,0,DEF,1,36.0,0.0,0.0,0.0,0.0,0.0
+1000024305,2026-10-27,Serie B,491798,Alessandro Bellemo,9877,Vicenza,9887,Modena,1,MED,1,90.0,0.0,0.0,2.0,1.0,0.0
+1000024305,2026-10-27,Serie B,643283,Claudio Morra,9877,Vicenza,9887,Modena,1,DEL,0,19.0,0.0,0.0,0.0,0.0,0.0
+1000024305,2026-10-27,Serie B,695055,Riccardo Gagno,9877,Vicenza,9887,Modena,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+1000024305,2026-10-27,Serie B,719946,Riccardo Marchizza,9877,Vicenza,9887,Modena,1,DEF,1,90.0,0.0,0.0,2.0,0.0,0.0
+1000024305,2026-10-27,Serie B,725773,Loris Zonta,9877,Vicenza,9887,Modena,1,MED,0,19.0,0.0,0.0,0.0,0.0,0.0
+1000024305,2026-10-27,Serie B,879064,Simone Santoro,9887,Modena,9877,Vicenza,0,MED,1,90.0,0.0,0.0,2.0,1.0,1.0
+1000024305,2026-10-27,Serie B,979789,Giuseppe Caso,9887,Modena,9877,Vicenza,0,DEL,1,55.0,0.0,0.0,0.0,1.0,0.0
+1000024305,2026-10-27,Serie B,1069645,Nicola Rauti,9877,Vicenza,9887,Modena,1,DEL,1,71.0,0.0,0.0,1.0,2.0,0.0
+1000024305,2026-10-27,Serie B,1138748,Andrea Papetti,9877,Vicenza,9887,Modena,1,DEF,1,90.0,0.0,0.0,2.0,2.0,1.0
+1000024305,2026-10-27,Serie B,1158934,Giacomo Olzer,9887,Modena,9877,Vicenza,0,DEL,1,88.0,1.0,0.0,0.0,1.0,0.0
+1000024305,2026-10-27,Serie B,1190381,Lorenzo Caferri,9877,Vicenza,9887,Modena,1,MED,1,90.0,2.0,0.0,4.0,2.0,3.0
+1000024305,2026-10-27,Serie B,1228840,Alessandro Bianco,9887,Modena,9877,Vicenza,0,MED,1,90.0,1.0,0.0,0.0,0.0,1.0
+1000024305,2026-10-27,Serie B,1289962,Thomas Sandon,9877,Vicenza,9887,Modena,1,DEF,0,6.0,0.0,0.0,0.0,0.0,1.0
+1000024305,2026-10-27,Serie B,1310433,Silvio Merkaj,9877,Vicenza,9887,Modena,1,DEL,1,90.0,1.0,1.0,0.0,1.0,4.0
+1000024305,2026-10-27,Serie B,1310608,Steven Nador,9887,Modena,9877,Vicenza,0,DEF,1,90.0,0.0,0.0,3.0,1.0,2.0
+1000024305,2026-10-27,Serie B,1316205,Giuseppe Ambrosino,9887,Modena,9877,Vicenza,0,MED,1,90.0,5.0,2.0,0.0,3.0,2.0
+1000024305,2026-10-27,Serie B,1318247,Filippo Alessio,9877,Vicenza,9887,Modena,1,DEL,0,14.0,0.0,0.0,2.0,0.0,1.0
+1000024305,2026-10-27,Serie B,1320317,Kleis Bozhanaj,9887,Modena,9877,Vicenza,0,MED,0,2.0,0.0,0.0,0.0,1.0,0.0
+1000024305,2026-10-27,Serie B,1338946,Daniele Montevago,9887,Modena,9877,Vicenza,0,DEL,0,2.0,0.0,0.0,0.0,0.0,0.0
+1000024305,2026-10-27,Serie B,1401758,Bryant Nieling,9887,Modena,9877,Vicenza,0,DEF,1,90.0,0.0,0.0,0.0,0.0,2.0
+1000024305,2026-10-27,Serie B,1432542,Antonio Imputato,9887,Modena,9877,Vicenza,0,DEL,0,54.0,2.0,0.0,2.0,2.0,0.0
+1000024305,2026-10-27,Serie B,1526283,Tommaso Corazza,9877,Vicenza,9887,Modena,1,MED,1,84.0,2.0,0.0,3.0,1.0,1.0
+1000024305,2026-10-27,Serie B,1596106,Francesco Folino,9887,Modena,9877,Vicenza,0,DEF,1,90.0,0.0,0.0,1.0,3.0,3.0
+1000024305,2026-10-27,Serie B,2140588,Giulio Pellizzari,9877,Vicenza,9887,Modena,1,MED,1,71.0,0.0,0.0,3.0,1.0,1.0
+1000024307,2026-11-01,Serie B,56994,Nicolò Brighenti,9877,Vicenza,8540,Palermo,0,DEF,1,90.0,1.0,1.0,2.0,1.0,1.0
+1000024307,2026-11-01,Serie B,181910,Mattia Perin,8540,Palermo,9877,Vicenza,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+1000024307,2026-11-01,Serie B,244809,Mattia Valoti,9877,Vicenza,8540,Palermo,0,MED,1,90.0,1.0,0.0,3.0,1.0,1.0
+1000024307,2026-11-01,Serie B,267374,Hernani,8540,Palermo,9877,Vicenza,1,MED,1,75.0,0.0,0.0,2.0,0.0,1.0
+1000024307,2026-11-01,Serie B,290604,Joel Pohjanpalo,8540,Palermo,9877,Vicenza,1,DEL,1,68.0,3.0,1.0,0.0,0.0,0.0
+1000024307,2026-11-01,Serie B,421773,Filippo Costa,9877,Vicenza,8540,Palermo,0,MED,1,71.0,0.0,0.0,2.0,0.0,2.0
+1000024307,2026-11-01,Serie B,480014,Pietro Ceccaroni,8540,Palermo,9877,Vicenza,1,DEF,1,90.0,1.0,0.0,3.0,2.0,2.0
+1000024307,2026-11-01,Serie B,491798,Alessandro Bellemo,9877,Vicenza,8540,Palermo,0,MED,1,90.0,0.0,0.0,4.0,2.0,0.0
+1000024307,2026-11-01,Serie B,513982,Luca Mazzitelli,8540,Palermo,9877,Vicenza,1,MED,0,22.0,0.0,0.0,1.0,1.0,1.0
+1000024307,2026-11-01,Serie B,521964,Gabriele Moncini,9877,Vicenza,8540,Palermo,0,DEL,0,19.0,0.0,0.0,0.0,0.0,0.0
+1000024307,2026-11-01,Serie B,566776,Alessandro Gabrielloni,8540,Palermo,9877,Vicenza,1,DEL,0,22.0,0.0,0.0,0.0,2.0,0.0
+1000024307,2026-11-01,Serie B,643283,Claudio Morra,9877,Vicenza,8540,Palermo,0,DEL,1,60.0,2.0,0.0,1.0,1.0,1.0
+1000024307,2026-11-01,Serie B,693160,Tommaso Augello,8540,Palermo,9877,Vicenza,1,DEF,1,90.0,0.0,0.0,3.0,2.0,0.0
+1000024307,2026-11-01,Serie B,695055,Riccardo Gagno,9877,Vicenza,8540,Palermo,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+1000024307,2026-11-01,Serie B,719946,Riccardo Marchizza,9877,Vicenza,8540,Palermo,0,DEF,1,90.0,0.0,0.0,0.0,0.0,1.0
+1000024307,2026-11-01,Serie B,815366,Nahuel Estévez,8540,Palermo,9877,Vicenza,1,MED,0,22.0,0.0,0.0,1.0,0.0,1.0
+1000024307,2026-11-01,Serie B,818162,Jacopo Segre,8540,Palermo,9877,Vicenza,1,MED,1,68.0,1.0,0.0,0.0,0.0,2.0
+1000024307,2026-11-01,Serie B,822236,Dennis Tørset Johnsen,8540,Palermo,9877,Vicenza,1,DEL,1,79.0,3.0,1.0,0.0,1.0,1.0
+1000024307,2026-11-01,Serie B,834956,Giangiacomo Magnani,8540,Palermo,9877,Vicenza,1,DEF,0,11.0,0.0,0.0,0.0,0.0,0.0
+1000024307,2026-11-01,Serie B,868449,Marco Carraro,9877,Vicenza,8540,Palermo,0,MED,1,83.0,1.0,0.0,1.0,0.0,0.0
+1000024307,2026-11-01,Serie B,887689,Claudio Gomes,8540,Palermo,9877,Vicenza,1,MED,0,15.0,0.0,0.0,0.0,0.0,0.0
+1000024307,2026-11-01,Serie B,940440,Filippo Ranocchia,8540,Palermo,9877,Vicenza,1,MED,1,68.0,1.0,0.0,1.0,1.0,0.0
+1000024307,2026-11-01,Serie B,1069645,Nicola Rauti,9877,Vicenza,8540,Palermo,0,DEL,0,30.0,0.0,0.0,0.0,0.0,0.0
+1000024307,2026-11-01,Serie B,1070046,Tommaso Cassandro,8540,Palermo,9877,Vicenza,1,DEF,1,90.0,4.0,0.0,0.0,3.0,0.0
+1000024307,2026-11-01,Serie B,1138748,Andrea Papetti,9877,Vicenza,8540,Palermo,0,DEF,1,90.0,0.0,0.0,3.0,2.0,2.0
+1000024307,2026-11-01,Serie B,1190381,Lorenzo Caferri,9877,Vicenza,8540,Palermo,0,DEF,0,29.0,0.0,0.0,2.0,1.0,0.0
+1000024307,2026-11-01,Serie B,1245669,Patryk Peda,8540,Palermo,9877,Vicenza,1,DEF,1,90.0,1.0,0.0,0.0,1.0,0.0
+1000024307,2026-11-01,Serie B,1310433,Silvio Merkaj,9877,Vicenza,8540,Palermo,0,DEL,1,71.0,2.0,0.0,1.0,1.0,4.0
+1000024307,2026-11-01,Serie B,1318247,Filippo Alessio,9877,Vicenza,8540,Palermo,0,DEL,0,7.0,0.0,0.0,0.0,0.0,1.0
+1000024307,2026-11-01,Serie B,1526283,Tommaso Corazza,9877,Vicenza,8540,Palermo,0,DEF,0,19.0,0.0,0.0,2.0,0.0,1.0
+1000024307,2026-11-01,Serie B,1526880,Alessandro Pietrelli,9877,Vicenza,8540,Palermo,0,MED,1,61.0,2.0,1.0,0.0,0.0,2.0
+1000024307,2026-11-01,Serie B,1668965,Dominic Vavassori,8540,Palermo,9877,Vicenza,1,DEL,1,90.0,8.0,3.0,2.0,3.0,1.0
+1000024308,2026-11-08,Serie B,56994,Nicolò Brighenti,9877,Vicenza,7801,Cremonese,1,DEF,1,90.0,0.0,0.0,0.0,0.0,2.0
+1000024308,2026-11-08,Serie B,410411,Andrea Fulignati,7801,Cremonese,9877,Vicenza,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+1000024308,2026-11-08,Serie B,421773,Filippo Costa,9877,Vicenza,7801,Cremonese,1,MED,1,62.0,1.0,1.0,2.0,0.0,0.0
+1000024308,2026-11-08,Serie B,439148,Morten Thorsby,7801,Cremonese,9877,Vicenza,0,MED,1,90.0,3.0,1.0,1.0,1.0,0.0
+1000024308,2026-11-08,Serie B,466113,Jari Vandeputte,7801,Cremonese,9877,Vicenza,0,DEL,1,65.0,0.0,0.0,1.0,0.0,0.0
+1000024308,2026-11-08,Serie B,491798,Alessandro Bellemo,9877,Vicenza,7801,Cremonese,1,MED,1,90.0,1.0,1.0,1.0,1.0,0.0
+1000024308,2026-11-08,Serie B,543306,Federico Bonazzoli,7801,Cremonese,9877,Vicenza,0,DEL,1,81.0,6.0,3.0,0.0,1.0,0.0
+1000024308,2026-11-08,Serie B,575364,Alberto Grassi,7801,Cremonese,9877,Vicenza,0,MED,0,4.0,0.0,0.0,0.0,0.0,0.0
+1000024308,2026-11-08,Serie B,604330,Sebastiano Luperto,7801,Cremonese,9877,Vicenza,0,DEF,1,90.0,0.0,0.0,2.0,0.0,1.0
+1000024308,2026-11-08,Serie B,643283,Claudio Morra,9877,Vicenza,7801,Cremonese,1,DEL,0,28.0,2.0,1.0,0.0,0.0,0.0
+1000024308,2026-11-08,Serie B,670928,Giuseppe Pezzella,7801,Cremonese,9877,Vicenza,0,DEF,1,90.0,1.0,1.0,1.0,1.0,0.0
+1000024308,2026-11-08,Serie B,695055,Riccardo Gagno,9877,Vicenza,7801,Cremonese,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+1000024308,2026-11-08,Serie B,719946,Riccardo Marchizza,9877,Vicenza,7801,Cremonese,1,DEF,1,90.0,0.0,0.0,0.0,0.0,0.0
+1000024308,2026-11-08,Serie B,725773,Loris Zonta,9877,Vicenza,7801,Cremonese,1,MED,0,28.0,0.0,0.0,1.0,0.0,1.0
+1000024308,2026-11-08,Serie B,789064,Giuseppe Cuomo,9877,Vicenza,7801,Cremonese,1,DEF,0,13.0,0.0,0.0,1.0,0.0,1.0
+1000024308,2026-11-08,Serie B,799230,Federico Baschirotto,7801,Cremonese,9877,Vicenza,0,DEF,1,90.0,0.0,0.0,1.0,0.0,0.0
+1000024308,2026-11-08,Serie B,868449,Marco Carraro,9877,Vicenza,7801,Cremonese,1,MED,1,62.0,2.0,0.0,0.0,0.0,0.0
+1000024308,2026-11-08,Serie B,934873,Salvatore Elia,7801,Cremonese,9877,Vicenza,0,MED,0,41.0,0.0,0.0,1.0,1.0,2.0
+1000024308,2026-11-08,Serie B,953635,Armand Rada,9877,Vicenza,7801,Cremonese,1,MED,1,90.0,0.0,0.0,2.0,0.0,1.0
+1000024308,2026-11-08,Serie B,1069645,Nicola Rauti,9877,Vicenza,7801,Cremonese,1,MED,1,62.0,0.0,0.0,3.0,0.0,0.0
+1000024308,2026-11-08,Serie B,1072056,Tommaso Barbieri,7801,Cremonese,9877,Vicenza,0,DEF,1,90.0,1.0,0.0,3.0,1.0,1.0
+1000024308,2026-11-08,Serie B,1190381,Lorenzo Caferri,9877,Vicenza,7801,Cremonese,1,MED,1,72.0,1.0,0.0,1.0,0.0,0.0
+1000024308,2026-11-08,Serie B,1280158,Tommaso Berti,7801,Cremonese,9877,Vicenza,0,MED,1,86.0,0.0,0.0,0.0,0.0,0.0
+1000024308,2026-11-08,Serie B,1310433,Silvio Merkaj,9877,Vicenza,7801,Cremonese,1,DEL,1,90.0,2.0,2.0,0.0,1.0,1.0
+1000024308,2026-11-08,Serie B,1386005,Marco Nasti,7801,Cremonese,9877,Vicenza,0,DEL,0,25.0,0.0,0.0,1.0,0.0,0.0
+1000024308,2026-11-08,Serie B,1526283,Tommaso Corazza,9877,Vicenza,7801,Cremonese,1,DEF,0,28.0,0.0,0.0,1.0,1.0,0.0
+1000024308,2026-11-08,Serie B,1526880,Alessandro Pietrelli,9877,Vicenza,7801,Cremonese,1,MED,0,18.0,1.0,0.0,0.0,0.0,0.0
+1000024308,2026-11-08,Serie B,1645665,Adin Ličina,7801,Cremonese,9877,Vicenza,0,DEL,1,45.0,1.0,0.0,0.0,0.0,0.0
+1000024308,2026-11-08,Serie B,1668221,David Stückler,7801,Cremonese,9877,Vicenza,0,DEL,0,9.0,2.0,1.0,0.0,0.0,0.0
+1000024308,2026-11-08,Serie B,1668225,Dachi Lordkipanidze,7801,Cremonese,9877,Vicenza,0,MED,0,4.0,0.0,0.0,1.0,0.0,0.0
+1000024308,2026-11-08,Serie B,1958786,Simone Lottici Tessadri,7801,Cremonese,9877,Vicenza,0,MED,1,90.0,2.0,0.0,1.0,0.0,0.0
+1000024308,2026-11-08,Serie B,2140591,Matteo Vescovi,9877,Vicenza,7801,Cremonese,1,DEF,1,77.0,0.0,0.0,2.0,0.0,0.0
