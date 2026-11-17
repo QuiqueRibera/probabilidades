@@ -3849,3 +3849,5 @@ partido_id,fecha,competicion,equipo_id,equipo,rival_id,rival,local,xg,remates,ti
 1000024307,2026-11-01,Serie B,9877,Vicenza,8540,Palermo,0,1.18,9.0,2.0,1.0,4.0,21.0,16.0,1
 1000024308,2026-11-08,Serie B,9877,Vicenza,7801,Cremonese,1,1.41,10.0,5.0,3.0,4.0,14.0,6.0,1
 1000024308,2026-11-08,Serie B,7801,Cremonese,9877,Vicenza,0,2.63,16.0,6.0,0.0,3.0,13.0,4.0,4
+5868536,2026-11-16,Segunda,8393,Albacete,161743,Celta Fortuna,1,2.04,16.0,6.0,3.0,9.0,27.0,14.0,1
+5868536,2026-11-16,Segunda,161743,Celta Fortuna,8393,Albacete,0,1.33,11.0,3.0,5.0,5.0,14.0,15.0,0

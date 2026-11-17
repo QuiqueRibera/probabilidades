@@ -60333,3 +60333,34 @@ partido_id,fecha,competicion,jugador_id,jugador,equipo_id,equipo,rival_id,rival,
 1000024308,2026-11-08,Serie B,1668225,Dachi Lordkipanidze,7801,Cremonese,9877,Vicenza,0,MED,0,4.0,0.0,0.0,1.0,0.0,0.0
 1000024308,2026-11-08,Serie B,1958786,Simone Lottici Tessadri,7801,Cremonese,9877,Vicenza,0,MED,1,90.0,2.0,0.0,1.0,0.0,0.0
 1000024308,2026-11-08,Serie B,2140591,Matteo Vescovi,9877,Vicenza,7801,Cremonese,1,DEF,1,77.0,0.0,0.0,2.0,0.0,0.0
+5868536,2026-11-16,Segunda,213504,Diego Mariño,8393,Albacete,161743,Celta Fortuna,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5868536,2026-11-16,Segunda,574186,Agus Medina,8393,Albacete,161743,Celta Fortuna,1,MED,0,31.0,0.0,0.0,1.0,0.0,1.0
+5868536,2026-11-16,Segunda,574631,Jesús Vallejo,8393,Albacete,161743,Celta Fortuna,1,DEF,1,90.0,0.0,0.0,2.0,0.0,0.0
+5868536,2026-11-16,Segunda,670006,Lluís López,8393,Albacete,161743,Celta Fortuna,1,DEF,1,90.0,0.0,0.0,1.0,0.0,0.0
+5868536,2026-11-16,Segunda,874482,Roberto González,8393,Albacete,161743,Celta Fortuna,1,MED,1,59.0,2.0,1.0,5.0,2.0,3.0
+5868536,2026-11-16,Segunda,889544,Carlos Neva,8393,Albacete,161743,Celta Fortuna,1,DEF,1,90.0,0.0,0.0,1.0,1.0,0.0
+5868536,2026-11-16,Segunda,1031321,Mario Soberón,8393,Albacete,161743,Celta Fortuna,1,DEL,1,59.0,3.0,1.0,0.0,2.0,0.0
+5868536,2026-11-16,Segunda,1127223,Antonio Pacheco,8393,Albacete,161743,Celta Fortuna,1,MED,1,90.0,1.0,1.0,3.0,1.0,0.0
+5868536,2026-11-16,Segunda,1308413,Coke Carrillo,161743,Celta de Vigo B,8393,Albacete,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5868536,2026-11-16,Segunda,1310118,Stefan Bajčetić,161743,Celta de Vigo B,8393,Albacete,0,MED,1,45.0,1.0,1.0,2.0,1.0,0.0
+5868536,2026-11-16,Segunda,1322880,Sergio Ortuño,8393,Albacete,161743,Celta Fortuna,1,MED,1,90.0,0.0,0.0,4.0,2.0,1.0
+5868536,2026-11-16,Segunda,1323669,Lorenzo Aguado,8393,Albacete,161743,Celta Fortuna,1,DEF,1,90.0,2.0,1.0,4.0,1.0,4.0
+5868536,2026-11-16,Segunda,1329533,Jan Oliveras,161743,Celta de Vigo B,8393,Albacete,0,MED,1,85.0,0.0,0.0,2.0,0.0,3.0
+5868536,2026-11-16,Segunda,1426067,Pablo Meixus,161743,Celta de Vigo B,8393,Albacete,0,DEF,0,5.0,0.0,0.0,0.0,0.0,1.0
+5868536,2026-11-16,Segunda,1446819,Víctor Valverde,8393,Albacete,161743,Celta Fortuna,1,MED,1,71.0,1.0,1.0,4.0,0.0,2.0
+5868536,2026-11-16,Segunda,1473706,Agustín Albarracín,8393,Albacete,161743,Celta Fortuna,1,MED,0,31.0,4.0,0.0,1.0,0.0,0.0
+5868536,2026-11-16,Segunda,1532255,Álex Rubio,8393,Albacete,161743,Celta Fortuna,1,DEL,1,83.0,3.0,1.0,0.0,2.0,1.0
+5868536,2026-11-16,Segunda,1552439,Álvaro Marín,161743,Celta de Vigo B,8393,Albacete,0,DEL,1,85.0,2.0,1.0,0.0,0.0,1.0
+5868536,2026-11-16,Segunda,1697454,Oscar Marcos,161743,Celta de Vigo B,8393,Albacete,0,DEL,1,68.0,1.0,0.0,1.0,3.0,0.0
+5868536,2026-11-16,Segunda,1700562,Ángel Arcos,161743,Celta de Vigo B,8393,Albacete,0,MED,1,90.0,1.0,0.0,0.0,1.0,1.0
+5868536,2026-11-16,Segunda,1732791,Andrés Antañón,161743,Celta de Vigo B,8393,Albacete,0,MED,1,90.0,2.0,0.0,2.0,2.0,2.0
+5868536,2026-11-16,Segunda,1766338,Daniel Bernabéu,8393,Albacete,161743,Celta Fortuna,1,DEF,0,19.0,0.0,0.0,1.0,1.0,1.0
+5868536,2026-11-16,Segunda,1797312,Vladimir Silva,161743,Celta de Vigo B,8393,Albacete,0,DEL,1,90.0,2.0,1.0,0.0,2.0,2.0
+5868536,2026-11-16,Segunda,1842712,Anxo Rodriguez,161743,Celta de Vigo B,8393,Albacete,0,DEF,1,90.0,0.0,0.0,3.0,0.0,3.0
+5868536,2026-11-16,Segunda,1910012,Germain Milla,161743,Celta de Vigo B,8393,Albacete,0,MED,1,90.0,0.0,0.0,2.0,4.0,0.0
+5868536,2026-11-16,Segunda,1997604,Fabio Garcia-Moreno,8393,Albacete,161743,Celta Fortuna,1,DEL,0,7.0,0.0,0.0,0.0,1.0,1.0
+5868536,2026-11-16,Segunda,2071072,Angel Davila,161743,Celta de Vigo B,8393,Albacete,0,DEL,0,22.0,0.0,0.0,0.0,1.0,0.0
+5868536,2026-11-16,Segunda,2299893,Jorge Perez-Lafuente,161743,Celta de Vigo B,8393,Albacete,0,DEL,0,5.0,0.0,0.0,0.0,0.0,0.0
+5868536,2026-11-16,Segunda,2299895,David Sueiro,161743,Celta de Vigo B,8393,Albacete,0,DEF,0,45.0,0.0,0.0,1.0,0.0,0.0
+5868536,2026-11-16,Segunda,2337837,Noah Rodriguez,161743,Celta de Vigo B,8393,Albacete,0,MED,0,5.0,0.0,0.0,0.0,0.0,1.0
+5868536,2026-11-16,Segunda,2392848,Raul Chirveches,161743,Celta de Vigo B,8393,Albacete,0,DEF,1,85.0,2.0,0.0,1.0,0.0,1.0
