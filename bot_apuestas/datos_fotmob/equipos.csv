@@ -3983,3 +3983,7 @@ partido_id,fecha,competicion,equipo_id,equipo,rival_id,rival,local,xg,remates,ti
 5881733,2026-11-21,2. Bundesliga,9911,Bochum,8152,St. Pauli,0,1.15,14.0,4.0,2.0,1.0,22.0,10.0,0
 5803324,2026-11-21,Ligue 2,9837,Reims,9853,Saint-Étienne,1,0.81,13.0,3.0,2.0,4.0,17.0,11.0,0
 5803324,2026-11-21,Ligue 2,9853,Saint-Étienne,9837,Reims,0,1.38,7.0,3.0,3.0,3.0,23.0,17.0,1
+5749754,2026-11-22,Serie A,9885,Juventus,7881,Venezia,1,1.84,12.0,8.0,0.0,5.0,19.0,11.0,4
+5749754,2026-11-22,Serie A,7881,Venezia,9885,Juventus,0,0.83,13.0,1.0,0.0,2.0,16.0,11.0,0
+5836935,2026-11-22,Championship,8191,Burnley,8655,Blackburn Rovers,1,0.86,12.0,4.0,4.0,4.0,16.0,17.0,2
+5836935,2026-11-22,Championship,8655,Blackburn Rovers,8191,Burnley,0,1.68,12.0,3.0,3.0,2.0,28.0,15.0,2
