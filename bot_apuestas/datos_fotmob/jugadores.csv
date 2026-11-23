@@ -63156,3 +63156,128 @@ partido_id,fecha,competicion,jugador_id,jugador,equipo_id,equipo,rival_id,rival,
 5967149,2026-11-22,Serie B,1560751,Matteo Cocchi,583944,Padova,9849,Arezzo,0,DEF,1,60.0,0.0,0.0,0.0,0.0,1.0
 5967149,2026-11-22,Serie B,1616142,Mattia Sala,9849,Arezzo,583944,Padova,1,MED,1,90.0,1.0,0.0,1.0,3.0,1.0
 5967149,2026-11-22,Serie B,1728482,Enrico Silletti,583944,Padova,9849,Arezzo,0,DEF,1,90.0,0.0,0.0,0.0,0.0,1.0
+5868134,2026-11-22,La Liga,175311,Kiko,8305,Getafe,9906,Atlético Madrid,1,DEF,0,45.0,0.0,0.0,1.0,0.0,0.0
+5868134,2026-11-22,La Liga,177126,Jan Oblak,9906,Atlético de Madrid,8305,Getafe,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5868134,2026-11-22,La Liga,184533,Koke,9906,Atlético de Madrid,8305,Getafe,0,MED,1,90.0,0.0,0.0,5.0,1.0,1.0
+5868134,2026-11-22,La Liga,288406,Alejandro Grimaldo,9906,Atlético de Madrid,8305,Getafe,0,MED,1,90.0,3.0,1.0,4.0,1.0,1.0
+5868134,2026-11-22,La Liga,421365,Djené,8305,Getafe,9906,Atlético Madrid,1,DEF,1,90.0,0.0,0.0,2.0,3.0,3.0
+5868134,2026-11-22,La Liga,440330,Alexander Sørloth,9906,Atlético de Madrid,8305,Getafe,0,DEL,0,15.0,2.0,1.0,0.0,1.0,2.0
+5868134,2026-11-22,La Liga,464486,Enes Ünal,8305,Getafe,9906,Atlético Madrid,1,DEL,1,90.0,1.0,0.0,0.0,1.0,1.0
+5868134,2026-11-22,La Liga,474673,Johan Mojica,8305,Getafe,9906,Atlético Madrid,1,DEF,1,90.0,1.0,1.0,1.0,0.0,1.0
+5868134,2026-11-22,La Liga,581919,David Soria,8305,Getafe,9906,Atlético Madrid,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5868134,2026-11-22,La Liga,602563,Marcos Llorente,9906,Atlético de Madrid,8305,Getafe,0,DEF,1,90.0,0.0,0.0,3.0,0.0,0.0
+5868134,2026-11-22,La Liga,609516,Robin Le Normand,9906,Atlético de Madrid,8305,Getafe,0,DEF,1,90.0,1.0,1.0,2.0,0.0,2.0
+5868134,2026-11-22,La Liga,635772,Borja Mayoral,8305,Getafe,9906,Atlético Madrid,1,DEL,0,23.0,0.0,0.0,0.0,0.0,0.0
+5868134,2026-11-22,La Liga,727897,Dávid Hancko,9906,Atlético de Madrid,8305,Getafe,0,DEF,1,90.0,2.0,1.0,1.0,0.0,0.0
+5868134,2026-11-22,La Liga,765693,Orel Mangala,8305,Getafe,9906,Atlético Madrid,1,MED,1,90.0,0.0,0.0,0.0,0.0,4.0
+5868134,2026-11-22,La Liga,940976,Kang-In Lee,9906,Atlético de Madrid,8305,Getafe,0,DEL,0,45.0,2.0,0.0,1.0,3.0,0.0
+5868134,2026-11-22,La Liga,942372,Álex Baena,9906,Atlético de Madrid,8305,Getafe,0,MED,1,67.0,5.0,2.0,0.0,0.0,0.0
+5868134,2026-11-22,La Liga,974753,Julián Álvarez,9906,Atlético de Madrid,8305,Getafe,0,DEL,1,75.0,2.0,2.0,0.0,0.0,1.0
+5868134,2026-11-22,La Liga,1118199,Zaid Abner Romero,8305,Getafe,9906,Atlético Madrid,1,DEF,1,90.0,1.0,0.0,3.0,1.0,0.0
+5868134,2026-11-22,La Liga,1173678,Johnny Cardoso,9906,Atlético de Madrid,8305,Getafe,0,MED,1,45.0,1.0,1.0,2.0,2.0,2.0
+5868134,2026-11-22,La Liga,1183650,Francho Serrano,8305,Getafe,9906,Atlético Madrid,1,MED,1,67.0,1.0,0.0,0.0,0.0,0.0
+5868134,2026-11-22,La Liga,1197039,Martín Satriano,8305,Getafe,9906,Atlético Madrid,1,DEL,0,45.0,1.0,0.0,1.0,1.0,0.0
+5868134,2026-11-22,La Liga,1202587,Ramón Terrats,8305,Getafe,9906,Atlético Madrid,1,MED,1,45.0,2.0,0.0,0.0,1.0,0.0
+5868134,2026-11-22,La Liga,1203946,Iván Azón,8305,Getafe,9906,Atlético Madrid,1,DEL,1,67.0,4.0,0.0,0.0,2.0,1.0
+5868134,2026-11-22,La Liga,1226147,Giuliano Simeone,9906,Atlético de Madrid,8305,Getafe,0,MED,1,90.0,1.0,0.0,3.0,1.0,0.0
+5868134,2026-11-22,La Liga,1321605,Mario Martín,8305,Getafe,9906,Atlético Madrid,1,MED,0,23.0,0.0,0.0,1.0,1.0,0.0
+5868134,2026-11-22,La Liga,1338192,Pablo Barrios,9906,Atlético de Madrid,8305,Getafe,0,MED,1,90.0,1.0,1.0,3.0,1.0,1.0
+5868134,2026-11-22,La Liga,1419969,Rodrigo Mendoza,9906,Atlético de Madrid,8305,Getafe,0,MED,0,23.0,0.0,0.0,1.0,1.0,1.0
+5868134,2026-11-22,La Liga,1430406,Andrés García,8305,Getafe,9906,Atlético Madrid,1,DEL,1,85.0,0.0,0.0,3.0,0.0,1.0
+5868134,2026-11-22,La Liga,1676086,Davinchi,8305,Getafe,9906,Atlético Madrid,1,DEF,0,5.0,0.0,0.0,0.0,0.0,0.0
+5868134,2026-11-22,La Liga,1792368,Jean Ives Valou,8305,Getafe,9906,Atlético Madrid,1,DEF,1,45.0,0.0,0.0,0.0,0.0,0.0
+5749751,2026-11-22,Serie A,73167,Henrikh Mkhitaryan,8636,Internazionale,8524,Atalanta,0,MED,1,77.0,0.0,0.0,1.0,1.0,3.0
+5749751,2026-11-22,Serie A,212630,Marco Sportiello,8524,Atalanta,8636,Inter,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5749751,2026-11-22,Serie A,244811,Davide Zappacosta,8524,Atalanta,8636,Inter,1,MED,1,90.0,1.0,1.0,0.0,0.0,3.0
+5749751,2026-11-22,Serie A,304345,Sead Kolašinac,8524,Atalanta,8636,Inter,1,DEF,1,90.0,0.0,0.0,0.0,1.0,0.0
+5749751,2026-11-22,Serie A,304733,Hakan Çalhanoğlu,8636,Internazionale,8524,Atalanta,0,MED,1,33.0,1.0,0.0,0.0,0.0,0.0
+5749751,2026-11-22,Serie A,446266,Mario Pašalić,8524,Atalanta,8636,Inter,1,MED,0,22.0,1.0,1.0,0.0,0.0,0.0
+5749751,2026-11-22,Serie A,521318,Manuel Akanji,8636,Internazionale,8524,Atalanta,0,DEF,0,26.0,1.0,0.0,0.0,0.0,0.0
+5749751,2026-11-22,Serie A,541820,Nicolò Barella,8636,Internazionale,8524,Atalanta,0,MED,1,64.0,3.0,0.0,1.0,0.0,1.0
+5749751,2026-11-22,Serie A,579747,Franck Kessié,8524,Atalanta,8636,Inter,1,MED,1,90.0,3.0,1.0,3.0,1.0,2.0
+5749751,2026-11-22,Serie A,605224,Federico Dimarco,8636,Internazionale,8524,Atalanta,0,MED,1,64.0,1.0,0.0,0.0,0.0,0.0
+5749751,2026-11-22,Serie A,611223,Benjamin Pavard,8636,Internazionale,8524,Atalanta,0,DEF,1,90.0,1.0,0.0,0.0,0.0,1.0
+5749751,2026-11-22,Serie A,621562,Marcus Thuram,8636,Internazionale,8524,Atalanta,0,DEL,1,90.0,2.0,1.0,0.0,3.0,0.0
+5749751,2026-11-22,Serie A,690230,Lautaro Martínez,8636,Internazionale,8524,Atalanta,0,DEL,0,13.0,0.0,0.0,0.0,0.0,0.0
+5749751,2026-11-22,Serie A,721089,Gianluca Scamacca,8524,Atalanta,8636,Inter,1,DEL,0,2.0,0.0,0.0,0.0,0.0,0.0
+5749751,2026-11-22,Serie A,741049,Eljif Elmas,8524,Atalanta,8636,Inter,1,MED,1,68.0,3.0,1.0,0.0,0.0,0.0
+5749751,2026-11-22,Serie A,772168,Josep Martínez,8636,Internazionale,8524,Atalanta,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5749751,2026-11-22,Serie A,805451,Alessandro Bastoni,8636,Internazionale,8524,Atalanta,0,DEF,1,90.0,0.0,0.0,0.0,2.0,1.0
+5749751,2026-11-22,Serie A,833638,Nikola Krstović,8524,Atalanta,8636,Inter,1,DEL,1,88.0,3.0,2.0,1.0,1.0,1.0
+5749751,2026-11-22,Serie A,894803,Djed Spence,8636,Internazionale,8524,Atalanta,0,DEF,1,90.0,0.0,0.0,2.0,0.0,0.0
+5749751,2026-11-22,Serie A,902651,Raoul Bellanova,8524,Atalanta,8636,Inter,1,MED,1,88.0,0.0,0.0,0.0,1.0,0.0
+5749751,2026-11-22,Serie A,933768,Curtis Jones,8636,Internazionale,8524,Atalanta,0,MED,0,26.0,0.0,0.0,0.0,1.0,0.0
+5749751,2026-11-22,Serie A,940829,Carlos Augusto,8636,Internazionale,8524,Atalanta,0,DEF,1,90.0,1.0,0.0,0.0,0.0,1.0
+5749751,2026-11-22,Serie A,951743,Giacomo Raspadori,8524,Atalanta,8636,Inter,1,MED,0,17.0,0.0,0.0,0.0,0.0,0.0
+5749751,2026-11-22,Serie A,957203,Éderson,8524,Atalanta,8636,Inter,1,MED,1,68.0,0.0,0.0,1.0,2.0,1.0
+5749751,2026-11-22,Serie A,1053714,Nicola Zalewski,8524,Atalanta,8636,Inter,1,MED,1,73.0,1.0,1.0,1.0,1.0,1.0
+5749751,2026-11-22,Serie A,1095432,Charles De Ketelaere,8524,Atalanta,8636,Inter,1,MED,1,90.0,3.0,3.0,1.0,0.0,0.0
+5749751,2026-11-22,Serie A,1113694,Jonathan Rowe,8524,Atalanta,8636,Inter,1,DEL,0,22.0,0.0,0.0,1.0,1.0,0.0
+5749751,2026-11-22,Serie A,1191093,Lorenzo Bernasconi,8524,Atalanta,8636,Inter,1,MED,0,2.0,0.0,0.0,0.0,0.0,0.0
+5749751,2026-11-22,Serie A,1202358,Giorgio Scalvini,8524,Atalanta,8636,Inter,1,DEF,1,90.0,0.0,0.0,3.0,1.0,1.0
+5749751,2026-11-22,Serie A,1367618,Francesco Pio Esposito,8636,Internazionale,8524,Atalanta,0,DEL,1,77.0,5.0,4.0,0.0,0.0,1.0
+5749751,2026-11-22,Serie A,1382000,Petar Sučić,8636,Internazionale,8524,Atalanta,0,MED,0,57.0,1.0,1.0,2.0,1.0,2.0
+5749751,2026-11-22,Serie A,1410437,Aleksandar Stanković,8636,Internazionale,8524,Atalanta,0,MED,0,13.0,0.0,0.0,1.0,0.0,0.0
+5802994,2026-11-22,Ligue 1,214972,Geoffrey Kondogbia,8592,Marseille,8682,Le Mans,1,MED,1,74.0,1.0,0.0,2.0,1.0,2.0
+5802994,2026-11-22,Ligue 1,520979,Ulisses Garcia,8592,Marseille,8682,Le Mans,1,DEF,1,88.0,0.0,0.0,0.0,0.0,2.0
+5802994,2026-11-22,Ligue 1,617310,Nayef Aguerd,8592,Marseille,8682,Le Mans,1,DEF,1,90.0,0.0,0.0,0.0,1.0,1.0
+5802994,2026-11-22,Ligue 1,660565,Samuel Yohou,8682,Le Mans,8592,Marseille,0,DEF,1,90.0,0.0,0.0,2.0,0.0,0.0
+5802994,2026-11-22,Ligue 1,687868,Jeffrey De Lange,8592,Marseille,8682,Le Mans,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5802994,2026-11-22,Ligue 1,717270,Antoine Rabillard,8682,Le Mans,8592,Marseille,0,MED,1,63.0,1.0,1.0,1.0,1.0,3.0
+5802994,2026-11-22,Ligue 1,722531,Nicolas Kocik,8682,Le Mans,8592,Marseille,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5802994,2026-11-22,Ligue 1,725256,Dame Gueye,8682,Le Mans,8592,Marseille,0,DEL,1,63.0,4.0,2.0,1.0,2.0,1.0
+5802994,2026-11-22,Ligue 1,780815,Amine Harit,8592,Marseille,8682,Le Mans,1,DEL,1,88.0,1.0,0.0,1.0,1.0,1.0
+5802994,2026-11-22,Ligue 1,807955,Louis Mafouta,8682,Le Mans,8592,Marseille,0,DEL,1,83.0,5.0,2.0,0.0,1.0,2.0
+5802994,2026-11-22,Ligue 1,844437,Amine Gouiri,8592,Marseille,8682,Le Mans,1,DEL,1,90.0,3.0,2.0,1.0,0.0,0.0
+5802994,2026-11-22,Ligue 1,848667,Angel Gomes,8592,Marseille,8682,Le Mans,1,MED,0,16.0,0.0,0.0,1.0,0.0,1.0
+5802994,2026-11-22,Ligue 1,874319,Lucas Buadés,8682,Le Mans,8592,Marseille,0,MED,1,82.0,0.0,0.0,0.0,2.0,0.0
+5802994,2026-11-22,Ligue 1,889536,Timothy Weah,8592,Marseille,8682,Le Mans,1,DEF,1,90.0,1.0,1.0,1.0,2.0,0.0
+5802994,2026-11-22,Ligue 1,956659,Himad Abdelli,8592,Marseille,8682,Le Mans,1,MED,1,90.0,0.0,0.0,3.0,3.0,1.0
+5802994,2026-11-22,Ligue 1,1187227,CJ Egan-Riley,8592,Marseille,8682,Le Mans,1,DEF,1,90.0,0.0,0.0,2.0,1.0,2.0
+5802994,2026-11-22,Ligue 1,1202891,Raúl Torrente,8682,Le Mans,8592,Marseille,0,DEF,0,8.0,0.0,0.0,0.0,0.0,0.0
+5802994,2026-11-22,Ligue 1,1244864,Jean Vercruysse,8682,Le Mans,8592,Marseille,0,MED,0,27.0,1.0,1.0,3.0,1.0,1.0
+5802994,2026-11-22,Ligue 1,1265963,Igor Paixão,8592,Marseille,8682,Le Mans,1,DEL,1,90.0,3.0,2.0,1.0,1.0,0.0
+5802994,2026-11-22,Ligue 1,1311670,Harold Voyer,8682,Le Mans,8592,Marseille,0,DEF,1,82.0,0.0,0.0,2.0,0.0,1.0
+5802994,2026-11-22,Ligue 1,1317318,Lucas Calodat,8682,Le Mans,8592,Marseille,0,MED,1,90.0,0.0,0.0,0.0,1.0,0.0
+5802994,2026-11-22,Ligue 1,1353104,Tochukwu Nnadi,8592,Marseille,8682,Le Mans,1,MED,1,74.0,1.0,0.0,1.0,1.0,3.0
+5802994,2026-11-22,Ligue 1,1388072,Daouda Traoré,8682,Le Mans,8592,Marseille,0,MED,1,90.0,3.0,0.0,2.0,1.0,1.0
+5802994,2026-11-22,Ligue 1,1438609,Erwan Colas,8682,Le Mans,8592,Marseille,0,DEL,0,27.0,4.0,3.0,0.0,1.0,0.0
+5802994,2026-11-22,Ligue 1,1523312,Lucas Bretelle,8682,Le Mans,8592,Marseille,0,MED,1,90.0,0.0,0.0,2.0,2.0,0.0
+5802994,2026-11-22,Ligue 1,1632788,Rayan Bamba,8682,Le Mans,8592,Marseille,0,DEF,1,90.0,1.0,0.0,1.0,1.0,2.0
+5802994,2026-11-22,Ligue 1,1638922,Keyliane Abdallah,8592,Marseille,8682,Le Mans,1,DEL,0,2.0,0.0,0.0,0.0,0.0,0.0
+5802994,2026-11-22,Ligue 1,1668295,Noa Boissé,8682,Le Mans,8592,Marseille,0,DEF,0,8.0,0.0,0.0,1.0,0.0,0.0
+5802994,2026-11-22,Ligue 1,1669618,Alexi Koum,8592,Marseille,8682,Le Mans,1,DEF,0,2.0,0.0,0.0,0.0,0.0,1.0
+5802994,2026-11-22,Ligue 1,1698484,Nouhoum Kamissoko,8592,Marseille,8682,Le Mans,1,MED,0,16.0,1.0,0.0,3.0,0.0,0.0
+5802994,2026-11-22,Ligue 1,1791882,William Harhouz,8682,Le Mans,8592,Marseille,0,DEL,0,7.0,0.0,0.0,0.0,0.0,0.0
+5868548,2026-11-22,Segunda,213504,Diego Mariño,8393,Albacete,7876,Burgos CF,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5868548,2026-11-22,Segunda,518534,Ander Cantero,7876,Burgos CF,8393,Albacete,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5868548,2026-11-22,Segunda,522083,Pablo Galdames,7876,Burgos CF,8393,Albacete,1,MED,0,34.0,1.0,0.0,0.0,0.0,2.0
+5868548,2026-11-22,Segunda,522579,Munir El Haddadi,8393,Albacete,7876,Burgos CF,0,DEL,0,15.0,3.0,0.0,1.0,2.0,0.0
+5868548,2026-11-22,Segunda,574186,Agus Medina,8393,Albacete,7876,Burgos CF,0,MED,1,75.0,4.0,0.0,0.0,1.0,0.0
+5868548,2026-11-22,Segunda,574631,Jesús Vallejo,8393,Albacete,7876,Burgos CF,0,DEF,1,90.0,0.0,0.0,2.0,0.0,1.0
+5868548,2026-11-22,Segunda,640725,Curro Sánchez,7876,Burgos CF,8393,Albacete,1,DEL,1,90.0,1.0,0.0,4.0,0.0,1.0
+5868548,2026-11-22,Segunda,670006,Lluís López,8393,Albacete,7876,Burgos CF,0,DEF,1,82.0,0.0,0.0,0.0,0.0,0.0
+5868548,2026-11-22,Segunda,715347,Grego Sierra,7876,Burgos CF,8393,Albacete,1,DEF,1,90.0,2.0,0.0,3.0,2.0,2.0
+5868548,2026-11-22,Segunda,874482,Roberto González,8393,Albacete,7876,Burgos CF,0,MED,1,62.0,2.0,0.0,0.0,3.0,1.0
+5868548,2026-11-22,Segunda,884262,Oier Luengo,7876,Burgos CF,8393,Albacete,1,DEF,1,90.0,0.0,0.0,4.0,0.0,2.0
+5868548,2026-11-22,Segunda,889544,Carlos Neva,8393,Albacete,7876,Burgos CF,0,DEF,1,90.0,0.0,0.0,2.0,0.0,1.0
+5868548,2026-11-22,Segunda,915168,Sergio González,7876,Burgos CF,8393,Albacete,1,DEF,0,35.0,0.0,0.0,3.0,1.0,2.0
+5868548,2026-11-22,Segunda,964579,Kévin Appin,7876,Burgos CF,8393,Albacete,1,MED,0,21.0,1.0,0.0,1.0,1.0,0.0
+5868548,2026-11-22,Segunda,970550,José Gragera,7876,Burgos CF,8393,Albacete,1,MED,1,56.0,1.0,1.0,1.0,0.0,2.0
+5868548,2026-11-22,Segunda,1007717,Unai Vencedor,7876,Burgos CF,8393,Albacete,1,MED,1,55.0,0.0,0.0,1.0,4.0,0.0
+5868548,2026-11-22,Segunda,1031321,Mario Soberón,8393,Albacete,7876,Burgos CF,0,DEL,0,8.0,2.0,0.0,0.0,0.0,1.0
+5868548,2026-11-22,Segunda,1033116,Ignasi Vilarrasa,7876,Burgos CF,8393,Albacete,1,DEF,1,90.0,0.0,0.0,1.0,0.0,2.0
+5868548,2026-11-22,Segunda,1121204,Pepe Sánchez,8393,Albacete,7876,Burgos CF,0,DEF,0,8.0,0.0,0.0,0.0,0.0,1.0
+5868548,2026-11-22,Segunda,1127223,Antonio Pacheco,8393,Albacete,7876,Burgos CF,0,MED,1,90.0,1.0,0.0,4.0,2.0,0.0
+5868548,2026-11-22,Segunda,1304120,Álex Forés,7876,Burgos CF,8393,Albacete,1,DEL,1,82.0,3.0,2.0,0.0,0.0,0.0
+5868548,2026-11-22,Segunda,1315828,Javi Llabrés,7876,Burgos CF,8393,Albacete,1,MED,1,82.0,1.0,0.0,1.0,0.0,1.0
+5868548,2026-11-22,Segunda,1322880,Sergio Ortuño,8393,Albacete,7876,Burgos CF,0,MED,1,90.0,1.0,0.0,2.0,2.0,4.0
+5868548,2026-11-22,Segunda,1323669,Lorenzo Aguado,8393,Albacete,7876,Burgos CF,0,MED,1,75.0,2.0,1.0,0.0,1.0,0.0
+5868548,2026-11-22,Segunda,1323828,Alberto Dadie,7876,Burgos CF,8393,Albacete,1,MED,1,69.0,2.0,0.0,6.0,0.0,1.0
+5868548,2026-11-22,Segunda,1446819,Víctor Valverde,8393,Albacete,7876,Burgos CF,0,MED,1,90.0,3.0,0.0,1.0,2.0,0.0
+5868548,2026-11-22,Segunda,1473706,Agustín Albarracín,8393,Albacete,7876,Burgos CF,0,DEL,0,28.0,0.0,0.0,0.0,2.0,0.0
+5868548,2026-11-22,Segunda,1532255,Álex Rubio,8393,Albacete,7876,Burgos CF,0,DEL,1,82.0,1.0,0.0,0.0,0.0,1.0
+5868548,2026-11-22,Segunda,1666511,Santiago Lencina,7876,Burgos CF,8393,Albacete,1,MED,0,8.0,0.0,0.0,1.0,0.0,0.0
+5868548,2026-11-22,Segunda,1687218,Irian Ribas,7876,Burgos CF,8393,Albacete,1,DEL,0,8.0,0.0,0.0,0.0,0.0,0.0
+5868548,2026-11-22,Segunda,1755863,Álex Lizancos,7876,Burgos CF,8393,Albacete,1,DEF,1,90.0,2.0,0.0,6.0,3.0,0.0
+5868548,2026-11-22,Segunda,1766338,Daniel Bernabéu,8393,Albacete,7876,Burgos CF,0,DEF,0,15.0,1.0,1.0,0.0,0.0,2.0
