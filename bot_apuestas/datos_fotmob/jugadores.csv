@@ -63281,3 +63281,191 @@ partido_id,fecha,competicion,jugador_id,jugador,equipo_id,equipo,rival_id,rival,
 5868548,2026-11-22,Segunda,1687218,Irian Ribas,7876,Burgos CF,8393,Albacete,1,DEL,0,8.0,0.0,0.0,0.0,0.0,0.0
 5868548,2026-11-22,Segunda,1755863,Álex Lizancos,7876,Burgos CF,8393,Albacete,1,DEF,1,90.0,2.0,0.0,6.0,3.0,0.0
 5868548,2026-11-22,Segunda,1766338,Daniel Bernabéu,8393,Albacete,7876,Burgos CF,0,DEF,0,15.0,1.0,1.0,0.0,0.0,2.0
+5868135,2026-11-23,La Liga,185644,Mathew Ryan,8581,Levante,10268,Elche,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5868135,2026-11-23,La Liga,210683,Aïssa Mandi,8581,Levante,10268,Elche,1,DEF,1,90.0,0.0,0.0,1.0,1.0,0.0
+5868135,2026-11-23,La Liga,443966,Jeremy Toljan,8581,Levante,10268,Elche,1,DEF,1,22.0,0.0,0.0,1.0,1.0,0.0
+5868135,2026-11-23,La Liga,468931,Thomas Lemar,10268,Elche,8581,Levante,0,MED,0,44.0,0.0,0.0,0.0,1.0,0.0
+5868135,2026-11-23,La Liga,592412,Matías Dituro,10268,Elche,8581,Levante,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5868135,2026-11-23,La Liga,654091,Grady Diangana,10268,Elche,8581,Levante,0,MED,0,1.0,0.0,0.0,0.0,0.0,0.0
+5868135,2026-11-23,La Liga,801213,Tete Morente,10268,Elche,8581,Levante,0,MED,0,9.0,0.0,0.0,0.0,0.0,0.0
+5868135,2026-11-23,La Liga,881773,Gonzalo Villar,10268,Elche,8581,Levante,0,MED,1,66.0,0.0,0.0,3.0,1.0,2.0
+5868135,2026-11-23,La Liga,914401,Oriol Rey,8581,Levante,10268,Elche,1,MED,1,78.0,1.0,0.0,3.0,0.0,3.0
+5868135,2026-11-23,La Liga,952528,Adrián De La Fuente,8581,Levante,10268,Elche,1,DEF,1,90.0,5.0,0.0,0.0,0.0,1.0
+5868135,2026-11-23,La Liga,1052330,Manuel Sánchez,8581,Levante,10268,Elche,1,DEF,1,56.0,0.0,0.0,3.0,0.0,1.0
+5868135,2026-11-23,La Liga,1102708,Germán Valera,10268,Elche,8581,Levante,0,MED,1,90.0,0.0,0.0,0.0,3.0,1.0
+5868135,2026-11-23,La Liga,1127224,Fer Niño,10268,Elche,8581,Levante,0,DEL,1,90.0,0.0,0.0,2.0,1.0,4.0
+5868135,2026-11-23,La Liga,1131957,Jon Olasagasti,8581,Levante,10268,Elche,1,MED,1,90.0,2.0,0.0,2.0,2.0,3.0
+5868135,2026-11-23,La Liga,1192393,Víctor Chust,10268,Elche,8581,Levante,0,DEF,1,90.0,0.0,0.0,1.0,0.0,2.0
+5868135,2026-11-23,La Liga,1209441,Iván Romero,8581,Levante,10268,Elche,1,DEL,1,78.0,1.0,0.0,2.0,4.0,0.0
+5868135,2026-11-23,La Liga,1226189,Martim Neto,10268,Elche,8581,Levante,0,MED,0,24.0,0.0,0.0,1.0,1.0,0.0
+5868135,2026-11-23,La Liga,1277343,Federico Redondo,10268,Elche,8581,Levante,0,DEF,1,90.0,1.0,1.0,2.0,2.0,1.0
+5868135,2026-11-23,La Liga,1280756,Lucas Cepeda,10268,Elche,8581,Levante,0,DEL,1,81.0,1.0,0.0,1.0,2.0,0.0
+5868135,2026-11-23,La Liga,1286471,Roger Brugué,8581,Levante,10268,Elche,1,DEL,1,90.0,3.0,0.0,4.0,2.0,1.0
+5868135,2026-11-23,La Liga,1302821,Petar Ratkov,8581,Levante,10268,Elche,1,DEL,0,12.0,0.0,0.0,0.0,0.0,0.0
+5868135,2026-11-23,La Liga,1337914,Roy Revivo,10268,Elche,8581,Levante,0,DEF,1,81.0,2.0,1.0,1.0,1.0,1.0
+5868135,2026-11-23,La Liga,1343195,Abiel Osorio,10268,Elche,8581,Levante,0,DEL,1,45.0,0.0,0.0,2.0,0.0,1.0
+5868135,2026-11-23,La Liga,1392779,Etta Eyong,8581,Levante,10268,Elche,1,DEL,0,12.0,1.0,1.0,0.0,0.0,0.0
+5868135,2026-11-23,La Liga,1460063,Thiago Fernández,8581,Levante,10268,Elche,1,DEL,1,90.0,2.0,0.0,2.0,0.0,1.0
+5868135,2026-11-23,La Liga,1481503,Dani Requena,8581,Levante,10268,Elche,1,MED,1,90.0,2.0,1.0,3.0,1.0,2.0
+5868135,2026-11-23,La Liga,1583872,Buba Sangaré,10268,Elche,8581,Levante,0,DEF,1,90.0,0.0,0.0,5.0,1.0,0.0
+5868135,2026-11-23,La Liga,1670276,Matia Barzić,10268,Elche,8581,Levante,0,DEF,0,9.0,0.0,0.0,0.0,0.0,0.0
+5868135,2026-11-23,La Liga,1732412,Javi Morcillo,10268,Elche,8581,Levante,0,MED,1,90.0,0.0,0.0,1.0,1.0,0.0
+5868135,2026-11-23,La Liga,1800611,Nacho Pérez,8581,Levante,10268,Elche,1,DEF,0,68.0,0.0,0.0,2.0,0.0,2.0
+5868135,2026-11-23,La Liga,2141146,Marc Santos,8581,Levante,10268,Elche,1,DEF,0,34.0,1.0,0.0,0.0,0.0,0.0
+5795517,2026-11-23,Premier League,184321,Callum Wilson,9937,Brentford,8668,Everton,1,DEL,1,90.0,2.0,1.0,0.0,0.0,1.0
+5795517,2026-11-23,Premier League,243138,James Tarkowski,8668,Everton,9937,Brentford,0,DEF,1,40.0,0.0,0.0,0.0,0.0,1.0
+5795517,2026-11-23,Premier League,266520,Christian Nørgaard,8668,Everton,9937,Brentford,0,MED,0,5.0,0.0,0.0,0.0,0.0,0.0
+5795517,2026-11-23,Premier League,290410,Michael Keane,8668,Everton,9937,Brentford,0,DEF,0,21.0,0.0,0.0,1.0,0.0,0.0
+5795517,2026-11-23,Premier League,303919,Jordan Pickford,8668,Everton,9937,Brentford,0,POR,1,90.0,0.0,0.0,0.0,1.0,0.0
+5795517,2026-11-23,Premier League,312765,Jack Grealish,8668,Everton,9937,Brentford,0,DEL,0,45.0,0.0,0.0,0.0,3.0,0.0
+5795517,2026-11-23,Premier League,552718,Kristoffer Ajer,9937,Brentford,8668,Everton,1,DEF,1,90.0,0.0,0.0,0.0,0.0,1.0
+5795517,2026-11-23,Premier League,650616,Mathias Jensen,9937,Brentford,8668,Everton,1,MED,0,16.0,0.0,0.0,0.0,0.0,1.0
+5795517,2026-11-23,Premier League,688273,Vitaly Janelt,9937,Brentford,8668,Everton,1,MED,1,82.0,1.0,1.0,1.0,1.0,1.0
+5795517,2026-11-23,Premier League,776689,Caoimhín Kelleher,9937,Brentford,8668,Everton,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5795517,2026-11-23,Premier League,874025,Vitaliy Mykolenko,8668,Everton,9937,Brentford,0,DEF,1,90.0,0.0,0.0,3.0,1.0,1.0
+5795517,2026-11-23,Premier League,886016,Kiernan Dewsbury-Hall,8668,Everton,9937,Brentford,0,MED,1,69.0,1.0,0.0,0.0,0.0,0.0
+5795517,2026-11-23,Premier League,888912,Mikkel Damsgaard,9937,Brentford,8668,Everton,1,MED,1,90.0,2.0,2.0,0.0,1.0,1.0
+5795517,2026-11-23,Premier League,919435,Sepp van den Berg,9937,Brentford,8668,Everton,1,DEF,1,90.0,0.0,0.0,0.0,1.0,0.0
+5795517,2026-11-23,Premier League,950474,James Garner,8668,Everton,9937,Brentford,0,MED,1,85.0,0.0,0.0,5.0,1.0,3.0
+5795517,2026-11-23,Premier League,963965,Fábio Carvalho,9937,Brentford,8668,Everton,1,MED,0,9.0,2.0,1.0,0.0,1.0,0.0
+5795517,2026-11-23,Premier League,982394,Hayden Hackney,8668,Everton,9937,Brentford,0,MED,0,21.0,0.0,0.0,0.0,0.0,0.0
+5795517,2026-11-23,Premier League,1010426,Keane Lewis-Potter,9937,Brentford,8668,Everton,1,DEF,1,74.0,7.0,2.0,0.0,0.0,0.0
+5795517,2026-11-23,Premier League,1030829,Jarrad Branthwaite,8668,Everton,9937,Brentford,0,DEF,1,90.0,0.0,0.0,1.0,1.0,1.0
+5795517,2026-11-23,Premier League,1076756,Brennan Johnson,8668,Everton,9937,Brentford,0,MED,0,21.0,1.0,0.0,0.0,0.0,0.0
+5795517,2026-11-23,Premier League,1083796,Kevin Schade,9937,Brentford,8668,Everton,1,DEL,0,24.0,2.0,0.0,0.0,0.0,0.0
+5795517,2026-11-23,Premier League,1098607,Jake O'Brien,8668,Everton,9937,Brentford,0,DEF,1,90.0,0.0,0.0,2.0,0.0,0.0
+5795517,2026-11-23,Premier League,1157236,Yehor Yarmoliuk,9937,Brentford,8668,Everton,1,MED,1,74.0,0.0,0.0,0.0,3.0,0.0
+5795517,2026-11-23,Premier League,1171140,Jaidon Anthony,9937,Brentford,8668,Everton,1,DEL,1,81.0,1.0,0.0,0.0,1.0,2.0
+5795517,2026-11-23,Premier League,1185211,Mamadou Sangaré,9937,Brentford,8668,Everton,1,MED,0,8.0,0.0,0.0,0.0,0.0,0.0
+5795517,2026-11-23,Premier League,1210384,Merlin Röhl,8668,Everton,9937,Brentford,0,DEF,1,69.0,0.0,0.0,2.0,0.0,0.0
+5795517,2026-11-23,Premier League,1250253,Dango Ouattara,9937,Brentford,8668,Everton,1,DEL,1,66.0,2.0,0.0,0.0,1.0,0.0
+5795517,2026-11-23,Premier League,1398392,Thierno Barry,8668,Everton,9937,Brentford,0,DEL,1,69.0,1.0,1.0,1.0,0.0,3.0
+5795517,2026-11-23,Premier League,1424875,Tyrique George,8668,Everton,9937,Brentford,0,DEL,1,45.0,0.0,0.0,0.0,0.0,0.0
+5795517,2026-11-23,Premier League,1429912,Michael Kayode,9937,Brentford,8668,Everton,1,DEF,1,90.0,2.0,0.0,1.0,0.0,1.0
+5795517,2026-11-23,Premier League,1451265,Malick Diouf,9937,Brentford,8668,Everton,1,DEF,0,16.0,0.0,0.0,0.0,0.0,0.0
+5795517,2026-11-23,Premier League,1559637,Harrison Armstrong,8668,Everton,9937,Brentford,0,MED,1,90.0,1.0,1.0,1.0,1.0,0.0
+5749756,2026-11-23,Serie A,182917,David de Gea,8535,Fiorentina,6504,Monza,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5749756,2026-11-23,Serie A,566654,Matteo Pessina,6504,Monza,8535,Fiorentina,1,MED,1,85.0,1.0,1.0,0.0,0.0,0.0
+5749756,2026-11-23,Serie A,731600,Idrissa Touré,6504,Monza,8535,Fiorentina,1,MED,0,5.0,0.0,0.0,1.0,0.0,0.0
+5749756,2026-11-23,Serie A,737339,Dany Mota,6504,Monza,8535,Fiorentina,1,MED,0,23.0,2.0,0.0,1.0,1.0,0.0
+5749756,2026-11-23,Serie A,799497,Samuele Birindelli,6504,Monza,8535,Fiorentina,1,MED,1,85.0,2.0,1.0,1.0,0.0,1.0
+5749756,2026-11-23,Serie A,824655,Ricardo Mangas,6504,Monza,8535,Fiorentina,1,MED,1,90.0,0.0,0.0,0.0,1.0,0.0
+5749756,2026-11-23,Serie A,875133,Pote,8535,Fiorentina,6504,Monza,0,DEL,1,45.0,1.0,0.0,2.0,1.0,0.0
+5749756,2026-11-23,Serie A,935406,Luca Ranieri,8535,Fiorentina,6504,Monza,0,DEF,0,63.0,0.0,0.0,1.0,0.0,0.0
+5749756,2026-11-23,Serie A,955947,Demba Thiam,6504,Monza,8535,Fiorentina,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5749756,2026-11-23,Serie A,958421,João Mário,8535,Fiorentina,6504,Monza,0,DEF,1,90.0,1.0,1.0,3.0,0.0,1.0
+5749756,2026-11-23,Serie A,1079485,Beto,8535,Fiorentina,6504,Monza,0,DEL,0,23.0,3.0,0.0,1.0,0.0,1.0
+5749756,2026-11-23,Serie A,1107286,Wilfried Gnonto,8535,Fiorentina,6504,Monza,0,DEL,1,66.0,2.0,1.0,0.0,1.0,1.0
+5749756,2026-11-23,Serie A,1123969,Andrea Carboni,6504,Monza,8535,Fiorentina,1,DEF,1,90.0,0.0,0.0,7.0,0.0,2.0
+5749756,2026-11-23,Serie A,1203661,Radu Drăgușin,8535,Fiorentina,6504,Monza,0,DEF,1,90.0,1.0,0.0,2.0,0.0,2.0
+5749756,2026-11-23,Serie A,1224237,Mateo Pellegrino,8535,Fiorentina,6504,Monza,0,DEL,1,90.0,2.0,1.0,0.0,2.0,2.0
+5749756,2026-11-23,Serie A,1246009,Cher Ndour,8535,Fiorentina,6504,Monza,0,MED,1,90.0,0.0,0.0,3.0,0.0,2.0
+5749756,2026-11-23,Serie A,1415623,Leonardo Colombo,6504,Monza,8535,Fiorentina,1,MED,1,90.0,1.0,0.0,2.0,2.0,0.0
+5749756,2026-11-23,Serie A,1453338,Jay Robinson,6504,Monza,8535,Fiorentina,1,MED,1,67.0,2.0,1.0,4.0,2.0,0.0
+5749756,2026-11-23,Serie A,1481909,Ebenezer Akinsanmiro,6504,Monza,8535,Fiorentina,1,MED,1,74.0,0.0,0.0,1.0,1.0,0.0
+5749756,2026-11-23,Serie A,1501917,Viery,8535,Fiorentina,6504,Monza,0,DEF,1,27.0,0.0,0.0,0.0,0.0,0.0
+5749756,2026-11-23,Serie A,1507697,Saba Goglichidze,6504,Monza,8535,Fiorentina,1,DEF,1,90.0,0.0,0.0,4.0,1.0,1.0
+5749756,2026-11-23,Serie A,1511063,Jan Ziólkowski,6504,Monza,8535,Fiorentina,1,DEF,0,16.0,0.0,0.0,0.0,0.0,0.0
+5749756,2026-11-23,Serie A,1524139,Lorenzo Lucchesi,6504,Monza,8535,Fiorentina,1,DEF,0,5.0,1.0,0.0,0.0,0.0,0.0
+5749756,2026-11-23,Serie A,1526689,Álex Jiménez,8535,Fiorentina,6504,Monza,0,DEF,1,90.0,1.0,1.0,4.0,2.0,1.0
+5749756,2026-11-23,Serie A,1577900,Foe Ondoa,6504,Monza,8535,Fiorentina,1,MED,0,16.0,0.0,0.0,0.0,0.0,2.0
+5749756,2026-11-23,Serie A,1585676,Gustavo Varela,6504,Monza,8535,Fiorentina,1,DEL,1,90.0,4.0,2.0,0.0,1.0,1.0
+5749756,2026-11-23,Serie A,1607014,Alieu Njie,8535,Fiorentina,6504,Monza,0,DEL,0,45.0,2.0,2.0,0.0,0.0,1.0
+5749756,2026-11-23,Serie A,1607566,Franco Mastantuono,8535,Fiorentina,6504,Monza,0,DEL,1,67.0,2.0,1.0,1.0,0.0,1.0
+5749756,2026-11-23,Serie A,1666494,Christ Inao Oulaï,8535,Fiorentina,6504,Monza,0,MED,1,90.0,2.0,1.0,1.0,1.0,1.0
+5749756,2026-11-23,Serie A,1676901,Eddy Kouadio,6504,Monza,8535,Fiorentina,1,DEF,1,74.0,0.0,0.0,2.0,0.0,1.0
+5749756,2026-11-23,Serie A,1712399,Valde,8535,Fiorentina,6504,Monza,0,DEF,0,24.0,0.0,0.0,1.0,1.0,0.0
+5868551,2026-11-23,Segunda,104986,Andrés Fernández,9865,Almería,357259,AD Ceuta FC,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5868551,2026-11-23,Segunda,477600,Carlos Hernández,357259,AD Ceuta FC,9865,Almería,1,DEF,1,90.0,1.0,0.0,0.0,0.0,2.0
+5868551,2026-11-23,Segunda,512040,Álex Muñoz,9865,Almería,357259,AD Ceuta FC,0,DEF,1,45.0,1.0,0.0,2.0,0.0,0.0
+5868551,2026-11-23,Segunda,563069,Yann Bodiger,357259,AD Ceuta FC,9865,Almería,1,DEF,1,90.0,2.0,1.0,2.0,0.0,0.0
+5868551,2026-11-23,Segunda,580591,Anuar,357259,AD Ceuta FC,9865,Almería,1,MED,0,45.0,0.0,0.0,1.0,1.0,1.0
+5868551,2026-11-23,Segunda,616531,Javi Muñoz,9865,Almería,357259,AD Ceuta FC,0,MED,1,69.0,1.0,0.0,0.0,0.0,3.0
+5868551,2026-11-23,Segunda,616545,Mikel Vesga,9865,Almería,357259,AD Ceuta FC,0,MED,0,45.0,0.0,0.0,4.0,1.0,1.0
+5868551,2026-11-23,Segunda,627003,Guillermo Vallejo,357259,AD Ceuta FC,9865,Almería,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5868551,2026-11-23,Segunda,638072,Kuki Zalazar,357259,AD Ceuta FC,9865,Almería,1,MED,1,90.0,3.0,2.0,1.0,4.0,0.0
+5868551,2026-11-23,Segunda,674492,José Matos,357259,AD Ceuta FC,9865,Almería,1,DEF,1,90.0,0.0,0.0,0.0,0.0,3.0
+5868551,2026-11-23,Segunda,895953,Álex Sola,9865,Almería,357259,AD Ceuta FC,0,DEL,0,8.0,0.0,0.0,0.0,0.0,1.0
+5868551,2026-11-23,Segunda,902647,Chumi,9865,Almería,357259,AD Ceuta FC,0,DEF,1,90.0,1.0,1.0,1.0,0.0,1.0
+5868551,2026-11-23,Segunda,902901,Miguel de la Fuente,9865,Almería,357259,AD Ceuta FC,0,DEL,1,90.0,4.0,2.0,0.0,3.0,1.0
+5868551,2026-11-23,Segunda,922897,Álex Petxa,357259,AD Ceuta FC,9865,Almería,1,DEF,1,45.0,0.0,0.0,3.0,0.0,1.0
+5868551,2026-11-23,Segunda,998300,Federico Bonini,9865,Almería,357259,AD Ceuta FC,0,DEF,1,90.0,0.0,0.0,1.0,0.0,1.0
+5868551,2026-11-23,Segunda,1003288,Jon Morcillo,9865,Almería,357259,AD Ceuta FC,0,DEL,0,1.0,0.0,0.0,0.0,0.0,0.0
+5868551,2026-11-23,Segunda,1003309,Jordi Escobar,357259,AD Ceuta FC,9865,Almería,1,DEL,1,42.0,2.0,0.0,0.0,0.0,0.0
+5868551,2026-11-23,Segunda,1093264,Cedric Teguia,357259,AD Ceuta FC,9865,Almería,1,DEL,1,77.0,2.0,1.0,1.0,0.0,3.0
+5868551,2026-11-23,Segunda,1120767,Álex Camacho,357259,AD Ceuta FC,9865,Almería,1,MED,0,8.0,0.0,0.0,0.0,0.0,0.0
+5868551,2026-11-23,Segunda,1121005,Alejandro Meléndez,357259,AD Ceuta FC,9865,Almería,1,MED,1,82.0,0.0,0.0,4.0,0.0,2.0
+5868551,2026-11-23,Segunda,1128940,Edgar Sevikyan,357259,AD Ceuta FC,9865,Almería,1,DEL,1,82.0,3.0,1.0,4.0,2.0,1.0
+5868551,2026-11-23,Segunda,1187766,Sergio Arribas,9865,Almería,357259,AD Ceuta FC,0,MED,1,82.0,3.0,2.0,1.0,2.0,2.0
+5868551,2026-11-23,Segunda,1281236,Leonardo Lelo,9865,Almería,357259,AD Ceuta FC,0,DEF,0,45.0,0.0,0.0,0.0,1.0,0.0
+5868551,2026-11-23,Segunda,1282447,Gui Guedes,9865,Almería,357259,AD Ceuta FC,0,MED,0,21.0,0.0,0.0,0.0,0.0,0.0
+5868551,2026-11-23,Segunda,1302121,Brian Cipenga,9865,Almería,357259,AD Ceuta FC,0,DEL,1,89.0,2.0,0.0,1.0,4.0,1.0
+5868551,2026-11-23,Segunda,1395746,Marcos Luna,9865,Almería,357259,AD Ceuta FC,0,DEF,1,90.0,1.0,0.0,4.0,1.0,1.0
+5868551,2026-11-23,Segunda,1416751,Marino Illescas,357259,AD Ceuta FC,9865,Almería,1,MED,1,90.0,1.0,1.0,1.0,1.0,1.0
+5868551,2026-11-23,Segunda,1541976,Omar Sadik,357259,AD Ceuta FC,9865,Almería,1,DEL,0,48.0,4.0,1.0,2.0,3.0,1.0
+5868551,2026-11-23,Segunda,1579843,Quim Junyent,9865,Almería,357259,AD Ceuta FC,0,DEL,1,90.0,1.0,1.0,3.0,4.0,3.0
+5868551,2026-11-23,Segunda,1670188,Stefan Džodić,9865,Almería,357259,AD Ceuta FC,0,MED,1,45.0,0.0,0.0,1.0,0.0,1.0
+5868551,2026-11-23,Segunda,1927874,Chidiebere Okoro,357259,AD Ceuta FC,9865,Almería,1,MED,0,8.0,0.0,0.0,1.0,0.0,1.0
+5803322,2026-11-23,Ligue 2,271031,Patrik Carlgren,9830,Nantes,9855,Grenoble,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5803322,2026-11-23,Ligue 2,612747,Frédéric Guilbert,9830,Nantes,9855,Grenoble,1,DEF,1,90.0,0.0,0.0,0.0,0.0,0.0
+5803322,2026-11-23,Ligue 2,660327,Ibrahima Sissoko,9830,Nantes,9855,Grenoble,1,MED,0,1.0,0.0,0.0,0.0,0.0,0.0
+5803322,2026-11-23,Ligue 2,660887,Fabien Centonze,9830,Nantes,9855,Grenoble,1,MED,1,90.0,0.0,0.0,3.0,2.0,1.0
+5803322,2026-11-23,Ligue 2,678767,Alexandre Olliero,9855,Grenoble,9830,Nantes,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5803322,2026-11-23,Ligue 2,683473,Kelvin Amian,9830,Nantes,9855,Grenoble,1,DEF,1,90.0,1.0,0.0,0.0,1.0,3.0
+5803322,2026-11-23,Ligue 2,683476,Mathieu Cafaro,9830,Nantes,9855,Grenoble,1,DEL,1,67.0,2.0,2.0,2.0,3.0,0.0
+5803322,2026-11-23,Ligue 2,754621,Maël Corboz,9855,Grenoble,9830,Nantes,0,MED,1,90.0,3.0,1.0,1.0,1.0,0.0
+5803322,2026-11-23,Ligue 2,815766,Ugo Bonnet,9855,Grenoble,9830,Nantes,0,DEL,1,66.0,0.0,0.0,0.0,1.0,2.0
+5803322,2026-11-23,Ligue 2,863708,Ignatius Ganago,9830,Nantes,9855,Grenoble,1,DEL,1,89.0,6.0,3.0,0.0,3.0,0.0
+5803322,2026-11-23,Ligue 2,863856,Lucas Perrin,9830,Nantes,9855,Grenoble,1,DEF,1,57.0,2.0,1.0,0.0,1.0,1.0
+5803322,2026-11-23,Ligue 2,949712,Moussa Djitté,9855,Grenoble,9830,Nantes,0,DEL,0,24.0,0.0,0.0,0.0,1.0,0.0
+5803322,2026-11-23,Ligue 2,951972,Yohann Magnin,9855,Grenoble,9830,Nantes,0,MED,0,9.0,0.0,0.0,2.0,0.0,0.0
+5803322,2026-11-23,Ligue 2,1125446,Balthazar Pierret,9830,Nantes,9855,Grenoble,1,MED,1,90.0,2.0,2.0,4.0,1.0,2.0
+5803322,2026-11-23,Ligue 2,1131254,Yvann Maçon,9855,Grenoble,9830,Nantes,0,DEF,1,90.0,2.0,0.0,1.0,0.0,2.0
+5803322,2026-11-23,Ligue 2,1170864,Lucas Bernadou,9855,Grenoble,9830,Nantes,0,MED,1,81.0,0.0,0.0,1.0,0.0,1.0
+5803322,2026-11-23,Ligue 2,1180481,Johann Lepenant,9830,Nantes,9855,Grenoble,1,MED,1,45.0,2.0,0.0,2.0,1.0,1.0
+5803322,2026-11-23,Ligue 2,1274470,Killian Corredor,9830,Nantes,9855,Grenoble,1,DEL,1,83.0,2.0,0.0,0.0,2.0,0.0
+5803322,2026-11-23,Ligue 2,1276328,Nesta Zahui,9855,Grenoble,9830,Nantes,0,DEF,1,90.0,2.0,1.0,3.0,1.0,1.0
+5803322,2026-11-23,Ligue 2,1310262,Baptiste Mouazan,9855,Grenoble,9830,Nantes,0,MED,1,51.0,1.0,0.0,1.0,0.0,1.0
+5803322,2026-11-23,Ligue 2,1383394,Samba Diba,9855,Grenoble,9830,Nantes,0,MED,1,66.0,1.0,0.0,2.0,2.0,1.0
+5803322,2026-11-23,Ligue 2,1432421,Antoine Joujou,9830,Nantes,9855,Grenoble,1,DEL,0,23.0,0.0,0.0,0.0,0.0,0.0
+5803322,2026-11-23,Ligue 2,1460533,Aurélien Pelon,9855,Grenoble,9830,Nantes,0,DEF,1,90.0,0.0,0.0,0.0,0.0,2.0
+5803322,2026-11-23,Ligue 2,1468976,Jean-Guy Akpa Akpro,9855,Grenoble,9830,Nantes,0,DEL,1,81.0,0.0,0.0,0.0,2.0,5.0
+5803322,2026-11-23,Ligue 2,1523325,Ryad Hachem,9830,Nantes,9855,Grenoble,1,MED,0,45.0,0.0,0.0,1.0,1.0,0.0
+5803322,2026-11-23,Ligue 2,1602137,Mohamed Bechikh,9855,Grenoble,9830,Nantes,0,DEL,0,24.0,1.0,0.0,0.0,1.0,0.0
+5803322,2026-11-23,Ligue 2,1607493,Dehmaine Tabibou,9830,Nantes,9855,Grenoble,1,DEL,0,7.0,1.0,0.0,1.0,0.0,0.0
+5803322,2026-11-23,Ligue 2,1622889,Louis Leroux,9830,Nantes,9855,Grenoble,1,MED,1,90.0,7.0,2.0,3.0,1.0,1.0
+5803322,2026-11-23,Ligue 2,1669441,Christ-Owen Kouassi,9855,Grenoble,9830,Nantes,0,DEF,1,90.0,1.0,0.0,0.0,0.0,1.0
+5803322,2026-11-23,Ligue 2,1797618,Abdel Heidi Medroub,9855,Grenoble,9830,Nantes,0,DEF,0,39.0,1.0,0.0,1.0,0.0,1.0
+5803322,2026-11-23,Ligue 2,2130473,Kyliann Fofana,9855,Grenoble,9830,Nantes,0,DEL,0,9.0,1.0,0.0,0.0,0.0,1.0
+5803325,2026-11-23,Ligue 2,109621,Steven Nzonzi,47214,Dunkerque,9874,Sochaux,0,MED,1,65.0,1.0,0.0,1.0,0.0,0.0
+5803325,2026-11-23,Ligue 2,156716,Mathieu Peybernes,9874,Sochaux,47214,Dunkerque,1,DEF,1,90.0,0.0,0.0,3.0,0.0,0.0
+5803325,2026-11-23,Ligue 2,303135,Mehdi Jeannin,9874,Sochaux,47214,Dunkerque,1,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5803325,2026-11-23,Ligue 2,492474,Benjaloud Youssouf,9874,Sochaux,47214,Dunkerque,1,DEF,0,26.0,1.0,0.0,0.0,0.0,0.0
+5803325,2026-11-23,Ligue 2,605107,Opa Sanganté,47214,Dunkerque,9874,Sochaux,0,DEF,1,90.0,1.0,0.0,3.0,1.0,0.0
+5803325,2026-11-23,Ligue 2,690117,Kapitbafan Djoco,9874,Sochaux,47214,Dunkerque,1,DEL,1,45.0,1.0,0.0,0.0,0.0,1.0
+5803325,2026-11-23,Ligue 2,820067,Lenny Vallier,47214,Dunkerque,9874,Sochaux,0,DEF,0,16.0,0.0,0.0,0.0,1.0,1.0
+5803325,2026-11-23,Ligue 2,830232,Julien Masson,9874,Sochaux,47214,Dunkerque,1,MED,1,90.0,0.0,0.0,3.0,0.0,3.0
+5803325,2026-11-23,Ligue 2,888914,Moha Ramos,47214,Dunkerque,9874,Sochaux,0,POR,1,90.0,0.0,0.0,0.0,0.0,0.0
+5803325,2026-11-23,Ligue 2,913159,Victor Lobry,9874,Sochaux,47214,Dunkerque,1,MED,1,65.0,1.0,1.0,1.0,0.0,0.0
+5803325,2026-11-23,Ligue 2,917803,Samy Baghdadi,9874,Sochaux,47214,Dunkerque,1,MED,1,74.0,2.0,0.0,0.0,1.0,0.0
+5803325,2026-11-23,Ligue 2,921067,Yohan Demoncy,9874,Sochaux,47214,Dunkerque,1,DEL,0,16.0,1.0,1.0,0.0,0.0,0.0
+5803325,2026-11-23,Ligue 2,987134,Allan Linguet,47214,Dunkerque,9874,Sochaux,0,DEF,1,90.0,1.0,1.0,1.0,0.0,1.0
+5803325,2026-11-23,Ligue 2,1073145,Adrien Lebeau,47214,Dunkerque,9874,Sochaux,0,MED,1,89.0,0.0,0.0,3.0,2.0,0.0
+5803325,2026-11-23,Ligue 2,1079194,Don Deedson Louicius,9874,Sochaux,47214,Dunkerque,1,DEL,1,90.0,4.0,2.0,1.0,0.0,0.0
+5803325,2026-11-23,Ligue 2,1107403,Dylan Tavares,9874,Sochaux,47214,Dunkerque,1,DEF,1,90.0,0.0,0.0,2.0,0.0,3.0
+5803325,2026-11-23,Ligue 2,1184689,Egor Prutsev,47214,Dunkerque,9874,Sochaux,0,DEL,1,65.0,1.0,0.0,0.0,1.0,0.0
+5803325,2026-11-23,Ligue 2,1437038,Jordan Morel,47214,Dunkerque,9874,Sochaux,0,MED,1,90.0,1.0,1.0,5.0,1.0,0.0
+5803325,2026-11-23,Ligue 2,1483959,Alex Daho,47214,Dunkerque,9874,Sochaux,0,DEL,0,17.0,0.0,0.0,1.0,0.0,0.0
+5803325,2026-11-23,Ligue 2,1526224,Ousmane Touré,47214,Dunkerque,9874,Sochaux,0,DEF,1,90.0,0.0,0.0,1.0,1.0,0.0
+5803325,2026-11-23,Ligue 2,1531396,Dalangunypole Gomis,9874,Sochaux,47214,Dunkerque,1,DEF,1,64.0,0.0,0.0,2.0,0.0,1.0
+5803325,2026-11-23,Ligue 2,1669436,Mathis Clairicia,9874,Sochaux,47214,Dunkerque,1,DEL,0,45.0,2.0,1.0,0.0,1.0,1.0
+5803325,2026-11-23,Ligue 2,1669907,Victor Mayela,47214,Dunkerque,9874,Sochaux,0,DEF,1,74.0,0.0,0.0,0.0,0.0,0.0
+5803325,2026-11-23,Ligue 2,1693192,Honoré Bayanginisa,9874,Sochaux,47214,Dunkerque,1,MED,1,63.0,0.0,0.0,1.0,1.0,2.0
+5803325,2026-11-23,Ligue 2,1715492,Khalil Ayari,47214,Dunkerque,9874,Sochaux,0,DEL,1,73.0,2.0,1.0,2.0,3.0,1.0
+5803325,2026-11-23,Ligue 2,1726707,Élie N'Gatta,9874,Sochaux,47214,Dunkerque,1,DEF,1,90.0,0.0,0.0,1.0,0.0,0.0
+5803325,2026-11-23,Ligue 2,1751144,Souleymane Keita,47214,Dunkerque,9874,Sochaux,0,DEL,0,25.0,0.0,0.0,1.0,0.0,0.0
+5803325,2026-11-23,Ligue 2,1796073,Théna Massock,47214,Dunkerque,9874,Sochaux,0,MED,0,25.0,1.0,0.0,1.0,1.0,0.0
+5803325,2026-11-23,Ligue 2,1797611,Arthylio Nade,47214,Dunkerque,9874,Sochaux,0,DEL,1,90.0,6.0,3.0,1.0,1.0,2.0
+5803325,2026-11-23,Ligue 2,1806473,Franck Atoen,47214,Dunkerque,9874,Sochaux,0,MED,0,1.0,0.0,0.0,1.0,0.0,0.0
+5803325,2026-11-23,Ligue 2,2139576,Bakary Diawara,9874,Sochaux,47214,Dunkerque,1,MED,0,27.0,0.0,0.0,2.0,0.0,1.0
+5803325,2026-11-23,Ligue 2,2154306,Victor Monthieu,9874,Sochaux,47214,Dunkerque,1,DEL,0,25.0,1.0,0.0,1.0,0.0,0.0
