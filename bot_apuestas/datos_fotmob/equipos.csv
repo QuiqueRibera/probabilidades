@@ -4049,3 +4049,49 @@ partido_id,fecha,competicion,equipo_id,equipo,rival_id,rival,local,xg,remates,ti
 5803322,2026-11-23,Ligue 2,9855,Grenoble,9830,Nantes,0,1.25,13.0,2.0,2.0,6.0,12.0,18.0,0
 5803325,2026-11-23,Ligue 2,9874,Sochaux,47214,Dunkerque,1,1.65,13.0,5.0,1.0,5.0,17.0,12.0,2
 5803325,2026-11-23,Ligue 2,47214,Dunkerque,9874,Sochaux,0,1.06,14.0,6.0,3.0,5.0,21.0,5.0,3
+6106317,2026-11-24,Champions,8402,Bodø/Glimt,9977,LASK,1,1.23,9.0,2.0,1.0,4.0,11.0,5.0,1
+6106317,2026-11-24,Champions,9977,LASK,8402,Bodø/Glimt,0,0.26,5.0,0.0,1.0,0.0,14.0,14.0,0
+6106339,2026-11-24,Champions,8637,Galatasaray,10252,Aston Villa,1,0.49,9.0,2.0,2.0,5.0,23.0,13.0,1
+6106339,2026-11-24,Champions,10252,Aston Villa,8637,Galatasaray,0,0.59,4.0,0.0,4.0,1.0,11.0,12.0,0
+6106259,2026-11-24,Champions,9825,Arsenal,9789,Borussia Dortmund,1,2.34,30.0,4.0,0.0,8.0,15.0,7.0,1
+6106259,2026-11-24,Champions,9789,Borussia Dortmund,9825,Arsenal,0,0.92,13.0,4.0,0.0,5.0,18.0,13.0,1
+6106412,2026-11-24,Champions,10171,Como,8563,AEK Athens,1,2.02,19.0,4.0,2.0,2.0,15.0,15.0,1
+6106412,2026-11-24,Champions,8563,AEK Athens,10171,Como,0,0.53,7.0,3.0,3.0,1.0,15.0,17.0,0
+6106307,2026-11-24,Champions,10235,Feyenoord,9773,FC Porto,1,1.07,21.0,7.0,2.0,8.0,12.0,10.0,0
+6106307,2026-11-24,Champions,9773,FC Porto,10235,Feyenoord,0,0.85,9.0,3.0,4.0,4.0,13.0,13.0,1
+6106256,2026-11-24,Champions,8456,Manchester City,9875,Napoli,1,1.34,18.0,7.0,1.0,9.0,10.0,9.0,2
+6106256,2026-11-24,Champions,9875,Napoli,8456,Manchester City,0,0.71,9.0,3.0,0.0,3.0,17.0,9.0,2
+6106325,2026-11-24,Champions,178475,RB Leipzig,8588,Lens,1,1.86,16.0,7.0,2.0,10.0,12.0,12.0,3
+6106325,2026-11-24,Champions,8588,Lens,178475,RB Leipzig,0,1.05,11.0,3.0,4.0,4.0,21.0,13.0,1
+6106243,2026-11-24,Champions,8633,Real Madrid,8640,PSV Eindhoven,1,4.79,24.0,9.0,3.0,4.0,23.0,6.0,5
+6106243,2026-11-24,Champions,8640,PSV Eindhoven,8633,Real Madrid,0,1.69,10.0,1.0,1.0,1.0,28.0,11.0,1
+6106394,2026-11-24,Champions,6019,Slovan Bratislava,8603,Real Betis,1,0.55,12.0,2.0,1.0,1.0,9.0,12.0,0
+6106394,2026-11-24,Champions,8603,Real Betis,6019,Slovan Bratislava,0,1.56,18.0,6.0,1.0,4.0,13.0,6.0,2
+5836946,2026-11-24,Championship,8427,Bristol City,9841,Wrexham,1,0.57,11.0,4.0,3.0,4.0,18.0,10.0,1
+5836946,2026-11-24,Championship,9841,Wrexham,8427,Bristol City,0,0.68,10.0,2.0,2.0,9.0,17.0,14.0,1
+5836947,2026-11-24,Championship,8344,Cardiff City,8411,Preston North End,1,0.71,15.0,5.0,2.0,8.0,6.0,7.0,0
+5836947,2026-11-24,Championship,8411,Preston North End,8344,Cardiff City,0,2.26,15.0,6.0,0.0,8.0,23.0,12.0,4
+5836948,2026-11-24,Championship,8451,Charlton Athletic,8430,Lincoln City,1,4.11,33.0,13.0,1.0,10.0,16.0,7.0,4
+5836948,2026-11-24,Championship,8430,Lincoln City,8451,Charlton Athletic,0,0.25,3.0,0.0,2.0,3.0,13.0,10.0,0
+5836949,2026-11-24,Championship,8549,Middlesbrough,10003,Swansea City,1,3.0,18.0,7.0,2.0,3.0,20.0,14.0,2
+5836949,2026-11-24,Championship,10003,Swansea City,8549,Middlesbrough,0,0.64,7.0,3.0,2.0,2.0,21.0,14.0,1
+5836950,2026-11-24,Championship,9850,Norwich City,10172,Queens Park Rangers,1,0.85,12.0,2.0,1.0,4.0,13.0,14.0,1
+5836950,2026-11-24,Championship,10172,Queens Park Rangers,9850,Norwich City,0,0.56,7.0,2.0,1.0,3.0,23.0,7.0,1
+5836951,2026-11-24,Championship,8462,Portsmouth,8654,West Ham United,1,0.6,9.0,1.0,2.0,4.0,18.0,9.0,1
+5836951,2026-11-24,Championship,8654,West Ham United,8462,Portsmouth,0,1.8,19.0,6.0,0.0,5.0,21.0,16.0,0
+5836952,2026-11-24,Championship,8657,Sheffield United,8466,Southampton,1,1.76,20.0,7.0,3.0,9.0,15.0,12.0,1
+5836952,2026-11-24,Championship,8466,Southampton,8657,Sheffield United,0,0.94,11.0,3.0,3.0,6.0,13.0,8.0,1
+5836953,2026-11-24,Championship,8602,Wolverhampton Wanderers,10170,Derby County,1,3.13,39.0,9.0,2.0,11.0,13.0,10.0,3
+5836953,2026-11-24,Championship,10170,Derby County,8602,Wolverhampton Wanderers,0,0.58,6.0,1.0,0.0,1.0,24.0,3.0,0
+5967163,2026-11-24,Serie B,6106,Juve Stabia,10168,Catanzaro,1,0.92,15.0,6.0,2.0,1.0,18.0,16.0,1
+5967163,2026-11-24,Serie B,10168,Catanzaro,6106,Juve Stabia,0,0.86,10.0,4.0,4.0,3.0,17.0,19.0,3
+5967159,2026-11-24,Serie B,6266,Benevento,8534,Empoli,1,1.86,13.0,6.0,0.0,3.0,16.0,9.0,5
+5967159,2026-11-24,Serie B,8534,Empoli,6266,Benevento,0,1.45,12.0,4.0,2.0,8.0,10.0,11.0,0
+5967160,2026-11-24,Serie B,584022,Cesena,8522,Ascoli,1,2.52,23.0,9.0,2.0,6.0,26.0,14.0,5
+5967160,2026-11-24,Serie B,8522,Ascoli,584022,Cesena,0,1.35,24.0,5.0,1.0,4.0,18.0,8.0,1
+5967167,2026-11-24,Serie B,8540,Palermo,189475,Südtirol,1,1.26,12.0,4.0,0.0,4.0,10.0,12.0,4
+5967167,2026-11-24,Serie B,189475,Südtirol,8540,Palermo,0,0.88,10.0,7.0,2.0,3.0,16.0,11.0,1
+1000024310,2026-11-24,Serie B,9877,Vicenza,6488,Carrarese,1,0.39,12.0,2.0,1.0,8.0,21.0,18.0,0
+1000024310,2026-11-24,Serie B,6488,Carrarese,9877,Vicenza,0,0.87,10.0,2.0,2.0,3.0,11.0,17.0,1
+5967162,2026-11-24,Serie B,208932,Virtus Entella,9876,Hellas Verona,1,1.09,11.0,6.0,3.0,7.0,17.0,8.0,2
+5967162,2026-11-24,Serie B,9876,Hellas Verona,208932,Virtus Entella,0,1.72,14.0,5.0,2.0,5.0,18.0,20.0,1
