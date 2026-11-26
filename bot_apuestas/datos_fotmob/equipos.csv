@@ -4095,3 +4095,37 @@ partido_id,fecha,competicion,equipo_id,equipo,rival_id,rival,local,xg,remates,ti
 1000024310,2026-11-24,Serie B,6488,Carrarese,9877,Vicenza,0,0.87,10.0,2.0,2.0,3.0,11.0,17.0,1
 5967162,2026-11-24,Serie B,208932,Virtus Entella,9876,Hellas Verona,1,1.09,11.0,6.0,3.0,7.0,17.0,8.0,2
 5967162,2026-11-24,Serie B,9876,Hellas Verona,208932,Virtus Entella,0,1.72,14.0,5.0,2.0,5.0,18.0,20.0,1
+6106421,2026-11-25,Champions,951893,Sabah FK,8634,Barcelona,1,1.14,8.0,3.0,1.0,4.0,14.0,9.0,1
+6106421,2026-11-25,Champions,8634,Barcelona,951893,Sabah FK,0,4.13,25.0,14.0,0.0,6.0,14.0,8.0,4
+6106391,2026-11-25,Champions,7787,Slavia Prague,10205,Villarreal,1,0.97,13.0,1.0,2.0,13.0,15.0,12.0,0
+6106391,2026-11-25,Champions,10205,Villarreal,7787,Slavia Prague,0,1.05,7.0,5.0,4.0,0.0,17.0,15.0,1
+6106269,2026-11-25,Champions,9906,Atlético Madrid,8478,Viking,1,1.92,20.0,9.0,0.0,6.0,13.0,7.0,2
+6106269,2026-11-25,Champions,8478,Viking,9906,Atlético Madrid,0,0.62,9.0,1.0,1.0,1.0,6.0,9.0,0
+6106294,2026-11-25,Champions,8342,Club Brugge,8650,Liverpool,1,1.15,17.0,5.0,0.0,8.0,23.0,9.0,0
+6106294,2026-11-25,Champions,8650,Liverpool,8342,Club Brugge,0,1.97,13.0,4.0,0.0,4.0,11.0,13.0,3
+6106253,2026-11-25,Champions,8636,Inter,10269,VfB Stuttgart,1,2.57,20.0,5.0,2.0,11.0,11.0,9.0,2
+6106253,2026-11-25,Champions,10269,VfB Stuttgart,8636,Inter,0,1.06,13.0,2.0,1.0,6.0,17.0,10.0,0
+6106310,2026-11-25,Champions,8639,Lille,9823,Bayern München,1,2.11,15.0,3.0,0.0,3.0,18.0,2.0,2
+6106310,2026-11-25,Champions,9823,Bayern München,8639,Lille,0,1.18,12.0,7.0,1.0,4.0,11.0,11.0,1
+6106235,2026-11-25,Champions,9847,Paris Saint-Germain,8686,Roma,1,1.78,15.0,4.0,0.0,3.0,10.0,5.0,2
+6106235,2026-11-25,Champions,8686,Roma,9847,Paris Saint-Germain,0,2.69,13.0,4.0,2.0,4.0,24.0,18.0,2
+6106336,2026-11-25,Champions,9728,Shakhtar Donetsk,8695,Fenerbahçe,1,0.5,8.0,2.0,2.0,3.0,18.0,12.0,0
+6106336,2026-11-25,Champions,8695,Fenerbahçe,9728,Shakhtar Donetsk,0,1.69,13.0,5.0,1.0,5.0,22.0,14.0,1
+6106279,2026-11-25,Champions,9768,Sporting CP,10260,Manchester United,1,2.46,11.0,4.0,2.0,3.0,13.0,18.0,2
+6106279,2026-11-25,Champions,10260,Manchester United,9768,Sporting CP,0,1.07,7.0,2.0,1.0,2.0,20.0,13.0,2
+5836954,2026-11-25,Championship,8559,Bolton Wanderers,8659,West Bromwich Albion,1,1.53,10.0,2.0,1.0,1.0,10.0,10.0,1
+5836954,2026-11-25,Championship,8659,West Bromwich Albion,8559,Bolton Wanderers,0,1.77,10.0,7.0,3.0,4.0,14.0,15.0,3
+5836955,2026-11-25,Championship,8191,Burnley,8658,Birmingham City,1,1.05,13.0,4.0,5.0,9.0,13.0,10.0,0
+5836955,2026-11-25,Championship,8658,Birmingham City,8191,Burnley,0,3.3,19.0,8.0,2.0,7.0,23.0,11.0,2
+5836957,2026-11-25,Championship,9817,Watford,8655,Blackburn Rovers,1,1.19,12.0,3.0,1.0,5.0,21.0,14.0,0
+5836957,2026-11-25,Championship,8655,Blackburn Rovers,9817,Watford,0,2.34,17.0,5.0,3.0,4.0,30.0,12.0,1
+5836956,2026-11-25,Championship,10194,Stoke City,10004,Millwall,1,1.61,20.0,6.0,1.0,2.0,6.0,7.0,2
+5836956,2026-11-25,Championship,10004,Millwall,10194,Stoke City,0,1.29,14.0,4.0,4.0,5.0,14.0,12.0,1
+5967161,2026-11-25,Serie B,7801,Cremonese,6722,Avellino,1,1.4,20.0,1.0,1.0,5.0,11.0,7.0,0
+5967161,2026-11-25,Serie B,6722,Avellino,7801,Cremonese,0,0.79,12.0,5.0,1.0,5.0,13.0,8.0,1
+5967165,2026-11-25,Serie B,9889,Mantova,9849,Arezzo,1,2.96,20.0,9.0,2.0,3.0,7.0,16.0,3
+5967165,2026-11-25,Serie B,9849,Arezzo,9889,Mantova,0,1.15,12.0,2.0,3.0,5.0,12.0,20.0,0
+5967166,2026-11-25,Serie B,583944,Padova,9882,Sampdoria,1,1.19,12.0,2.0,1.0,2.0,12.0,11.0,1
+5967166,2026-11-25,Serie B,9882,Sampdoria,583944,Padova,0,0.99,12.0,4.0,2.0,5.0,18.0,20.0,2
+5967168,2026-11-25,Serie B,6479,Pisa,9887,Modena,1,1.32,16.0,5.0,4.0,2.0,11.0,16.0,1
+5967168,2026-11-25,Serie B,9887,Modena,6479,Pisa,0,1.71,12.0,2.0,1.0,1.0,25.0,11.0,1
