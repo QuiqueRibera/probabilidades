@@ -4201,3 +4201,21 @@ partido_id,fecha,competicion,equipo_id,equipo,rival_id,rival,local,xg,remates,ti
 6112524,2026-11-26,Conference League,9997,St.Truiden,10154,Hajduk Split,0,1.65,9.0,4.0,2.0,2.0,20.0,10.0,2
 6112535,2026-11-26,Conference League,10050,Inter Club d'Escaldes,8391,FC København,1,0.85,4.0,2.0,1.0,1.0,11.0,10.0,2
 6112535,2026-11-26,Conference League,8391,FC København,10050,Inter Club d'Escaldes,0,0.39,5.0,2.0,0.0,5.0,9.0,15.0,0
+5868146,2026-11-27,La Liga,8581,Levante,8696,Racing Santander,1,1.38,23.0,3.0,2.0,9.0,26.0,16.0,1
+5868146,2026-11-27,La Liga,8696,Racing Santander,8581,Levante,0,1.79,15.0,8.0,2.0,5.0,13.0,11.0,3
+5795533,2026-11-27,Premier League,10203,Nottingham Forest,8455,Chelsea,1,1.45,10.0,7.0,2.0,1.0,21.0,15.0,3
+5795533,2026-11-27,Premier League,8455,Chelsea,10203,Nottingham Forest,0,1.22,9.0,3.0,3.0,2.0,15.0,11.0,2
+5881241,2026-11-27,Bundesliga,8697,Werder Bremen,9788,Borussia Mönchengladbach,1,1.74,20.0,8.0,2.0,7.0,16.0,10.0,3
+5881241,2026-11-27,Bundesliga,9788,Borussia Mönchengladbach,8697,Werder Bremen,0,2.76,20.0,6.0,3.0,4.0,13.0,11.0,3
+5749769,2026-11-27,Serie A,7881,Venezia,9857,Bologna,1,1.29,14.0,5.0,3.0,3.0,15.0,11.0,0
+5749769,2026-11-27,Serie A,9857,Bologna,7881,Venezia,0,1.01,13.0,6.0,3.0,6.0,13.0,11.0,0
+5803002,2026-11-27,Ligue 1,8521,Brest,6379,Paris FC,1,1.48,17.0,3.0,2.0,3.0,26.0,9.0,1
+5803002,2026-11-27,Ligue 1,6379,Paris FC,8521,Brest,0,1.83,18.0,8.0,3.0,5.0,16.0,14.0,0
+5868564,2026-11-27,Segunda,7854,Leganés,4033,Sabadell,1,1.09,9.0,2.0,4.0,5.0,16.0,9.0,0
+5868564,2026-11-27,Segunda,4033,Sabadell,7854,Leganés,0,0.45,12.0,3.0,2.0,9.0,20.0,16.0,0
+5836965,2026-11-27,Championship,8466,Southampton,8549,Middlesbrough,1,1.12,12.0,5.0,5.0,6.0,15.0,11.0,2
+5836965,2026-11-27,Championship,8549,Middlesbrough,8466,Southampton,0,1.4,19.0,4.0,5.0,6.0,15.0,15.0,0
+5881735,2026-11-27,2. Bundesliga,9911,Bochum,8262,Darmstadt,1,1.94,18.0,8.0,0.0,10.0,12.0,13.0,2
+5881735,2026-11-27,2. Bundesliga,8262,Darmstadt,9911,Bochum,0,0.93,10.0,1.0,1.0,7.0,15.0,8.0,0
+5881738,2026-11-27,2. Bundesliga,94937,FC Heidenheim,8165,1. FC Nürnberg,1,2.18,24.0,7.0,2.0,4.0,19.0,13.0,3
+5881738,2026-11-27,2. Bundesliga,8165,1. FC Nürnberg,94937,FC Heidenheim,0,1.07,16.0,0.0,1.0,5.0,17.0,11.0,1
